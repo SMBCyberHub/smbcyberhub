@@ -1,0 +1,45 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout>
+  <section class="max-w-2xl mx-auto px-6 py-16 text-gray-800">
+    <h1 class="text-4xl font-extrabold text-blue-900 mb-6 leading-tight">
+      Try a Free Sample of the Cybersecurity Kit
+    </h1>
+
+    <p class="text-lg text-gray-700 mb-6">
+      Download a free sample of the kit including:
+    </p>
+
+    <ul class="list-disc pl-6 space-y-1 text-gray-700 mb-8">
+      <li>🖼️ 1 Awareness Poster</li>
+      <li>🧠 A sample slide from the Phishing Training Deck</li>
+      <li>📄 GDPR Awareness One-Pager</li>
+      <li>📝 Checklist: "First 30 Minutes to Cyber Readiness"</li>
+    </ul>
+
+    <div class="bg-blue-50 p-6 rounded-lg shadow mb-8">
+      <h2 class="text-xl font-semibold mb-2 text-blue-800">Get it instantly by email</h2>
+      <form method="post" action="#" class="space-y-4">
+        <input
+          type="email"
+          name="email"
+          required
+          placeholder="Your work email"
+          class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+        />
+        <button
+          type="submit"
+          class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded shadow"
+        >
+          📥 Send Me the Sample Kit
+        </button>
+      </form>
+    </div>
+
+    <p class="text-sm text-gray-500">
+      No spam. No logins. Just instant value. You’ll also get 2–3 short follow-up emails with bonus tips.
+    </p>
+  </section>
+</Layout>
