@@ -4,11 +4,36 @@
     <meta charset="UTF-8" />
     <title>SMBCyberHub</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Cybersecurity kits for small teams. Audit-ready in 30 minutes. No logins or subscriptions." />
+    <link rel="icon" href="/favicon.ico" />
   </head>
-  <body>
-    <main style="background: #e6f7ff; padding: 2rem;">
+  <body class="bg-white text-gray-800 font-sans">
+
+    <!-- 🔐 Navigation Bar -->
+    <header class="bg-blue-900 text-white shadow sticky top-0 z-50">
+      <nav class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+        <a href="/" class="flex items-center gap-2">
+          <img src="/images/smbcyberhub-logo.webp" alt="SMBCyberHub logo" class="h-14 w-auto" />
+        </a>
+        <ul class="flex gap-6 text-white text-base">
+          <li><a href="/kits/pro" class="hover:underline px-2 py-1 block">Pro Kit</a></li>
+          <li><a href="/free-sample" class="hover:underline px-2 py-1 block">Free Sample</a></li>
+          <li><a href="/about" class="hover:underline px-2 py-1 block">About</a></li>
+          <li><a href="/contact" class="hover:underline px-2 py-1 block">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Page Content -->
+    <main>
       <slot />
     </main>
+
+    <!-- 🦶 Footer -->
+    <footer class="text-center text-sm text-gray-500 py-6 border-t border-gray-200 mt-12">
+      &copy; 2025 SMBCyberHub. Built & maintained by SMBCyberHub. No logins. No nonsense.
+      <img src="/images/gdpr-badge.webp" alt="GDPR Ready" class="h-6 inline-block ml-2 align-middle" />
+    </footer>
+
   </body>
 </html>
-
