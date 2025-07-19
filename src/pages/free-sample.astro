@@ -2,53 +2,53 @@
 import Layout from '../layouts/Layout.astro';
 ---
 
-<Layout title="Free Sample Kit – SMBCyberHub">
-
-  <section class="max-w-3xl mx-auto px-4 py-12 text-gray-800">
-    <h1 class="text-3xl font-bold mb-4">🛡️ Free Cybersecurity Sample Kit</h1>
-    <p class="mb-6 text-lg">
-      A quick, practical preview of our full Pro Kit — for small teams (1–20 employees).
-      Includes a checklist, training quiz, and kit overview. Download it instantly.
+<Layout>
+  <section class="bg-white py-16 px-6 text-center">
+    <h1 class="text-4xl md:text-5xl font-extrabold text-blue-900 mb-4">
+      Try a Free Sample Kit
+    </h1>
+    <p class="text-lg text-gray-700 max-w-2xl mx-auto mb-8">
+      Want to preview before you commit? Download a free sample pack that includes real training materials and tools from our Pro Kit.
     </p>
 
-    <ul class="list-disc ml-6 mb-6 text-base">
-      <li>✅ Cyber Hygiene Checklist (PDF)</li>
-      <li>✅ Sample Training Quiz with answers</li>
-      <li>✅ Overview of the full Pro Kit</li>
-    </ul>
+    <div class="flex justify-center mt-6">
+      <form action="https://buttondown.email/api/emails/embed-subscribe/smbcyberhub" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/smbcyberhub', 'popupwindow')" class="w-full max-w-lg text-left">
+        <label for="bd-email" class="block text-sm font-medium text-gray-700 mb-1">Enter your email to get the sample kit:</label>
+        <input type="email" name="email" id="bd-email" required class="border border-gray-300 rounded px-4 py-2 w-full shadow-sm" />
+        <button type="submit" class="mt-3 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-6 py-2 rounded shadow">
+          📥 Send Me the Sample Kit
+        </button>
+      </form>
+    </div>
 
-    <h2 class="text-xl font-semibold mb-2">📩 Get the free kit by email:</h2>
-
-    <!-- EMBED YOUR BUTTONDOWN FORM HERE -->
-    <form
-      action="https://buttondown.email/api/emails/embed-subscribe/smbcyberhub"
-      method="post"
-      target="popupwindow"
-      onsubmit="window.open('https://buttondown.email/smbcyberhub', 'popupwindow')"
-      class="space-y-4"
-    >
-      <input
-        type="email"
-        name="email"
-        class="w-full border border-gray-300 p-3 rounded"
-        placeholder="Your email address"
-        required
-      />
-      <label class="block text-sm">
-        <input type="checkbox" name="gdpr" required class="mr-2" />
-        I agree to receive occasional cybersecurity emails and updates.
-      </label>
-      <input
-        type="submit"
-        value="📥 Send Me the Free Kit"
-        class="bg-blue-600 text-white px-6 py-2 rounded cursor-pointer hover:bg-blue-700"
-      />
-    </form>
-
-    <p class="text-xs mt-4 text-gray-500">
-      No spam. Unsubscribe any time.
+    <p class="text-sm text-gray-600 mt-4">
+      GDPR-safe. No spam. One-time download link.
     </p>
   </section>
+
+  <section class="py-16 px-6 bg-gray-50">
+    <div class="max-w-4xl mx-auto text-left">
+      <h2 class="text-2xl font-bold text-blue-800 mb-4">📦 What's Inside</h2>
+      <ul class="list-disc list-inside text-gray-800 space-y-2 text-lg">
+        <li><strong>Phishing Awareness Training Slide</strong> – Preview one of the most critical training topics for SMBs.</li>
+        <li><strong>Sample Staff Quiz</strong> – Includes real questions and icon-enhanced answer keys.</li>
+        <li><strong>Cyber Hygiene Checklist</strong> – Actionable checklist aligned with GDPR & ISO27001.</li>
+        <li><strong>Pro Kit Overview</strong> – Visual breakdown of the full kit contents and value.</li>
+        <li><strong>ReadMe_First PDF</strong> – Explains how to use the sample and what to do next.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="py-12 px-6 text-center text-sm text-gray-600">
+    <p class="mb-2">✅ No logins. No SaaS. Yours to keep.</p>
+    <img src="/images/gdpr-badge.webp" alt="GDPR Compliant" class="h-28 mx-auto my-4" />
+    <p>Already downloaded in 20+ countries. Designed for small teams, consultants, and founders.</p>
+  </section>
+
+  <section class="py-12 px-6 text-center">
+    <h3 class="text-xl font-bold text-gray-800 mb-3">Want the full training kit?</h3>
+    <a href="https://smbcyberhub.gumroad.com/l/prokit" class="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-6 py-3 rounded-lg shadow inline-block">
+      ✅ Buy the Pro Kit – €99
+    </a>
+  </section>
 </Layout>
-
-
