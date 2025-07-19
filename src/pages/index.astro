@@ -3,62 +3,77 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout>
-  <!-- 🏠 Hero Section -->
-  <section class="bg-blue-50 py-16 px-6 text-center">
+  <!-- 🏠 Homepage Hero Section -->
+  <section class="bg-blue-50 py-20 px-6 text-center">
     <h1 class="text-4xl md:text-5xl font-extrabold text-blue-900 leading-tight mb-4">
       Cybersecurity Kits for Small Teams
     </h1>
     <p class="text-lg text-gray-700 max-w-xl mx-auto mb-8">
-      Audit-ready in 30 minutes. No logins. No subscriptions. Just download and protect your business.
+      One-time download. No logins. No subscriptions. Just download and protect your business.
     </p>
-    <div class="flex flex-col sm:flex-row justify-center gap-4">
+    <div class="flex flex-col sm:flex-row justify-center gap-4 mb-2">
       <a href="/free-sample" class="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-6 py-3 rounded-lg shadow">
         📥 Get Free Sample Kit
       </a>
-      <a href="/kits/pro" class="border border-emerald-600 text-emerald-600 px-6 py-3 rounded-lg font-semibold hover:bg-emerald-50 transition">
-        💼 View Pro Kit
+      <a href="/kits" class="border border-emerald-600 text-emerald-600 px-6 py-3 rounded-lg font-semibold hover:bg-emerald-50 transition">
+        🧰 Compare Kits
+      </a>
+      <a href="https://smbcyberhub.gumroad.com/l/prokit" class="bg-emerald-100 border border-emerald-600 text-emerald-700 px-6 py-3 rounded-lg font-semibold hover:bg-emerald-200 transition">
+        ✅ Get the Complete Kit
       </a>
     </div>
+    <p class="text-sm text-gray-500 mt-2">Trusted by 100+ small teams. Downloaded in 20+ countries.</p>
   </section>
 
-  <!-- ⚙️ Feature Section -->
-  <section class="py-16 px-6 max-w-4xl mx-auto text-gray-800">
+  <!-- ✅ Why Choose SMBCyberHub -->
+  <section class="py-16 px-6 max-w-4xl mx-auto text-left">
     <h2 class="text-2xl font-bold text-blue-800 mb-6 text-center">Why Choose SMBCyberHub?</h2>
-    <div class="grid md:grid-cols-2 gap-8">
-      <div>
-        <h3 class="text-lg font-semibold mb-2">✅ Audit-Ready in 30 Minutes</h3>
-        <p>Prebuilt policies, training, checklists — ready to print or PDF for insurers or clients.</p>
-      </div>
-      <div>
-        <h3 class="text-lg font-semibold mb-2">✅ No Logins, No Subscriptions</h3>
-        <p>One-time download. Offline-ready. Yours forever — not SaaS.</p>
-      </div>
-      <div>
-        <h3 class="text-lg font-semibold mb-2">✅ GDPR & ISO27001 Aligned</h3>
-        <p>Built by a 20+ year IT/compliance veteran. Covers what auditors expect.</p>
-      </div>
-      <div>
-        <h3 class="text-lg font-semibold mb-2">✅ Built for Non-Tech Teams</h3>
-        <p>Office managers and business owners — no IT background needed.</p>
-      </div>
-    </div>
+    <ul class="space-y-6 text-gray-700 text-sm">
+      <li>
+        <span class="font-semibold">✅ Audit-Ready in 30 Minutes</span><br />
+        Prebuilt policies, training, checklists — ready to print or PDF for insurers or clients.
+      </li>
+      <li>
+        <span class="font-semibold">✅ No Logins, No Subscriptions</span><br />
+        One-time download. Offline-ready. Yours forever — not SaaS.
+      </li>
+      <li>
+        <span class="font-semibold">✅ GDPR & ISO27001 Aligned</span><br />
+        Built by a 20+ year IT/compliance veteran. Covers what auditors expect.
+      </li>
+      <li>
+        <span class="font-semibold">✅ Built for Non-Tech Teams</span><br />
+        Office managers and business owners — no IT background needed.
+      </li>
+    </ul>
   </section>
 
-  <!-- 🧾 Testimonial -->
-  <section class="bg-gray-100 py-12 px-6 text-center text-gray-700">
+  <!-- 💬 Testimonials -->
+  <section class="bg-gray-50 py-12 px-6 text-center text-gray-700">
     <blockquote class="max-w-2xl mx-auto italic">
       “We had no idea what to give our insurance company for cyber coverage. This kit saved hours and made us look professional.”
     </blockquote>
     <p class="mt-4 font-semibold text-sm">– Emma, Office Manager</p>
   </section>
+  <section class="bg-gray-50 py-12 px-6 text-center text-gray-700">
+    <blockquote class="max-w-2xl mx-auto italic">
+      “I printed the kits, ran the training, and had everything documented in under and hour. No hassle and the Quizzes were great.”
+    </blockquote>
+    <p class="mt-4 font-semibold text-sm">– Niall, Office Manager</p>
+  </section>
 
-  <!-- 🛡️ GDPR Trust Section -->
-  <section class="py-12 px-6 text-center bg-white border-t border-gray-200">
+  <!-- 🔐 GDPR Badge & Trust Note -->
+  <section class="bg-white py-12 px-6 text-center">
     <div class="max-w-md mx-auto">
-      <img src="/images/gdpr-badge.webp" alt="GDPR Ready badge" class="h-16 mx-auto mb-3" />
+      <img src="/images/gdpr-badge.webp" alt="GDPR Ready badge" class="h-36 mx-auto mb-3" />
       <p class="text-sm text-gray-600">
         SMBCyberHub kits help meet <strong>GDPR Article 39.1(b)</strong> training compliance — even with no IT staff.
       </p>
     </div>
   </section>
 </Layout>
+
+
+
+
+
