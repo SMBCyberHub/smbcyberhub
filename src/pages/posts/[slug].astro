@@ -1,0 +1,54 @@
+
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection, getEntryBySlug } from 'astro:content';
+import { AstroError } from 'astro/errors';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts');
+  return posts.map(post => ({
+    params: { slug: post.slug },
+    props: { slug: post.slug },
+  }));
+}
+
+const { slug } = Astro.props;
+
+const post = await getEntryBySlug('posts', slug);
+
+if (!post) {
+  throw new AstroError(`No post found for slug: ${slug}`);
+}
+
+const { Content } = await post.render();
+const { data } = post;
+---
+
+<!-- SEO Tags -->
+<head>
+  <title>{data.title} | SMBCyberHub</title>
+  <meta name="description" content={data.description} />
+  <meta name="author" content="SMBCyberHub" />
+ 
+  <!-- Open Graph -->
+  <meta property="og:title" content={data.title} />
+  <meta property="og:description" content={data.description} />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content={`https://yourdomain.com/posts/${slug}`} />
+ 
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={data.title} />
+  <meta name="twitter:description" content={data.description} />
+</head>
+
+<Layout>
+  <article class="py-16 px-6 max-w-3xl mx-auto">
+    <h1 class="text-4xl font-bold text-blue-900 mb-4">{data.title}</h1>
+    <p class="text-sm text-gray-500 mb-6">{data.date}</p>
+
+    <div class="prose prose-lg text-gray-800">
+      <Content />
+    </div>
+  </article>
+</Layout>
