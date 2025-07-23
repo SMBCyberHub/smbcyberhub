@@ -11,11 +11,14 @@ import Layout from '../layouts/Layout.astro';
     <p class="text-lg text-gray-700 max-w-xl mx-auto mb-6">
       Choose the training bundle that fits your needs. Both kits are offline-ready, printable, and designed to work without logins or IT setup.
     </p>
-    <div class="flex justify-center gap-4 mt-4">
+    <div class="flex flex-wrap justify-center gap-4 mt-4">
       <a href="/free-sample" class="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-6 py-3 rounded-lg shadow">
         📥 Try Free Sample
       </a>
-      <a href="https://smbcyberhub.gumroad.com/l/prokit" class="bg-white border border-emerald-600 text-emerald-700 px-6 py-3 rounded-lg font-semibold hover:bg-emerald-50">
+      <a href="https://smbcyberhub.gumroad.com/l/basickit" class="bg-white border border-blue-600 text-blue-700 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50">
+    🛒 Buy Basic Kit (€49)
+</a>
+  <a href="https://smbcyberhub.gumroad.com/l/prokit" class="bg-white border border-emerald-600 text-emerald-700 px-6 py-3 rounded-lg font-semibold hover:bg-emerald-50">
         ✅ Get the Complete Kit (€99)
       </a>
     </div>
@@ -34,7 +37,7 @@ import Layout from '../layouts/Layout.astro';
               </div>
             </th>
             <th class="px-4 py-3 text-center align-bottom border-l border-gray-300">
-              <div class="flex flex-col items-center">
+             <div class="flex flex-col items-center">
                 <span>Pro Kit</span>
                 <span class="text-xs font-semibold bg-yellow-200 text-yellow-800 px-2 py-0.5 rounded mt-1">Most Popular</span>
                 <span class="text-blue-700 text-lg font-bold mt-1">€99</span>
@@ -44,16 +47,15 @@ import Layout from '../layouts/Layout.astro';
           </tr>
         </thead>
         <tbody>
-          <tr><td class="px-4 py-3">Phishing Awareness</td><td>✅ PDF</td><td>✅ PDF + PPTX</td></tr>
-          <tr><td class="px-4 py-3">Password Hygiene</td><td>✅ PDF</td><td>✅ PDF + PPTX</td></tr>
-          <tr><td class="px-4 py-3">Device & Remote Security</td><td>✅ PDF</td><td>✅ PDF + PPTX</td></tr>
-          <tr><td class="px-4 py-3">Multi-Factor Authentication</td><td>—</td><td>✅ PDF + PPTX</td></tr>
-          <tr><td class="px-4 py-3">Social Engineering</td><td>—</td><td>✅ PDF + PPTX</td></tr>
-          <tr><td class="px-4 py-3">Ransomware Awareness</td><td>—</td><td>✅ PDF + PPTX + Poster</td></tr>
-          <tr><td class="px-4 py-3">Editable Quizzes (all modules)</td><td>—</td><td>✅ With answers & icons</td></tr>
-          <tr><td class="px-4 py-3">Policies & Checklists</td><td>✅ PDF</td><td>✅ Editable</td></tr>
-          <tr><td class="px-4 py-3">Audit-Ready Guide + ROI Slide</td><td>—</td><td>✅ Included</td></tr>
-          <tr><td class="px-4 py-3">Delivery Format</td><td>PDF Only</td><td>ZIP (Offline + Editable)</td></tr>
+          <tr><td class="px-4 py-3">Phishing Awareness</td><td>✅ PDF</td><td>✅ PDF</td></tr>
+          <tr><td class="px-4 py-3">Password Hygiene</td><td>✅ PDF</td><td>✅ PDF</td></tr>
+          <tr><td class="px-4 py-3">Device & Remote Security</td><td>✅ PDF</td><td>✅ PDF</td></tr>
+          <tr><td class="px-4 py-3">Multi-Factor Authentication</td><td>—</td><td>✅ PDF</td></tr>
+          <tr><td class="px-4 py-3">Social Engineering</td><td>—</td><td>✅ PDF</td></tr>
+          <tr><td class="px-4 py-3">Ransomware Awareness</td><td>—</td><td>✅ PDF</td></tr>
+          <tr><td class="px-4 py-3">Quizzes for all modules with answers</td><td>—</td><td>✅ PDF</td></tr>
+          <tr><td class="px-4 py-3">Policies & Checklists</td><td>✅ (5) PDF</td><td>✅ (9) PDF</td></tr>
+          <tr><td class="px-4 py-3">OnBoarding Guide + ROI Explainer</td><td>—</td><td>✅ Included</td></tr>
           <tr><td class="px-4 py-3">License</td><td>1 Team</td><td>Unlimited Internal Use</td></tr>
         </tbody>
       </table>
@@ -71,7 +73,6 @@ import Layout from '../layouts/Layout.astro';
           <ul class="list-disc list-inside text-sm text-gray-700 space-y-1">
             <li>You have a small team (1–5 staff)</li>
             <li>You want quick, printable training</li>
-            <li>You’re not editing materials or logging results</li>
             <li>You want something simple and fast</li>
           </ul>
         </div>
@@ -79,7 +80,6 @@ import Layout from '../layouts/Layout.astro';
           <h3 class="text-xl font-semibold mb-2">💼 Pro Kit</h3>
           <ul class="list-disc list-inside text-sm text-gray-700 space-y-1">
             <li>You want full coverage including ransomware & compliance</li>
-            <li>You’d like editable files for onboarding or clients</li>
             <li>You’re prepping for audits or insurance requests</li>
             <li>You want a complete training + evidence toolkit</li>
           </ul>
@@ -95,5 +95,6 @@ import Layout from '../layouts/Layout.astro';
     <p>100+ kits delivered across 20+ countries. One-time payment. No accounts. No tracking.</p>
   </section>
 </Layout>
+
 
 
