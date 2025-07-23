@@ -5,24 +5,24 @@ import Layout from '../layouts/Layout.astro';
 <Layout>
   <section class="bg-white py-16 px-6 text-center">
     <h1 class="text-4xl md:text-5xl font-extrabold text-blue-900 mb-4">
-      Try a Free Sample Kit
+      Download Your Free Sample Kit
     </h1>
     <p class="text-lg text-gray-700 max-w-2xl mx-auto mb-8">
-      Want to preview before you commit? Download a free sample pack that includes real training materials and tools from our Pro Kit.
+      Want to preview before you commit? Download a <strong>free sample pack</strong> that includes real training materials and tools from our Pro Kit.
     </p>
-
     <div class="flex justify-center mt-6">
-      <form action="https://buttondown.email/api/emails/embed-subscribe/smbcyberhub" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/smbcyberhub', 'popupwindow')" class="w-full max-w-lg text-left">
-        <label for="bd-email" class="block text-sm font-medium text-gray-700 mb-1">Enter your email to get the sample kit:</label>
-        <input type="email" name="email" id="bd-email" required class="border border-gray-300 rounded px-4 py-2 w-full shadow-sm" />
-        <button type="submit" class="mt-3 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-6 py-2 rounded shadow">
-          📥 Send Me the Sample Kit
-        </button>
-      </form>
+      <a
+        href="https://smbcyberhub.gumroad.com/l/samplekit"
+        rel="noopener"
+        target="_blank"
+        class="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-8 py-4 rounded-lg shadow text-lg transition"
+        aria-label="Download the Free Sample Kit from Gumroad"
+      >
+        📥 Download Free Sample from Gumroad
+      </a>
     </div>
-
     <p class="text-sm text-gray-600 mt-4">
-      GDPR-safe. No spam. One-time download link.
+      Direct download. GDPR-safe. No logins. No tracking. Yours to keep.
     </p>
   </section>
 
@@ -34,7 +34,7 @@ import Layout from '../layouts/Layout.astro';
         <li><strong>Sample Staff Quiz</strong> – Includes real questions and icon-enhanced answer keys.</li>
         <li><strong>Cyber Hygiene Checklist</strong> – Actionable checklist aligned with GDPR & ISO27001.</li>
         <li><strong>Pro Kit Overview</strong> – Visual breakdown of the full kit contents and value.</li>
-        <li><strong>ReadMe_First PDF</strong> – Explains how to use the sample and what to do next.</li>
+        <li><strong>ReadMe_First Text File</strong> – Explains how to use the sample and what to do next.</li>
       </ul>
     </div>
   </section>
@@ -47,8 +47,19 @@ import Layout from '../layouts/Layout.astro';
 
   <section class="py-12 px-6 text-center">
     <h3 class="text-xl font-bold text-gray-800 mb-3">Want the full training kit?</h3>
-    <a href="https://smbcyberhub.gumroad.com/l/prokit" class="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-6 py-3 rounded-lg shadow inline-block">
+    <a
+      href="https://smbcyberhub.gumroad.com/l/prokit"
+      class="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-6 py-3 rounded-lg shadow inline-block"
+      rel="noopener"
+      target="_blank"
+      aria-label="Buy the Pro Kit on Gumroad"
+    >
       ✅ Buy the Pro Kit – €99
     </a>
+    <p class="text-sm text-gray-600 mt-2">
+      Upgrade for full staff quizzes, templates, audit policies & unlimited use.
+    </p>
   </section>
 </Layout>
+
+
