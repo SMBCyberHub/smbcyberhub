@@ -4,7 +4,7 @@ const posts = defineCollection({
   type: 'content',
   schema: z.object({
     title: z.string(),
-    date: z.string(),
+    date: z.date(),
     description: z.string()
   }),
 });
@@ -12,5 +12,4 @@ const posts = defineCollection({
 export const collections = {
   posts,
 };
-
 
