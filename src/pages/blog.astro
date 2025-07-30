@@ -22,12 +22,13 @@ const posts = await getCollection('posts');
                 {post.data.title}
               </a>
             </h2>
-            <p class="text-sm text-gray-600 mb-1">{post.data.date}</p>
+            <p class="text-sm text-gray-600 mb-1">
+              {new Date(post.data.date).toLocaleDateString('en-GB', { year: 'numeric', month: 'short', day: 'numeric' })}
+            </p>
             <p class="text-sm text-gray-700">{post.data.description}</p>
           </article>
         ))}
     </div>
   </section>
 </Layout>
-
 
