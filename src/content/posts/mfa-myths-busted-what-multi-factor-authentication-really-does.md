@@ -1,12 +1,12 @@
 ---
 title: "MFA Myths Busted: What Multi-Factor Authentication Really Does"
 description: "Is MFA overkill for a small business? Not at all. We break down the common myths and what MFA actually protects against."
-date: "2025-04-13"
+date: 2025-04-13
 tags: ["mfa", "multi-factor authentication", "gdpr"]
 ogImage: "/assets/og/mfa-myths-busted-what-multi-factor-authentication-really-does.png"
 excerpt: "Is MFA overkill for a small business? Not at all. We break down the common myths and what MFA actually protects against."
 featured: false
-canonical: "https://mydomain.com/posts/mfa-myths-busted-what-multi-factor-authentication-really-does"
+canonical: "https://smbcyberhub.com/posts/mfa-myths-busted-what-multi-factor-authentication-really-does"
 ---
 
 Multi-Factor Authentication (MFA) isn’t just a tech buzzword — it’s one of the most effective tools your business can use to stop credential-based attacks.

@@ -1,12 +1,12 @@
 ---
 title: "Why Free USB Drives Are a Threat: Safe File Transfer Alternatives"
 description: "That free USB at the conference? It might be a trap. Here's why physical media can carry digital threats — and what to use instead."
-date: "2025-05-11"
+date: 2025-05-11
 tags: ["usb", "device security", "malware"]
 ogImage: "/assets/og/why-free-usb-drives-are-a-threat-safe-file-transfer-alternatives.png"
 excerpt: "That free USB at the conference? It might be a trap. Here's why physical media can carry digital threats — and what to use instead."
 featured: false
-canonical: "https://mydomain.com/posts/why-free-usb-drives-are-a-threat-safe-file-transfer-alternatives"
+canonical: "https://smbcyberhub.com/posts/why-free-usb-drives-are-a-threat-safe-file-transfer-alternatives"
 ---
 
 Free USB drives might seem like harmless swag — but they can be serious security threats. For small teams, the risk is even greater.

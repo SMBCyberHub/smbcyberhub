@@ -1,12 +1,12 @@
 ---
 title: "Top 5 Password Mistakes Small Businesses Still Make in 2025"
 description: "Weak or reused passwords are still common in small teams. These are the top mistakes — and how to fix them fast."
-date: "2025-03-30"
+date: 2025-03-30
 tags: ["passwords", "credential hygiene", "compliance"]
 ogImage: "/assets/og/top-5-password-mistakes-small-businesses-still-make-in-2025.png"
 excerpt: "Weak or reused passwords are still common in small teams. These are the top mistakes — and how to fix them fast."
 featured: false
-canonical: "https://mydomain.com/posts/top-5-password-mistakes-small-businesses-still-make-in-2025"
+canonical: "https://smbcyberhub.com/posts/top-5-password-mistakes-small-businesses-still-make-in-2025"
 ---
 
 Strong passwords are one of the simplest, most effective defenses in cybersecurity. And yet, password hygiene is still a major weak point for small teams.

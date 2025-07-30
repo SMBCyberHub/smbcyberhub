@@ -1,12 +1,12 @@
 ---
 title: "How Phishing Actually Works: A Simple Breakdown for Small Teams"
 description: "Phishing isn’t just spam — it’s a leading cause of data breaches. Here's a plain-English breakdown for non-technical teams."
-date: "2025-03-16"
+date: 2025-03-16
 tags: ["phishing", "email threats", "smb security"]
 ogImage: "/assets/og/how-phishing-actually-works-a-simple-breakdown-for-small-teams.png"
 excerpt: "Phishing isn’t just spam — it’s a leading cause of data breaches. Here's a plain-English breakdown for non-technical teams."
 featured: true
-canonical: "https://mydomain.com/posts/how-phishing-actually-works-a-simple-breakdown-for-small-teams"
+canonical: "https://smbcyberhub.com/posts/how-phishing-actually-works-a-simple-breakdown-for-small-teams"
 ---
 
 Phishing is still the #1 cause of small business data breaches — and it’s not just about bad grammar or spam filters. Here’s how phishing really works, and how your team can stop falling for it.

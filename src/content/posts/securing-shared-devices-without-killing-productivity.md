@@ -1,12 +1,12 @@
 ---
 title: "Securing Shared Devices Without Killing Productivity"
 description: "Sometimes staff share laptops or desktops. Here’s how to stay secure without slowing down your team’s work."
-date: "2025-06-22"
+date: 2025-06-22
 tags: ["shared devices", "device policy", "small teams"]
 ogImage: "/assets/og/securing-shared-devices-without-killing-productivity.png"
 excerpt: "Sometimes staff share laptops or desktops. Here’s how to stay secure without slowing down your team’s work."
 featured: false
-canonical: "https://mydomain.com/posts/securing-shared-devices-without-killing-productivity"
+canonical: "https://smbcyberhub.com/posts/securing-shared-devices-without-killing-productivity"
 ---
 
 Not every small team can afford one device per person — but sharing devices shouldn’t mean sharing security risks. Here’s how to strike the balance.

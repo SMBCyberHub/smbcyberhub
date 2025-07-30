@@ -1,12 +1,12 @@
 ---
 title: "Audit-Ready in Under an Hour: A Cyber Hygiene Checklist"
 description: "Need to pass a client or GDPR audit? This checklist gets your team’s cyber hygiene in shape — fast."
-date: "2025-07-06"
+date: 2025-07-06
 tags: ["audit", "checklist", "compliance"]
 ogImage: "/assets/og/audit-ready-in-under-an-hour-a-cyber-hygiene-checklist.png"
 excerpt: "Need to pass a client or GDPR audit? This checklist gets your team’s cyber hygiene in shape — fast."
 featured: false
-canonical: "https://mydomain.com/posts/audit-ready-in-under-an-hour-a-cyber-hygiene-checklist"
+canonical: "https://smbcyberhub.com/posts/audit-ready-in-under-an-hour-a-cyber-hygiene-checklist"
 ---
 
 Client asking for proof of training? GDPR review coming up? This fast checklist helps small teams get cyber hygiene in order — without a consultant.

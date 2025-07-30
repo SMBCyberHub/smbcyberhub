@@ -1,12 +1,12 @@
 ---
 title: "The True Cost of a Breach for SMBs (and How to Avoid One)"
 description: "Think a data breach is just an IT issue? It could cost your business thousands — or your reputation. Here’s what it really means."
-date: "2025-06-08"
+date: 2025-06-08
 tags: ["breach", "cost of inaction", "insurance"]
 ogImage: "/assets/og/the-true-cost-of-a-breach-for-smbs-and-how-to-avoid-one.png"
 excerpt: "Think a data breach is just an IT issue? It could cost your business thousands — or your reputation. Here’s what it really means."
 featured: true
-canonical: "https://mydomain.com/posts/the-true-cost-of-a-breach-for-smbs-and-how-to-avoid-one"
+canonical: "https://smbcyberhub.com/posts/the-true-cost-of-a-breach-for-smbs-and-how-to-avoid-one"
 ---
 
 A breach doesn’t just hit your inbox — it hits your bank account, reputation, and client trust. Here’s what a breach really costs small businesses — and how to avoid one.
