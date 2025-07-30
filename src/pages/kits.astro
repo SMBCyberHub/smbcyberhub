@@ -2,6 +2,45 @@
 import Layout from '../layouts/Layout.astro';
 ---
 
+<head>
+  <script type="application/ld+json">
+    {`
+      [
+        {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "SMBCyberHub Basic Kit",
+          "description": "The Basic Kit includes phishing awareness, password hygiene, device & remote security, policies, and checklists. Designed for small teams. Offline, printable, no logins.",
+          "image": "https://smbcyberhub.com/logo.png",
+          "brand": "SMBCyberHub",
+          "offers": {
+            "@type": "Offer",
+            "price": "49",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://smbcyberhub.gumroad.com/l/basickit"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "SMBCyberHub Pro Kit",
+          "description": "The Pro Kit includes all Basic features plus multi-factor authentication, social engineering, ransomware, quizzes, onboarding guide, and unlimited internal use.",
+          "image": "https://smbcyberhub.com/logo.png",
+          "brand": "SMBCyberHub",
+          "offers": {
+            "@type": "Offer",
+            "price": "99",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://smbcyberhub.gumroad.com/l/prokit"
+          }
+        }
+      ]
+    `}
+  </script>
+</head>
+
 <Layout>
   <!-- 📦 Kits Comparison Page -->
   <section class="bg-blue-50 py-16 px-6 text-center">
@@ -95,6 +134,7 @@ import Layout from '../layouts/Layout.astro';
     <p>100+ kits delivered across 20+ countries. One-time payment. No accounts. No tracking.</p>
   </section>
 </Layout>
+
 
 
 
