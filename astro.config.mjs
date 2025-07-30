@@ -7,7 +7,7 @@ export default defineConfig({
   integrations: [
     tailwind(),
     sitemap({
-      i18n: false, // No multi-language support needed
-    }),
+        entryLimit: 99999
+  })
   ],
 });
