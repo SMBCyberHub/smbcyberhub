@@ -3,6 +3,27 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout>
+  <head>
+    <script type="application/ld+json">
+      {`
+        {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "SMBCyberHub Free Sample Kit",
+          "description": "Preview of real training materials and tools from our Pro Kit. Includes phishing awareness training slide, staff quiz, checklist, and more.",
+          "image": "https://smbcyberhub.com/logo.png",
+          "brand": "SMBCyberHub",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://smbcyberhub.gumroad.com/l/samplekit"
+          }
+        }
+      `}
+    </script>
+  </head>
   <section class="bg-white py-16 px-6 text-center">
     <h1 class="text-4xl md:text-5xl font-extrabold text-blue-900 mb-4">
       Download Your Free Sample Kit
@@ -61,5 +82,6 @@ import Layout from '../layouts/Layout.astro';
     </p>
   </section>
 </Layout>
+
 
 
