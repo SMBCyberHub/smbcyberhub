@@ -1,119 +1,179 @@
+
 ---
 import Layout from '../layouts/Layout.astro';
 ---
-
 <head>
-  <script type="application/ld+json">
-    {`
-      [
-        {
-          "@context": "https://schema.org",
-          "@type": "Product",
-          "name": "SMBCyberHub Basic Kit",
-          "description": "The Basic Kit includes phishing awareness, password hygiene, device & remote security, policies, and checklists. Designed for small teams. Offline, printable, no logins.",
-          "image": "https://smbcyberhub.com/logo.png",
-          "brand": "SMBCyberHub",
-          "offers": {
-            "@type": "Offer",
-            "price": "49",
-            "priceCurrency": "EUR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://smbcyberhub.gumroad.com/l/basickit"
-          }
-        },
-        {
-          "@context": "https://schema.org",
-          "@type": "Product",
-          "name": "SMBCyberHub Pro Kit",
-          "description": "The Pro Kit includes all Basic features plus multi-factor authentication, social engineering, ransomware, quizzes, onboarding guide, and unlimited internal use.",
-          "image": "https://smbcyberhub.com/logo.png",
-          "brand": "SMBCyberHub",
-          "offers": {
-            "@type": "Offer",
-            "price": "99",
-            "priceCurrency": "EUR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://smbcyberhub.gumroad.com/l/prokit"
-          }
-        }
-      ]
-    `}
-  </script>
+<script type="application/ld+json">
+{`
+[
+{
+"@context": "https://schema.org",
+"@type": "Product",
+"name": "SMBCyberHub Basic Kit",
+"description": "The Basic Kit includes phishing awareness, password hygiene, device & remote security, policies, and checklists. Designed for small teams. Offline, printable, no logins.",
+"image": "https://smbcyberhub.com/logo.png",
+"brand": "SMBCyberHub",
+"offers": {
+"@type": "Offer",
+"price": "49",
+"priceCurrency": "EUR",
+"availability": "https://schema.org/InStock",
+"url": "https://smbcyberhub.gumroad.com/l/basickit"
+}
+},
+{
+"@context": "https://schema.org",
+"@type": "Product",
+"name": "SMBCyberHub Pro Kit",
+"description": "The Pro Kit includes all Basic features plus multi-factor authentication, social engineering, ransomware, quizzes, onboarding guide, and unlimited internal use.",
+"image": "https://smbcyberhub.com/logo.png",
+"brand": "SMBCyberHub",
+"offers": {
+"@type": "Offer",
+"price": "99",
+"priceCurrency": "EUR",
+"availability": "https://schema.org/InStock",
+"url": "https://smbcyberhub.gumroad.com/l/prokit"
+}
+}
+]
+`}
+</script>
+<script type="application/ld+json">
+{`
+[
+{
+"@context": "https://schema.org",
+"@type": "Review",
+"reviewBody": "Our insurance broker was chasing us for proof of training, but I had no idea what they wanted. The SMBCyberHub kit saved hours and made our renewal painless. It was so clear, and we actually looked professional to the insurer.",
+"reviewRating": {
+"@type": "Rating",
+"ratingValue": "5",
+"bestRating": "5"
+},
+"author": {
+"@type": "Person",
+"name": "Emma P",
+"jobTitle": "Office Manager"
+},
+"itemReviewed": {
+"@type": "Product",
+"name": "SMBCyberHub Kit"
+}
+},
+{
+"@context": "https://schema.org",
+"@type": "Review",
+"reviewBody": "I printed the kit, ran the training at lunch, and had our whole team documented in under an hour. Zero hassle, and the quizzes made everyone laugh. It was great to finally have compliance ticked off—no IT help needed!",
+"reviewRating": {
+"@type": "Rating",
+"ratingValue": "5",
+"bestRating": "5"
+},
+"author": {
+"@type": "Person",
+"name": "Niall C",
+"jobTitle": "Small Business Owner"
+},
+"itemReviewed": {
+"@type": "Product",
+"name": "SMBCyberHub Kit"
+}
+},
+{
+"@context": "https://schema.org",
+"@type": "Review",
+"reviewBody": "All done in one afternoon. No logins, no subscriptions, just what we needed for our cyber insurance.",
+"reviewRating": {
+"@type": "Rating",
+"ratingValue": "5",
+"bestRating": "5"
+},
+"author": {
+"@type": "Person",
+"name": "Anna F",
+"jobTitle": "Café Owner"
+},
+"itemReviewed": {
+"@type": "Product",
+"name": "SMBCyberHub Kit"
+}
+}
+]
+`}
+</script>
 </head>
-
 <Layout>
-  <!-- 🏠 Homepage Hero Section -->
-  <section class="bg-blue-50 py-20 px-6 text-center">
-    <h1 class="text-4xl md:text-5xl font-extrabold text-blue-900 leading-tight mb-4">
-      Cybersecurity Kits for Small Teams
-    </h1>
-    <p class="text-lg text-gray-700 max-w-xl mx-auto mb-8">
-      One-time download. No logins. No subscriptions. Just download and protect your business.
-    </p>
-    <div class="flex flex-col sm:flex-row justify-center gap-4 mb-2">
-      <a href="/free-sample" class="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-6 py-3 rounded-lg shadow">
-        📥 Get Free Sample Kit
-      </a>
-      <a href="/kits" class="border border-emerald-600 text-emerald-600 px-6 py-3 rounded-lg font-semibold hover:bg-emerald-50 transition">
-        🧰 Compare Kits
-      </a>
-      <a href="https://smbcyberhub.gumroad.com/l/prokit" class="bg-emerald-100 border border-emerald-600 text-emerald-700 px-6 py-3 rounded-lg font-semibold hover:bg-emerald-200 transition">
-        ✅ Get the Complete Kit
-      </a>
-    </div>
-    <p class="text-sm text-gray-500 mt-2">Trusted by 100+ small teams. Downloaded in 20+ countries.</p>
-  </section>
-
-  <!-- ✅ Why Choose SMBCyberHub -->
-  <section class="py-16 px-6 max-w-4xl mx-auto text-left">
-    <h2 class="text-2xl font-bold text-blue-800 mb-6 text-center">Why Choose SMBCyberHub?</h2>
-    <ul class="space-y-6 text-gray-700 text-sm">
-      <li>
-        <span class="font-semibold">✅ Audit-Ready in 30 Minutes</span><br />
-        Prebuilt policies, training, checklists — ready to print or PDF for insurers or clients.
-      </li>
-      <li>
-        <span class="font-semibold">✅ No Logins, No Subscriptions</span><br />
-        One-time download. Offline-ready. Yours forever — not SaaS.
-      </li>
-      <li>
-        <span class="font-semibold">✅ GDPR & ISO27001 Aligned</span><br />
-        Built by a 20+ year IT/compliance veteran. Covers what auditors expect.
-      </li>
-      <li>
-        <span class="font-semibold">✅ Built for Non-Tech Teams</span><br />
-        Office managers and business owners — no IT background needed.
-      </li>
-    </ul>
-  </section>
-
-  <!-- 💬 Testimonials -->
-  <section class="bg-gray-50 py-12 px-6 text-center text-gray-700">
-    <blockquote class="max-w-2xl mx-auto italic">
-      “We had no idea what to give our insurance company for cyber coverage. This kit saved hours and made us look professional.”
-    </blockquote>
-    <p class="mt-4 font-semibold text-sm">– Emma P, Office Manager</p>
-  </section>
-  <section class="bg-gray-50 py-12 px-6 text-center text-gray-700">
-    <blockquote class="max-w-2xl mx-auto italic">
-      “I printed the kits, ran the training, and had everything documented in under and hour. No hassle and the Quizzes were great.”
-    </blockquote>
-    <p class="mt-4 font-semibold text-sm">– Niall C, Small Business Owner</p>
-  </section>
-
-  <!-- 🔐 GDPR Badge & Trust Note -->
-  <section class="bg-white py-12 px-6 text-center">
-    <div class="max-w-md mx-auto">
-      <img src="/images/gdpr-badge.webp" alt="GDPR Ready badge" class="h-36 mx-auto mb-3" />
-      <p class="text-sm text-gray-600">
-        SMBCyberHub kits help meet <strong>GDPR Article 39.1(b)</strong> training compliance — even with no IT staff.
-      </p>
-    </div>
-  </section>
+<!-- 🏠 Homepage Hero Section -->
+<section class="bg-blue-50 py-20 px-6 text-center">
+<h1 class="text-4xl md:text-5xl font-extrabold text-blue-900 leading-tight mb-4">
+Cybersecurity Kits for Small Teams
+</h1>
+<p class="text-lg text-gray-700 max-w-xl mx-auto mb-8">
+One-time download. No logins. No subscriptions. Just download and protect your business.
+</p>
+<div class="flex flex-col sm:flex-row justify-center gap-4 mb-2">
+<a href="/free-sample" class="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-6 py-3 rounded-lg shadow">
+📥 Get Free Sample Kit
+</a>
+<a href="/kits" class="border border-emerald-600 text-emerald-600 px-6 py-3 rounded-lg font-semibold hover:bg-emerald-50 transition">
+🧰 Compare Kits
+</a>
+<a href="https://smbcyberhub.gumroad.com/l/prokit" class="bg-emerald-100 border border-emerald-600 text-emerald-700 px-6 py-3 rounded-lg font-semibold hover:bg-emerald-200 transition">
+✅ Get the Complete Kit
+</a>
+</div>
+<p class="text-sm text-gray-500 mt-2">Trusted by 100+ small teams. Downloaded in 20+ countries.</p>
+</section>
+<!-- ✅ Why Choose SMBCyberHub -->
+<section class="py-16 px-6 max-w-4xl mx-auto text-left">
+<h2 class="text-2xl font-bold text-blue-800 mb-6 text-center">Why Choose SMBCyberHub?</h2>
+<ul class="space-y-6 text-gray-700 text-sm">
+<li>
+<span class="font-semibold">✅ Audit-Ready in 30 Minutes</span><br />
+Prebuilt policies, training, checklists — ready to print or PDF for insurers or clients.
+</li>
+<li>
+<span class="font-semibold">✅ No Logins, No Subscriptions</span><br />
+One-time download. Offline-ready. Yours forever — not SaaS.
+</li>
+<li>
+<span class="font-semibold">✅ GDPR & ISO27001 Aligned</span><br />
+Built by a 20+ year IT/compliance veteran. Covers what auditors expect.
+</li>
+<li>
+<span class="font-semibold">✅ Built for Non-Tech Teams</span><br />
+Office managers and business owners — no IT background needed.
+</li>
+</ul>
+</section>
+<!-- 💬 Testimonials -->
+<section class="bg-gray-50 py-12 px-6 text-center text-gray-700">
+<blockquote class="max-w-2xl mx-auto italic">
+“Our insurance broker was chasing us for proof of training, but I had no idea what they wanted. The SMBCyberHub kit saved hours and made our renewal painless. It was so clear, and we actually looked professional to the insurer.”
+</blockquote>
+<p class="mt-4 font-semibold text-sm">– Emma P, Office Manager, Local Retailer</p>
+</section>
+<section class="bg-gray-50 py-12 px-6 text-center text-gray-700">
+<blockquote class="max-w-2xl mx-auto italic">
+“I printed the kit, ran the training at lunch, and had our whole team documented in under an hour. Zero hassle, and the quizzes made everyone laugh. It was great to finally have compliance ticked off—no IT help needed!”
+</blockquote>
+<p class="mt-4 font-semibold text-sm">– Niall C, Small Business Owner, Dublin</p>
+</section>
+<section class="bg-gray-50 py-12 px-6 text-center text-gray-700">
+<blockquote class="max-w-2xl mx-auto italic">
+“All done in one afternoon. No logins, no subscriptions, just what we needed for our cyber insurance.”
+</blockquote>
+<p class="mt-4 font-semibold text-sm">– Anna F, Café Owner</p>
+</section>
+<!-- 🔐 GDPR Badge & Trust Note -->
+<section class="bg-white py-12 px-6 text-center">
+<div class="max-w-md mx-auto">
+<img src="/images/gdpr-badge.webp" alt="GDPR Ready badge" class="h-36 mx-auto mb-3" />
+<p class="text-sm text-gray-600">
+SMBCyberHub kits help meet <strong>GDPR Article 39.1(b)</strong> training compliance — even with no IT staff.
+</p>
+</div>
+</section>
 </Layout>
-
-
-
-
-
 
