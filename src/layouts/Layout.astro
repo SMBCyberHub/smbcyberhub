@@ -1,106 +1,74 @@
 ---
-export interface Props {
-  title?: string;
-  description?: string;
-  canonical?: string;
-  ogImage?: string;
-}
-
-const {
-  title = "SMBCyberHub – Small Business Cybersecurity Resources",
-  description = "Cybersecurity kits for small teams. Audit-ready in 30 minutes. No logins or subscriptions.",
-  canonical = Astro.url.href,
-  ogImage = "/default-og.jpg",
-} = Astro.props;
+const { title = "SMBCyberHub", description = "Cybersecurity kits for small business. Audit-ready, GDPR-compliant, no logins or subscriptions." } = Astro.props;
 ---
 
-<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <title>{title}</title>
     <meta name="description" content={description} />
-    <link rel="canonical" href={canonical} />
+    <link rel="icon" href="/favicon.ico" />
 
-    <!-- Open Graph -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content={canonical} />
+    <!-- Open Graph / Social Meta -->
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta property="og:image" content={ogImage} />
-
-    <!-- Twitter Card -->
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://smbcyberhub.com/images/smbcyberhub-logo.webp" />
+    <meta property="og:url" content="https://smbcyberhub.com/" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
-    <meta name="twitter:image" content={ogImage} />
+    <meta name="twitter:image" content="https://smbcyberhub.com/images/smbcyberhub-logo.webp" />
 
-    <!-- Favicon -->
-    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-
-    <!-- Umami Analytics -->
-    <script defer src="https://cloud.umami.is/script.js" data-website-id="fa515cb9-555e-45c1-92d5-7dee474ca120"></script>
-  </head>
-
+    <!-- Site-wide Organization Schema for Google Rich Results -->
     <script type="application/ld+json">
-      {JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "SMBCyberHub",
-        "url": "https://smbcyberhub.com",
-        "logo": "https://smbcyberhub.com/logo.png",
-        "description": "Cybersecurity kits and resources for small businesses. Audit-ready tools, clear compliance guides, and no subscriptions.",
-        "contactPoint": [{
-          "@type": "ContactPoint",
-          "email": "hello@smbcyberhub.com",
-          "contactType": "customer support"
-        }],
-        "sameAs": [
-          "https://www.linkedin.com/company/smbcyberhub",
-          "https://twitter.com/smbcyberhub"
-        ]
-      })}
+      {`
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "SMBCyberHub",
+          "url": "https://smbcyberhub.com",
+          "logo": "https://smbcyberhub.com/images/smbcyberhub-logo.webp",
+          "description": "Downloadable cybersecurity kits for small teams. Audit-ready, no logins, GDPR compliant."
+        }
+      `}
     </script>
-  <body class="bg-white text-gray-800 font-sans antialiased">
-
-    <header class="bg-blue-900 text-white shadow sticky top-0 z-50">
-      <nav class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-        <a href="/" class="flex items-center gap-2" aria-label="Go to homepage">
-          <img src="/images/smbcyberhub-logo.webp" alt="SMBCyberHub logo" class="h-32 w-auto" />
-        </a>
-        <ul class="flex gap-6 text-base">
-          <li><a href="/kits" class="hover:underline px-2 py-1 block">Compare Kits</a></li>
-          <li><a href="/free-sample" class="hover:underline px-2 py-1 block">Free Sample</a></li>
-          <li><a href="/faq" class="hover:underline px-2 py-1 block">FAQ</a></li>
-          <li><a href="/about" class="hover:underline px-2 py-1 block">About</a></li>
-          <li><a href="/blog" class="hover:underline px-2 py-1 block">Blog</a></li>
-          <li><a href="/contact" class="hover:underline px-2 py-1 block">Contact</a></li>
-        </ul>
+  </head>
+  <body class="min-h-screen flex flex-col bg-white text-gray-900 font-sans">
+    <!-- Header Banner (blue background, logo + nav) -->
+    <header class="w-full bg-[#234488] flex items-center justify-between px-6 py-4">
+      <a href="/" class="flex items-center space-x-3">
+        <img src="/images/smbcyberhub-logo.webp" alt="SMBCyberHub Logo" class="h-16 w-auto" />
+        <span class="sr-only">SMBCyberHub Home</span>
+      </a>
+      <nav aria-label="Main Navigation" class="flex space-x-8">
+        <a href="/kits" class="text-white font-medium hover:text-emerald-300 transition">Compare Kits</a>
+        <a href="/free-sample" class="text-white font-medium hover:text-emerald-300 transition">Free Sample</a>
+        <a href="/faq" class="text-white font-medium hover:text-emerald-300 transition">FAQ</a>
+        <a href="/about" class="text-white font-medium hover:text-emerald-300 transition">About</a>
+        <a href="/blog" class="text-white font-medium hover:text-emerald-300 transition">Blog</a>
+        <a href="/contact" class="text-white font-medium hover:text-emerald-300 transition">Contact</a>
       </nav>
     </header>
 
-    <main id="content">
+    <main class="flex-1 flex flex-col">
       <slot />
     </main>
 
-    <footer class="bg-gray-100 mt-12">
-      <div class="max-w-6xl mx-auto px-4 py-8 text-sm text-gray-600 flex flex-col md:flex-row justify-between gap-4">
-        <div>
-          <p class="font-semibold">&copy; 2025 – Built and maintained by SMBCyberHub</p>
-          <p class="text-xs mt-1">Founder-led • GDPR-aligned • No logins or tracking</p>
-        </div>
-        <div class="flex flex-wrap gap-x-6 gap-y-2">
-          <a href="/terms" class="hover:text-green-600">Terms</a>
-          <a href="/privacy" class="hover:text-green-600">Privacy</a>
-          <a href="/licensing" class="hover:text-green-600">Licensing</a>
-        </div>
-      </div>
+    <footer class="w-full border-t border-gray-200 bg-gray-50 text-gray-600 text-sm py-4 px-6 flex items-center justify-between">
+      <span>
+        &copy; {new Date().getFullYear()} SMBCyberHub. All rights reserved.
+      </span>
+      <span class="flex items-center gap-2">
+        <svg class="w-5 h-5 text-green-700" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="12" cy="12" r="10" />
+          <path d="M12 16v-4" />
+          <path d="M12 8h.01" />
+        </svg>
+        GDPR Article 39.1(b) – No tracking or logins required.
+      </span>
     </footer>
-
   </body>
 </html>
+
