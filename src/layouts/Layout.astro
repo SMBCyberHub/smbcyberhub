@@ -31,7 +31,7 @@ const orgSchema = {
     <meta name="twitter:image" content="https://smbcyberhub.com/images/smbcyberhub-logo.webp" />
 
     <!-- Site-wide Organization Schema for Google Rich Results -->
-    <script type="application/ld+json">{Astro.json(orgSchema)}</script>
+   <script type="application/ld+json" set:html={JSON.stringify(orgSchema)}></script>
   </head>
   <body class="min-h-screen flex flex-col bg-white text-gray-900 font-sans">
     <!-- Header Banner (blue background, logo + nav) -->
