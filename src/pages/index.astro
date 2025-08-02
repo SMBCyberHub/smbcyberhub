@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+
 const schemaData = {
   "@context": "https://schema.org",
   "@graph": [
@@ -17,8 +18,58 @@ const schemaData = {
         "price": "49",
         "priceCurrency": "EUR",
         "availability": "https://schema.org/InStock",
-        "url": "https://smbcyberhub.gumroad.com/l/basickit"
-      }
+        "url": "https://smbcyberhub.gumroad.com/l/basickit",
+        "priceValidUntil": "2026-12-31"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": "3"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "reviewBody": "Our insurance broker was chasing us for proof of training, but I had no idea what they wanted. The SMBCyberHub kit saved hours and made our renewal painless. It was so clear, and we actually looked professional to the insurer.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Emma P",
+            "jobTitle": "Office Manager"
+          }
+        },
+        {
+          "@type": "Review",
+          "reviewBody": "I printed the kit, ran the training at lunch, and had our whole team documented in under an hour. Zero hassle, and the quizzes made everyone laugh. It was great to finally have compliance ticked off—no IT help needed!",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Niall C",
+            "jobTitle": "Small Business Owner"
+          }
+        },
+        {
+          "@type": "Review",
+          "reviewBody": "All done in one afternoon. No logins, no subscriptions, just what we needed for our cyber insurance.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Anna F",
+            "jobTitle": "Café Owner"
+          }
+        }
+      ]
     },
     {
       "@type": "Product",
@@ -34,61 +85,13 @@ const schemaData = {
         "price": "99",
         "priceCurrency": "EUR",
         "availability": "https://schema.org/InStock",
-        "url": "https://smbcyberhub.gumroad.com/l/prokit"
-      }
-    },
-    {
-      "@type": "Review",
-      "reviewBody": "Our insurance broker was chasing us for proof of training, but I had no idea what they wanted. The SMBCyberHub kit saved hours and made our renewal painless. It was so clear, and we actually looked professional to the insurer.",
-      "reviewRating": {
-        "@type": "Rating",
+        "url": "https://smbcyberhub.gumroad.com/l/prokit",
+        "priceValidUntil": "2026-12-31"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
         "ratingValue": "5",
-        "bestRating": "5"
-      },
-      "author": {
-        "@type": "Person",
-        "name": "Emma P",
-        "jobTitle": "Office Manager"
-      },
-      "itemReviewed": {
-        "@type": "Product",
-        "name": "SMBCyberHub Kit"
-      }
-    },
-    {
-      "@type": "Review",
-      "reviewBody": "I printed the kit, ran the training at lunch, and had our whole team documented in under an hour. Zero hassle, and the quizzes made everyone laugh. It was great to finally have compliance ticked off—no IT help needed!",
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "5",
-        "bestRating": "5"
-      },
-      "author": {
-        "@type": "Person",
-        "name": "Niall C",
-        "jobTitle": "Small Business Owner"
-      },
-      "itemReviewed": {
-        "@type": "Product",
-        "name": "SMBCyberHub Kit"
-      }
-    },
-    {
-      "@type": "Review",
-      "reviewBody": "All done in one afternoon. No logins, no subscriptions, just what we needed for our cyber insurance.",
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "5",
-        "bestRating": "5"
-      },
-      "author": {
-        "@type": "Person",
-        "name": "Anna F",
-        "jobTitle": "Café Owner"
-      },
-      "itemReviewed": {
-        "@type": "Product",
-        "name": "SMBCyberHub Kit"
+        "reviewCount": "3"
       }
     },
     {
@@ -103,9 +106,7 @@ const schemaData = {
 ---
 
 <Layout title="Cybersecurity Kits for Small Teams – SMBCyberHub" description="Download cybersecurity kits, policies, and audit-ready training. No logins, no subscriptions, GDPR-compliant.">
-
   <script type="application/ld+json" set:html={JSON.stringify(schemaData)}></script>
-
 
   <!-- 🏠 Homepage Hero Section -->
   <section class="bg-blue-50 py-20 px-6 text-center">
