@@ -2,84 +2,82 @@
 import Layout from '../layouts/Layout.astro'
 ---
 
-<head>
-  <script type="application/ld+json">
-    {`
-      {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "1. Why not just use free cybersecurity templates online?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Most free templates are generic, outdated, or overly technical \u2014 and few are aligned with GDPR or ISO27001. SMBCyberHub kits are purpose-built for SMBs and designed to be clear, printable, and audit-friendly."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "2. Do I need IT experience to use these kits?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Not at all. Each kit is built for office managers, team leads, and founders \u2014 no technical jargon, no setup headaches. If you can onboard a new hire, you can deploy our materials."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "3. Are these kits really audit-ready?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. The policies and training content are mapped to key compliance standards like GDPR Article 39.1(b) and ISO27001 Clause 7.2.2. You also get templates for training logs, sign-offs, and breach notifications to help with insurer, client, or auditor requests."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "4. Is this a subscription?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No. Each kit is a one-time purchase. You\u2019ll get an instant download, offline access, and full internal-use rights forever \u2014 no recurring fees, no upsells, no login required."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "5. Can I preview the content before buying?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. A free sample kit is available directly from the homepage. It includes a training slide, checklist, and part of a policy so you can see the clarity and formatting before committing."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "6. What if I have a team larger than 20 people?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "If you\u2019re an agency, MSP, or need licensing for multiple clients or teams, the <strong>Agency Kit</strong> (coming soon) includes editable versions and a multi-client license."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "7. Do you offer refunds?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Due to the nature of digital products, all sales are final. However, we provide a free sample kit to help you evaluate fit before purchasing."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "8. Can I use this for insurance or client due diligence?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Absolutely. Many buyers use SMBCyberHub kits to meet cyber insurance requirements or respond to security questionnaires from clients. The kits include documentation logs, staff quiz sign-offs, and breach notification templates \u2014 all helpful during onboarding, audits, or risk assessments."
-            }
+<Layout 
+  title="FAQ – Cybersecurity Kits for Small Business | SMBCyberHub" 
+  description="Get answers to frequently asked questions about SMBCyberHub kits, cybersecurity training, licensing, insurance compliance, and more."
+>
+  <script type="application/ld+json" set:html={`
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "1. Why not just use free cybersecurity templates online?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most free templates are generic, outdated, or overly technical — and few are aligned with GDPR or ISO27001. SMBCyberHub kits are purpose-built for SMBs and designed to be clear, printable, and audit-friendly."
           }
-        ]
-      }
-    `}
-  </script>
-</head>
-
-<Layout title="FAQ – SMBCyberHub">
+        },
+        {
+          "@type": "Question",
+          "name": "2. Do I need IT experience to use these kits?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not at all. Each kit is built for office managers, team leads, and founders — no technical jargon, no setup headaches. If you can onboard a new hire, you can deploy our materials."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "3. Are these kits really audit-ready?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The policies and training content are mapped to key compliance standards like GDPR Article 39.1(b) and ISO27001 Clause 7.2.2. You also get templates for training logs, sign-offs, and breach notifications to help with insurer, client, or auditor requests."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "4. Is this a subscription?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Each kit is a one-time purchase. You’ll get an instant download, offline access, and full internal-use rights forever — no recurring fees, no upsells, no login required."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "5. Can I preview the content before buying?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. A free sample kit is available directly from the homepage. It includes a training slide, checklist, and part of a policy so you can see the clarity and formatting before committing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "6. What if I have a team larger than 20 people?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If you’re an agency, MSP, or need licensing for multiple clients or teams, the Agency Kit (coming soon) includes editable versions and a multi-client license."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "7. Do you offer refunds?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Due to the nature of digital products, all sales are final. However, we provide a free sample kit to help you evaluate fit before purchasing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "8. Can I use this for insurance or client due diligence?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Many buyers use SMBCyberHub kits to meet cyber insurance requirements or respond to security questionnaires from clients. The kits include documentation logs, staff quiz sign-offs, and breach notification templates — all helpful during onboarding, audits, or risk assessments."
+          }
+        }
+      ]
+    }
+  `}></script>
   <section class="max-w-3xl mx-auto px-4 py-12">
     <h1 class="text-4xl font-bold mb-8">❓ Frequently Asked Questions</h1>
 
@@ -144,4 +142,3 @@ import Layout from '../layouts/Layout.astro'
     </div>
   </section>
 </Layout>
-
