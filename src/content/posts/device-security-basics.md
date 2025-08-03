@@ -66,4 +66,5 @@ If you wouldn’t leave sensitive papers on a café table, don’t leave your la
 🕒 **Estimated Reading Time**: 4–5 minutes  
 📎 **Related Posts**:
 - [Phishing Red Flags for Remote Workers](/posts/phishing-awareness)
-- [Why You Need MFA Even with a Strong Password](/posts/mfa-explained)
+- [MFA Myths Busted: What Multi-Factor Authentication Really Does](/posts/mfa-myths-busted-what-multi-factor-authentication-really-does)
+
