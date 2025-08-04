@@ -1,142 +1,341 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
 <head>
-<!-- Existing FAQPage and Review schema remain unchanged -->
-<script type="application/ld+json">
-{`[
-  {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "SMBCyberHub Basic Kit",
-    "description": "Audit-ready cybersecurity awareness kit for small business teams. PDF-only. Covers phishing, password hygiene, device security and more. Single team license.",
-    "image": "https://smbcyberhub.com/images/smbcyberhub-logo.webp",
-    "url": "https://smbcyberhub.gumroad.com/l/basickit",
-    "offers": {
-      "@type": "Offer",
-      "price": "49.00",
-      "priceCurrency": "EUR",
-      "availability": "https://schema.org/InStock",
+  <!-- Product Schema for Basic and Pro Kit with required fields -->
+  <script type="application/ld+json">
+  {`[
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "SMBCyberHub Basic Kit",
+      "description": "Audit-ready cybersecurity awareness kit for small business teams. PDF-only. Covers phishing, password hygiene, device security and more. Single team license.",
+      "image": "https://smbcyberhub.com/images/smbcyberhub-logo.webp",
       "url": "https://smbcyberhub.gumroad.com/l/basickit",
-      "hasMerchantReturnPolicy": {
-        "@type": "MerchantReturnPolicy",
-        "applicableCountry": "IE",
-        "returnPolicyCategory": "NoReturns"
-      },
-      "shippingDetails": {
-        "@type": "OfferShippingDetails",
-        "shippingRate": {
-          "@type": "MonetaryAmount",
-          "value": "0.00",
-          "currency": "EUR"
+      "offers": {
+        "@type": "Offer",
+        "price": "49.00",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://smbcyberhub.gumroad.com/l/basickit",
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "IE",
+          "returnPolicyCategory": "NoReturns"
         },
-        "shippingDestination": {
-          "@type": "DefinedRegion",
-          "addressCountry": "IE"
-        },
-        "deliveryTime": {
-          "@type": "ShippingDeliveryTime",
-          "handlingTime": {
-            "@type": "QuantitativeValue",
-            "value": 0,
-            "unitCode": "DAY"
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "EUR"
           },
-          "transitTime": {
-            "@type": "QuantitativeValue",
-            "value": 0,
-            "unitCode": "DAY"
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "IE"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "value": 0,
+              "unitCode": "DAY"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "value": 0,
+              "unitCode": "DAY"
+            }
           }
         }
       }
-    }
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "SMBCyberHub Pro Kit",
-    "description": "Comprehensive security awareness kit for SMBs. Includes all Basic Kit topics plus advanced training, onboarding, extra checklists, and unlimited internal use.",
-    "image": "https://smbcyberhub.com/images/smbcyberhub-logo.webp,
-    "url": "https://smbcyberhub.gumroad.com/l/prokit",
-    "offers": {
-      "@type": "Offer",
-      "price": "99.00",
-      "priceCurrency": "EUR",
-      "availability": "https://schema.org/InStock",
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "SMBCyberHub Pro Kit",
+      "description": "Comprehensive security awareness kit for SMBs. Includes all Basic Kit topics plus advanced training, onboarding, extra checklists, and unlimited internal use.",
+      "image": "https://smbcyberhub.com/images/smbcyberhub-logo.webp",
       "url": "https://smbcyberhub.gumroad.com/l/prokit",
-      "hasMerchantReturnPolicy": {
-        "@type": "MerchantReturnPolicy",
-        "applicableCountry": "IE",
-        "returnPolicyCategory": "NoReturns"
-      },
-      "shippingDetails": {
-        "@type": "OfferShippingDetails",
-        "shippingRate": {
-          "@type": "MonetaryAmount",
-          "value": "0.00",
-          "currency": "EUR"
+      "offers": {
+        "@type": "Offer",
+        "price": "99.00",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://smbcyberhub.gumroad.com/l/prokit",
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "IE",
+          "returnPolicyCategory": "NoReturns"
         },
-        "shippingDestination": {
-          "@type": "DefinedRegion",
-          "addressCountry": "IE"
-        },
-        "deliveryTime": {
-          "@type": "ShippingDeliveryTime",
-          "handlingTime": {
-            "@type": "QuantitativeValue",
-            "value": 0,
-            "unitCode": "DAY"
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "EUR"
           },
-          "transitTime": {
-            "@type": "QuantitativeValue",
-            "value": 0,
-            "unitCode": "DAY"
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "IE"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "value": 0,
+              "unitCode": "DAY"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "value": 0,
+              "unitCode": "DAY"
+            }
           }
         }
       }
     }
-  }
-]`}
-</script>
-<!-- Your existing FAQPage and Review scripts below -->
-<script type="application/ld+json">
-{`{
-"@context": "https://schema.org",
-"@type": "FAQPage",
-"mainEntity": [
-{
-"@type": "Question",
-"name": "Is the Free Sample Kit enough for compliance?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "The Free Sample Kit is a preview to help you evaluate the content and delivery style. It is not intended to fulfill full GDPR or audit requirements, but gives you a real module, checklist, and quiz from the Pro Kit."
-}
-},
-{
-"@type": "Question",
-"name": "Do I need to create an account or use any software?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "No logins, SaaS, or software are required. All kits are delivered as printable PDFs and documents for maximum privacy and offline delivery."
-}
-},
-{
-"@type": "Question",
-"name": "How is the Pro Kit different from the Basic Kit?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "The Pro Kit includes all Basic Kit materials plus advanced modules (multi-factor authentication, social engineering, ransomware), onboarding guides, extra checklists, and unlimited internal use for larger teams."
-}
-},
-{
-"@type": "Question",
-"name": "Can I upgrade later if I start with the Free or Basic Kit?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Yes, you can try the Free Sample at any time and upgrade to Basic or Pro as your needs grow. No subscriptions or recurring fees."
-}
-}
-]
-}`}
-</script>
-<script type="application/ld+json">
-{`[ ... your reviews ... ]`}
-</script>
+  ]`}
+  </script>
+  <!-- Existing FAQPage schema -->
+  <script type="application/ld+json">
+  {`{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is the Free Sample Kit enough for compliance?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Free Sample Kit is a preview to help you evaluate the content and delivery style. It is not intended to fulfill full GDPR or audit requirements, but gives you a real module, checklist, and quiz from the Pro Kit."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do I need to create an account or use any software?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No logins, SaaS, or software are required. All kits are delivered as printable PDFs and documents for maximum privacy and offline delivery."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How is the Pro Kit different from the Basic Kit?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Pro Kit includes all Basic Kit materials plus advanced modules (multi-factor authentication, social engineering, ransomware), onboarding guides, extra checklists, and unlimited internal use for larger teams."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I upgrade later if I start with the Free or Basic Kit?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, you can try the Free Sample at any time and upgrade to Basic or Pro as your needs grow. No subscriptions or recurring fees."
+        }
+      }
+    ]
+  }`}
+  </script>
+  <!-- Existing Reviews schema -->
+  <script type="application/ld+json">
+  {`[
+    {
+      "@context": "https://schema.org",
+      "@type": "Review",
+      "reviewBody": "Our insurance broker was chasing us for proof of training, but I had no idea what they wanted. The SMBCyberHub kit saved hours and made our renewal painless. It was so clear, and we actually looked professional to the insurer.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Emma P",
+        "jobTitle": "Office Manager"
+      },
+      "itemReviewed": {
+        "@type": "Product",
+        "name": "SMBCyberHub Kit"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Review",
+      "reviewBody": "I printed the kit, ran the training at lunch, and had our whole team documented in under an hour. Zero hassle, and the quizzes made everyone laugh. It was great to finally have compliance ticked off—no IT help needed!",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Niall C",
+        "jobTitle": "Small Business Owner"
+      },
+      "itemReviewed": {
+        "@type": "Product",
+        "name": "SMBCyberHub Kit"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Review",
+      "reviewBody": "All done in one afternoon. No logins, no subscriptions, just what we needed for our cyber insurance.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Anna F",
+        "jobTitle": "Café Owner"
+      },
+      "itemReviewed": {
+        "@type": "Product",
+        "name": "SMBCyberHub Kit"
+      }
+    }
+  ]`}
+  </script>
 </head>
+<Layout title="Kit Comparison: Free Sample vs. Basic vs. Pro | SMBCyberHub"
+description="Side-by-side comparison of all SMBCyberHub security kits: see what's included in the Free Sample, Basic Kit, and Pro Kit. Find the right training for your small business.">
+  <section class="bg-blue-50 py-14 px-6 text-center">
+    <h1 class="text-4xl md:text-5xl font-extrabold text-blue-900 leading-tight mb-3">
+      Compare: Free Sample vs. Basic Kit vs. Pro Kit
+    </h1>
+    <p class="text-lg text-gray-700 max-w-2xl mx-auto mb-7">
+      Not sure which kit is right for your team? Use this side-by-side comparison to see what’s included, who it’s for, and what makes each option unique.
+    </p>
+    <div class="flex flex-wrap justify-center gap-4 mt-4 mb-3">
+      <a href="/free-sample" class="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-6 py-3 rounded-lg shadow">
+        📥 Try Free Sample
+      </a>
+      <a href="https://smbcyberhub.gumroad.com/l/basickit" class="bg-white border border-blue-600 text-blue-700 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50">
+        🛒 Buy Basic Kit (€49)
+      </a>
+      <a href="https://smbcyberhub.gumroad.com/l/prokit" class="bg-white border border-emerald-600 text-emerald-700 px-6 py-3 rounded-lg font-semibold hover:bg-emerald-50">
+        ✅ Get Pro Kit (€99)
+      </a>
+    </div>
+  </section>
+  <section class="py-8 px-6 max-w-7xl mx-auto">
+    <div class="overflow-x-auto">
+      <table class="min-w-full text-sm text-left text-gray-800 border border-gray-300 divide-x divide-gray-300">
+        <thead class="bg-gray-100 text-gray-600 uppercase text-xs">
+          <tr>
+            <th class="px-4 py-3 align-bottom"></th>
+            <th class="px-4 py-3 text-center align-bottom">
+              <div class="flex flex-col items-center">
+                <span>Free Sample</span>
+                <span class="text-xs font-semibold bg-gray-300 text-gray-700 px-2 py-0.5 rounded mt-1">Preview</span>
+              </div>
+            </th>
+            <th class="px-4 py-3 text-center align-bottom border-l border-gray-300">
+              <div class="flex flex-col items-center">
+                <span>Basic Kit</span>
+                <span class="text-blue-700 text-lg font-bold mt-1">€49</span>
+              </div>
+            </th>
+            <th class="px-4 py-3 text-center align-bottom border-l border-gray-300">
+              <div class="flex flex-col items-center">
+                <span>Pro Kit</span>
+                <span class="text-xs font-semibold bg-yellow-200 text-yellow-800 px-2 py-0.5 rounded mt-1">Most Popular</span>
+                <span class="text-blue-700 text-lg font-bold mt-1">€99</span>
+              </div>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td class="px-4 py-3 font-semibold">Phishing Awareness</td><td>✅ Preview Slide</td><td>✅ PDF</td><td>✅ PDF</td></tr>
+          <tr><td class="px-4 py-3">Password Hygiene</td><td>—</td><td>✅ PDF</td><td>✅ PDF</td></tr>
+          <tr><td class="px-4 py-3">Device & Remote Security</td><td>—</td><td>✅ PDF</td><td>✅ PDF</td></tr>
+          <tr><td class="px-4 py-3">Multi-Factor Authentication</td><td>—</td><td>—</td><td>✅ PDF</td></tr>
+          <tr><td class="px-4 py-3">Social Engineering</td><td>—</td><td>—</td><td>✅ PDF</td></tr>
+          <tr><td class="px-4 py-3">Ransomware Awareness</td><td>—</td><td>—</td><td>✅ PDF</td></tr>
+          <tr><td class="px-4 py-3">Checklist</td><td>✅ Sample</td><td>✅ (5) PDF</td><td>✅ (9) PDF</td></tr>
+          <tr><td class="px-4 py-3">Quiz</td><td>✅ Sample</td><td>—</td><td>✅ PDF for all modules</td></tr>
+          <tr><td class="px-4 py-3">Policies</td><td>—</td><td>✅ PDF</td><td>✅ PDF</td></tr>
+          <tr><td class="px-4 py-3">Onboarding Guide</td><td>—</td><td>—</td><td>✅ Included</td></tr>
+          <tr><td class="px-4 py-3">GDPR/ISO Alignment</td><td>—</td><td>Core Compliance</td><td>Full Coverage</td></tr>
+          <tr><td class="px-4 py-3">License</td><td>—</td><td>1 Team</td><td>Unlimited Internal Use</td></tr>
+          <tr><td class="px-4 py-3">Delivery Format</td><td>PDF, No login</td><td>PDF, No login</td><td>PDF, No login</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <!-- 💬 Testimonials -->
+  <section class="bg-gray-50 py-12 px-6 text-center text-gray-700">
+    <blockquote class="max-w-2xl mx-auto italic">
+      “Our insurance broker was chasing us for proof of training, but I had no idea what they wanted. The SMBCyberHub kit saved hours and made our renewal painless. It was so clear, and we actually looked professional to the insurer.”
+    </blockquote>
+    <p class="mt-4 font-semibold text-sm">– Emma P, Office Manager, Local Retailer</p>
+  </section>
+  <section class="bg-gray-50 py-12 px-6 text-center text-gray-700">
+    <blockquote class="max-w-2xl mx-auto italic">
+      “I printed the kit, ran the training at lunch, and had our whole team documented in under an hour. Zero hassle, and the quizzes made everyone laugh. It was great to finally have compliance ticked off—no IT help needed!”
+    </blockquote>
+    <p class="mt-4 font-semibold text-sm">– Niall C, Small Business Owner, Dublin</p>
+  </section>
+  <section class="bg-gray-50 py-12 px-6 text-center text-gray-700">
+    <blockquote class="max-w-2xl mx-auto italic">
+      “All done in one afternoon. No logins, no subscriptions, just what we needed for our cyber insurance.”
+    </blockquote>
+    <p class="mt-4 font-semibold text-sm">– Anna F, Café Owner</p>
+  </section>
+  <section class="max-w-5xl mx-auto py-10 px-6 grid md:grid-cols-3 gap-8 text-left">
+    <div class="border rounded-lg p-6 shadow-sm bg-white">
+      <h2 class="text-xl font-semibold mb-2">Free Sample</h2>
+      <ul class="list-disc list-inside text-gray-700 text-sm space-y-1 mb-2">
+        <li>Preview training slide and checklist</li>
+        <li>No registration or tracking</li>
+        <li>Great for quick demos</li>
+      </ul>
+      <p class="text-xs text-gray-500">Perfect if you want to see real kit content before buying. Not enough for full compliance but a fast way to evaluate.</p>
+    </div>
+    <div class="border rounded-lg p-6 shadow-sm bg-white">
+      <h2 class="text-xl font-semibold mb-2">Basic Kit</h2>
+      <ul class="list-disc list-inside text-gray-700 text-sm space-y-1 mb-2">
+        <li>All core modules for small teams</li>
+        <li>Printable PDFs, 1-team license</li>
+        <li>Quick deployment for simple compliance</li>
+      </ul>
+      <p class="text-xs text-gray-500">Choose if you want affordable, essential training and checklists for a single team, without extra features or complexity.</p>
+    </div>
+    <div class="border rounded-lg p-6 shadow-sm bg-white">
+      <h2 class="text-xl font-semibold mb-2">Pro Kit</h2>
+      <ul class="list-disc list-inside text-gray-700 text-sm space-y-1 mb-2">
+        <li>All Basic features plus advanced modules</li>
+        <li>Extra quizzes, onboarding guides, unlimited use</li>
+        <li>Full GDPR/ISO audit toolkit</li>
+      </ul>
+      <p class="text-xs text-gray-500">Best for companies prepping for audits, insurance, or wanting a comprehensive, print-ready security training solution.</p>
+    </div>
+  </section>
+  <section class="max-w-3xl mx-auto py-10 px-6">
+    <h2 class="text-2xl font-bold text-blue-800 mb-4">FAQs</h2>
+    <div class="space-y-6 text-left">
+      <div>
+        <h3 class="font-semibold text-lg mb-2">Is the Free Sample Kit enough for compliance?</h3>
+        <p class="text-gray-700">The Free Sample Kit is a preview to help you evaluate the content and delivery style. It is not intended to fulfill full GDPR or audit requirements, but gives you a real module, checklist, and quiz from the Pro Kit.</p>
+      </div>
+      <div>
+        <h3 class="font-semibold text-lg mb-2">Do I need to create an account or use any software?</h3>
+        <p class="text-gray-700">No logins, SaaS, or software are required. All kits are delivered as printable PDFs and documents for maximum privacy and offline delivery.</p>
+      </div>
+      <div>
+        <h3 class="font-semibold text-lg mb-2">How is the Pro Kit different from the Basic Kit?</h3>
+        <p class="text-gray-700">The Pro Kit includes all Basic Kit materials plus advanced modules (multi-factor authentication, social engineering, ransomware), onboarding guides, extra checklists, and unlimited internal use for larger teams.</p>
+      </div>
+      <div>
+        <h3 class="font-semibold text-lg mb-2">Can I upgrade later if I start with the Free or Basic Kit?</h3>
+        <p class="text-gray-700">Yes, you can try the Free Sample at any time and upgrade to Basic or Pro as your needs grow. No subscriptions or recurring fees.</p>
+      </div>
+    </div>
+  </section>
+</Layout>
+
 
