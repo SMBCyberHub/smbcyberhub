@@ -1,202 +1,201 @@
 ---
 import Layout from '../layouts/Layout.astro';
+
+const productsSchema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "SMBCyberHub Basic Kit",
+    "description": "Audit-ready cybersecurity awareness kit for small business teams. PDF-only. Covers phishing, password hygiene, device security and more. Single team license.",
+    "image": "https://smbcyberhub.com/images/smbcyberhub-logo.webp",
+    "url": "https://smbcyberhub.gumroad.com/l/basickit",
+    "offers": {
+      "@type": "Offer",
+      "price": "49.00",
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock",
+      "url": "https://smbcyberhub.gumroad.com/l/basickit",
+      "priceValidUntil": "2026-12-31",
+      "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "applicableCountry": "IE",
+        "returnPolicyCategory": "NoReturns"
+      },
+      "shippingDetails": {
+        "@type": "OfferShippingDetails",
+        "shippingRate": {
+          "@type": "MonetaryAmount",
+          "value": "0.00",
+          "currency": "EUR"
+        },
+        "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "IE"
+        },
+        "deliveryTime": {
+          "@type": "ShippingDeliveryTime",
+          "handlingTime": {
+            "@type": "QuantitativeValue",
+            "value": 0,
+            "unitCode": "DAY"
+          },
+          "transitTime": {
+            "@type": "QuantitativeValue",
+            "value": 0,
+            "unitCode": "DAY"
+          }
+        }
+      }
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "3"
+    },
+    "review": [
+      {
+        "@type": "Review",
+        "reviewBody": "Our insurance broker was chasing us for proof of training, but I had no idea what they wanted. The SMBCyberHub kit saved hours and made our renewal painless. It was so clear, and we actually looked professional to the insurer.",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Emma P",
+          "jobTitle": "Office Manager"
+        }
+      },
+      {
+        "@type": "Review",
+        "reviewBody": "I printed the kit, ran the training at lunch, and had our whole team documented in under an hour. Zero hassle, and the quizzes made everyone laugh. It was great to finally have compliance ticked off—no IT help needed!",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Niall C",
+          "jobTitle": "Small Business Owner"
+        }
+      },
+      {
+        "@type": "Review",
+        "reviewBody": "All done in one afternoon. No logins, no subscriptions, just what we needed for our cyber insurance.",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Anna F",
+          "jobTitle": "Café Owner"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "SMBCyberHub Pro Kit",
+    "description": "Comprehensive security awareness kit for SMBs. Includes all Basic Kit topics plus advanced training, onboarding, extra checklists, and unlimited internal use.",
+    "image": "https://smbcyberhub.com/images/smbcyberhub-logo.webp",
+    "url": "https://smbcyberhub.gumroad.com/l/prokit",
+    "offers": {
+      "@type": "Offer",
+      "price": "99.00",
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock",
+      "url": "https://smbcyberhub.gumroad.com/l/prokit",
+      "priceValidUntil": "2026-12-31",
+      "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "applicableCountry": "IE",
+        "returnPolicyCategory": "NoReturns"
+      },
+      "shippingDetails": {
+        "@type": "OfferShippingDetails",
+        "shippingRate": {
+          "@type": "MonetaryAmount",
+          "value": "0.00",
+          "currency": "EUR"
+        },
+        "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "IE"
+        },
+        "deliveryTime": {
+          "@type": "ShippingDeliveryTime",
+          "handlingTime": {
+            "@type": "QuantitativeValue",
+            "value": 0,
+            "unitCode": "DAY"
+          },
+          "transitTime": {
+            "@type": "QuantitativeValue",
+            "value": 0,
+            "unitCode": "DAY"
+          }
+        }
+      }
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "3"
+    },
+    "review": [
+      {
+        "@type": "Review",
+        "reviewBody": "Our insurance broker was chasing us for proof of training, but I had no idea what they wanted. The SMBCyberHub kit saved hours and made our renewal painless. It was so clear, and we actually looked professional to the insurer.",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Emma P",
+          "jobTitle": "Office Manager"
+        }
+      },
+      {
+        "@type": "Review",
+        "reviewBody": "I printed the kit, ran the training at lunch, and had our whole team documented in under an hour. Zero hassle, and the quizzes made everyone laugh. It was great to finally have compliance ticked off—no IT help needed!",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Niall C",
+          "jobTitle": "Small Business Owner"
+        }
+      },
+      {
+        "@type": "Review",
+        "reviewBody": "All done in one afternoon. No logins, no subscriptions, just what we needed for our cyber insurance.",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Anna F",
+          "jobTitle": "Café Owner"
+        }
+      }
+    ]
+  }
+];
 ---
 <head>
-  <!-- Product Schema for Basic and Pro Kit with full fields -->
-  <script type="application/ld+json">
-  {`[
-    {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      "name": "SMBCyberHub Basic Kit",
-      "description": "Audit-ready cybersecurity awareness kit for small business teams. PDF-only. Covers phishing, password hygiene, device security and more. Single team license.",
-      "image": "https://smbcyberhub.com/images/smbcyberhub-logo.webp",
-      "url": "https://smbcyberhub.gumroad.com/l/basickit",
-      "offers": {
-        "@type": "Offer",
-        "price": "49.00",
-        "priceCurrency": "EUR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://smbcyberhub.gumroad.com/l/basickit",
-        "priceValidUntil": "2026-12-31",
-        "hasMerchantReturnPolicy": {
-          "@type": "MerchantReturnPolicy",
-          "applicableCountry": "IE",
-          "returnPolicyCategory": "NoReturns"
-        },
-        "shippingDetails": {
-          "@type": "OfferShippingDetails",
-          "shippingRate": {
-            "@type": "MonetaryAmount",
-            "value": "0.00",
-            "currency": "EUR"
-          },
-          "shippingDestination": {
-            "@type": "DefinedRegion",
-            "addressCountry": "IE"
-          },
-          "deliveryTime": {
-            "@type": "ShippingDeliveryTime",
-            "handlingTime": {
-              "@type": "QuantitativeValue",
-              "value": 0,
-              "unitCode": "DAY"
-            },
-            "transitTime": {
-              "@type": "QuantitativeValue",
-              "value": 0,
-              "unitCode": "DAY"
-            }
-          }
-        }
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "5",
-        "reviewCount": "3"
-      },
-      "review": [
-        {
-          "@type": "Review",
-          "reviewBody": "Our insurance broker was chasing us for proof of training, but I had no idea what they wanted. The SMBCyberHub kit saved hours and made our renewal painless. It was so clear, and we actually looked professional to the insurer.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "Emma P",
-            "jobTitle": "Office Manager"
-          }
-        },
-        {
-          "@type": "Review",
-          "reviewBody": "I printed the kit, ran the training at lunch, and had our whole team documented in under an hour. Zero hassle, and the quizzes made everyone laugh. It was great to finally have compliance ticked off—no IT help needed!",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "Niall C",
-            "jobTitle": "Small Business Owner"
-          }
-        },
-        {
-          "@type": "Review",
-          "reviewBody": "All done in one afternoon. No logins, no subscriptions, just what we needed for our cyber insurance.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "Anna F",
-            "jobTitle": "Café Owner"
-          }
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      "name": "SMBCyberHub Pro Kit",
-      "description": "Comprehensive security awareness kit for SMBs. Includes all Basic Kit topics plus advanced training, onboarding, extra checklists, and unlimited internal use.",
-      "image": "https://smbcyberhub.com/images/smbcyberhub-logo.webp",
-      "url": "https://smbcyberhub.gumroad.com/l/prokit",
-      "offers": {
-        "@type": "Offer",
-        "price": "99.00",
-        "priceCurrency": "EUR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://smbcyberhub.gumroad.com/l/prokit",
-        "priceValidUntil": "2026-12-31",
-        "hasMerchantReturnPolicy": {
-          "@type": "MerchantReturnPolicy",
-          "applicableCountry": "IE",
-          "returnPolicyCategory": "NoReturns"
-        },
-        "shippingDetails": {
-          "@type": "OfferShippingDetails",
-          "shippingRate": {
-            "@type": "MonetaryAmount",
-            "value": "0.00",
-            "currency": "EUR"
-          },
-          "shippingDestination": {
-            "@type": "DefinedRegion",
-            "addressCountry": "IE"
-          },
-          "deliveryTime": {
-            "@type": "ShippingDeliveryTime",
-            "handlingTime": {
-              "@type": "QuantitativeValue",
-              "value": 0,
-              "unitCode": "DAY"
-            },
-            "transitTime": {
-              "@type": "QuantitativeValue",
-              "value": 0,
-              "unitCode": "DAY"
-            }
-          }
-        }
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "5",
-        "reviewCount": "3"
-      },
-      "review": [
-        {
-          "@type": "Review",
-          "reviewBody": "Our insurance broker was chasing us for proof of training, but I had no idea what they wanted. The SMBCyberHub kit saved hours and made our renewal painless. It was so clear, and we actually looked professional to the insurer.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "Emma P",
-            "jobTitle": "Office Manager"
-          }
-        },
-        {
-          "@type": "Review",
-          "reviewBody": "I printed the kit, ran the training at lunch, and had our whole team documented in under an hour. Zero hassle, and the quizzes made everyone laugh. It was great to finally have compliance ticked off—no IT help needed!",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "Niall C",
-            "jobTitle": "Small Business Owner"
-          }
-        },
-        {
-          "@type": "Review",
-          "reviewBody": "All done in one afternoon. No logins, no subscriptions, just what we needed for our cyber insurance.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "Anna F",
-            "jobTitle": "Café Owner"
-          }
-        }
-      ]
-    }
-  ]`}
-  </script>
+  <script type="application/ld+json" set:html={JSON.stringify(productsSchema)}></script>
   <!-- Existing FAQPage schema -->
   <script type="application/ld+json">
   {`{
@@ -237,68 +236,6 @@ import Layout from '../layouts/Layout.astro';
       }
     ]
   }`}
-  </script>
-  <!-- Existing Reviews schema -->
-  <script type="application/ld+json">
-  {`[
-    {
-      "@context": "https://schema.org",
-      "@type": "Review",
-      "reviewBody": "Our insurance broker was chasing us for proof of training, but I had no idea what they wanted. The SMBCyberHub kit saved hours and made our renewal painless. It was so clear, and we actually looked professional to the insurer.",
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "5",
-        "bestRating": "5"
-      },
-      "author": {
-        "@type": "Person",
-        "name": "Emma P",
-        "jobTitle": "Office Manager"
-      },
-      "itemReviewed": {
-        "@type": "Product",
-        "name": "SMBCyberHub Kit"
-      }
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Review",
-      "reviewBody": "I printed the kit, ran the training at lunch, and had our whole team documented in under an hour. Zero hassle, and the quizzes made everyone laugh. It was great to finally have compliance ticked off—no IT help needed!",
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "5",
-        "bestRating": "5"
-      },
-      "author": {
-        "@type": "Person",
-        "name": "Niall C",
-        "jobTitle": "Small Business Owner"
-      },
-      "itemReviewed": {
-        "@type": "Product",
-        "name": "SMBCyberHub Kit"
-      }
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Review",
-      "reviewBody": "All done in one afternoon. No logins, no subscriptions, just what we needed for our cyber insurance.",
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "5",
-        "bestRating": "5"
-      },
-      "author": {
-        "@type": "Person",
-        "name": "Anna F",
-        "jobTitle": "Café Owner"
-      },
-      "itemReviewed": {
-        "@type": "Product",
-        "name": "SMBCyberHub Kit"
-      }
-    }
-  ]`}
   </script>
 </head>
 <Layout title="Kit Comparison: Free Sample vs. Basic vs. Pro | SMBCyberHub"
