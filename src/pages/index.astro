@@ -19,7 +19,37 @@ const schemaData = {
         "priceCurrency": "EUR",
         "availability": "https://schema.org/InStock",
         "url": "https://smbcyberhub.gumroad.com/l/basickit",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-31",
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "IE",
+          "returnPolicyCategory": "NoReturns"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "EUR"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "IE"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "value": 0,
+              "unitCode": "DAY"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "value": 0,
+              "unitCode": "DAY"
+            }
+          }
+        }
       },
       "aggregateRating": {
         "@type": "AggregateRating",
@@ -86,7 +116,37 @@ const schemaData = {
         "priceCurrency": "EUR",
         "availability": "https://schema.org/InStock",
         "url": "https://smbcyberhub.gumroad.com/l/prokit",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-31",
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "IE",
+          "returnPolicyCategory": "NoReturns"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "EUR"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "IE"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "value": 0,
+              "unitCode": "DAY"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "value": 0,
+              "unitCode": "DAY"
+            }
+          }
+        }
       },
       "aggregateRating": {
         "@type": "AggregateRating",
