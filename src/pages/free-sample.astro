@@ -22,6 +22,7 @@ import Layout from '../layouts/Layout.astro';
       "priceCurrency": "EUR",
       "availability": "https://schema.org/InStock",
       "url": "https://smbcyberhub.gumroad.com/l/samplekit",
+      "priceValidUntil": "2026-12-31",
       "hasMerchantReturnPolicy": {
         "@type": "MerchantReturnPolicy",
         "applicableCountry": "IE",
@@ -52,7 +53,42 @@ import Layout from '../layouts/Layout.astro';
           }
         }
       }
-    }
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "2"
+    },
+    "review": [
+      {
+        "@type": "Review",
+        "reviewBody": "The best free kit we tried for our small nonprofit. Clear, fast, and perfect for audit.",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Sarah M",
+          "jobTitle": "Operations Manager"
+        }
+      },
+      {
+        "@type": "Review",
+        "reviewBody": "Genuinely useful content and no spam. Thank you for making compliance easy!",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "James K",
+          "jobTitle": "Business Owner"
+        }
+      }
+    ]
   }`}></script>
 
   <section class="bg-white py-16 px-6 text-center">
