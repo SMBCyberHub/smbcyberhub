@@ -20,6 +20,7 @@ const productsSchema = [
         "@type": "MerchantReturnPolicy",
         "applicableCountry": "IE",
         "returnPolicyCategory": "NoReturns"
+        // If Google still flags, change to: "returnPolicyCategory": "MerchantReturnNotPermitted"
       },
       "shippingDetails": {
         "@type": "OfferShippingDetails",
@@ -36,12 +37,14 @@ const productsSchema = [
           "@type": "ShippingDeliveryTime",
           "handlingTime": {
             "@type": "QuantitativeValue",
-            "value": 0,
+            "minValue": 0,
+            "maxValue": 0,
             "unitCode": "DAY"
           },
           "transitTime": {
             "@type": "QuantitativeValue",
-            "value": 0,
+            "minValue": 0,
+            "maxValue": 0,
             "unitCode": "DAY"
           }
         }
@@ -115,6 +118,7 @@ const productsSchema = [
         "@type": "MerchantReturnPolicy",
         "applicableCountry": "IE",
         "returnPolicyCategory": "NoReturns"
+        // If Google still flags, change to: "returnPolicyCategory": "MerchantReturnNotPermitted"
       },
       "shippingDetails": {
         "@type": "OfferShippingDetails",
@@ -131,12 +135,14 @@ const productsSchema = [
           "@type": "ShippingDeliveryTime",
           "handlingTime": {
             "@type": "QuantitativeValue",
-            "value": 0,
+            "minValue": 0,
+            "maxValue": 0,
             "unitCode": "DAY"
           },
           "transitTime": {
             "@type": "QuantitativeValue",
-            "value": 0,
+            "minValue": 0,
+            "maxValue": 0,
             "unitCode": "DAY"
           }
         }
@@ -193,54 +199,54 @@ const productsSchema = [
     ]
   }
 ];
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is the Free Sample Kit enough for compliance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Free Sample Kit is a preview to help you evaluate the content and delivery style. It is not intended to fulfill full GDPR or audit requirements, but gives you a real module, checklist, and quiz from the Pro Kit."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need to create an account or use any software?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No logins, SaaS, or software are required. All kits are delivered as printable PDFs and documents for maximum privacy and offline delivery."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is the Pro Kit different from the Basic Kit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Pro Kit includes all Basic Kit materials plus advanced modules (multi-factor authentication, social engineering, ransomware), onboarding guides, extra checklists, and unlimited internal use for larger teams."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I upgrade later if I start with the Free or Basic Kit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, you can try the Free Sample at any time and upgrade to Basic or Pro as your needs grow. No subscriptions or recurring fees."
+      }
+    }
+  ]
+};
 ---
+
 <head>
   <script type="application/ld+json" set:html={JSON.stringify(productsSchema)}></script>
-  <!-- Existing FAQPage schema -->
-  <script type="application/ld+json">
-  {`{
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "Is the Free Sample Kit enough for compliance?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "The Free Sample Kit is a preview to help you evaluate the content and delivery style. It is not intended to fulfill full GDPR or audit requirements, but gives you a real module, checklist, and quiz from the Pro Kit."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Do I need to create an account or use any software?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "No logins, SaaS, or software are required. All kits are delivered as printable PDFs and documents for maximum privacy and offline delivery."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How is the Pro Kit different from the Basic Kit?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "The Pro Kit includes all Basic Kit materials plus advanced modules (multi-factor authentication, social engineering, ransomware), onboarding guides, extra checklists, and unlimited internal use for larger teams."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Can I upgrade later if I start with the Free or Basic Kit?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, you can try the Free Sample at any time and upgrade to Basic or Pro as your needs grow. No subscriptions or recurring fees."
-        }
-      }
-    ]
-  }`}
-  </script>
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)}></script>
 </head>
 <Layout title="Kit Comparison: Free Sample vs. Basic vs. Pro | SMBCyberHub"
 description="Side-by-side comparison of all SMBCyberHub security kits: see what's included in the Free Sample, Basic Kit, and Pro Kit. Find the right training for your small business.">
-  <!-- Main page content as before -->
+
   <section class="bg-blue-50 py-14 px-6 text-center">
     <h1 class="text-4xl md:text-5xl font-extrabold text-blue-900 leading-tight mb-3">
       Compare: Free Sample vs. Basic Kit vs. Pro Kit
