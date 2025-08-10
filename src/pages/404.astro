@@ -1,37 +1,84 @@
 ---
-import Layout from '../layouts/Layout.astro'; // Adjust this path if your layouts folder is elsewhere
+import Layout from '../layouts/Layout.astro'; // Adjust if your path differs
+
+const meta = {
+  title: 'Page Not Found (404) – SMBCyberHub',
+  description:
+    'Sorry, we can’t find that page. Explore our cybersecurity kits, free sample, and step‑by‑step training resources for small teams.',
+};
+
+// 404 pages aren’t indexed (status code handles that), but breadcrumbs & WebPage
+// schema improve consistency and UX signals across the site.
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://smbcyberhub.com/' },
+    { '@type': 'ListItem', position: 2, name: '404: Page Not Found', item: 'https://smbcyberhub.com/404' },
+  ],
+};
+
+const webPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: meta.title,
+  url: 'https://smbcyberhub.com/404',
+  description: meta.description,
+  isPartOf: { '@type': 'Website', name: 'SMBCyberHub', url: 'https://smbcyberhub.com' },
+  dateModified: '2025-07-23',
+};
 ---
 
-<Layout>
+<Layout title={meta.title} description={meta.description}>
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)}></script>
+  <script type="application/ld+json" set:html={JSON.stringify(webPageSchema)}></script>
+
   <main id="main-content" role="main" class="flex flex-col items-center justify-center px-4 py-16 min-h-[60vh]">
     <!-- Lock Icon SVG (visual context) -->
     <svg class="w-14 h-14 text-green-700 mb-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
       <rect x="5" y="11" width="14" height="9" rx="2" />
       <path d="M7 11V7a5 5 0 0 1 10 0v4" />
     </svg>
+
+    <p class="text-xs text-gray-500 mb-2">
+      <a href="/" class="hover:underline">Home</a> / <span aria-current="page">404</span>
+    </p>
     <h1 class="text-4xl sm:text-5xl font-extrabold mb-3">404: Page Not Found</h1>
     <p class="text-lg text-gray-700 mb-7 text-center max-w-xl">
-      Sorry, we couldn't find that page.<br />
-      But your cybersecurity journey isn't over!
+      Sorry, we couldn’t find that page.<br />
+      Try one of these helpful links instead:
     </p>
-    <div class="flex flex-col sm:flex-row gap-4 mb-4 w-full max-w-md">
+
+    <div class="flex flex-col sm:flex-row gap-4 mb-4 w-full max-w-2xl">
       <a href="/" class="flex-1 px-6 py-3 rounded-2xl bg-green-700 text-white text-base font-semibold shadow hover:bg-green-800 flex items-center justify-center transition">
         <!-- Home Icon SVG -->
         <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M3 10.5 12 4l9 6.5M5 11v7a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-3a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v3a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-7" />
+          <path d="M3 10.5 12 4l9 6.5M5 11v7a2 2 0 0 0 2 2h2a 2 2 0 0 0 2-2v-3a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v3a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-7" />
         </svg>
         Back to Home
       </a>
-      <a href="/kits" class="flex-1 px-6 py-3 rounded-2xl border border-green-700 text-green-700 bg-white text-base font-semibold hover:bg-green-50 flex items-center justify-center transition">
+      <a href="/kits/" class="flex-1 px-6 py-3 rounded-2xl border border-green-700 text-green-700 bg-white text-base font-semibold hover:bg-green-50 flex items-center justify-center transition">
         See Cybersecurity Kits
       </a>
-      <a href="/blog" class="flex-1 px-6 py-3 rounded-2xl border border-green-700 text-green-700 bg-white text-base font-semibold hover:bg-green-50 flex items-center justify-center transition">
+      <a href="/blog/" class="flex-1 px-6 py-3 rounded-2xl border border-green-700 text-green-700 bg-white text-base font-semibold hover:bg-green-50 flex items-center justify-center transition">
         Read Security Tips
       </a>
     </div>
-    <a href="/free-sample" class="inline-block mt-2 text-green-700 underline hover:text-green-800 font-medium">
+
+    <a href="/free-sample/" class="inline-block mt-2 text-green-700 underline hover:text-green-800 font-medium">
       Try a Free Sample Kit &rarr;
     </a>
+
+    <!-- Popular paths to improve crawl flow + user recovery -->
+    <ul class="mt-8 grid gap-3 w-full max-w-2xl sm:grid-cols-2 text-sm text-gray-700">
+      <li class="rounded-2xl border border-gray-200 p-4 hover:shadow-sm">
+        <a href="/faq/" class="font-semibold text-gray-900 hover:underline">FAQ</a>
+        <p class="mt-1 text-gray-600">Common questions about kits, licensing, and compliance.</p>
+      </li>
+      <li class="rounded-2xl border border-gray-200 p-4 hover:shadow-sm">
+        <a href="/licensing" class="font-semibold text-gray-900 hover:underline">Licensing</a>
+        <p class="mt-1 text-gray-600">Understand internal, consultant, and educational usage.</p>
+      </li>
+    </ul>
   </main>
 </Layout>
-
