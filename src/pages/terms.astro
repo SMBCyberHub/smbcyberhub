@@ -1,37 +1,120 @@
 ---
 import Layout from '../layouts/Layout.astro';
+
+const meta = {
+  title: 'Terms of Use – Downloadable Cybersecurity Kits | SMBCyberHub',
+  description:
+    'Read the Terms of Use for SMBCyberHub’s downloadable, GDPR‑aligned cybersecurity kits. License scope, warranties, refunds, data practices, and policy changes.',
+};
+
+const canonicalUrl = 'https://smbcyberhub.com/terms';
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://smbcyberhub.com/' },
+    { '@type': 'ListItem', position: 2, name: 'Terms of Use', item: canonicalUrl },
+  ],
+};
+
+const webPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: meta.title,
+  url: canonicalUrl,
+  description: meta.description,
+  isPartOf: { '@type': 'Website', name: 'SMBCyberHub', url: 'https://smbcyberhub.com' },
+  dateModified: '2025-07-23',
+};
+
+// Optional FAQ block to earn rich results for common policy questions
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'What does my license allow?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text:
+          'Each purchase grants a non‑transferable, perpetual license for internal use by the purchasing organization. Files may be downloaded, printed, or edited for internal training and compliance.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Do you offer refunds on digital products?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text:
+          'All sales are final due to the digital nature of our products. If you experience a technical issue or receive an incorrect file, contact us and we will make it right.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Do you use tracking or analytics?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text:
+          'No. We do not use tracking scripts, analytics tools, or cookies. Email addresses are collected only for delivery and occasional product updates.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Can the terms change?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text:
+          'Terms may be updated periodically. Continued use after changes implies acceptance of the revised terms.',
+      },
+    },
+  ],
+};
 ---
 
-<Layout>
+<Layout title={meta.title} description={meta.description}>
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)}></script>
+  <script type="application/ld+json" set:html={JSON.stringify(webPageSchema)}></script>
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)}></script>
+
   <section class="py-16 px-6 max-w-3xl mx-auto">
-    <h1 class="text-4xl font-bold text-blue-900 mb-6">Terms of Use</h1>
+    <header class="mb-8">
+      <p class="text-xs text-gray-500 mb-2">
+        <a href="/" class="hover:underline">Home</a> / <span aria-current="page">Terms of Use</span>
+      </p>
+      <h1 class="text-4xl font-bold text-blue-900">Terms of Use</h1>
+      <p class="text-gray-700 mt-3 text-sm">
+        By purchasing, downloading, or accessing any product or content from SMBCyberHub, you agree to the following terms.
+      </p>
+      <div class="mt-4 text-sm text-gray-700 bg-emerald-50 border border-emerald-100 rounded-2xl p-4">
+        <strong class="text-emerald-800">Quick summary:</strong>
+        Perpetual internal‑use license per purchase; edits allowed for internal use; no resale or public posting; no trackers; all sales final.
+      </div>
+    </header>
 
-    <p class="text-gray-700 mb-4 text-sm">
-      By purchasing, downloading, or accessing any product or content from SMBCyberHub, you agree to the following terms.
-    </p>
-
-    <h2 class="text-xl font-semibold mt-8 mb-2 text-gray-800">1. License & Usage</h2>
+    <h2 class="text-xl font-semibold mt-8 mb-2 text-gray-800">1. License &amp; Usage</h2>
     <ul class="list-disc list-inside text-sm text-gray-700 space-y-2">
-      <li>Each purchase grants a non-transferable, perpetual license for internal use by the purchasing organization.</li>
+      <li>Each purchase grants a <strong>non‑transferable, perpetual license for internal use</strong> by the purchasing organization.</li>
       <li>Files may be downloaded, printed, or edited for internal training and compliance purposes.</li>
-      <li>Redistribution, resale, or public posting of materials is prohibited without written permission.</li>
+      <li><strong>Redistribution, resale, or public posting</strong> of materials is prohibited without written permission.</li>
     </ul>
 
     <h2 class="text-xl font-semibold mt-8 mb-2 text-gray-800">2. No Warranties</h2>
     <p class="text-sm text-gray-700 mb-2">
-      All materials are provided "as is" without warranties of any kind. While content is created by experienced professionals, SMBCyberHub makes no guarantees of compliance, audit outcomes, or security effectiveness.
+      All materials are provided “as is” without warranties of any kind. While content is created by experienced professionals, SMBCyberHub makes no guarantees of compliance, audit outcomes, or security effectiveness.
     </p>
 
     <h2 class="text-xl font-semibold mt-8 mb-2 text-gray-800">3. Refund Policy</h2>
     <p class="text-sm text-gray-700 mb-2">
-      Due to the digital nature of our products, all sales are final. If you experience a technical issue or receive an incorrect file, please contact us and we’ll make it right.
+      Due to the digital nature of our products, <strong>all sales are final</strong>. If you experience a technical issue or receive an incorrect file, please contact us and we’ll make it right.
     </p>
 
-    <h2 class="text-xl font-semibold mt-8 mb-2 text-gray-800">4. Privacy & Data</h2>
+    <h2 class="text-xl font-semibold mt-8 mb-2 text-gray-800">4. Privacy &amp; Data</h2>
     <ul class="list-disc list-inside text-sm text-gray-700 space-y-2">
-      <li>We do not use tracking scripts, analytics tools, or cookies.</li>
-      <li>Email addresses are collected only for delivery and occasional product updates.</li>
-      <li>We never sell or share your data with third parties.</li>
+      <li>We do <strong>not</strong> use tracking scripts, analytics tools, or cookies.</li>
+      <li>Email addresses are collected only for delivery and occasional product updates (max 4–6/year).</li>
+      <li>We never sell or share your data with third parties. See our <a href="/privacy" class="text-emerald-700 underline">Privacy Policy</a>.</li>
     </ul>
 
     <h2 class="text-xl font-semibold mt-8 mb-2 text-gray-800">5. Changes to Terms</h2>
@@ -39,16 +122,18 @@ import Layout from '../layouts/Layout.astro';
       SMBCyberHub may update these terms periodically. Continued use of our products after changes implies acceptance of the revised terms.
     </p>
 
-    <p class="text-sm text-gray-500 mt-10">
-      Last updated: July 2025 • Contact: info@smbcyberhub.com
+    <p class="text-xs text-gray-500 mt-10">
+      Last updated: July 2025 • Contact: <a href="mailto:info@smbcyberhub.com" class="hover:underline">info@smbcyberhub.com</a> •
+      <a href={canonicalUrl} class="hover:underline"> {canonicalUrl}</a>
     </p>
 
     <hr class="my-8" />
 
-    <!-- Internal Legal Links for SEO/orphan fix -->
+    <!-- Helpful internal links for crawl + user flow -->
     <nav class="text-xs text-gray-500 mt-6 text-center">
-      <a href="/licensing/" class="hover:underline">Licensing</a> &nbsp;|&nbsp;
-      <a href="/privacy/" class="hover:underline">Privacy Policy</a>
+      <a href="/licensing" class="hover:underline">Licensing</a> &nbsp;|&nbsp;
+      <a href="/privacy" class="hover:underline">Privacy Policy</a> &nbsp;|&nbsp;
+      <a href="/faq/" class="hover:underline">FAQ</a>
     </nav>
   </section>
 </Layout>
