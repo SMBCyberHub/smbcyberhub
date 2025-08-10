@@ -1,57 +1,184 @@
 ---
 import Layout from '../layouts/Layout.astro';
+
+// Page meta (shown in <title> and meta description via Layout)
+const meta = {
+  title: 'Cybersecurity Kit Licensing Terms – SMBCyberHub',
+  description:
+    'Clear, plain‑English licensing terms for SMBCyberHub’s downloadable cybersecurity kits. Internal use, consultant/MSP usage, education allowances, and bulk/agency options.',
+};
+
+// Simple canonical URL (kept in a const for reuse in schema)
+const canonicalUrl = 'https://smbcyberhub.com/licensing';
+
+// Structured data: Breadcrumbs + FAQ (valid JSON-LD)
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://smbcyberhub.com/' },
+    { '@type': 'ListItem', position: 2, name: 'Licensing', item: canonicalUrl },
+  ],
+};
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'Can I use a kit across my entire company?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text:
+          'Yes. A one‑time purchase grants perpetual internal use for your organization. You may distribute materials internally for onboarding, training, and audit readiness.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Do consultants or MSPs need a license per client?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text:
+          'Yes. Consultants and MSPs should purchase one license per client, or request a volume bundle. Agency/white‑label options are available on request.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Can I edit or rebrand the documents?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text:
+          'You may edit and customize files for your team or client. Internal attribution is not required. If you reskin for clients, a “based on SMBCyberHub” credit is appreciated but optional.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'What is not allowed under the license?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text:
+          'Resale, redistribution, or public posting of the materials is not permitted. Licenses are non‑transferable and cannot be repackaged into other resale products.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Do you offer nonprofit or classroom licensing?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text:
+          'Yes, on a case‑by‑case basis. Contact us with your use case to request academic or nonprofit access.',
+      },
+    },
+  ],
+};
+
+// Optional: WebPage schema (complements your Layout’s Organization schema)
+const webPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: meta.title,
+  url: canonicalUrl,
+  description: meta.description,
+  isPartOf: { '@type': 'Website', name: 'SMBCyberHub', url: 'https://smbcyberhub.com' },
+  about: {
+    '@type': 'Thing',
+    name: 'Cybersecurity kit licensing terms for small businesses and consultants',
+  },
+  dateModified: '2025-07-23',
+};
 ---
 
-<Layout>
+<Layout title={meta.title} description={meta.description}>
+  <!-- JSON-LD for Breadcrumbs, FAQ, and WebPage (allowed in body if head slot isn’t available) -->
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)}></script>
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)}></script>
+  <script type="application/ld+json" set:html={JSON.stringify(webPageSchema)}></script>
+
   <section class="py-16 px-6 max-w-3xl mx-auto">
-    <h1 class="text-4xl font-bold text-blue-900 mb-6">Licensing</h1>
+    <header class="mb-8">
+      <p class="text-xs text-gray-500 mb-2">
+        <a href="/" class="hover:underline">Home</a> / <span aria-current="page">Licensing</span>
+      </p>
+      <h1 class="text-4xl font-bold text-blue-900">Cybersecurity Kit Licensing Terms</h1>
+      <p class="text-gray-700 mt-3 text-sm">
+        SMBCyberHub kits are designed for fast, frictionless use by small businesses, consultants, and internal teams. 
+        This page explains how our one‑time licensing works and how to stay within terms.
+      </p>
+      <div class="mt-4 text-sm text-gray-700 bg-emerald-50 border border-emerald-100 rounded-2xl p-4">
+        <strong class="text-emerald-800">Quick summary:</strong>
+        Perpetual internal use per purchase. Consultants/MSPs license per client (bundles available). 
+        Edits allowed; redistribution and public posting are not permitted.
+      </div>
+    </header>
 
-    <p class="text-gray-700 mb-4 text-sm">
-      SMBCyberHub kits are designed for fast, frictionless use by small businesses, consultants, and internal teams. This page explains how our one-time-use licensing works.
-    </p>
+    <section aria-labelledby="internal-use" class="mt-8">
+      <h2 id="internal-use" class="text-xl font-semibold mb-2 text-gray-800">1. Internal Use License</h2>
+      <ul class="list-disc list-inside text-sm text-gray-700 space-y-2">
+        <li>One‑time purchase grants <strong>perpetual internal use</strong> for your company or team (no renewals).</li>
+        <li>Use materials for onboarding, awareness training, and audit readiness.</li>
+        <li><strong>No redistribution or public posting</strong> (e.g., websites, public drives).</li>
+      </ul>
+    </section>
 
-    <h2 class="text-xl font-semibold mt-8 mb-2 text-gray-800">1. Internal Use License</h2>
-    <ul class="list-disc list-inside text-sm text-gray-700 space-y-2">
-      <li>One-time purchase grants perpetual use for your company, team, or client (no renewals).</li>
-      <li>You may share materials internally or use them in onboarding, training, or audit processes.</li>
-      <li>Resale, redistribution, or external posting (e.g., public websites) is not permitted.</li>
-    </ul>
+    <section aria-labelledby="consultant" class="mt-8">
+      <h2 id="consultant" class="text-xl font-semibold mb-2 text-gray-800">2. Consultant & MSP License</h2>
+      <ul class="list-disc list-inside text-sm text-gray-700 space-y-2">
+        <li>Purchase <strong>one license per client</strong> or request a <a href="/contact/" class="text-emerald-700 underline">volume bundle</a>.</li>
+        <li>Co‑branded or white‑label options available on request.</li>
+        <li>Licenses are non‑transferable and may not be repackaged for resale.</li>
+      </ul>
+    </section>
 
-    <h2 class="text-xl font-semibold mt-8 mb-2 text-gray-800">2. Consultant & MSP License</h2>
-    <ul class="list-disc list-inside text-sm text-gray-700 space-y-2">
-      <li>Consultants or agencies may purchase a license per client or request a volume bundle.</li>
-      <li>Co-branded or white-label options are available upon request.</li>
-      <li>Licenses are non-transferable and may not be repackaged into resale products.</li>
-    </ul>
+    <section aria-labelledby="education" class="mt-8">
+      <h2 id="education" class="text-xl font-semibold mb-2 text-gray-800">3. Educational or Training Providers</h2>
+      <ul class="list-disc list-inside text-sm text-gray-700 space-y-2">
+        <li>Academic/nonprofit licenses considered case‑by‑case — please <a href="/contact/" class="text-emerald-700 underline">contact us</a>.</li>
+        <li>Adaptation rights can be granted where needed for classroom settings.</li>
+      </ul>
+    </section>
 
-    <h2 class="text-xl font-semibold mt-8 mb-2 text-gray-800">3. Educational or Training Providers</h2>
-    <ul class="list-disc list-inside text-sm text-gray-700 space-y-2">
-      <li>Licenses may be granted for nonprofit or classroom use on a case-by-case basis.</li>
-      <li>Please contact us with your use case to request academic access or adaptation rights.</li>
-    </ul>
+    <section aria-labelledby="attribution" class="mt-8">
+      <h2 id="attribution" class="text-xl font-semibold mb-2 text-gray-800">4. Attribution & Modifications</h2>
+      <ul class="list-disc list-inside text-sm text-gray-700 space-y-2">
+        <li>You may <strong>edit and customize</strong> documents for your team or client.</li>
+        <li>No attribution required for internal use.</li>
+        <li>If re‑skinning for clients, a “based on SMBCyberHub” credit is appreciated but optional.</li>
+      </ul>
+    </section>
 
-    <h2 class="text-xl font-semibold mt-8 mb-2 text-gray-800">4. Attribution & Modifications</h2>
-    <ul class="list-disc list-inside text-sm text-gray-700 space-y-2">
-      <li>You may edit or customize files as needed for your team or client.</li>
-      <li>No attribution is required for internal use.</li>
-      <li>If reskinning for clients, we encourage “based on SMBCyberHub” citation, but it is optional.</li>
-    </ul>
+    <section aria-labelledby="bulk" class="mt-8">
+      <h2 id="bulk" class="text-xl font-semibold mb-2 text-gray-800">5. Questions or Bulk / Agency Licensing</h2>
+      <p class="text-sm text-gray-700">
+        For large‑team or multi‑client use, email 
+        <a href="mailto:info@smbcyberhub.com" class="text-emerald-700 underline"> info@smbcyberhub.com</a> 
+        to discuss bundles, <strong>agency licensing</strong>, or white‑label options.
+      </p>
+    </section>
 
-    <h2 class="text-xl font-semibold mt-8 mb-2 text-gray-800">5. Questions or Bulk Licensing</h2>
-    <p class="text-sm text-gray-700">
-      For large-team or multi-client use, email <a href="mailto:info@smbcyberhub.com" class="text-emerald-600 underline">info@smbcyberhub.com</a> for custom licensing or private-label options.
-    </p>
+    <!-- Conversion-friendly internal links (supports crawl and context) -->
+    <aside class="mt-10 grid gap-4 sm:grid-cols-2">
+      <a href="/kits/" class="block rounded-2xl border border-gray-200 p-4 hover:shadow-sm">
+        <h3 class="font-semibold text-gray-900">Compare Kits</h3>
+        <p class="text-sm text-gray-600">See Basic vs. Pro features and licensing scope.</p>
+      </a>
+      <a href="/free-sample/" class="block rounded-2xl border border-gray-200 p-4 hover:shadow-sm">
+        <h3 class="font-semibold text-gray-900">Try a Free Sample</h3>
+        <p class="text-sm text-gray-600">Preview training quality before you buy.</p>
+      </a>
+    </aside>
 
-    <p class="text-sm text-gray-500 mt-10">
-      Last updated: July 2025 • SMBCyberHub.com
+    <p class="text-xs text-gray-500 mt-10">
+      Last updated: July 2025 • <a href={canonicalUrl} class="hover:underline">SMBCyberHub.com/licensing</a>
     </p>
 
     <hr class="my-8" />
 
-    <!-- Internal Legal Links for SEO/orphan fix -->
+    <!-- Legal/footer links (normalized to your routes) -->
     <nav class="text-xs text-gray-500 mt-6 text-center">
-      <a href="/privacy/" class="hover:underline">Privacy Policy</a> &nbsp;|&nbsp;
-      <a href="/terms/" class="hover:underline">Terms of Use</a>
+      <a href="/privacy" class="hover:underline">Privacy Policy</a> &nbsp;|&nbsp;
+      <a href="/terms" class="hover:underline">Terms of Use</a> &nbsp;|&nbsp;
+      <a href="/faq/" class="hover:underline">FAQ</a>
     </nav>
   </section>
 </Layout>
