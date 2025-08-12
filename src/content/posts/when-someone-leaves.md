@@ -66,7 +66,7 @@ Prioritise session/MFA revocation, rotate all shared/admin credentials, and revi
 
 ---
 
-## 🎁 Download Your Free Offboarding Kit
+## 🎁 Download Your Free CyberSecurity Training Kit
 Need a ready-to-use checklist and other easy training resources?  
 👉 [Download the Free Cyber Security Training Kit](https://smbcyberhub.com/free-cyber-security-training/?utm_source=blog&utm_medium=cta&utm_campaign=offboarding_post)
 
