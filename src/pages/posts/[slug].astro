@@ -1,20 +1,18 @@
-
 ---
-import Layout from '../../layouts/Layout.astro';
-import { getCollection, getEntryBySlug } from 'astro:content';
-import { AstroError } from 'astro/errors';
+import Layout from "../../layouts/Layout.astro";
+import { getCollection, getEntryBySlug } from "astro:content";
+import { AstroError } from "astro/errors";
 
 export async function getStaticPaths() {
-  const posts = await getCollection('posts');
-  return posts.map(post => ({
+  const posts = await getCollection("posts");
+  return posts.map((post) => ({
     params: { slug: post.slug },
     props: { slug: post.slug },
   }));
 }
 
 const { slug } = Astro.props;
-
-const post = await getEntryBySlug('posts', slug);
+const post = await getEntryBySlug("posts", slug);
 
 if (!post) {
   throw new AstroError(`No post found for slug: ${slug}`);
@@ -22,57 +20,122 @@ if (!post) {
 
 const { Content } = await post.render();
 const { data } = post;
+
+// ---- Helpers / derived fields ----
+const site = Astro.site; // ensure "site" is set in astro.config.mjs
+const postUrl = new URL(`/posts/${slug}/`, site).href;
+
+// frontmatter `date` may be Date (z.date()) or string; coerce and format
+const dateObj = new Date(data.date);
+const dateISO = dateObj.toISOString();
+const dateDisplay = dateObj.toLocaleDateString("en-GB", {
+  day: "2-digit",
+  month: "short",
+  year: "numeric",
+});
+
+const modifiedISO = (data.updatedAt ? new Date(data.updatedAt) : dateObj).toISOString();
+
+const ogImageAbs =
+  data.ogImage
+    ? new URL(data.ogImage, site).href
+    : new URL("/favicon-32x32.png", site).href;
+
+const canonical = data.canonical || postUrl;
+
+// Optional HowTo support:
+// Provide in frontmatter to enable:
+// howTo: true
+// howToEstimatedTime: "PT20M"
+// howToCost: { currency: "EUR", value: "0" }
+// howToSupplies: ["Offboarding checklist"]
+// howToTools: ["Admin panel / IAM"]
+// howToSteps: [{ name: "Disable accounts", text: "…" }, ...]
+const hasHowTo =
+  Boolean(data.howTo) ||
+  (Array.isArray(data.howToSteps) && data.howToSteps.length > 0);
+
+const articleLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": `${postUrl}#article`,
+  mainEntityOfPage: postUrl,
+  headline: data.title,
+  description: data.description || data.excerpt,
+  image: ogImageAbs,
+  datePublished: dateISO,
+  dateModified: modifiedISO,
+  author: { "@type": "Organization", name: "SMBCyberHub" },
+  publisher: {
+    "@type": "Organization",
+    "name": "SMBCyberHub",
+    "logo": { "@type": "ImageObject", url: new URL("/favicon-32x32.png", site).href }
+  },
+  ...(hasHowTo ? { mainEntity: { "@id": `${postUrl}#howto` } } : {})
+};
+
+const howtoLd = hasHowTo
+  ? {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "@id": `${postUrl}#howto`,
+      name: data.title,
+      description: data.description || data.excerpt,
+      totalTime: data.howToEstimatedTime || "PT20M",
+      estimatedCost: data.howToCost || { "@type": "MonetaryAmount", currency: "EUR", value: "0" },
+      supply: (data.howToSupplies || []).map((s) => ({ "@type": "HowToSupply", name: s })),
+      tool: (data.howToTools || []).map((t) => ({ "@type": "HowToTool", name: t })),
+      step: (data.howToSteps || []).map((s) => ({
+        "@type": "HowToStep",
+        name: s.name,
+        text: s.text
+      }))
+    }
+  : null;
 ---
 
-<!-- SEO Tags -->
+<!-- SEO / Meta -->
 <head>
   <title>{data.title} | SMBCyberHub</title>
+  <link rel="canonical" href={canonical} />
   <meta name="description" content={data.description} />
   <meta name="author" content="SMBCyberHub" />
- 
+
   <!-- Open Graph -->
   <meta property="og:title" content={data.title} />
   <meta property="og:description" content={data.description} />
   <meta property="og:type" content="article" />
-  <meta property="og:url" content={`https://smbcyberhub.com/posts/${slug}`} />
- 
+  <meta property="og:url" content={postUrl} />
+  <meta property="og:image" content={ogImageAbs} />
+
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content={data.title} />
   <meta name="twitter:description" content={data.description} />
+  <meta name="twitter:image" content={ogImageAbs} />
+
+  <!-- Article dates -->
+  <meta property="article:published_time" content={dateISO} />
+  <meta property="article:modified_time" content={modifiedISO} />
 </head>
 
+<!-- JSON-LD -->
+<script type="application/ld+json">
+  {JSON.stringify(articleLd)}
+</script>
+{hasHowTo && (
   <script type="application/ld+json">
-    {JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "headline": data.title,
-      "description": data.description,
-      "image": data.ogImage || "https://smbcyberhub.com/logo.png",
-      "author": {
-        "@type": "Organization",
-        "name": "SMBCyberHub"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "SMBCyberHub",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://smbcyberhub.com/logo.png"
-        }
-      },
-      "datePublished": data.date,
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": `https://smbcyberhub.com/posts/${slug}`
-      }
-    })}
+    {JSON.stringify(howtoLd)}
   </script>
+)}
 
 <Layout>
   <article class="py-16 px-6 max-w-3xl mx-auto">
+    <!-- H1 as recommended -->
     <h1 class="text-4xl font-bold text-blue-900 mb-4">{data.title}</h1>
-    <p class="text-sm text-gray-500 mb-6">{data.date}</p>
+
+    <!-- Friendly date: e.g. 29 Jul 2025 -->
+    <p class="text-sm text-gray-500 mb-6">{dateDisplay}</p>
 
     <div class="prose prose-lg text-gray-800">
       <Content />
