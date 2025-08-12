@@ -38,17 +38,24 @@ const articleSchema = {
   '@type': 'BlogPosting',
   headline: clean(data.title),
   description: clean(data.description || data.excerpt),
-  image: ogImageUrl,
-  author: { '@type': 'Organization', name: 'SMBCyberHub' },
+  image: [ogImageUrl],                 // array is fine/preferred by Google
+  url: canonicalUrl,                   // optional but nice to have
+  author: {
+    '@type': 'Organization',
+    name: 'SMBCyberHub',
+    url: SITE                          // ✅ adds the missing url on author
+  },
   publisher: {
     '@type': 'Organization',
     name: 'SMBCyberHub',
-    logo: { '@type': 'ImageObject', url: `${SITE}/logo.png` },
+    url: SITE,                         // optional, improves completeness
+    logo: { '@type': 'ImageObject', url: `${SITE}/logo.png` }
   },
   datePublished: isoDate,
   dateModified: isoDate,
-  mainEntityOfPage: canonicalUrl,
+  mainEntityOfPage: canonicalUrl
 };
+
 
 // --- HowTo schema (short + safe text-only steps) ---
 const howToSchema = {
