@@ -1,7 +1,7 @@
 ---
 title: "When Someone Leaves: A Simple Offboarding Security Checklist for Small Teams"
 description: "A plain-English offboarding checklist to remove access, protect data, and stay audit-ready when someone leaves your small team."
-date: 2025-07-30
+date: 2025-08-12
 tags: ["offboarding", "access control", "small business"]
 ogImage: "/assets/og/offboarding-security-checklist-small-teams.png"
 excerpt: "A step-by-step, non-technical offboarding checklist that keeps your data safe and your team compliant."
