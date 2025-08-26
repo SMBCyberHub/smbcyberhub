@@ -25,7 +25,7 @@ Hiring someone new? Great. The first week is when good security habits stick (or
 
 Why it matters: Least-privilege access prevents accidental data exposure and keeps you compliant with client/insurer expectations. MFA significantly reduces account-takeover risk. 
 
-For a plain-English overview you can share with your team, see [CISA’s quick guide to enabling MFA](https://www.cisa.gov/secure-our-world/enable-mfa).
+For a plain-English overview you can share with your team, see [CISA’s quick guide to enabling MFA](https://www.cisa.gov/secure-our-world/turn-mfa).
 
 
 ---
