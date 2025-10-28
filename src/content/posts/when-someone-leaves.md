@@ -6,7 +6,7 @@ tags: ["offboarding", "access control", "small business"]
 ogImage: "/assets/og/offboarding-security-checklist-small-teams.png"
 excerpt: "A step-by-step, non-technical offboarding checklist that keeps your data safe and your team compliant."
 featured: false
-canonical: "https://smbcyberhub.com/posts/when-someone-leaves-offboarding-security-checklist"
+canonical: "https://smbcyberhub.com/posts/when-someone-leaves"
 ---
 
 When someone leaves—whether it’s a resignation, contract end, or dismissal—there’s a short window to cleanly remove access and protect your files. This simple checklist keeps it calm, fast, and audit-ready for small teams.
