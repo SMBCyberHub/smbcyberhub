@@ -1,5 +1,22 @@
 ---
-const { title = "SMBCyberHub", description = "Cybersecurity kits for small business. Audit-ready, GDPR-compliant, no logins or subscriptions." } = Astro.props;
+/**
+ * Layout.astro — SEO-ready base layout
+ * - Dynamic canonical with trailing slash
+ * - Per-page OG/Twitter image + type
+ * - Robots override per page
+ * - Head slot for page-specific JSON-LD
+ */
+const {
+  title = "SMBCyberHub",
+  description = "Cybersecurity kits for small business. Audit-ready, GDPR-compliant, no logins or subscriptions.",
+  ogImage = "https://smbcyberhub.com/images/smbcyberhub-logo.webp",
+  ogType = "website",                // e.g. "website" (default) or "article" on posts
+  robots = "index,follow",           // allow per-page override, e.g. "noindex,follow"
+  canonical                          // optional explicit canonical URL
+} = Astro.props;
+
+const pathWithSlash = Astro.url.pathname.endsWith('/') ? Astro.url.pathname : `${Astro.url.pathname}/`;
+const canonicalHref = canonical ?? `https://smbcyberhub.com${pathWithSlash}`;
 
 const orgSchema = {
   "@context": "https://schema.org",
@@ -14,25 +31,44 @@ const orgSchema = {
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>{title}</title>
     <meta name="description" content={description} />
-    <link rel="icon" href="/favicon.ico" />
+    <meta name="robots" content={robots} />
 
-    <!-- Open Graph / Social Meta -->
+    <!-- Canonical -->
+    <link rel="canonical" href={canonicalHref} />
+
+    <!-- Icons -->
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" sizes="16x16" href="/favicon-16x16.png" />
+    #<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <!-- Open Graph / Social -->
+    <meta property="og:site_name" content="SMBCyberHub" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://smbcyberhub.com/images/smbcyberhub-logo.webp" />
-    <meta property="og:url" content="https://smbcyberhub.com/" />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:url" content={`https://smbcyberhub.com${Astro.url.pathname}`} />
+    <meta property="og:locale" content="en_IE" />
+
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
-    <meta name="twitter:image" content="https://smbcyberhub.com/images/smbcyberhub-logo.webp" />
+    <meta name="twitter:image" content={ogImage} />
 
-    <!-- Site-wide Organization Schema for Google Rich Results -->
+    <!-- Site-wide Organization Schema -->
     <script type="application/ld+json" set:html={JSON.stringify(orgSchema)}></script>
+
+    <!-- Page-level schema slot (pages can inject JSON-LD into <head>) -->
+    <slot name="schema" />
+
+    <!-- Privacy-friendly analytics -->
     <script defer src="https://cloud.umami.is/script.js" data-website-id="fa515cb9-555e-45c1-92d5-7dee474ca120"></script>
   </head>
+
   <body class="min-h-screen flex flex-col bg-white text-gray-900 font-sans">
     <!-- Header Banner (blue background, logo + nav) -->
     <header class="w-full bg-[#234488] flex items-center justify-between px-6 py-4">
@@ -57,11 +93,11 @@ const orgSchema = {
 
     <footer class="w-full border-t border-gray-200 bg-gray-50 text-gray-600 text-sm py-4 px-6 flex flex-col md:flex-row items-center justify-between gap-y-2">
       <div class="flex flex-wrap items-center gap-4">
-        <a href="/terms" class="hover:underline">Terms</a>
-        <a href="/privacy" class="hover:underline">Privacy</a>
-        <a href="/licensing" class="hover:underline">Licensing</a>
+        <a href="/terms/" class="hover:underline">Terms</a>
+        <a href="/privacy/" class="hover:underline">Privacy</a>
+        <a href="/licensing/" class="hover:underline">Licensing</a>
         <span class="text-gray-400 hidden md:inline">|</span>
-        <a href="/contact" class="hover:underline">Contact</a>
+        <a href="/contact/" class="hover:underline">Contact</a>
       </div>
       <div class="flex items-center gap-2 mt-2 md:mt-0">
         <svg class="w-5 h-5 text-green-700" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" aria-hidden="true">
