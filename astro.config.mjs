@@ -4,6 +4,7 @@ import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
   site: 'https://smbcyberhub.com', // Used for sitemap and canonical URLs
+  trailingSlash: 'always', 
   integrations: [
     tailwind(),
     sitemap({

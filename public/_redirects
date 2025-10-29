@@ -1,23 +1,19 @@
-# Force trailing slashes (canonicalize)
-# This rule says: if a URL doesn’t end with a slash and is not a file, redirect to the slash version.
-# Netlify syntax: from to status!
-/[!assets|*.] /:splat/ 301!
+# --- remove the global rule; only keep explicit normalizations ---
 
-# Specific cleanups for known duplicates
-/privacy    /privacy/    301!
-/terms      /terms/      301!
-/licensing  /licensing/  301!
-/about      /about/      301!
-/free-cyber-security-training  /free-cyber-security-training/  301!
-/free-sample  /free-sample/  301!
-/faq        /faq/        301!
-/kits       /kits/       301!
-/blog       /blog/       301!
-/contact    /contact/    301!
+# Specific normalizations (no force)
+/privacy      /privacy/      301
+/terms        /terms/        301
+/licensing    /licensing/    301
+/about        /about/        301
+/free-cyber-security-training  /free-cyber-security-training/  301
+/free-sample  /free-sample/  301
+/faq          /faq/          301
+/kits         /kits/         301
+/blog         /blog/         301
+/contact      /contact/      301
 
-# Blog post slug cleanups (these came up in your GSC report)
-/posts/remote-work-security-habits-that-stop-data-leaks-before-they-start  /posts/remote-work-security-habits-that-stop-data-leaks-before-they-start/  301!
-/posts/securing-shared-devices-without-killing-productivity  /posts/securing-shared-devices-without-killing-productivity/  301!
-/posts/how-to-spot-social-engineering-in-messages-and-meetings  /posts/how-to-spot-social-engineering-in-messages-and-meetings/  301!
-/posts/when-someone-leaves  /posts/when-someone-leaves/  301!
-
+# Blog post slug cleanups
+/posts/remote-work-security-habits-that-stop-data-leaks-before-they-start  /posts/remote-work-security-habits-that-stop-data-leaks-before-they-start/  301
+/posts/securing-shared-devices-without-killing-productivity               /posts/securing-shared-devices-without-killing-productivity/               301
+/posts/how-to-spot-social-engineering-in-messages-and-meetings            /posts/how-to-spot-social-engineering-in-messages-and-meetings/            301
+/posts/when-someone-leaves                                                /posts/when-someone-leaves/                                                301
