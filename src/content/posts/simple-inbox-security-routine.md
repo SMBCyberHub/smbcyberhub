@@ -58,7 +58,7 @@ Fake “CEO requests”, surprise invoices, and payment-change scams all attempt
 
 If an email triggers urgency, escalate it.  
 If it’s money-related, follow the **verify-before-pay rule** from our post:  
-**[Stop Payment Fraud: A Simple Callback Playbook](/posts/stop-payment-fraud-simple-callback-playbook)**.
+**[Stop Payment Fraud: A Simple Callback Playbook](/posts/stop-payment-fraud-callback-playbook)**.
 
 ### 4. Check shared mailboxes carefully
 Billing@, accounts@, support@, and sales@ are attacker favorites.
