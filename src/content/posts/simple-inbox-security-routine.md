@@ -25,8 +25,8 @@ Almost every major small-business attack — invoice fraud, gift-card scams, fak
 A consistent daily routine catches the signs early.
 
 If you’ve already read our posts on  
-- **[How phishing actually works](./how-phishing-actually-works-simple-breakdown)**  
-- **[Stopping fake emails and lookalike domains](./stop-fake-emails-spoofing-lookalikes)**  
+- **[How phishing actually works](/posts/how-phishing-actually-works-simple-breakdown)**  
+- **[Stopping fake emails and lookalike domains](/posts//stop-fake-emails-spoofing-lookalikes)**  
 
 …this routine builds on those foundations and gives your team a predictable process to follow.
 
@@ -40,7 +40,7 @@ Attackers rely on display-name deception.
 Look at the actual address and confirm it’s an **exact match**, letter for letter.
 
 If you haven’t seen how close lookalikes can get, see:  
-**[Stop Fake Emails: Spoofing vs Lookalikes](./stop-fake-emails-spoofing-lookalikes)**.
+**[Stop Fake Emails: Spoofing vs Lookalikes](/posts/stop-fake-emails-spoofing-lookalikes)**.
 
 ### 2. Hover every link before clicking
 Before clicking anything, hover (or long-press on mobile) and check that the link:
@@ -58,7 +58,7 @@ Fake “CEO requests”, surprise invoices, and payment-change scams all attempt
 
 If an email triggers urgency, escalate it.  
 If it’s money-related, follow the **verify-before-pay rule** from our post:  
-**[Stop Payment Fraud: A Simple Callback Playbook](./stop-payment-fraud-simple-callback-playbook)**.
+**[Stop Payment Fraud: A Simple Callback Playbook](/posts/stop-payment-fraud-simple-callback-playbook)**.
 
 ### 4. Check shared mailboxes carefully
 Billing@, accounts@, support@, and sales@ are attacker favorites.
@@ -70,7 +70,7 @@ Daily checks should include:
 - messages marked as read that the team doesn’t recognize.
 
 If this sounds familiar, review:  
-**[Stealthy Threat: Invisible Email Forwarding Rules](./stealthy-threat-invisible-forwarding-rules)**.
+**[Stealthy Threat: Invisible Email Forwarding Rules](/posts/stealthy-threat-invisible-forwarding-rules)**.
 
 ### 5. Report anything odd immediately
 Make it easy for staff to escalate suspicious messages.
@@ -90,7 +90,7 @@ Anything that “just feels off” is worth reporting.
 These settings stop attackers from spoofing your real domain.
 
 If you’re new to domain protection, see:  
-**[Email Domain Spoofing: What It Is & How to Block It](./email-domain-spoofing-guide)**.
+**[Email Domain Spoofing: What It Is & How to Block It](/posts/email-domain-spoofing-guide)**.
 
 ### Show the full sender address in the inbox list
 Many email clients hide the address by default.  
@@ -126,5 +126,5 @@ Need quick, ready-to-use security checklists and a staff refresher pack?
 
 ## Related Post
 
-Read **[How Phishing Actually Works: A Simple Breakdown for Small Teams](./how-phishing-actually-works-simple-breakdown)** next.
+Read **[How Phishing Actually Works: A Simple Breakdown for Small Teams](/posts/how-phishing-actually-works-simple-breakdown)** next.
 
