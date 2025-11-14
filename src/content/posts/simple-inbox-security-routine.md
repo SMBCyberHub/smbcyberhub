@@ -25,8 +25,8 @@ Almost every major small-business attack — invoice fraud, gift-card scams, fak
 A consistent daily routine catches the signs early.
 
 If you’ve already read our posts on  
-- **[How phishing actually works](/posts/how-phishing-actually-works-simple-breakdown)**  
-- **[Stopping fake emails and lookalike domains](/posts//stop-fake-emails-spoofing-lookalikes)**  
+- **[How phishing actually works](/posts/how-phishing-actually-works-a-simple-breakdown-for-small-teams)**  
+- **[Stopping fake emails and lookalike domains](/posts/stop-fake-emails-spoofing-lookalikes)**  
 
 …this routine builds on those foundations and gives your team a predictable process to follow.
 
@@ -69,9 +69,6 @@ Daily checks should include:
 - replies sent that you didn’t write,  
 - messages marked as read that the team doesn’t recognize.
 
-If this sounds familiar, review:  
-**[Stealthy Threat: Invisible Email Forwarding Rules](/posts/stealthy-threat-invisible-forwarding-rules)**.
-
 ### 5. Report anything odd immediately
 Make it easy for staff to escalate suspicious messages.
 
@@ -88,9 +85,6 @@ Anything that “just feels off” is worth reporting.
 
 ### Turn on SPF, DKIM, and DMARC
 These settings stop attackers from spoofing your real domain.
-
-If you’re new to domain protection, see:  
-**[Email Domain Spoofing: What It Is & How to Block It](/posts/email-domain-spoofing-guide)**.
 
 ### Show the full sender address in the inbox list
 Many email clients hide the address by default.  
@@ -126,5 +120,5 @@ Need quick, ready-to-use security checklists and a staff refresher pack?
 
 ## Related Post
 
-Read **[How Phishing Actually Works: A Simple Breakdown for Small Teams](/posts/how-phishing-actually-works-simple-breakdown)** next.
+Read **[How Phishing Actually Works: A Simple Breakdown for Small Teams](/posts/how-phishing-actually-works-a-simple-breakdown-for-small-teams)** next.
 
