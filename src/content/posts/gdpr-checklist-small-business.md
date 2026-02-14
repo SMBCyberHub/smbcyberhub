@@ -1,12 +1,12 @@
 ---
-title: "GDPR Checklist for Small Business: Complete 2025 Guide"
+title: "GDPR Checklist for Small Business: Complete 2026 Guide"
 description: "Essential GDPR compliance checklist for small businesses. Step-by-step requirements, documentation templates, and audit preparation guide."
-pubDate: 2025-02-14
-date: 2025-02-14
+pubDate: 2026-02-14
+date: 2026-02-14
 tags: ["GDPR compliance", "small business", "data protection", "privacy checklist"]
 ---
 
-# GDPR Checklist for Small Business: Complete 2025 Guide
+# GDPR Checklist for Small Business: Complete 2026 Guide
 
 GDPR compliance doesn't have to be complicated for small businesses. This comprehensive checklist breaks down exactly what you need to do to achieve full GDPR compliance, even without a dedicated IT team.
 
