@@ -3,7 +3,6 @@ title: "SMB Cybersecurity Compliance Guide 2025"
 description: "Complete guide to cybersecurity compliance for small and medium businesses. GDPR requirements, audit readiness, and practical implementation steps."
 pubDate: 2025-02-14
 date: 2025-02-14
-heroImage: "/images/blog/smb-compliance-guide.webp"
 tags: ["SMB cybersecurity", "GDPR compliance", "audit readiness", "small business security"]
 ---
 
