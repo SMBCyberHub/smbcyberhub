@@ -170,4 +170,4 @@ The key is starting with comprehensive templates, implementing systematically, a
 
 **Ready to achieve cybersecurity compliance for your SMB?** [Download our comprehensive compliance kit](/kits/) with all the templates, training materials, and documentation you need to become audit-ready in 30 minutes.
 
-*Last updated: February 2025. Regularly updated to reflect current regulatory requirements and best practices.*
+*Last updated: February 2026. Regularly updated to reflect current regulatory requirements and best practices.*
