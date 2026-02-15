@@ -206,8 +206,43 @@ const schemaData = {
       "@type": "Organization",
       "name": "SMBCyberHub",
       "url": "https://smbcyberhub.com",
-      "logo": "https://smbcyberhub.com/images/smbcyberhub-logo.webp",
-      "description": "Downloadable cybersecurity kits for small teams. Audit-ready, no logins, GDPR compliant."
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://smbcyberhub.com/images/smbcyberhub-logo.webp"
+      },
+      "description": "Downloadable cybersecurity kits for small teams. Audit-ready, no logins, GDPR compliant.",
+      "email": "info@smbcyberhub.com",
+      "sameAs": [
+        "https://twitter.com/SMBCyberHub",
+        "https://www.linkedin.com/company/smbcyberhub"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "info@smbcyberhub.com",
+        "contactType": "customer service",
+        "availableLanguage": ["English"]
+      }
+    },
+    {
+      "@type": "WebSite",
+      "name": "SMBCyberHub",
+      "url": "https://smbcyberhub.com",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://smbcyberhub.com/blog/?search={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://smbcyberhub.com/"
+        }
+      ]
     }
   ]
 };
