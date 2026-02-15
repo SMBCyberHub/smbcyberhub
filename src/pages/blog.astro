@@ -22,7 +22,7 @@ const categorizedPosts = posts.reduce((acc, post) => {
 }, { phishing: [], compliance: [], security: [], management: [], general: [] });
 
 // Featured posts
-const featuredPosts = posts.filter(post => post.data.featured);
+const featuredPosts = posts.filter(post => post.data.featured).sort((a, b) => new Date(b.data.date) - new Date(a.data.date));
 ---
 
 <Layout 
@@ -87,7 +87,7 @@ const featuredPosts = posts.filter(post => post.data.featured);
               {category === 'general' && '📚 General Cybersecurity'}
             </h2>
             <div class="grid gap-6">
-              {categoryPosts.map(post => (
+              {categoryPosts.sort((a, b) => new Date(b.data.date) - new Date(a.data.date)).map(post => (
                 <article class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 hover:border-blue-200 transition">
                   <h3 class="text-lg font-semibold text-blue-800 mb-2">
                     <a href={`/posts/${post.slug}`} class="hover:underline">
