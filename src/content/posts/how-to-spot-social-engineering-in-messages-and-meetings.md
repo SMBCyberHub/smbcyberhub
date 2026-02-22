@@ -348,6 +348,9 @@ Attackers are constantly evolving their techniques.
 - **SOX**: Internal controls for financial reporting
 - **NYDFS**: Cybersecurity requirements for financial services
 
+### **Internal Links:**
+- **[SMB Cybersecurity Compliance Guide 2026](/posts/smb-cybersecurity-compliance-guide-2026)** - Complete compliance framework with social engineering protection
+
 ---
 
 **🕒 Estimated Reading Time**: 15 minutes  
