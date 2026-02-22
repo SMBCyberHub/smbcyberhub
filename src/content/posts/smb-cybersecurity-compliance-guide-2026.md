@@ -1,6 +1,6 @@
 ---
-title: "SMB Cybersecurity Compliance Guide 2026"
-description: "SMB cybersecurity compliance guide 2026: Complete GDPR requirements, cyber insurance compliance, audit readiness checklist, and 30-day implementation. Download free templates and achieve compliance in 30 minutes."
+title: "SMB Cybersecurity Compliance Guide 2026: One-Time Purchase Templates for 1-20 Employee Teams"
+description: "Complete GDPR compliance for 1-20 employee teams without subscription. One-time purchase templates for cyber insurance, audit readiness, and staff training. Download once, use forever."
 pubDate: 2026-02-14
 date: 2026-02-14
 tags: ["SMB cybersecurity", "GDPR compliance", "audit readiness", "small business security"]
