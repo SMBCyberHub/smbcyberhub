@@ -1,6 +1,6 @@
 ---
 title: "Remote Work Policy Template for Small Business: GDPR Compliant 2026"
-description: "Free remote work policy template for 1-20 employee teams. GDPR compliant, one-time download, no subscription required. Includes home office security, data protection, and device management."
+description: "Free remote work policy template for 1-20 employee teams. GDPR compliant, buy once use forever, no monthly fees. Includes home office security, data protection, and device management."
 date: 2026-02-22
 tags: ["remote work policy", "GDPR compliance", "small business", "template", "cybersecurity"]
 ogImage: "/assets/og/remote-work-policy-template-small-business.png"
@@ -162,7 +162,7 @@ This policy establishes security requirements for employees working remotely fro
 
 **Get the complete, customizable remote work policy template plus 9 other essential policies in our [Small Business Security Policy Kit](/kits/)**
 
-⚡ **One-time purchase, no subscription required**
+⚡ **Buy once, use forever - no monthly fees**
 ⚡ **Ready to use in minutes, not days**
 ⚡ **GDPR compliant and audit-ready**
 ⚡ **Designed for 1-20 employee teams**

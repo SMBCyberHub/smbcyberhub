@@ -1,6 +1,6 @@
 ---
 title: "Cyber Insurance Requirements for Small Business 2026: Complete Documentation Checklist for 1-20 Employees"
-description: "Need cyber insurance documentation for your small business? Get complete compliance checklist, policy templates, and audit-ready documentation for 1-20 employee teams. One-time purchase, no subscription."
+description: "Need cyber insurance documentation for your small business? Get complete compliance checklist, policy templates, and audit-ready documentation for 1-20 employee teams. Buy once, use forever - no monthly fees."
 date: 2026-02-15
 tags: ["cyber insurance", "compliance", "small business", "risk management", "cybersecurity"]
 ogImage: "/assets/og/cyber-insurance-requirements-small-business-complete-guide.png"
