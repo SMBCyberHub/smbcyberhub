@@ -756,7 +756,7 @@ The key is starting with comprehensive templates, implementing systematically, a
 
 **🔴 0-1 "Yes" answers**: **Non-Compliant** - Immediate action needed. Start with our free templates and 30-day guide.
 
-**🚀 Ready to improve your score?** [Download our compliance kit](/kits/) and achieve full compliance in 30 days.
+**🚀 Ready to improve your score?** [Download our Cybersecurity Awareness Kit](/kits/) and achieve full compliance in 30 days.
 
 ---
 
@@ -816,7 +816,7 @@ The key is starting with comprehensive templates, implementing systematically, a
 
 ---
 
-**Ready to achieve cybersecurity compliance for your SMB?** [Download our comprehensive compliance kit](/kits/) with all the templates, training materials, and documentation you need to become audit-ready in 30 minutes.
+**Ready to achieve cybersecurity compliance for your SMB?** [Download our Cybersecurity Awareness Kit](/kits/) with all the templates, training materials, and documentation you need to become audit-ready in 30 minutes.
 
 *Last updated: February 2026. Regularly updated to reflect current regulatory requirements and best practices.*
 
