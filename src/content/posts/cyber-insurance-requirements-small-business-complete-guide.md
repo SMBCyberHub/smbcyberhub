@@ -587,6 +587,7 @@ Need ready-to-use checklists and compliance materials for cyber insurance requir
 ## 📚 Related Resources
 
 ### **Internal Links:**
+- **[SMB Cybersecurity Compliance Guide 2026](/posts/smb-cybersecurity-compliance-guide-2026)** - Complete GDPR and audit readiness guide
 - **[The True Cost of a Breach for SMBs and How to Avoid One](/posts/the-true-cost-of-a-breach-for-smbs-and-how-to-avoid-one)**
 - **[What Happens After a Phishing Click?](/posts/what-happens-after-a-phishing-click-and-what-you-should-do)**
 - **[Audit-Ready in Under an Hour: A Cyber Hygiene Checklist](/posts/audit-ready-in-under-an-hour-a-cyber-hygiene-checklist)**
