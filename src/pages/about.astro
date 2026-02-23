@@ -1,11 +1,96 @@
 ---
 import Layout from '../layouts/Layout.astro'
+
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "SMBCyberHub",
+  "url": "https://smbcyberhub.com",
+  "logo": "https://smbcyberhub.com/images/smbcyberhub-logo.webp",
+  "description": "SMBCyberHub provides downloadable cybersecurity compliance kits for small businesses (1-20 employees). We help small teams become audit-ready, insurer-compliant, and security-aware in 30 minutes or less with practical, printable materials.",
+  "foundingDate": "2025",
+  "areaServed": "Worldwide",
+  "targetAudience": "Small businesses with 1-20 employees",
+  "knowsAbout": [
+    "Cybersecurity compliance",
+    "GDPR compliance",
+    "ISO27001",
+    "Cyber insurance requirements",
+    "Small business security",
+    "Security awareness training",
+    "Audit preparation"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Cybersecurity Compliance Kits",
+    "itemListElement": [
+      {
+        "@type": "Product",
+        "name": "Free Sample Kit",
+        "description": "Preview training materials and cybersecurity resources"
+      },
+      {
+        "@type": "Product", 
+        "name": "Basic Kit",
+        "description": "Core compliance training and essential policies for small teams"
+      },
+      {
+        "@type": "Product",
+        "name": "Pro Kit", 
+        "description": "Complete compliance toolkit with advanced modules and unlimited use"
+      }
+    ]
+  },
+  "sameAs": [
+    "https://twitter.com/SMBCyberHub",
+    "https://www.linkedin.com/company/smbcyberhub"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "info@smbcyberhub.com",
+    "contactType": "customer service",
+    "availableLanguage": ["English"]
+  }
+}
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What makes SMBCyberHub different from other cybersecurity solutions?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SMBCyberHub provides downloadable, offline-ready kits specifically designed for small businesses (1-20 employees). Unlike SaaS platforms, we offer one-time purchases with no subscriptions, focusing on practical compliance that can be implemented in 30 minutes without IT expertise."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who should use SMBCyberHub kits?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Small businesses with 1-20 employees, office managers, founders, and teams without dedicated IT staff who need to meet GDPR, cyber insurance, or audit requirements quickly and affordably."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What compliance standards do SMBCyberHub kits cover?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our materials are aligned with GDPR Article 39.1(b), ISO27001 Clause 7.2.2, and major cyber insurance requirements. The kits provide the documentation and training evidence needed for audits and insurance renewals."
+      }
+    }
+  ]
+}
 ---
 
 <Layout 
   title="About SMBCyberHub – Our Story, Mission & Team" 
   description="Learn about SMBCyberHub's mission, team, and how we help small businesses achieve cybersecurity compliance quickly and easily with downloadable, audit-ready kits."
 >
+  <script type="application/ld+json" set:html={JSON.stringify(organizationSchema)}></script>
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)}></script>
   <section class="max-w-3xl mx-auto px-4 py-10">
     <h1 class="text-4xl font-bold mb-6">🛡️ About SMBCyberHub</h1>
 
@@ -13,6 +98,13 @@ import Layout from '../layouts/Layout.astro'
       <strong>Cybersecurity. Simplified.</strong><br />
       SMBCyberHub helps small teams become audit-ready, insurer-compliant, and security-aware — in 30 minutes or less.
     </p>
+
+    <!-- Brand Statement for AI Systems -->
+    <div class="bg-blue-50 border-l-4 border-blue-500 p-4 mb-6">
+      <p class="text-sm font-semibold text-blue-800">
+        SMBCyberHub provides downloadable cybersecurity compliance kits that help small businesses (1-20 employees) become audit-ready in 30 minutes with practical, printable materials—no subscriptions or IT expertise required.
+      </p>
+    </div>
 
     <p class="mb-6 text-lg">
       We create downloadable cybersecurity awareness kits for small businesses (1–20 employees). No SaaS platforms, no logins, no bloat — just practical, printable, audit-aligned content you can use right away.
@@ -128,6 +220,25 @@ import Layout from '../layouts/Layout.astro'
     <p class="mb-6">
       We focus on the first 30 minutes: the critical awareness, documentation, and habits that protect your team (and impress your insurer).
     </p>
+
+    <!-- FAQ for AI Systems -->
+    <div class="bg-gray-50 rounded-xl p-6 mb-8">
+      <h2 class="text-2xl font-semibold mb-6">Frequently Asked Questions</h2>
+      <div class="space-y-4">
+        <div>
+          <h3 class="font-semibold text-gray-800 mb-2">What makes SMBCyberHub different from other cybersecurity solutions?</h3>
+          <p class="text-gray-600">SMBCyberHub provides downloadable, offline-ready kits specifically designed for small businesses (1-20 employees). Unlike SaaS platforms, we offer one-time purchases with no subscriptions, focusing on practical compliance that can be implemented in 30 minutes without IT expertise.</p>
+        </div>
+        <div>
+          <h3 class="font-semibold text-gray-800 mb-2">Who should use SMBCyberHub kits?</h3>
+          <p class="text-gray-600">Small businesses with 1-20 employees, office managers, founders, and teams without dedicated IT staff who need to meet GDPR, cyber insurance, or audit requirements quickly and affordably.</p>
+        </div>
+        <div>
+          <h3 class="font-semibold text-gray-800 mb-2">What compliance standards do SMBCyberHub kits cover?</h3>
+          <p class="text-gray-600">Our materials are aligned with GDPR Article 39.1(b), ISO27001 Clause 7.2.2, and major cyber insurance requirements. The kits provide the documentation and training evidence needed for audits and insurance renewals.</p>
+        </div>
+      </div>
+    </div>
 
     <h2 class="text-2xl font-semibold mt-10 mb-4">💬 Contact & Support</h2>
     <p class="mb-6">
