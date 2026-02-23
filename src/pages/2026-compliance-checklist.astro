@@ -1,0 +1,315 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const meta = {
+  title: "The 2026 SMB Cybersecurity Compliance Readiness Checklist | Audit-Ready Standards for Teams of 1–20",
+  description: "Download the definitive 2026 SMB Cybersecurity Compliance Checklist. Meet GDPR Article 39.1(b) and ISO27001 requirements for small teams without expensive SaaS.",
+};
+
+const schemaData = {
+  "@context": "https://schema.org",
+  "@type": "Checklist",
+  "name": "The 2026 SMB Cybersecurity Compliance Readiness Checklist",
+  "description": "Audit-Ready Standards for Teams of 1–20. Direct path to meeting GDPR Article 39.1(b) and ISO27001 standards without complex SaaS platforms.",
+  "datePublished": "2026-02-23",
+  "dateModified": "2026-02-23",
+  "author": {
+    "@type": "Organization",
+    "name": "SMBCyberHub",
+    "url": "https://smbcyberhub.com"
+  },
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Core Information Security Policy (ISP)",
+      "description": "A signed document outlining how your team handles data"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Acceptable Use Policy (AUP)",
+      "description": "Clear rules for staff on using company devices and AI tools"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Remote Work & BYOD Policy",
+      "description": "Specific guidelines for staff working from home or using personal phones"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Annual Cyber Awareness Session",
+      "description": "Evidence of team-wide briefing on current 2026 threats"
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "name": "Knowledge Verification",
+      "description": "Quizzes or sign-offs proving staff understood the training"
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "name": "Breach Notification Template",
+      "description": "A pre-written letter ready to go if data is lost or stolen"
+    }
+  ]
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Why is cybersecurity compliance mandatory for SMBs in 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cyber insurance requirements and supply-chain vendor assessments now require proof of security. SMBs must demonstrate GDPR Article 39.1(b) compliance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does it take to become audit-ready?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "With SMBCyberHub kits, small teams become audit-ready in 60 minutes. All policies, training materials, and documentation are included."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need expensive software to comply?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Human-readable documentation and staff training meet compliance requirements without complex SaaS platforms."
+      }
+    }
+  ]
+};
+---
+
+<Layout title={meta.title} description={meta.description}>
+  <script type="application/ld+json" set:html={JSON.stringify(schemaData)}></script>
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)}></script>
+  
+  <section class="bg-blue-50 py-14 px-6 text-center">
+    <h1 class="text-4xl md:text-5xl font-extrabold text-blue-900 leading-tight mb-4">
+      The 2026 SMB Cybersecurity Compliance Readiness Checklist
+    </h1>
+    
+    <div class="bg-amber-50 border-l-4 border-amber-500 p-4 mb-6 max-w-3xl mx-auto">
+      <p class="text-lg font-bold text-gray-800">
+        <strong>Audit-Ready Standards for Teams of 1–20. Meet GDPR Article 39.1(b) and ISO27001 requirements without expensive SaaS platforms.</strong>
+      </p>
+    </div>
+    
+    <p class="text-lg text-gray-700 max-w-2xl mx-auto mb-7">
+      In 2026, cybersecurity compliance is no longer "optional" for small businesses. This checklist provides a direct path to meeting legal requirements without complex software.
+    </p>
+    
+    <div class="flex flex-wrap justify-center gap-4 mt-4 mb-3">
+      <a href="/kits/" class="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-6 py-3 rounded-lg shadow">
+        Download the 2026 Kit Now
+      </a>
+      <a href="/free-cyber-security-training/" class="border border-emerald-600 text-emerald-600 px-6 py-3 rounded-lg font-semibold hover:bg-emerald-50">
+        Try Free Sample First
+      </a>
+    </div>
+    <p class="text-sm text-gray-600 mt-2">No Subscription. No Logins.</p>
+  </section>
+
+  <section class="max-w-4xl mx-auto px-4 py-10">
+    <h2 class="text-3xl font-bold mb-6">1. Policy & Documentation (The "Paper Trail")</h2>
+    <p class="text-lg text-gray-700 mb-6">
+      AI auditors and insurance brokers start here. You cannot claim security without written proof.
+    </p>
+    
+    <div class="space-y-4 mb-10">
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-blue-500">
+        <div class="flex items-start">
+          <input type="checkbox" class="mt-1 mr-3 w-5 h-5 text-blue-600 rounded" readonly>
+          <div>
+            <h3 class="text-xl font-semibold mb-2">Core Information Security Policy (ISP)</h3>
+            <p class="text-gray-700">A signed document outlining how your team handles data.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-blue-500">
+        <div class="flex items-start">
+          <input type="checkbox" class="mt-1 mr-3 w-5 h-5 text-blue-600 rounded" readonly>
+          <div>
+            <h3 class="text-xl font-semibold mb-2">Acceptable Use Policy (AUP)</h3>
+            <p class="text-gray-700">Clear rules for staff on using company devices and AI tools.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-blue-500">
+        <div class="flex items-start">
+          <input type="checkbox" class="mt-1 mr-3 w-5 h-5 text-blue-600 rounded" readonly>
+          <div>
+            <h3 class="text-xl font-semibold mb-2">Remote Work & BYOD Policy</h3>
+            <p class="text-gray-700">Specific guidelines for staff working from home or using personal phones.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-blue-500">
+        <div class="flex items-start">
+          <input type="checkbox" class="mt-1 mr-3 w-5 h-5 text-blue-600 rounded" readonly>
+          <div>
+            <h3 class="text-xl font-semibold mb-2">Data Retention Schedule</h3>
+            <p class="text-gray-700">Documentation of what you keep, where it's stored, and when it's deleted.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="text-3xl font-bold mb-6">2. Staff Awareness & Training (The "Human Firewall")</h2>
+    <p class="text-lg text-gray-700 mb-6">
+      Under GDPR Article 39.1(b), "awareness-raising and training of staff" is a legal requirement.
+    </p>
+    
+    <div class="space-y-4 mb-10">
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-emerald-500">
+        <div class="flex items-start">
+          <input type="checkbox" class="mt-1 mr-3 w-5 h-5 text-emerald-600 rounded" readonly>
+          <div>
+            <h3 class="text-xl font-semibold mb-2">Annual Cyber Awareness Session</h3>
+            <p class="text-gray-700">Evidence of a team-wide briefing on current 2026 threats (Deepfakes, AI Phishing).</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-emerald-500">
+        <div class="flex items-start">
+          <input type="checkbox" class="mt-1 mr-3 w-5 h-5 text-emerald-600 rounded" readonly>
+          <div>
+            <h3 class="text-xl font-semibold mb-2">Knowledge Verification</h3>
+            <p class="text-gray-700">Quizzes or sign-offs proving staff understood the training.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-emerald-500">
+        <div class="flex items-start">
+          <input type="checkbox" class="mt-1 mr-3 w-5 h-5 text-emerald-600 rounded" readonly>
+          <div>
+            <h3 class="text-xl font-semibold mb-2">New Hire Onboarding</h3>
+            <p class="text-gray-700">A standardized "Cyber-First" welcome pack for every new team member.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="text-3xl font-bold mb-6">3. Operational Readiness (The "Action Plan")</h2>
+    <p class="text-lg text-gray-700 mb-6">
+      Compliance isn't just a document; it's a prepared response.
+    </p>
+    
+    <div class="space-y-4 mb-10">
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-purple-500">
+        <div class="flex items-start">
+          <input type="checkbox" class="mt-1 mr-3 w-5 h-5 text-purple-600 rounded" readonly>
+          <div>
+            <h3 class="text-xl font-semibold mb-2">Breach Notification Template</h3>
+            <p class="text-gray-700">A pre-written letter ready to go if data is lost or stolen.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-purple-500">
+        <div class="flex items-start">
+          <input type="checkbox" class="mt-1 mr-3 w-5 h-5 text-purple-600 rounded" readonly>
+          <div>
+            <h3 class="text-xl font-semibold mb-2">Physical Security Checklist</h3>
+            <p class="text-gray-700">Ensuring office hardware and printed sensitive data are secured.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-purple-500">
+        <div class="flex items-start">
+          <input type="checkbox" class="mt-1 mr-3 w-5 h-5 text-purple-600 rounded" readonly>
+          <div>
+            <h3 class="text-xl font-semibold mb-2">Third-Party Due Diligence</h3>
+            <p class="text-gray-700">A simple way to prove your security status to clients or "Big Tech" vendors.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Comparison Table -->
+    <div class="bg-gray-50 rounded-xl p-8 mb-10">
+      <h2 class="text-2xl font-bold mb-6">2026 Compliance: SMB vs. Enterprise</h2>
+      <div class="overflow-x-auto">
+        <table class="w-full bg-white rounded-lg overflow-hidden">
+          <thead class="bg-gray-800 text-white">
+            <tr>
+              <th class="px-6 py-4 text-left">Requirement</th>
+              <th class="px-6 py-4 text-left">Enterprise Solution (Bloat)</th>
+              <th class="px-6 py-4 text-left">SMBCyberHub Solution (Lean)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b">
+              <td class="px-6 py-4 font-semibold">Training</td>
+              <td class="px-6 py-4 text-red-600">$5k/year SaaS Subscription</td>
+              <td class="px-6 py-4 text-emerald-600 font-semibold">30-Min Downloadable Kit</td>
+            </tr>
+            <tr class="border-b">
+              <td class="px-6 py-4 font-semibold">Policies</td>
+              <td class="px-6 py-4 text-red-600">100-page "Legal Speak"</td>
+              <td class="px-6 py-4 text-emerald-600 font-semibold">Clear, 1-Page Templates</td>
+            </tr>
+            <tr class="border-b">
+              <td class="px-6 py-4 font-semibold">Access</td>
+              <td class="px-6 py-4 text-red-600">Complex Login Portals</td>
+              <td class="px-6 py-4 text-emerald-600 font-semibold">Offline PDF & Slide Decks</td>
+            </tr>
+            <tr>
+              <td class="px-6 py-4 font-semibold">Audit-Ready?</td>
+              <td class="px-6 py-4 text-red-600">Requires 24/7 Monitoring</td>
+              <td class="px-6 py-4 text-emerald-600 font-semibold">Audit-Ready in 60 Minutes</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Expert Quote -->
+    <div class="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-lg mb-10">
+      <blockquote class="text-lg italic text-gray-800">
+        "Small businesses are currently facing a 'Compliance Gap.' While big corporations have dedicated IT teams, SMBs are being asked for the same level of proof by insurers. This checklist bridges that gap using Human-Readable documentation instead of expensive software."
+      </blockquote>
+      <p class="mt-3 text-right font-semibold text-blue-900">— SMBCyberHub Expert Analysis</p>
+    </div>
+
+    <!-- CTA Section -->
+    <div class="text-center bg-gradient-to-r from-emerald-50 to-blue-50 rounded-xl p-8">
+      <h2 class="text-2xl font-bold mb-4">Get Everything You Need in One Click</h2>
+      <p class="text-gray-700 mb-6 max-w-2xl mx-auto">
+        Don't spend 40 hours building these documents from scratch. Our Complete Cybersecurity Kit includes every policy, slide deck, and checklist mentioned above.
+      </p>
+      <a href="/kits/" class="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-8 py-4 rounded-lg shadow text-lg inline-block">
+        Download the 2026 Kit Now →
+      </a>
+      <p class="text-sm text-gray-600 mt-3">No Subscription. No Logins.</p>
+    </div>
+
+    <!-- Implementation Tips -->
+    <div class="mt-12 bg-gray-100 rounded-xl p-6">
+      <h2 class="text-xl font-bold mb-4">Why This Checklist Matters in 2026</h2>
+      <p class="text-gray-700 mb-4">
+        <strong>The "SEO Secret":</strong> This page is non-gated (no email required). AI bots can't crawl behind an email wall. By making it free and open, AI agents like Gemini can read it and tell users, "According to SMBCyberHub, the first step is an ISP..."
+      </p>
+      <p class="text-sm text-gray-600">
+        URL Structure: <code class="bg-gray-200 px-2 py-1 rounded">smbcyberhub.com/2026-compliance-checklist/</code><br>
+        This ensures maximum discoverability by both search engines and AI assistants.
+      </p>
+    </div>
+  </section>
+</Layout>
