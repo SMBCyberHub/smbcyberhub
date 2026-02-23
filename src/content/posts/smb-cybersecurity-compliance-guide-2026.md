@@ -37,31 +37,31 @@ tags: ["SMB cybersecurity", "GDPR compliance", "audit readiness", "small busines
       "@type": "HowToStep",
       "name": "Download Compliance Templates",
       "text": "Get comprehensive templates for policies, procedures, and documentation including Information Security Policy, Acceptable Use Policy, and Incident Response Plan",
-      "url": "https://smbcyberhub.com/free-sample/"
+      "url": "https://smbcyberhub.com/free-cyber-security-training/"
     },
     {
       "@type": "HowToStep",
       "name": "Conduct Risk Assessment",
       "text": "Identify current cybersecurity risks, assess vulnerabilities, and prioritize remediation efforts based on business impact",
-      "url": "https://smbcyberhub.com/free-sample/"
+      "url": "https://smbcyberhub.com/free-cyber-security-training/"
     },
     {
       "@type": "HowToStep",
       "name": "Implement Staff Training",
       "text": "Deliver security awareness training to all staff, collect acknowledgment forms, and document training completion",
-      "url": "https://smbcyberhub.com/free-sample/"
+      "url": "https://smbcyberhub.com/free-cyber-security-training/"
     },
     {
       "@type": "HowToStep",
       "name": "Document Processes",
       "text": "Create and maintain documentation for policies, procedures, training records, and incident response plans",
-      "url": "https://smbcyberhub.com/free-sample/"
+      "url": "https://smbcyberhub.com/free-cyber-security-training/"
     },
     {
       "@type": "HowToStep",
       "name": "Test Incident Response",
       "text": "Conduct tabletop exercises and test incident response procedures to ensure readiness",
-      "url": "https://smbcyberhub.com/free-sample/"
+      "url": "https://smbcyberhub.com/free-cyber-security-training/"
     }
   ]
 }
@@ -791,28 +791,28 @@ The key is starting with comprehensive templates, implementing systematically, a
 - Daily tasks for compliance achievement
 - Progress tracking templates
 - Sign-off forms for documentation
-- **Download**: [Free Compliance Checklist](/free-sample/)
+- **Download**: [Free Compliance Checklist](/free-cyber-security-training/)
 
 ### **GDPR Documentation Templates (PDF)**
 ✅ **Essential Policy Package**
 - Information Security Policy template
 - Data Protection Policy template
 - Incident Response Plan template
-- **Download**: [Free GDPR Templates](/free-sample/)
+- **Download**: [Free GDPR Templates](/free-cyber-security-training/)
 
 ### **Staff Training Materials (PDF)**
 ✅ **Training Package for SMBs**
 - Security awareness presentation
 - Staff quiz with answer key
 - Training acknowledgment forms
-- **Download**: [Free Training Materials](/free-sample/)
+- **Download**: [Free Training Materials](/free-cyber-security-training/)
 
 ### **Risk Assessment Template (Excel)**
 ✅ **Comprehensive Risk Management**
 - Automated risk scoring
 - Mitigation tracking
 - Executive dashboard
-- **Download**: [Free Risk Assessment](/free-sample/)
+- **Download**: [Free Risk Assessment](/free-cyber-security-training/)
 
 ---
 
