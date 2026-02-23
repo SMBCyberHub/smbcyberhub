@@ -92,23 +92,51 @@ const orgSchema = {
 
   <body class="min-h-screen flex flex-col bg-white text-gray-900 font-sans">
     <!-- Header Banner (blue background, logo + nav) -->
-    <header class="w-full bg-[#234488] flex items-center justify-between px-6 py-4">
-      <a href="/" class="flex items-center space-x-3">
-        <img src="/images/smbcyberhub-logo.webp" alt="SMBCyberHub - Cybersecurity Compliance Kits for Small Business" class="h-32 w-auto" />
-        <span class="sr-only">SMBCyberHub Home</span>
-      </a>
-      <nav aria-label="Main Navigation" class="flex space-x-8">
-        <a href="/2026-compliance-checklist/" class="text-white font-medium hover:text-emerald-300 transition">2026 Checklist</a>
-        <a href="/what-is-smb-cybersecurity-compliance/" class="text-white font-medium hover:text-emerald-300 transition">Compliance Guide</a>
-        <a href="/kits/" class="text-white font-medium hover:text-emerald-300 transition">Compare Kits</a>
-        <a href="/cyber-insurance-renewal-checklist/" class="text-white font-medium hover:text-emerald-300 transition">Insurance Checklist</a>
-        <a href="/philosophy/" class="text-white font-medium hover:text-emerald-300 transition">Our Philosophy</a>
-        <a href="/saas-vs-downloadable/" class="text-white font-medium hover:text-emerald-300 transition">SaaS vs Downloadable</a>
-        <a href="/free-cyber-security-training/" class="text-white font-medium hover:text-emerald-300 transition">Free Cybersecurity Training</a>
-        <a href="/faq/" class="text-white font-medium hover:text-emerald-300 transition">FAQ</a>
-        <a href="/about/" class="text-white font-medium hover:text-emerald-300 transition">About</a>
-        <a href="/blog/" class="text-white font-medium hover:text-emerald-300 transition">Blog</a>
-        <a href="/contact/" class="text-white font-medium hover:text-emerald-300 transition">Contact</a>
+    <header class="w-full bg-[#234488] px-6 py-4">
+      <div class="max-w-7xl mx-auto flex items-center justify-between">
+        <a href="/" class="flex items-center space-x-3">
+          <img src="/images/smbcyberhub-logo.webp" alt="SMBCyberHub - Cybersecurity Compliance Kits for Small Business" class="h-28 w-auto" />
+          <span class="sr-only">SMBCyberHub Home</span>
+        </a>
+        
+        <!-- Desktop Navigation -->
+        <nav aria-label="Main Navigation" class="hidden lg:flex space-x-6 xl:space-x-8">
+          <a href="/2026-compliance-checklist/" class="text-white font-medium hover:text-emerald-300 transition text-sm">2026 Checklist</a>
+          <a href="/what-is-smb-cybersecurity-compliance/" class="text-white font-medium hover:text-emerald-300 transition text-sm">Compliance Guide</a>
+          <a href="/kits/" class="text-white font-medium hover:text-emerald-300 transition text-sm">Compare Kits</a>
+          <a href="/cyber-insurance-renewal-checklist/" class="text-white font-medium hover:text-emerald-300 transition text-sm">Insurance Checklist</a>
+          <a href="/philosophy/" class="text-white font-medium hover:text-emerald-300 transition text-sm">Our Philosophy</a>
+          <a href="/saas-vs-downloadable/" class="text-white font-medium hover:text-emerald-300 transition text-sm">SaaS vs Downloadable</a>
+          <a href="/free-cyber-security-training/" class="text-white font-medium hover:text-emerald-300 transition text-sm">Free Training</a>
+          <a href="/faq/" class="text-white font-medium hover:text-emerald-300 transition text-sm">FAQ</a>
+          <a href="/about/" class="text-white font-medium hover:text-emerald-300 transition text-sm">About</a>
+          <a href="/blog/" class="text-white font-medium hover:text-emerald-300 transition text-sm">Blog</a>
+          <a href="/contact/" class="text-white font-medium hover:text-emerald-300 transition text-sm">Contact</a>
+        </nav>
+        
+        <!-- Mobile menu button -->
+        <button class="lg:hidden text-white hover:text-emerald-300 transition" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')" aria-label="Toggle menu">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+      
+      <!-- Mobile Navigation -->
+      <nav id="mobile-menu" class="hidden lg:hidden pb-4">
+        <div class="flex flex-col space-y-2">
+          <a href="/2026-compliance-checklist/" class="text-white font-medium hover:text-emerald-300 transition py-2">2026 Checklist</a>
+          <a href="/what-is-smb-cybersecurity-compliance/" class="text-white font-medium hover:text-emerald-300 transition py-2">Compliance Guide</a>
+          <a href="/kits/" class="text-white font-medium hover:text-emerald-300 transition py-2">Compare Kits</a>
+          <a href="/cyber-insurance-renewal-checklist/" class="text-white font-medium hover:text-emerald-300 transition py-2">Insurance Checklist</a>
+          <a href="/philosophy/" class="text-white font-medium hover:text-emerald-300 transition py-2">Our Philosophy</a>
+          <a href="/saas-vs-downloadable/" class="text-white font-medium hover:text-emerald-300 transition py-2">SaaS vs Downloadable</a>
+          <a href="/free-cyber-security-training/" class="text-white font-medium hover:text-emerald-300 transition py-2">Free Training</a>
+          <a href="/faq/" class="text-white font-medium hover:text-emerald-300 transition py-2">FAQ</a>
+          <a href="/about/" class="text-white font-medium hover:text-emerald-300 transition py-2">About</a>
+          <a href="/blog/" class="text-white font-medium hover:text-emerald-300 transition py-2">Blog</a>
+          <a href="/contact/" class="text-white font-medium hover:text-emerald-300 transition py-2">Contact</a>
+        </div>
       </nav>
     </header>
 
