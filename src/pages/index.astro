@@ -365,12 +365,18 @@ const schemaData = {
       One-time download. No logins. No subscriptions. Just download and protect your business—<strong>audit-ready in 30 minutes</strong>.
     </p>
     <div class="flex flex-col sm:flex-row justify-center gap-4 mb-2">
-      <a href="/free-cyber-security-training" class="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-6 py-3 rounded-lg shadow transform hover:scale-105 transition">
-        � Try Free Sample
+      <a href="/free-cyber-security-training" class="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-6 py-3 rounded-lg shadow transform hover:scale-105 transition flex items-center justify-center">
+        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+        </svg>
+        Try Free Sample
         <span class="block text-xs mt-1 opacity-90">Preview training materials</span>
       </a>
-      <a href="/kits" class="bg-orange-500 hover:bg-orange-600 text-white font-semibold px-6 py-3 rounded-lg shadow transform hover:scale-105 transition">
-        💼 View All Kits
+      <a href="/kits" class="bg-orange-500 hover:bg-orange-600 text-white font-semibold px-6 py-3 rounded-lg shadow transform hover:scale-105 transition flex items-center justify-center">
+        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path>
+        </svg>
+        View All Kits
         <span class="block text-xs mt-1 opacity-90">Basic & Pro options</span>
       </a>
     </div>
@@ -386,16 +392,61 @@ const schemaData = {
   </section>
 
   <!-- 🛠️ How It Works Section (SEO & User Clarity) -->
-  <section class="py-12 px-6 max-w-4xl mx-auto text-left">
-    <h2 class="text-2xl font-bold text-blue-800 mb-6 text-center">How SMBCyberHub Kits Work</h2>
-    <ol class="space-y-4 text-gray-700 text-base list-decimal pl-6">
-      <li><strong>Choose Your Kit:</strong> Pick from our Basic or Pro Kit — both are audit-ready and include everything you need.</li>
-      <li><strong>Instant Download:</strong> Kits are delivered as a ZIP file, ready to use — no logins, no SaaS, no tracking.</li>
-      <li><strong>Use for Your Team:</strong> Print policies, checklists, and training materials as needed (PDF format).</li>
-      <li><strong>Run a Team Session:</strong> Use the included training slides and quizzes to build cyber awareness in 30 minutes or less.</li>
-      <li><strong>Be Audit & Insurance Ready:</strong> Keep your signed policies and logs to show insurers or clients — you’re covered!</li>
-    </ol>
-    <p class="mt-6 text-gray-600">
+  <section class="py-12 px-6 max-w-4xl mx-auto">
+    <h2 class="text-2xl font-bold text-blue-800 mb-8 text-center">How SMBCyberHub Kits Work</h2>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="flex items-start space-x-4 p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+        <div class="flex-shrink-0 w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
+          <span class="text-blue-600 font-bold">1</span>
+        </div>
+        <div>
+          <h3 class="font-semibold text-gray-900 mb-2">Choose Your Kit</h3>
+          <p class="text-gray-700">Pick from our Basic or Pro Kit — both are audit-ready and include everything you need.</p>
+        </div>
+      </div>
+      
+      <div class="flex items-start space-x-4 p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+        <div class="flex-shrink-0 w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
+          <span class="text-blue-600 font-bold">2</span>
+        </div>
+        <div>
+          <h3 class="font-semibold text-gray-900 mb-2">Instant Download</h3>
+          <p class="text-gray-700">Kits are delivered as a ZIP file, ready to use — no logins, no SaaS, no tracking.</p>
+        </div>
+      </div>
+      
+      <div class="flex items-start space-x-4 p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+        <div class="flex-shrink-0 w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
+          <span class="text-blue-600 font-bold">3</span>
+        </div>
+        <div>
+          <h3 class="font-semibold text-gray-900 mb-2">Use for Your Team</h3>
+          <p class="text-gray-700">Print policies, checklists, and training materials as needed (PDF format).</p>
+        </div>
+      </div>
+      
+      <div class="flex items-start space-x-4 p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+        <div class="flex-shrink-0 w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
+          <span class="text-blue-600 font-bold">4</span>
+        </div>
+        <div>
+          <h3 class="font-semibold text-gray-900 mb-2">Run a Team Session</h3>
+          <p class="text-gray-700">Use the included training slides and quizzes to build cyber awareness in 30 minutes.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="mt-8 p-6 bg-gradient-to-r from-emerald-50 to-blue-50 rounded-lg text-center">
+      <div class="flex items-center justify-center space-x-2 mb-3">
+        <svg class="w-6 h-6 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+        </svg>
+        <h3 class="font-semibold text-gray-900">Step 5: Be Audit & Insurance Ready</h3>
+      </div>
+      <p class="text-gray-700">Keep your signed policies and logs to show insurers or clients — you're covered!</p>
+    </div>
+    
+    <p class="mt-6 text-gray-600 text-center">
       <strong>Who is it for?</strong> Small businesses (1–20 staff), office managers, founders, consultants, and anyone who needs rapid, real-world cybersecurity compliance.
     </p>
   </section>
