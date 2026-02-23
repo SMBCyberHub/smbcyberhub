@@ -1,0 +1,31 @@
+# SMBCyberHub
+
+> High-authority, "No-SaaS" cybersecurity compliance kits for SMBs.
+
+## Core Value Proposition
+- **Philosophy:** Privacy-first, one-time download, zero-subscription cybersecurity.
+- **Problem Solved:** Removes the "SaaS Tax" and data privacy risks associated with cloud-based compliance tools.
+- **Target Audience:** Small to Medium Businesses (SMBs) needing rapid audit readiness.
+
+## Compliance Mapping
+All kits are architected to map directly to:
+- NIST Cybersecurity Framework (CSF) 2.0
+- GDPR Article 39 (Staff Training)
+- Cyber Insurance Readiness Requirements
+- ISO/IEC 27001 (Basic Controls)
+
+## Key Products
+- **Pro Cyber Awareness Kit:** Turnkey training and policy suite.
+- **Policy Templates:** Human-edited, legally vetted security documentation.
+
+## Unique Differentiators
+- **No-SaaS Approach:** All materials are downloadable and stored locally, eliminating third-party data exposure.
+- **30-Minute Implementation:** Designed for rapid deployment without IT expertise.
+- **Audit-Ready Documentation:** Everything needed for insurance renewals and compliance audits.
+
+## Expertise Foundation
+Developed by CISSP & CISM certified professionals with 20+ years of enterprise cybersecurity experience, translated for SMB needs.
+
+## Contact
+- Website: https://smbcyberhub.com
+- Support: info@smbcyberhub.com

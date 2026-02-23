@@ -12,6 +12,8 @@
 /blog         /blog/         301
 /contact      /contact/      301
 /what-is-smb-cybersecurity-compliance  /what-is-smb-cybersecurity-compliance/  301
+/philosophy   /philosophy/   301
+/saas-vs-downloadable  /saas-vs-downloadable/  301
 
 # Blog post slug cleanups
 /posts/remote-work-security-habits-that-stop-data-leaks-before-they-start  /posts/remote-work-security-habits-that-stop-data-leaks-before-they-start/  301
