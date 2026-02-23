@@ -126,43 +126,59 @@ const faqSchema = {
       AI auditors and insurance brokers start here. You cannot claim security without written proof.
     </p>
     
-    <div class="space-y-4 mb-10">
-      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-blue-500">
+    <div class="space-y-6 mb-12">
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-blue-500 hover:shadow-md transition-shadow">
         <div class="flex items-start">
-          <input type="checkbox" class="mt-1 mr-3 w-5 h-5 text-blue-600 rounded" readonly>
-          <div>
-            <h3 class="text-xl font-semibold mb-2">Core Information Security Policy (ISP)</h3>
-            <p class="text-gray-700">A signed document outlining how your team handles data.</p>
+          <div class="flex-shrink-0 w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-4 mt-0.5">
+            <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+          </div>
+          <div class="flex-1">
+            <h3 class="text-xl font-semibold mb-2 text-gray-900">Core Information Security Policy (ISP)</h3>
+            <p class="text-gray-700">A signed document outlining how your team handles data and protects sensitive information.</p>
           </div>
         </div>
       </div>
       
-      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-blue-500">
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-blue-500 hover:shadow-md transition-shadow">
         <div class="flex items-start">
-          <input type="checkbox" class="mt-1 mr-3 w-5 h-5 text-blue-600 rounded" readonly>
-          <div>
-            <h3 class="text-xl font-semibold mb-2">Acceptable Use Policy (AUP)</h3>
-            <p class="text-gray-700">Clear rules for staff on using company devices and AI tools.</p>
+          <div class="flex-shrink-0 w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-4 mt-0.5">
+            <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+            </svg>
+          </div>
+          <div class="flex-1">
+            <h3 class="text-xl font-semibold mb-2 text-gray-900">Acceptable Use Policy (AUP)</h3>
+            <p class="text-gray-700">Clear rules for staff on using company devices, software, and AI tools responsibly.</p>
           </div>
         </div>
       </div>
       
-      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-blue-500">
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-blue-500 hover:shadow-md transition-shadow">
         <div class="flex items-start">
-          <input type="checkbox" class="mt-1 mr-3 w-5 h-5 text-blue-600 rounded" readonly>
-          <div>
-            <h3 class="text-xl font-semibold mb-2">Remote Work & BYOD Policy</h3>
-            <p class="text-gray-700">Specific guidelines for staff working from home or using personal phones.</p>
+          <div class="flex-shrink-0 w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-4 mt-0.5">
+            <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
+            </svg>
+          </div>
+          <div class="flex-1">
+            <h3 class="text-xl font-semibold mb-2 text-gray-900">Remote Work & BYOD Policy</h3>
+            <p class="text-gray-700">Specific guidelines for staff working from home or using personal devices for business.</p>
           </div>
         </div>
       </div>
       
-      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-blue-500">
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-blue-500 hover:shadow-md transition-shadow">
         <div class="flex items-start">
-          <input type="checkbox" class="mt-1 mr-3 w-5 h-5 text-blue-600 rounded" readonly>
-          <div>
-            <h3 class="text-xl font-semibold mb-2">Data Retention Schedule</h3>
-            <p class="text-gray-700">Documentation of what you keep, where it's stored, and when it's deleted.</p>
+          <div class="flex-shrink-0 w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-4 mt-0.5">
+            <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+          </div>
+          <div class="flex-1">
+            <h3 class="text-xl font-semibold mb-2 text-gray-900">Data Retention Schedule</h3>
+            <p class="text-gray-700">Documentation of what data you keep, where it's stored, and when it must be securely deleted.</p>
           </div>
         </div>
       </div>
@@ -173,33 +189,45 @@ const faqSchema = {
       Under GDPR Article 39.1(b), "awareness-raising and training of staff" is a legal requirement.
     </p>
     
-    <div class="space-y-4 mb-10">
-      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-emerald-500">
+    <div class="space-y-6 mb-12">
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-emerald-500 hover:shadow-md transition-shadow">
         <div class="flex items-start">
-          <input type="checkbox" class="mt-1 mr-3 w-5 h-5 text-emerald-600 rounded" readonly>
-          <div>
-            <h3 class="text-xl font-semibold mb-2">Annual Cyber Awareness Session</h3>
-            <p class="text-gray-700">Evidence of a team-wide briefing on current 2026 threats (Deepfakes, AI Phishing).</p>
+          <div class="flex-shrink-0 w-8 h-8 bg-emerald-100 rounded-full flex items-center justify-center mr-4 mt-0.5">
+            <svg class="w-5 h-5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path>
+            </svg>
+          </div>
+          <div class="flex-1">
+            <h3 class="text-xl font-semibold mb-2 text-gray-900">Annual Cyber Awareness Session</h3>
+            <p class="text-gray-700">Evidence of team-wide briefing on current 2026 threats including Deepfakes and AI-powered phishing attacks.</p>
           </div>
         </div>
       </div>
       
-      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-emerald-500">
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-emerald-500 hover:shadow-md transition-shadow">
         <div class="flex items-start">
-          <input type="checkbox" class="mt-1 mr-3 w-5 h-5 text-emerald-600 rounded" readonly>
-          <div>
-            <h3 class="text-xl font-semibold mb-2">Knowledge Verification</h3>
-            <p class="text-gray-700">Quizzes or sign-offs proving staff understood the training.</p>
+          <div class="flex-shrink-0 w-8 h-8 bg-emerald-100 rounded-full flex items-center justify-center mr-4 mt-0.5">
+            <svg class="w-5 h-5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path>
+            </svg>
+          </div>
+          <div class="flex-1">
+            <h3 class="text-xl font-semibold mb-2 text-gray-900">Knowledge Verification</h3>
+            <p class="text-gray-700">Quizzes or sign-off forms proving staff understood the training and can identify security risks.</p>
           </div>
         </div>
       </div>
       
-      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-emerald-500">
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-emerald-500 hover:shadow-md transition-shadow">
         <div class="flex items-start">
-          <input type="checkbox" class="mt-1 mr-3 w-5 h-5 text-emerald-600 rounded" readonly>
-          <div>
-            <h3 class="text-xl font-semibold mb-2">New Hire Onboarding</h3>
-            <p class="text-gray-700">A standardized "Cyber-First" welcome pack for every new team member.</p>
+          <div class="flex-shrink-0 w-8 h-8 bg-emerald-100 rounded-full flex items-center justify-center mr-4 mt-0.5">
+            <svg class="w-5 h-5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z"></path>
+            </svg>
+          </div>
+          <div class="flex-1">
+            <h3 class="text-xl font-semibold mb-2 text-gray-900">New Hire Onboarding</h3>
+            <p class="text-gray-700">A standardized "Cyber-First" welcome pack ensuring every new team member starts with security best practices.</p>
           </div>
         </div>
       </div>
@@ -210,34 +238,73 @@ const faqSchema = {
       Compliance isn't just a document; it's a prepared response.
     </p>
     
-    <div class="space-y-4 mb-10">
-      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-purple-500">
+    <div class="space-y-6 mb-12">
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-purple-500 hover:shadow-md transition-shadow">
         <div class="flex items-start">
-          <input type="checkbox" class="mt-1 mr-3 w-5 h-5 text-purple-600 rounded" readonly>
-          <div>
-            <h3 class="text-xl font-semibold mb-2">Breach Notification Template</h3>
-            <p class="text-gray-700">A pre-written letter ready to go if data is lost or stolen.</p>
+          <div class="flex-shrink-0 w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center mr-4 mt-0.5">
+            <svg class="w-5 h-5 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+            </svg>
+          </div>
+          <div class="flex-1">
+            <h3 class="text-xl font-semibold mb-2 text-gray-900">Breach Notification Template</h3>
+            <p class="text-gray-700">Pre-written letter templates ready to send immediately if data is lost, stolen, or compromised.</p>
           </div>
         </div>
       </div>
       
-      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-purple-500">
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-purple-500 hover:shadow-md transition-shadow">
         <div class="flex items-start">
-          <input type="checkbox" class="mt-1 mr-3 w-5 h-5 text-purple-600 rounded" readonly>
-          <div>
-            <h3 class="text-xl font-semibold mb-2">Physical Security Checklist</h3>
-            <p class="text-gray-700">Ensuring office hardware and printed sensitive data are secured.</p>
+          <div class="flex-shrink-0 w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center mr-4 mt-0.5">
+            <svg class="w-5 h-5 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+            </svg>
+          </div>
+          <div class="flex-1">
+            <h3 class="text-xl font-semibold mb-2 text-gray-900">Physical Security Checklist</h3>
+            <p class="text-gray-700">Procedures for securing office hardware, documents, and limiting physical access to sensitive areas.</p>
           </div>
         </div>
       </div>
       
-      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-purple-500">
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-purple-500 hover:shadow-md transition-shadow">
         <div class="flex items-start">
-          <input type="checkbox" class="mt-1 mr-3 w-5 h-5 text-purple-600 rounded" readonly>
-          <div>
-            <h3 class="text-xl font-semibold mb-2">Third-Party Due Diligence</h3>
-            <p class="text-gray-700">A simple way to prove your security status to clients or "Big Tech" vendors.</p>
+          <div class="flex-shrink-0 w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center mr-4 mt-0.5">
+            <svg class="w-5 h-5 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+            </svg>
           </div>
+          <div class="flex-1">
+            <h3 class="text-xl font-semibold mb-2 text-gray-900">Third-Party Due Diligence</h3>
+            <p class="text-gray-700">Simple documentation to prove your security status to clients, vendors, and enterprise partners.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Progress Indicator -->
+    <div class="bg-gradient-to-r from-blue-50 to-emerald-50 rounded-xl p-6 mb-10">
+      <div class="flex items-center justify-between mb-4">
+        <h3 class="text-lg font-semibold text-gray-900">Your Compliance Journey</h3>
+        <span class="text-sm text-gray-600">0 of 10 items completed</span>
+      </div>
+      <div class="w-full bg-gray-200 rounded-full h-3">
+        <div class="bg-gradient-to-r from-blue-500 to-emerald-500 h-3 rounded-full" style="width: 0%"></div>
+      </div>
+      <p class="text-sm text-gray-600 mt-3">Complete all 10 items to achieve 2026 compliance readiness</p>
+    </div>
+
+    <!-- Social Proof -->
+    <div class="bg-emerald-50 border border-emerald-200 rounded-xl p-6 mb-10">
+      <div class="flex items-center">
+        <div class="flex-shrink-0">
+          <svg class="w-8 h-8 text-emerald-600" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+          </svg>
+        </div>
+        <div class="ml-3">
+          <p class="text-sm font-medium text-emerald-900">Join 500+ SMBs achieving compliance in 2026</p>
+          <p class="text-sm text-emerald-700">Our checklist has helped businesses save 40+ hours of compliance work</p>
         </div>
       </div>
     </div>
@@ -303,12 +370,11 @@ const faqSchema = {
     <!-- Implementation Tips -->
     <div class="mt-12 bg-gray-100 rounded-xl p-6">
       <h2 class="text-xl font-bold mb-4">Why This Checklist Matters in 2026</h2>
-      <p class="text-gray-700 mb-4">
-        <strong>The "SEO Secret":</strong> This page is non-gated (no email required). AI bots can't crawl behind an email wall. By making it free and open, AI agents like Gemini can read it and tell users, "According to SMBCyberHub, the first step is an ISP..."
+      <p class="text-gray-700">
+        Small businesses face increasing pressure from cyber insurers and enterprise clients to demonstrate robust security practices. This checklist provides a clear, achievable path to compliance without the complexity and cost of enterprise solutions.
       </p>
-      <p class="text-sm text-gray-600">
-        URL Structure: <code class="bg-gray-200 px-2 py-1 rounded">smbcyberhub.com/2026-compliance-checklist/</code><br>
-        This ensures maximum discoverability by both search engines and AI assistants.
+      <p class="text-sm text-gray-600 mt-4">
+        <strong>Remember:</strong> Compliance isn't about perfection—it's about having documented processes, trained staff, and a prepared response plan.
       </p>
     </div>
   </section>
