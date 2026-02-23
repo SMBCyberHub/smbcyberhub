@@ -1,0 +1,243 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const meta = {
+  title: "Cyber Insurance Renewal Checklist 2026 | SMB Compliance Requirements | SMBCyberHub",
+  description: "Complete checklist for cyber insurance renewals. Document requirements, training proof, GDPR compliance - everything you need for successful renewal in 30 minutes.",
+};
+
+const schemaData = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What documents do I need for cyber insurance renewal?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You need: 1) Staff training records, 2) Information Security Policy, 3) Incident Response Plan, 4) Risk Assessment, 5) MFA deployment evidence, 6) Backup verification logs. Our checklist provides templates for all."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How far in advance should I prepare for cyber insurance renewal?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Start 30 days before renewal. Most insurers require 3-6 months of documented security controls. Our checklist helps you gather everything in one afternoon."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What do insurers look for in cybersecurity training?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Insurers want: 1) Annual training completion records, 2) Phishing test results, 3) Staff acknowledgment forms, 4) GDPR Article 39 compliance. Our kits provide all required documentation."
+      }
+    }
+  ]
+};
+
+const checklistSchema = {
+  "@context": "https://schema.org",
+  "@type": "Checklist",
+  "name": "Cyber Insurance Renewal Checklist 2026",
+  "description": "Step-by-step checklist for SMB cyber insurance renewal with all required documentation and compliance evidence.",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Staff Training Records",
+      "description": "Documented security awareness training for all staff with completion dates"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Security Policies",
+      "description": "Information Security Policy, Acceptable Use Policy, Data Protection Policy"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Incident Response Plan",
+      "description": "Documented procedures for handling security incidents"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Risk Assessment",
+      "description": "Current risk assessment with mitigation plans"
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "name": "MFA Implementation",
+      "description": "Evidence of multi-factor authentication on critical systems"
+    }
+  ]
+};
+---
+
+<Layout title={meta.title} description={meta.description}>
+  <script type="application/ld+json" set:html={JSON.stringify(schemaData)}></script>
+  <script type="application/ld+json" set:html={JSON.stringify(checklistSchema)}></script>
+  
+  <section class="bg-blue-50 py-14 px-6 text-center">
+    <h1 class="text-4xl md:text-5xl font-extrabold text-blue-900 leading-tight mb-4">
+      Cyber Insurance Renewal Checklist 2026
+    </h1>
+    
+    <div class="bg-amber-50 border-l-4 border-amber-500 p-4 mb-6 max-w-3xl mx-auto">
+      <p class="text-lg font-bold text-gray-800">
+        <strong>Complete cyber insurance renewal checklist with all required documentation - prepare in 30 minutes with our audit-ready templates.</strong>
+      </p>
+    </div>
+    
+    <p class="text-lg text-gray-700 max-w-2xl mx-auto mb-7">
+      Everything your insurer requires, organized in one simple checklist. No IT expertise needed - just download, complete, and submit.
+    </p>
+    
+    <div class="flex flex-wrap justify-center gap-4 mt-4 mb-3">
+      <a href="/free-cyber-security-training/" class="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-6 py-3 rounded-lg shadow">
+        Get Free Templates
+      </a>
+      <a href="/kits/" class="bg-white border border-blue-600 text-blue-700 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50">
+        View Complete Kit
+      </a>
+    </div>
+  </section>
+
+  <section class="max-w-4xl mx-auto px-4 py-10">
+    <h2 class="text-3xl font-bold mb-6">📋 Essential Documentation Checklist</h2>
+    
+    <div class="space-y-6">
+      <!-- Item 1 -->
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-blue-500">
+        <h3 class="text-xl font-semibold mb-3">1. Staff Training Records</h3>
+        <p class="text-gray-700 mb-4">Proof that all staff completed security awareness training within the last 12 months.</p>
+        <ul class="list-disc pl-6 space-y-2 text-gray-600">
+          <li>Training completion certificates</li>
+          <li>Staff acknowledgment forms</li>
+          <li>Training dates and attendance records</li>
+          <li>GDPR Article 39.1(b) compliance evidence</li>
+        </ul>
+        <p class="mt-4 text-sm text-blue-600 font-semibold">✅ Template included in our kits</p>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-emerald-500">
+        <h3 class="text-xl font-semibold mb-3">2. Security Policies</h3>
+        <p class="text-gray-700 mb-4">Written policies demonstrating your security framework.</p>
+        <ul class="list-disc pl-6 space-y-2 text-gray-600">
+          <li>Information Security Policy</li>
+          <li>Acceptable Use Policy</li>
+          <li>Data Protection Policy</li>
+          <li>Remote Work Policy (if applicable)</li>
+        </ul>
+        <p class="mt-4 text-sm text-emerald-600 font-semibold">✅ All templates included</p>
+      </div>
+
+      <!-- Item 3 -->
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-purple-500">
+        <h3 class="text-xl font-semibold mb-3">3. Incident Response Plan</h3>
+        <p class="text-gray-700 mb-4">Documented procedures for handling security incidents.</p>
+        <ul class="list-disc pl-6 space-y-2 text-gray-600">
+          <li>Incident reporting procedures</li>
+          <li>Response team contacts</li>
+          <li>Communication plan</li>
+          <li>Recovery steps</li>
+        </ul>
+        <p class="mt-4 text-sm text-purple-600 font-semibold">✅ Ready-to-use template</p>
+      </div>
+
+      <!-- Item 4 -->
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-amber-500">
+        <h3 class="text-xl font-semibold mb-3">4. Risk Assessment</h3>
+        <p class="text-gray-700 mb-4">Current risk analysis with mitigation strategies.</p>
+        <ul class="list-disc pl-6 space-y-2 text-gray-600">
+          <li>Identified risks and vulnerabilities</li>
+          <li>Risk scoring and prioritization</li>
+          <li>Mitigation measures in place</li>
+          <li>Review date and sign-off</li>
+        </ul>
+        <p class="mt-4 text-sm text-amber-600 font-semibold">✅ Automated template included</p>
+      </div>
+
+      <!-- Item 5 -->
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-red-500">
+        <h3 class="text-xl font-semibold mb-3">5. Technical Controls Evidence</h3>
+        <p class="text-gray-700 mb-4">Proof of implemented security measures.</p>
+        <ul class="list-disc pl-6 space-y-2 text-gray-600">
+          <li>MFA deployment screenshots</li>
+          <li>Backup configuration verification</li>
+          <li>Antivirus/EDR protection status</li>
+          <li>Firewall configuration summary</li>
+        </ul>
+        <p class="mt-4 text-sm text-red-600 font-semibold">✅ Verification checklist included</p>
+      </div>
+    </div>
+
+    <!-- Timeline Section -->
+    <div class="mt-12 bg-gray-50 rounded-xl p-8">
+      <h2 class="text-2xl font-bold mb-6">⏰ Renewal Timeline</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="text-center">
+          <div class="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+            <span class="text-blue-600 font-bold text-xl">30</span>
+          </div>
+          <h3 class="font-semibold mb-2">Days Before</h3>
+          <p class="text-sm text-gray-600">Start gathering documentation</p>
+        </div>
+        <div class="text-center">
+          <div class="bg-amber-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+            <span class="text-amber-600 font-bold text-xl">14</span>
+          </div>
+          <h3 class="font-semibold mb-2">Days Before</h3>
+          <p class="text-sm text-gray-600">Complete any missing training</p>
+        </div>
+        <div class="text-center">
+          <div class="bg-emerald-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+            <span class="text-emerald-600 font-bold text-xl">7</span>
+          </div>
+          <h3 class="font-semibold mb-2">Days Before</h3>
+          <p class="text-sm text-gray-600">Submit all documentation</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQ Section -->
+    <div class="mt-12">
+      <h2 class="text-2xl font-bold mb-6">❓ Common Questions</h2>
+      
+      <div class="space-y-6">
+        <div class="bg-white p-6 rounded-lg shadow-sm">
+          <h3 class="text-lg font-semibold mb-3">What happens if I'm missing documentation?</h3>
+          <p class="text-gray-700">Don't worry - our kits include all templates you need. Most gaps can be filled in one afternoon with our ready-to-use documents.</p>
+        </div>
+        
+        <div class="bg-white p-6 rounded-lg shadow-sm">
+          <h3 class="text-lg font-semibold mb-3">Do insurers accept templates?</h3>
+          <p class="text-gray-700">Yes - insurers care about content, not origin. Our templates are professionally designed to meet all standard insurance requirements.</p>
+        </div>
+        
+        <div class="bg-white p-6 rounded-lg shadow-sm">
+          <h3 class="text-lg font-semibold mb-3">How often do I need to update this?</h3>
+          <p class="text-gray-700">Annually. Keep training records current and review policies yearly. Our kits make annual updates simple.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- CTA Section -->
+    <div class="mt-12 text-center bg-blue-50 rounded-xl p-8">
+      <h2 class="text-2xl font-bold mb-4">Ready for Your Renewal?</h2>
+      <p class="text-gray-700 mb-6">Get all templates, checklists, and documentation you need for successful cyber insurance renewal.</p>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="/kits/" class="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-8 py-4 rounded-lg shadow text-lg">
+          Get Complete Kit (€49-99)
+        </a>
+        <a href="/free-cyber-security-training/" class="border border-emerald-600 text-emerald-600 px-8 py-4 rounded-lg font-semibold hover:bg-emerald-50 text-lg">
+          Try Free Sample First
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>
