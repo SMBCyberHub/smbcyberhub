@@ -1,38 +1,9 @@
 ---
 title: "What Documents Do I Need for Cyber Insurance Renewal? Complete 2026 Checklist"
 description: "Step-by-step guide to all documents required for cyber insurance renewal in 2026. Includes GDPR compliance, training records, policies, and audit-ready templates for small businesses."
-date: "2026-02-23"
-# Use the publication date as the modified date
-lastmod: "2026-02-23"
-draft: false
-# Use the publication date as the modified date
-dateModified: "2026-02-23"
-# Add canonical URL
-canonical: "https://smbcyberhub.com/posts/what-documents-do-i-need-for-cyber-insurance-renewal/"
-# Add author
-author: "SMBCyberHub"
-# Add tags
+pubDate: 2026-02-23
+date: 2026-02-23
 tags: ["cyber insurance", "compliance", "documentation", "GDPR", "audit", "small business"]
-# Add excerpt
-excerpt: "Complete checklist of all documents needed for cyber insurance renewal. Includes staff training records, policies, incident response plans, and GDPR compliance evidence."
-# Add featured image
-featured_image: "/images/smbcyberhub-logo.webp"
-# Add reading time
-reading_time: 8
-# Add category
-category: "Compliance"
-# Add language
-language: "en"
-# Add region for targeting
-region: ["EU", "UK", "IE", "GB"]
-# Add FAQ schema
-faq:
-  - question: "How far in advance should I prepare for cyber insurance renewal?"
-    answer: "Start 30 days before renewal. Most insurers require 3-6 months of documented security controls. Our checklist helps you gather everything in one afternoon."
-  - question: "What do insurers look for in cybersecurity training documentation?"
-    answer: "Insurers want: 1) Annual training completion records, 2) Phishing test results, 3) Staff acknowledgment forms, 4) GDPR Article 39 compliance. Our kits provide all required documentation."
-  - question: "Do I need to hire a consultant for cyber insurance compliance?"
-    answer: "No. Small businesses can achieve compliance using downloadable kits and templates. Our materials are designed for non-technical users and include everything insurers require."
 ---
 
 # What Documents Do I Need for Cyber Insurance Renewal? Complete 2026 Checklist
