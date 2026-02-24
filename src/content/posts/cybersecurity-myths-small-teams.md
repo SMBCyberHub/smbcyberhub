@@ -33,26 +33,38 @@ Here are 7 myths we hear all the time — and how to stay protected.
 
 **Reality:** Cloud apps are only secure if you configure them correctly — MFA, password policies, and access controls are still your responsibility.
 
-## 6. 💸 "We can’t afford cybersecurity"
+## 6. "We can’t afford cybersecurity"
 
 **Reality:** You can’t afford *not* to. A single breach can cost weeks of downtime, lost clients, or GDPR fines. Most protections — like training and MFA — are low-cost or free.
 
-## 7. ✅ "We did a training once, so we’re covered"
+## 7. "We did a training once, so we're covered"
 
 **Reality:** One-and-done training isn’t enough. Threats evolve. Insurers and regulators now expect ongoing awareness, logs, and proof of action.
 
----
+## Don't Let Myths Leave You Vulnerable
 
-## 📌 Bottom Line
+Small business cybersecurity doesn't have to be complicated or expensive. The key is having the right tools and training in place.
+
+SMBCyberHub's kits bust these myths by providing:
+
+**Simple, Non-Technical Training** - Designed for office managers, not IT experts  
+**GDPR-Compliant Policies** - Templates that satisfy regulators and insurers  
+**Ongoing Training Materials** - Refreshers and quizzes to keep security top-of-mind  
+**Documentation Templates** - Proof of compliance for audits and insurance  
+**One-Time Purchase** - No subscriptions, affordable for any budget  
+
+**Stop believing the myths.** Start protecting your business today.
+
+[Get your complete cybersecurity kit](/kits/) - Everything you need in one download
+
+## Bottom Line
 
 Cybersecurity is about *habits* — not hardware. Busting these myths is your first step toward building resilience that scales with your business.
 
-> “The biggest risk is assuming you’re not at risk.”
+> "The biggest risk is assuming you're not at risk."
 
----
-
-**🕒 Estimated Reading Time**: 3–4 minutes  
-**🔐 Aligned With**: GDPR Article 39.1(b), ISO27001 Clause 7.2.2  
-**📎 Related Post**: [Audit-Ready in Under an Hour: A Cyber Hygiene Checklist](/posts/audit-ready-in-under-an-hour-a-cyber-hygiene-checklist)
+**Estimated Reading Time**: 3–4 minutes  
+**Aligned With**: GDPR Article 39.1(b), ISO27001 Clause 7.2.2  
+**Related Post**: [Audit-Ready in Under an Hour: A Cyber Hygiene Checklist](/posts/audit-ready-in-under-an-hour-a-cyber-hygiene-checklist)
 
 
