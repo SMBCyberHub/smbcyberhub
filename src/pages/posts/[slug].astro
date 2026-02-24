@@ -115,6 +115,17 @@ const breadcrumbSchema = {
 
 <Layout>
   <article class="py-16 px-6 max-w-3xl mx-auto">
+    <!-- Breadcrumbs -->
+    <nav class="mb-6" aria-label="Breadcrumb">
+      <ol class="flex items-center space-x-2 text-sm text-gray-600">
+        <li><a href="/" class="hover:text-blue-600">Home</a></li>
+        <li><span class="mx-2">/</span></li>
+        <li><a href="/blog/" class="hover:text-blue-600">Blog</a></li>
+        <li><span class="mx-2">/</span></li>
+        <li class="text-gray-900 font-medium">{data.title}</li>
+      </ol>
+    </nav>
+    
     <h1 class="text-4xl font-bold text-blue-900 mb-4">{data.title}</h1>
     <p class="text-sm text-gray-500 mb-6">
       {new Date(data.date).toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' })}

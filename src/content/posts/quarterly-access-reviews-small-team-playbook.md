@@ -96,7 +96,28 @@ Not to start. Export lists, review, act, log. Later you can automate exports or 
 
 ---
 
+## 🎁 Complete Your Access Review System
+
+This quarterly playbook works best with proper documentation and templates. Save time and ensure nothing is missed with ready-to-use materials.
+
+SMBCyberHub's kits include everything for effective access reviews:
+
+✅ **Access Review Templates** - Quarterly checklists and logs  
+✅ **Leaver Offboarding Procedures** - Step-by-step suspension/deletion process  
+✅ **Role-Based Access Policies** - Clear permission guidelines  
+✅ **Audit Documentation Forms** - Proof for regulators and insurers  
+✅ **MFA Implementation Guide** - Ensure full coverage  
+
+**Never wonder who has access to what.**
+
+👉 [Download our access review kit](/kits/) - Includes all templates and procedures
+
+---
+
 ## 🎁 Free Resource
+Need a quick start? Our <a href="/free-cyber-security-training/" class="text-blue-600 hover:underline">free sample kit</a> includes a basic access review template.
+
+---
 Need ready-to-use checklists and quick staff training?  
 👉 [Download the Free Cyber Security Training Kit](https://smbcyberhub.com/free-cyber-security-training/?utm_source=blog&utm_medium=cta&utm_campaign=access_review_post)
 
