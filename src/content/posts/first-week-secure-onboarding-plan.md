@@ -87,17 +87,34 @@ Outcome: Least privilege from week one — and fewer surprises later.
 
 ## 🧰 Handy Templates You Can Use
 - New-starter security checklist (this page)
-- “How we report suspicious stuff” one-pager
+- "How we report suspicious stuff" one-pager
 - Device set-up sheet (auto-lock, updates, encryption)
+
+---
+
+## 🎁 Complete Your Onboarding Kit
+
+This 5-day plan works best with proper documentation and training materials. Save time and ensure compliance with ready-to-use templates.
+
+SMBCyberHub's kits include everything for secure onboarding:
+
+✅ **Onboarding Checklists** - Day-by-day security setup guides  
+✅ **Acceptable Use Policy** - Clear rules for new employees  
+✅ **Security Training Slides** - 30-minute session for day one  
+✅ **Access Request Forms** - Streamlined permission workflows  
+✅ **Device Security Policies** - Laptop, phone, and remote work rules  
+
+**Get your new starters secure from day one.**
+
+👉 [Download the complete onboarding kit](/kits/) - Includes all templates and training materials
 
 ---
 
 ## 🎁 Free Resource
 Need a ready-to-use training starter that matches this plan?  
-👉 **[Download the Free Cyber Security Training Kit](https://smbcyberhub.com/free-cyber-security-training/?utm_source=blog&utm_medium=cta&utm_campaign=onboarding_post)**
+👉 **[Download the Free Cyber Security Training Kit](/free-cyber-security-training/)**
 
 ---
 
 **Related post:**  
 For fast policy and training wins, read **[Audit-Ready in Under an Hour: A Cyber Hygiene Checklist](/posts/audit-ready-in-under-an-hour-a-cyber-hygiene-checklist)** next.
-

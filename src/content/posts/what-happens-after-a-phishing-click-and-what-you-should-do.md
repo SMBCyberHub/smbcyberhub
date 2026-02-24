@@ -315,17 +315,26 @@ Implement technical controls to reduce phishing success rates.
 - [ ] **Regularly test** incident response procedures
 - [ ] **Review and update** security policies quarterly
 
-### **Success Metrics**
-- **Reduced incident response time** from discovery to containment
-- **Increased employee reporting** of suspicious activity
-- **Decreased successful phishing** attacks
-- **Improved security awareness** across all staff
-- **Compliance with regulatory** requirements
-- **Reduced business impact** from security incidents
+---
+
+## 🛡️ Prepare Your Team for Phishing Attacks
+
+Every business will face phishing attempts - it's not if, but when. The key is having your team prepared with the right training and procedures.
+
+SMBCyberHub's compliance kits include everything you need to protect against phishing:
+
+✅ **Phishing Awareness Training** - Real-world examples and quizzes  
+✅ **Incident Response Templates** - Step-by-step procedures for when clicks happen  
+✅ **Email Security Policies** - Clear guidelines for safe email practices  
+✅ **Documentation Logs** - Track training and incidents for compliance  
+
+**Don't wait for an incident to prepare.** Get your team trained and ready today.
+
+👉 [Download our phishing prevention kit](/kits/) - Includes training slides, policies, and checklists
 
 ---
 
-## 🔐 Compliance and Legal Considerations
+## 🎯 Key Takeaways
 
 ### **GDPR Requirements**
 - **72-hour notification**: Report breaches to authorities within 72 hours
