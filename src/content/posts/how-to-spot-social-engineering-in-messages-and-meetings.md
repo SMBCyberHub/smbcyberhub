@@ -320,17 +320,27 @@ Attackers are constantly evolving their techniques.
 - [ ] **Regularly test** staff awareness with simulations
 - [ ] **Monitor for new attack** techniques and trends
 
-### **Success Metrics**
-- **Zero successful** social engineering attacks
-- **Staff reporting** suspicious activity promptly
-- **Verification procedures** followed consistently
-- **Security awareness** training completed by all staff
-- **Incident response** time minimized
-- **Business impact** from attacks reduced
+---
+
+## 🛡️ Train Your Team to Spot Social Engineering
+
+Social engineering attacks are getting more sophisticated every day. The best defense is having a team that can spot and stop these attacks before they succeed.
+
+SMBCyberHub's kits include comprehensive social engineering protection:
+
+✅ **Social Engineering Training** - Real-world examples and red flags  
+✅ **Verification Procedure Templates** - Step-by-step verification workflows  
+✅ **Reporting Guidelines** - Clear procedures for suspicious activity  
+✅ **Phishing Simulation Templates** - Test your team's awareness  
+✅ **Incident Response Plans** - What to do when an attack succeeds  
+
+**Don't wait for a social engineering attack to train your team.**
+
+👉 [Download our social engineering protection kit](/kits/) - Includes training, procedures, and templates
 
 ---
 
-## 🔐 Compliance and Legal Considerations
+## 🎯 Key Takeaways
 
 ### **GDPR Article 32(4)**
 - **Security of processing**: Implement appropriate technical measures
