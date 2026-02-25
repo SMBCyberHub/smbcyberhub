@@ -204,6 +204,14 @@ tags: ["SMB cybersecurity", "GDPR compliance", "audit readiness", "small busines
 
 # SMB Cybersecurity Compliance Guide 2026
 
+<div class="bg-gradient-to-r from-blue-50 to-emerald-50 border-l-4 border-blue-500 p-6 mb-8 rounded-lg">
+
+### 📋 TL;DR Summary
+
+**Small businesses (1–20 employees) must meet GDPR Article 39.1(b) training requirements and increasingly need documented compliance for cyber insurance.** The minimum includes: security awareness training with records, written policies (ISP, AUP, remote work), an incident response plan, and a risk assessment. A DIY approach costs €3,000–€7,300/year vs. €12,500–€35,000 with consultants. Good compliance can reduce insurance premiums by 20–30%.
+
+</div>
+
 ## 📚 **Related Essential Guides**
 
 **Complete your compliance journey with these targeted resources:**

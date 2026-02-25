@@ -9,6 +9,14 @@ featured: true
 canonical: "https://smbcyberhub.com/posts/how-phishing-actually-works-a-simple-breakdown-for-small-teams"
 ---
 
+<div class="bg-gradient-to-r from-blue-50 to-emerald-50 border-l-4 border-blue-500 p-6 mb-8 rounded-lg">
+
+### 📋 TL;DR Summary
+
+**Phishing is the #1 cause of SMB data breaches** — attackers impersonate trusted sources (banks, IT, your CEO) to steal credentials or money. Spot it by checking sender addresses, hovering over links, and verifying unusual requests by phone. Train your team monthly, implement SPF/DKIM/DMARC, and use MFA to block 99% of automated attacks.
+
+</div>
+
 Phishing is still the #1 cause of small business data breaches — and it's not just about bad grammar or spam filters. Here's how phishing really works, and how your team can stop falling for it.
 
 ## 🎣 What Is Phishing?

@@ -55,7 +55,7 @@ Client asking for proof of training? GDPR review coming up? This fast checklist 
 > “Don’t wait for an audit request — be ready before it arrives.”
 
 ## 🚀 Download a Ready-to-Use Template
-The SMBCyberHub kit includes a training log and audit checklist — perfect for onboarding or insurer paperwork.
+The SMBCyberHub kit includes a training log and audit checklist — perfect for onboarding or insurer paperwork. [Compare our cybersecurity compliance kits](/kits/) to find the right fit for your team.
 
 ---
 
