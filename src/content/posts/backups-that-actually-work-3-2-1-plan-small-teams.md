@@ -3,7 +3,7 @@ title: "Backups That Actually Work: The 3-2-1 Plan for Small Teams (No Jargon)"
 description: "A plain-English guide to 3-2-1 backups for small teams: what to back up, how often, and how to test restores so you can recover fast from accidents or ransomware."
 date: 2025-09-09
 tags: ["backups", "ransomware", "business continuity"]
-ogImage: "/assets/og/backups-that-actually-work-3-2-1-small-teams.png"
+ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "A simple, reliable backup plan you can set up this week—without extra software or jargon."
 featured: false
 canonical: "https://smbcyberhub.com/posts/backups-that-actually-work-3-2-1-plan-small-teams"

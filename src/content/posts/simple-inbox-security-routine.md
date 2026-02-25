@@ -8,7 +8,7 @@ tags:
   - small business cybersecurity
   - fraud prevention
 excerpt: "A simple 5-minute inbox routine any employee can follow to block phishing, invoice fraud, and accidental data exposure."
-ogImage: "https://smbcyberhub.com/logo.png"
+ogImage: "/images/smbcyberhub-logo.webp"
 canonical: "https://smbcyberhub.com/posts/simple-inbox-security-routine"
 ---
 

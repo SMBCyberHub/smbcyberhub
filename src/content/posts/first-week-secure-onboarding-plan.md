@@ -3,7 +3,7 @@ title: "Your First Week With a New Hire: A Simple Security Onboarding Plan"
 description: "A plain-English, first-week checklist that gets new starters set up safely — accounts, devices, and habits — without slowing down the work."
 date: 2025-08-26
 tags: ["onboarding", "access control", "small business"]
-ogImage: "/assets/og/first-week-secure-onboarding-small-teams.png"
+ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "A practical, non-technical onboarding plan for the first 7 days — covering accounts, devices, passwords, MFA, and basic training."
 featured: false
 canonical: "https://smbcyberhub.com/posts/first-week-secure-onboarding-plan"

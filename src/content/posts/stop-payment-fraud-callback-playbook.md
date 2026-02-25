@@ -3,7 +3,7 @@ title: "Stop Payment Fraud: A Comprehensive Callback Playbook for Invoice & Bank
 description: "Complete guide to preventing payment fraud with callback verification procedures. Real examples, red flags, dual-control processes, and implementation strategies for small businesses."
 date: 2025-09-21
 tags: ["payment fraud", "BEC", "invoices", "small business", "financial security", "fraud prevention"]
-ogImage: "/assets/og/stop-payment-fraud-callback-playbook.png"
+ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Before you change where money goes, call back on a known number. Here's a 10-minute playbook that stops invoice and bank-detail scams with comprehensive verification procedures."
 featured: false
 canonical: "https://smbcyberhub.com/posts/stop-payment-fraud-callback-playbook"

@@ -3,7 +3,7 @@ title: "2026 Cyber Insurance Documentation Guide | SMBCyberHub"
 description: "Insurance security questionnaire due? Our kits help you answer 'Yes' to all 10 common insurance cybersecurity questions. Buy once, use forever - no monthly fees."
 date: 2026-02-22
 tags: ["cyber insurance documentation", "insurance security questionnaire", "cybersecurity compliance", "insurance renewal"]
-ogImage: "/assets/og/cybersecurity-documentation-insurance-renewals.png"
+ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Complete guide to providing cybersecurity documentation for insurance renewals. Answer 'Yes' to all insurance security questions with our ready-to-use kits."
 featured: true
 canonical: "https://smbcyberhub.com/posts/cybersecurity-documentation-for-insurance-renewals"

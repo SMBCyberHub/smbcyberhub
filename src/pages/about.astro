@@ -1,58 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro'
 
-const organizationSchema = {
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "SMBCyberHub",
-  "url": "https://smbcyberhub.com",
-  "logo": "https://smbcyberhub.com/images/smbcyberhub-logo.webp",
-  "description": "SMBCyberHub provides downloadable cybersecurity compliance kits for small businesses (1-20 employees). We help small teams become audit-ready, insurer-compliant, and security-aware in 30 minutes or less with practical, printable materials.",
-  "foundingDate": "2025",
-  "areaServed": "Worldwide",
-  "targetAudience": "Small businesses with 1-20 employees",
-  "knowsAbout": [
-    "Cybersecurity compliance",
-    "GDPR compliance",
-    "ISO27001",
-    "Cyber insurance requirements",
-    "Small business security",
-    "Security awareness training",
-    "Audit preparation"
-  ],
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Cybersecurity Compliance Kits",
-    "itemListElement": [
-      {
-        "@type": "Product",
-        "name": "Free Sample Kit",
-        "description": "Preview training materials and cybersecurity resources"
-      },
-      {
-        "@type": "Product", 
-        "name": "Basic Kit",
-        "description": "Core compliance training and essential policies for small teams"
-      },
-      {
-        "@type": "Product",
-        "name": "Pro Kit", 
-        "description": "Complete compliance toolkit with advanced modules and unlimited use"
-      }
-    ]
-  },
-  "sameAs": [
-    "https://www.linkedin.com/in/smb-cyberhub-67567b374/",
-    "https://x.com/SMBCyberHub"
-  ],
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "email": "info@smbcyberhub.com",
-    "contactType": "customer service",
-    "availableLanguage": ["English"]
-  }
-}
-
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -89,7 +37,6 @@ const faqSchema = {
   title="About SMBCyberHub – Our Story, Mission & Team" 
   description="Learn about SMBCyberHub's mission, team, and how we help small businesses achieve cybersecurity compliance quickly and easily with downloadable, audit-ready kits."
 >
-  <script type="application/ld+json" set:html={JSON.stringify(organizationSchema)}></script>
   <script type="application/ld+json" set:html={JSON.stringify(faqSchema)}></script>
   <section class="max-w-4xl mx-auto px-4 py-10">
     <h1 class="text-4xl font-bold mb-6">About SMBCyberHub</h1>

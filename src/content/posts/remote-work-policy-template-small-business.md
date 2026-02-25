@@ -3,7 +3,7 @@ title: "Remote Work Policy Template for Small Business: GDPR Compliant 2026"
 description: "Free remote work policy template for 1-20 employee teams. GDPR compliant, buy once use forever, no monthly fees. Includes home office security, data protection, and device management."
 date: 2026-02-22
 tags: ["remote work policy", "GDPR compliance", "small business", "template", "cybersecurity"]
-ogImage: "/assets/og/remote-work-policy-template-small-business.png"
+ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Complete remote work policy template designed for small businesses. GDPR compliant, ready to customize, and includes all essential security requirements."
 featured: false
 canonical: "https://smbcyberhub.com/posts/remote-work-policy-template-small-business"
