@@ -315,6 +315,13 @@ Get all necessary templates and documentation in one download:
 
 ---
 
+<div class="bg-gray-50 border-l-4 border-gray-300 p-4 mb-6 mt-8">
+  <p class="text-sm text-gray-700">
+    <strong>Written by the SMBCyberHub Team</strong><br>
+    Cybersecurity compliance specialists with 20+ years experience helping small businesses achieve audit-ready security. Our expertise spans NIST CSF 2.0, GDPR compliance, and cyber insurance requirements across 500+ organizations.
+  </p>
+</div>
+
 ## 📚 Related Reading
 
 ### Insurance & Compliance
