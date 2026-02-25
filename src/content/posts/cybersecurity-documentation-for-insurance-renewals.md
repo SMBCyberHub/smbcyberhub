@@ -80,7 +80,7 @@ canonical: "https://smbcyberhub.com/posts/cybersecurity-documentation-for-insura
 6. **Backup Verification Logs** - Regular testing records
 7. **Breach Notification Template** - Pre-written response letter
 
-**Our Compliance Kit provides all 7 documents in 30 minutes.** Buy once, use forever.
+**Our Compliance Kit helps you get started on these requirements in 30 minutes** — with training modules, policy templates, checklists, and audit-ready documentation. Buy once, use forever.
 
 </div>
 
@@ -88,7 +88,7 @@ canonical: "https://smbcyberhub.com/posts/cybersecurity-documentation-for-insura
 
 ## What are the 10 most common insurance cybersecurity questions in 2026?
 
-**Insurance providers consistently ask these 10 questions during renewal.** Answering "Yes" to all requires proper documentation - which our kit provides in 30 minutes.
+**Insurance providers consistently ask these 10 questions during renewal.** Answering "Yes" to all requires proper documentation - our kit helps you build that foundation in 30 minutes.
 
 ### **1. "Do you provide regular security awareness training to all employees?"**
 **✅ YES - With Our Documentation:**
@@ -179,14 +179,14 @@ canonical: "https://smbcyberhub.com/posts/cybersecurity-documentation-for-insura
 
 ## How can I complete my insurance cybersecurity questionnaire in 30 minutes?
 
-**The 30-Minute Compliance Framework** makes it simple: Download → Customize → Train → Submit. Our kit includes all templates and documentation, requiring only your company details to be added.
+**The 30-Minute Compliance Framework** makes it simple: Download → Review → Train → Document. Our kit gives you the training modules, policy templates, and checklists to build your compliance foundation fast.
 
 ### **Step 1: Download the Complete Kit**
 Get all necessary templates and documentation in one download:
-- **All 10 security policies** (ready to customize)
-- **Training materials** (slides, quizzes, certificates)
-- **Risk assessment template** (Excel format)
-- **Incident response plan** (step-by-step)
+- **Policy templates & checklists** (AUP, BYOD, remote work, GDPR, backup strategy, and more)
+- **Training materials** (6 modules with slides covering all key topics)
+- **6 staff quizzes** (test understanding for every module)
+- **Incident response quick sheet** (step-by-step procedures)
 - **Compliance checklists** (audit-ready)
 
 ### **Step 2: Customize with Your Company Info**
@@ -221,20 +221,18 @@ Get all necessary templates and documentation in one download:
 ### **Example 2: "CyberSafe Insurance" Requirements**
 **Question:** "Provide evidence of documented security policies."
 
-**✅ Our Kit Provides:**
-- 10 comprehensive security policies
-- Employee acknowledgment forms
-- Policy review and update procedures
-- Management approval documentation
+**✅ Our Kit Helps With:**
+- Ready-to-use policy templates (AUP, BYOD, remote work, GDPR, backup strategy)
+- Checklists to demonstrate documented security practices
+- Training logs as supporting evidence
 
 ### **Example 3: "SecureNet Insurance" Documentation**
 **Question:** "Demonstrate your incident response capabilities."
 
-**✅ Our Kit Provides:**
-- Detailed incident response plan
-- Contact information for key personnel
-- Communication protocols
-- Post-incident review templates
+**✅ Our Kit Helps With:**
+- Incident response quick sheet with step-by-step procedures
+- Security self-audit checklist
+- Documented training covering incident awareness
 
 ## 🎯 **Why Insurance Companies Love Our Documentation**
 
@@ -277,12 +275,11 @@ Get all necessary templates and documentation in one download:
 
 **Ready to answer "Yes" to every insurance cybersecurity question?** Our complete kit includes:
 
-✅ **All 10 Security Policies** - Ready to customize and implement  
-✅ **Staff Training Materials** - Slides, quizzes, certificates  
-✅ **Risk Assessment Template** - Excel format with automated scoring  
-✅ **Incident Response Plan** - Step-by-step procedures  
-✅ **Insurance Questionnaire Guide** - Map questions to documentation  
-✅ **Executive Summary Templates** - Professional insurance submissions  
+✅ **Policy Templates & Checklists** - AUP, BYOD, remote work, GDPR, backup strategy, and more  
+✅ **All 6 Training Modules** - Slides covering phishing, passwords, device security, MFA, social engineering, ransomware  
+✅ **6 Staff Quizzes** - Test understanding for every module  
+✅ **Incident Response Quick Sheet** - Step-by-step procedures  
+✅ **Onboarding Guide & Certificate** - Audit-ready documentation for insurers  
 
 **Answer "Yes" to every insurance question and potentially reduce your premiums!**
 

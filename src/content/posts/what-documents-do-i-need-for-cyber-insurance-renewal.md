@@ -243,15 +243,14 @@ Start training 30 days before renewal. Insurers like to see recent training (wit
 
 If you're short on time, our [Pro Cybersecurity Kit](/kits/) includes:
 
-✅ All policy templates (ISP, AUP, Remote Work, Data Retention)  
-✅ Training materials with completion logs  
-✅ Incident response plan template  
-✅ Risk assessment template  
-✅ Backup verification checklist  
-✅ Breach notification templates  
-✅ MFA deployment guide  
+✅ Policy templates & checklists (AUP, BYOD, remote work, GDPR, backup strategy, and more)  
+✅ All 6 training modules with staff quizzes  
+✅ Incident response quick sheet  
+✅ Security self-audit checklist  
+✅ Certificate of training & training log  
+✅ Onboarding guide for new hires  
 
-Everything is downloadable, customizable, and audit-ready. No subscriptions, no logins, instant access.
+Everything is downloadable, PDF-based, and audit-ready. No subscriptions, no logins, instant access.
 
 ---
 

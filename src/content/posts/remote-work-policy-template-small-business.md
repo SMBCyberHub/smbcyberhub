@@ -106,7 +106,7 @@ This policy establishes security requirements for employees working remotely fro
 **Stop creating policies from scratch!** Get the complete remote work policy template that includes:
 
 ✅ **Full legal compliance** - GDPR-ready with all required sections  
-✅ **Customizable format** - Editable Word/PDF with fill-in blanks  
+✅ **Professional format** - Print-ready PDF with clear fill-in sections  
 ✅ **Employee forms** - Acknowledgment forms and checklists included  
 ✅ **Save 20+ hours** - Professional template, instant implementation  
 

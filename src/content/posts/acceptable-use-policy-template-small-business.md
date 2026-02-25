@@ -117,7 +117,7 @@ This policy defines acceptable use of company equipment, software, networks, and
 **Stop writing policies from scratch!** Get the complete acceptable use policy template that includes:
 
 ✅ **Full legal compliance** - GDPR-ready with monitoring provisions  
-✅ **Customizable format** - Editable Word/PDF with company branding  
+✅ **Professional format** - Print-ready PDF with clear fill-in sections  
 ✅ **Employee forms** - Acknowledgment forms and violation reports  
 ✅ **Save 15+ hours** - Professional template, instant implementation  
 

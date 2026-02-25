@@ -171,13 +171,12 @@ canonical: "https://smbcyberhub.com/posts/why-your-5-person-company-doesnt-need-
 
 ## 🚀 **The One-Time Purchase Solution**
 
-### **What You Get for $99:**
-- **Complete training materials** (slides, quizzes, certificates)
-- **10 security policies** (ready to customize)
-- **Insurance documentation** (answer "Yes" to all questions)
-- **Risk assessment template** (Excel format)
-- **Incident response plan** (step-by-step procedures)
-- **Implementation checklists** (30-day rollout plan)
+### **What You Get for €99:**
+- **All 6 training modules** (slides covering phishing, passwords, device security, MFA, social engineering, ransomware)
+- **6 staff quizzes** (test understanding for every module)
+- **Policy templates & checklists** (AUP, BYOD, remote work, GDPR, backup strategy, and more)
+- **Incident response quick sheet** (step-by-step procedures)
+- **Onboarding guide & certificate of training** (audit-ready documentation)
 
 ### **What You Don't Get (That You Don't Need):**
 - ❌ Monthly subscription fees
