@@ -1,0 +1,159 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const meta = {
+  title: 'Basic Cybersecurity Kit for Small Teams | SMBCyberHub',
+  description: 'Essential cybersecurity compliance with 3 core training modules, 5 checklists, and 6 policy templates. Perfect for small teams getting started with compliance. Buy once, use forever.',
+  canonical: 'https://smbcyberhub.com/basic-cybersecurity-kit'
+};
+
+const canonicalUrl = 'https://smbcyberhub.com/basic-cybersecurity-kit';
+
+const productSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Product',
+  name: 'SMBCyberHub Basic Kit',
+  description: meta.description,
+  image: 'https://smbcyberhub.com/images/smbcyberhub-logo.webp',
+  url: 'https://smbcyberhub.gumroad.com/l/basickit',
+  brand: {
+    '@type': 'Brand',
+    name: 'SMBCyberHub'
+  },
+  offers: {
+    '@type': 'Offer',
+    price: '49',
+    priceCurrency: 'EUR',
+    availability: 'https://schema.org/InStock',
+    url: 'https://smbcyberhub.gumroad.com/l/basickit',
+    priceValidUntil: '2026-12-31'
+  },
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: '5',
+    reviewCount: '3'
+  }
+};
+---
+
+<Layout title={meta.title} description={meta.description} canonical={meta.canonical}>
+  <script type="application/ld+json" set:html={JSON.stringify(productSchema)}></script>
+
+  <section class="py-16 px-6 max-w-4xl mx-auto">
+    <nav class="mb-6" aria-label="Breadcrumb">
+      <ol class="flex items-center space-x-2 text-sm text-gray-600">
+        <li><a href="/" class="hover:text-blue-600">Home</a></li>
+        <li><span class="mx-2">/</span></li>
+        <li><a href="/kits/" class="hover:text-blue-600">Kits</a></li>
+        <li><span class="mx-2">/</span></li>
+        <li class="text-gray-900 font-medium">Basic Kit</li>
+      </ol>
+    </nav>
+
+    <div class="bg-gradient-to-r from-blue-50 to-emerald-50 rounded-2xl p-8 mb-12">
+      <h1 class="text-4xl font-bold text-gray-900 mb-4">Basic Cybersecurity Kit for Small Teams</h1>
+      <p class="text-xl text-gray-700 mb-6">Essential compliance with 3 core training modules, 5 checklists, and 6 policy templates</p>
+      
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="text-3xl font-bold text-blue-600">€49</span>
+        <span class="text-gray-500">One-time purchase</span>
+      </div>
+
+      <a href="https://smbcyberhub.gumroad.com/l/basickit" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-lg shadow-lg transform hover:scale-105 transition inline-flex items-center">
+        Get Basic Kit Now
+        <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+        </svg>
+      </a>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-8 mb-12">
+      <div>
+        <h2 class="text-2xl font-bold text-gray-900 mb-4">What's Included</h2>
+        <ul class="space-y-3 text-gray-700">
+          <li class="flex items-start">
+            <svg class="w-6 h-6 text-blue-500 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+            <span><strong>3 Core Training Modules:</strong> Phishing, Passwords, Device & Remote Security</span>
+          </li>
+          <li class="flex items-start">
+            <svg class="w-6 h-6 text-blue-500 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+            <span><strong>5 Essential Checklists:</strong> Cyber hygiene, IT security, and more</span>
+          </li>
+          <li class="flex items-start">
+            <svg class="w-6 h-6 text-blue-500 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+            <span><strong>6 Policy Templates:</strong> Acceptable Use, BYOD, Remote Work, and more</span>
+          </li>
+          <li class="flex items-start">
+            <svg class="w-6 h-6 text-blue-500 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+            <span><strong>1 Team License:</strong> Perfect for small teams</span>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="text-2xl font-bold text-gray-900 mb-4">Perfect For</h2>
+        <ul class="space-y-3 text-gray-700">
+          <li class="flex items-start">
+            <svg class="w-6 h-6 text-emerald-500 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>Small teams starting their compliance journey</span>
+          </li>
+          <li class="flex items-start">
+            <svg class="w-6 h-6 text-emerald-500 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>Businesses needing basic cyber insurance compliance</span>
+          </li>
+          <li class="flex items-start">
+            <svg class="w-6 h-6 text-emerald-500 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>Companies with 1-10 employees</span>
+          </li>
+          <li class="flex items-start">
+            <svg class="w-6 h-6 text-emerald-500 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>Organizations needing quick compliance setup</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="bg-gray-50 rounded-2xl p-8 mb-12">
+      <h2 class="text-2xl font-bold text-gray-900 mb-4">Need More?</h2>
+      <p class="text-gray-700 mb-6">Upgrade to the Pro Kit for:</p>
+      <ul class="grid md:grid-cols-2 gap-4 text-gray-700">
+        <li>✓ 3 additional advanced modules</li>
+        <li>✓ 4 extra checklists</li>
+        <li>✓ 6 interactive quizzes</li>
+        <li>✓ Unlimited internal use</li>
+        <li>✓ Onboarding guides</li>
+        <li>✓ Complete audit documentation</li>
+      </ul>
+      <div class="mt-6">
+        <a href="/pro-cybersecurity-kit/" class="text-blue-600 hover:underline font-semibold">View Pro Kit →</a>
+      </div>
+    </div>
+
+    <div class="text-center">
+      <a href="/kits/" class="text-blue-600 hover:underline mb-4 inline-block">← Compare all kits</a>
+      <br>
+      <a href="https://smbcyberhub.gumroad.com/l/basickit" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-lg shadow-lg transform hover:scale-105 transition inline-flex items-center">
+        Get Basic Kit for €49
+        <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+        </svg>
+      </a>
+    </div>
+  </section>
+</Layout>
