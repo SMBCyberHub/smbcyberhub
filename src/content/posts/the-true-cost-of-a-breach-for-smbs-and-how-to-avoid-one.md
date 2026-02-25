@@ -9,6 +9,14 @@ featured: true
 canonical: "https://smbcyberhub.com/posts/the-true-cost-of-a-breach-for-smbs-and-how-to-avoid-one"
 ---
 
+<div class="bg-gradient-to-r from-blue-50 to-emerald-50 border-l-4 border-blue-500 p-6 mb-8 rounded-lg">
+
+### 📋 TL;DR Summary
+
+**A data breach costs the average SMB €50,000–€100,000** when you add up forensics, downtime, legal fees, and lost clients. **60% of small businesses** close within 6 months of a cyber attack. The good news: prevention costs roughly **10x less** than a breach — MFA, staff training, and documented policies are your best defences.
+
+</div>
+
 A breach doesn't just hit your inbox — it hits your bank account, reputation, and client trust. Here's what a breach really costs small businesses — and how to avoid one.
 
 ## 💸 Direct Financial Costs
@@ -167,6 +175,8 @@ Your team is your first line of defense against cyber threats.
 - **Phishing simulations**: Test employee awareness
 - **Policy acknowledgment**: Document understanding and compliance
 - **Incident response**: What to do when something goes wrong
+
+Our [cybersecurity compliance kits](/kits/) include the exact training materials, policy templates, and checklists needed to implement these controls — audit-ready in 30 minutes.
 
 #### **Process Documentation:**
 - **Acceptable use policies**: Clear guidelines for technology use

@@ -174,5 +174,5 @@ List the only places staff are allowed to store and share client files:
 - Specific cloud platforms (e.g. your Microsoft 365 or Google Workspace tenant)  
 - Any approved secure portal or file-transfer tool
 
-If USBs or personal cloud accounts are off-limits, say so plainly and point staff at
+If USBs or personal cloud accounts are off-limits, say so plainly and point staff at our [cybersecurity compliance kits](/kits/) which include ready-made acceptable use policies and file-sharing checklists for small teams.
 

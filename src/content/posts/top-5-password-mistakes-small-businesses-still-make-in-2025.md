@@ -9,6 +9,14 @@ featured: false
 canonical: "https://smbcyberhub.com/posts/top-5-password-mistakes-small-businesses-still-make-in-2025"
 ---
 
+<div class="bg-gradient-to-r from-blue-50 to-emerald-50 border-l-4 border-blue-500 p-6 mb-8 rounded-lg">
+
+### 📋 TL;DR Summary
+
+**The 5 biggest password mistakes SMBs still make:** reusing passwords across tools, using personal info, storing credentials in plaintext, skipping MFA, and sharing logins with colleagues. Fix them by deploying a password manager (Bitwarden is free), enabling MFA on all critical systems, and creating individual accounts for every team member.
+
+</div>
+
 Strong passwords are one of the simplest, most effective defenses in cybersecurity. And yet, password hygiene is still a major weak point for small teams.
 
 Here are the top 5 mistakes — and what to do instead.
@@ -401,6 +409,7 @@ For businesses with higher security requirements or compliance needs.
 
 ### **Internal Links:**
 - **[SMB Cybersecurity Compliance Guide 2026](/posts/smb-cybersecurity-compliance-guide-2026)** - Complete compliance framework with password security requirements
+- **[Compare All Cybersecurity Kits](/kits/)** - Ready-made password policies, training slides, and compliance checklists for small teams
 
 ---
 
