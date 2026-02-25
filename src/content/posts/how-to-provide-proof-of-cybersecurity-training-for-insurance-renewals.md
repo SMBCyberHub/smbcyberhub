@@ -231,15 +231,15 @@ Insurance Renewal Cybersecurity Documentation
 
 ## 📥 **Get Complete Insurance Renewal Kit**
 
-**Need this done quickly?** Our complete insurance renewal kit includes:
+**Need this done quickly?** Our complete kit includes:
 
-✅ **All training templates** - Certificates, logs, attendance sheets  
-✅ **Policy acknowledgment forms** - GDPR compliant and ready to use  
-✅ **Executive summary templates** - Professional insurance documentation  
-✅ **Training materials** - Presentations, quizzes, handouts  
-✅ **Future planning templates** - Ongoing compliance documentation  
+✅ **All 6 training modules** - Slides covering phishing, passwords, device security, MFA, social engineering, ransomware  
+✅ **6 staff quizzes** - Test understanding for every module  
+✅ **Policy templates & checklists** - AUP, BYOD, remote work, GDPR, backup strategy, and more  
+✅ **Certificate of training & training log** - Audit-ready proof for insurers  
+✅ **Onboarding guide** - Get new hires compliant from day one  
 
-**Save 15+ hours** and get professional, audit-ready documentation that insurance companies love.
+**Save hours of work** and get professional, audit-ready documentation that insurance companies love.
 
 **[Get Complete Insurance Renewal Kit →](/kits/)**
 

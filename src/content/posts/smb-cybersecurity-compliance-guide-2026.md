@@ -815,12 +815,12 @@ The key is starting with comprehensive templates, implementing systematically, a
 - Training acknowledgment forms
 - **Download**: [Free Training Materials](/free-cyber-security-training/)
 
-### **Risk Assessment Template (Excel)**
-✅ **Comprehensive Risk Management**
-- Automated risk scoring
-- Mitigation tracking
-- Executive dashboard
-- **Download**: [Free Risk Assessment](/free-cyber-security-training/)
+### **Security Self-Audit Checklist**
+✅ **Compliance Self-Assessment**
+- Step-by-step audit walkthrough
+- Gap identification and prioritisation
+- Audit-ready documentation
+- **Download**: [Get Complete Kit](/kits/)
 
 ---
 

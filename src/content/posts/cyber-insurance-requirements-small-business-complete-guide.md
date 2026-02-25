@@ -23,7 +23,7 @@ canonical: "https://smbcyberhub.com/posts/cyber-insurance-requirements-small-bus
 4. **Risk Assessment** - Documented cybersecurity risk analysis
 5. **Incident Response Plan** - Step-by-step breach procedures
 
-**Premiums average €1,500-5,000 annually** but can be reduced 20-30% with proper security measures. Our kit provides all documentation in 30 minutes.
+**Premiums average €1,500-5,000 annually** but can be reduced 20-30% with proper security measures. Our kit helps you build your compliance foundation in 30 minutes.
 
 </div>
 
