@@ -3,7 +3,7 @@ title: "How to Pass Security Audit Without Subscription: 1-Hour Cyber Hygiene Ch
 description: "Need to pass client security audit or GDPR compliance? This one-time checklist gets small teams audit-ready in 60 minutes. Buy once, use forever - no monthly fees."
 date: 2025-07-06
 tags: ["audit", "checklist", "compliance"]
-ogImage: "/assets/og/audit-ready-in-under-an-hour-a-cyber-hygiene-checklist.png"
+ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Need to pass a client or GDPR audit? This checklist gets your team’s cyber hygiene in shape — fast."
 featured: false
 canonical: "https://smbcyberhub.com/posts/audit-ready-in-under-an-hour-a-cyber-hygiene-checklist"

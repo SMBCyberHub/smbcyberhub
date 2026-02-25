@@ -3,7 +3,7 @@ title: "Safe Client File Sharing: Simple Rules for Email and Cloud Links"
 description: "Learn simple, practical rules for sharing client files safely by email and cloud links so your small team avoids data leaks, GDPR headaches, and payment fraud."
 date: 2025-12-04
 tags: ["file sharing", "small business", "data protection"]
-ogImage: /assets/og/safe-client-file-sharing-simple-rules.png
+ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "A practical, plain-English guide to sharing client files safely with email and cloud links — without turning your small team into IT admins."
 featured: false
 canonical: https://smbcyberhub.com/posts/safe-client-file-sharing-simple-rules

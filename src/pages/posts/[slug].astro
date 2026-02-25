@@ -23,13 +23,13 @@ const { Content } = await post.render();
 const { data } = post;
 
 // --- Helpers for safe schema values ---
-const canonicalUrl = `${SITE}/posts/${slug}`;
+const canonicalUrl = `${SITE}/posts/${slug}/`;
 const isoDate =
   typeof data.date === 'string' ? new Date(data.date).toISOString() : new Date(data.date).toISOString();
 const ogImageUrl =
   typeof data.ogImage === 'string' && data.ogImage.startsWith('http')
     ? data.ogImage
-    : `${SITE}${data.ogImage || '/logo.png'}`;
+    : `${SITE}${data.ogImage || '/images/smbcyberhub-logo.webp'}`;
 const clean = (s) => String(s || '').replace(/\s+/g, ' ').trim();
 
 // --- BlogPosting schema object (no undefineds, no trailing commas) ---
@@ -49,32 +49,13 @@ const articleSchema = {
     '@type': 'Organization',
     name: 'SMBCyberHub',
     url: SITE,                         // optional, improves completeness
-    logo: { '@type': 'ImageObject', url: `${SITE}/logo.png` }
+    logo: { '@type': 'ImageObject', url: `${SITE}/images/smbcyberhub-logo.webp` }
   },
   datePublished: isoDate,
   dateModified: isoDate,
   mainEntityOfPage: canonicalUrl
 };
 
-
-// --- HowTo schema (short + safe text-only steps) ---
-const howToSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'HowTo',
-  name: clean(data.title),
-  description: clean(data.description || data.excerpt),
-  mainEntityOfPage: canonicalUrl,
-  // optional time/cost fields are strings in ISO8601 duration if used
-  totalTime: 'PT10M',
-  step: [
-    { '@type': 'HowToStep', name: 'Suspend primary account', text: 'Suspend access immediately to preserve files, settings, and audit trails.' },
-    { '@type': 'HowToStep', name: 'Revoke sessions & MFA', text: 'Terminate active SSO sessions and remove MFA methods/recovery codes.' },
-    { '@type': 'HowToStep', name: 'Transfer ownership', text: 'Reassign shared drives, folders, calendars, forms, and dashboards before removal.' },
-    { '@type': 'HowToStep', name: 'Collect or disable devices', text: 'Retrieve laptops/phones/keys; disable or wipe remotely if needed.' },
-    { '@type': 'HowToStep', name: 'Rotate shared credentials', text: 'Change any shared passwords, admin logins, Wi-Fi keys, and API tokens.' },
-    { '@type': 'HowToStep', name: 'Remove vendor/app access', text: 'Revoke access in CRM, accounting, support desk, code hosting, and OAuth apps.' },
-  ],
-};
 
 // --- BreadcrumbList schema ---
 const breadcrumbSchema = {
@@ -88,32 +69,15 @@ const breadcrumbSchema = {
 };
 ---
 
-<head>
-  <title>{data.title} | SMBCyberHub</title>
-  <meta name="description" content={data.description} />
-  <meta name="author" content="SMBCyberHub" />
-
-  <!-- Canonical & Open Graph -->
-  <link rel="canonical" href={canonicalUrl} />
-  <meta property="og:title" content={data.title} />
-  <meta property="og:description" content={data.description} />
-  <meta property="og:type" content="article" />
-  <meta property="og:url" content={canonicalUrl} />
-  <meta property="og:image" content={ogImageUrl} />
-
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content={data.title} />
-  <meta name="twitter:description" content={data.description} />
-  <meta name="twitter:image" content={ogImageUrl} />
-
-  <!-- JSON-LD (three separate, valid blocks) -->
+<Layout
+  title={`${data.title} | SMBCyberHub`}
+  description={data.description}
+  ogImage={ogImageUrl}
+  ogType="article"
+  canonical={canonicalUrl}
+>
   <script type="application/ld+json" set:html={JSON.stringify(articleSchema)}></script>
-  <script type="application/ld+json" set:html={JSON.stringify(howToSchema)}></script>
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)}></script>
-</head>
-
-<Layout>
   <article class="py-16 px-6 max-w-3xl mx-auto">
     <!-- Breadcrumbs -->
     <nav class="mb-6" aria-label="Breadcrumb">

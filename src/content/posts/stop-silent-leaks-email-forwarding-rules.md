@@ -3,7 +3,7 @@ title: "Stop Silent Leaks: Complete Guide to Email Forwarding Rules Security"
 description: "Comprehensive guide to preventing email forwarding leaks. Technical controls, process safeguards, and implementation strategies for small businesses."
 date: 2025-10-02
 tags: ["email security", "small business", "BEC", "Gmail", "Microsoft 365", "email forwarding", "inbox rules"]
-ogImage: "/assets/og/stop-silent-leaks-email-forwarding-rules.png"
+ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Attackers love silent auto-forwarding. This comprehensive guide finds and fixes risky inbox rules in Gmail and Microsoft 365 with detailed implementation strategies."
 featured: false
 canonical: "https://smbcyberhub.com/posts/stop-silent-leaks-email-forwarding-rules-in-10-minutes"

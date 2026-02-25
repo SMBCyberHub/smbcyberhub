@@ -3,7 +3,7 @@ title: "Why Your 5-Person Company Doesn't Need a $200/Month Cybersecurity Subscr
 description: "Spending $200+/month on cybersecurity SaaS? Stop wasting money. One-time purchase cybersecurity kits give you everything needed for compliance. Buy once, use forever."
 date: 2026-02-22
 tags: ["cybersecurity costs", "SaaS alternatives", "small business security", "no subscription cybersecurity", "cost-effective security"]
-ogImage: "/assets/og/why-5-person-company-doesnt-need-cybersecurity-subscription.png"
+ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Stop paying monthly fees for cybersecurity. One-time purchase kits give 5-person companies complete compliance without ongoing costs."
 featured: true
 canonical: "https://smbcyberhub.com/posts/why-your-5-person-company-doesnt-need-a-200-month-cybersecurity-subscription"

@@ -3,7 +3,7 @@ title: "What Happens After a Phishing Click? (And What You Should Do)"
 description: "Complete guide to phishing incident response. What happens after a phishing click, step-by-step response procedures, and prevention strategies for small businesses."
 date: 2025-07-14
 tags: ["phishing", "incident response", "awareness", "cybersecurity training", "security incident"]
-ogImage: "/assets/og/what-happens-after-a-phishing-click-and-what-you-should-do.png"
+ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "If someone clicks a phishing email, what really happens next? Here's what to expect — and how to minimize the damage with detailed incident response procedures."
 featured: false
 canonical: "https://smbcyberhub.com/posts/what-happens-after-a-phishing-click-and-what-you-should-do"

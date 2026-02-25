@@ -189,7 +189,7 @@ tags: ["SMB cybersecurity", "GDPR compliance", "audit readiness", "small busines
   "datePublished": "2026-02-14",
   "dateModified": "2026-02-14",
   "mainEntityOfPage": "https://smbcyberhub.com/posts/smb-cybersecurity-compliance-guide-2026/",
-  "image": "https://smbcyberhub.com/assets/og/smb-cybersecurity-compliance-guide-2026.png",
+  "image": "https://smbcyberhub.com/images/smbcyberhub-logo.webp",
   "articleSection": "Technology",
   "wordCount": 3500,
   "about": [
