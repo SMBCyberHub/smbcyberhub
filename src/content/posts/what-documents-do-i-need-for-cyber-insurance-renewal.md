@@ -1,20 +1,20 @@
 ---
-title: "What Documents Do I Need for Cyber Insurance Renewal? Complete 2026 Checklist"
-description: "Step-by-step guide to all documents required for cyber insurance renewal in 2026. Includes GDPR compliance, training records, policies, and audit-ready templates for small businesses."
+title: "2026 Cyber Insurance Compliance Checklist | SMBCyberHub"
+description: "Step-by-step guide to cyber insurance compliance for small businesses in 2026. Includes GDPR compliance, training records, policies, and audit-ready templates."
 pubDate: 2026-02-23
 date: 2026-02-23
 tags: ["cyber insurance", "compliance", "documentation", "GDPR", "audit", "small business"]
 ---
 
-# What Documents Do I Need for Cyber Insurance Renewal? Complete 2026 Checklist
+# Cyber Insurance Renewal Checklist 2026: Essential Documents for SMBs
 
 Getting your cyber insurance renewed shouldn't be a last-minute scramble. Insurers are getting stricter about documentation, and being prepared with the right documents can make the difference between smooth sailing and premium hikes.
 
 This comprehensive checklist covers exactly what documents you need for cyber insurance renewal in 2026, whether you're in the UK, Ireland, or across the EU.
 
-## TL;DR: The 7 Essential Documents
+## TL;DR: The 7 Essential Cyber Insurance Documents
 
-1. **Staff Training Records** - Completion dates and sign-offs
+1. **Cybersecurity Training Records** - Completion dates and sign-offs
 2. **Information Security Policy** - Written and signed by management
 3. **Incident Response Plan** - Step-by-step breach procedures
 4. **Risk Assessment** - Documented security risk analysis
@@ -24,7 +24,7 @@ This comprehensive checklist covers exactly what documents you need for cyber in
 
 ---
 
-## 1. Staff Training Records
+## 1. Cybersecurity Training Records
 
 ### What Insurers Want
 - Annual security awareness training completion for all staff

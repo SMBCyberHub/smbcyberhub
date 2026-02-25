@@ -1,0 +1,164 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const meta = {
+  title: 'Pro Cybersecurity Kit for Small Teams | SMBCyberHub',
+  description: 'Complete cybersecurity compliance with all 6 training modules, 9 checklists, 6 policies, and 6 quizzes. Covers core topics plus advanced MFA, social engineering, and ransomware awareness. Buy once, use forever.',
+  canonical: 'https://smbcyberhub.com/pro-cybersecurity-kit'
+};
+
+const canonicalUrl = 'https://smbcyberhub.com/pro-cybersecurity-kit';
+
+const productSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Product',
+  name: 'SMBCyberHub Pro Kit',
+  description: meta.description,
+  image: 'https://smbcyberhub.com/images/smbcyberhub-logo.webp',
+  url: 'https://smbcyberhub.gumroad.com/l/prokit',
+  brand: {
+    '@type': 'Brand',
+    name: 'SMBCyberHub'
+  },
+  offers: {
+    '@type': 'Offer',
+    price: '99',
+    priceCurrency: 'EUR',
+    availability: 'https://schema.org/InStock',
+    url: 'https://smbcyberhub.gumroad.com/l/prokit',
+    priceValidUntil: '2026-12-31'
+  },
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: '5',
+    reviewCount: '7'
+  }
+};
+---
+
+<Layout title={meta.title} description={meta.description} canonical={meta.canonical}>
+  <script type="application/ld+json" set:html={JSON.stringify(productSchema)}></script>
+
+  <section class="py-16 px-6 max-w-4xl mx-auto">
+    <nav class="mb-6" aria-label="Breadcrumb">
+      <ol class="flex items-center space-x-2 text-sm text-gray-600">
+        <li><a href="/" class="hover:text-blue-600">Home</a></li>
+        <li><span class="mx-2">/</span></li>
+        <li><a href="/kits/" class="hover:text-blue-600">Kits</a></li>
+        <li><span class="mx-2">/</span></li>
+        <li class="text-gray-900 font-medium">Pro Kit</li>
+      </ol>
+    </nav>
+
+    <div class="bg-gradient-to-r from-emerald-50 to-blue-50 rounded-2xl p-8 mb-12">
+      <h1 class="text-4xl font-bold text-gray-900 mb-4">Pro Cybersecurity Kit for Small Teams</h1>
+      <p class="text-xl text-gray-700 mb-6">Complete coverage with all 6 training modules, 9 checklists, 6 policies, and 6 quizzes</p>
+      
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="text-3xl font-bold text-emerald-600">€99</span>
+        <span class="text-gray-500">One-time purchase</span>
+      </div>
+
+      <a href="https://smbcyberhub.gumroad.com/l/prokit" class="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-8 py-4 rounded-lg shadow-lg transform hover:scale-105 transition inline-flex items-center">
+        Get Pro Kit Now
+        <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+        </svg>
+      </a>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-8 mb-12">
+      <div>
+        <h2 class="text-2xl font-bold text-gray-900 mb-4">What's Included</h2>
+        <ul class="space-y-3 text-gray-700">
+          <li class="flex items-start">
+            <svg class="w-6 h-6 text-emerald-500 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+            <span><strong>All 6 Training Modules:</strong> Phishing, Passwords, Device Security, MFA, Social Engineering, Ransomware</span>
+          </li>
+          <li class="flex items-start">
+            <svg class="w-6 h-6 text-emerald-500 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+            <span><strong>9 Comprehensive Checklists:</strong> From cyber hygiene to security self-audits</span>
+          </li>
+          <li class="flex items-start">
+            <svg class="w-6 h-6 text-emerald-500 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+            <span><strong>6 Essential Policies:</strong> GDPR-ready templates for immediate use</span>
+          </li>
+          <li class="flex items-start">
+            <svg class="w-6 h-6 text-emerald-500 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+            <span><strong>6 Interactive Quizzes:</strong> Test understanding for all modules</span>
+          </li>
+          <li class="flex items-start">
+            <svg class="w-6 h-6 text-emerald-500 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+            <span><strong>Unlimited Internal Use:</strong> Perfect for growing teams</span>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="text-2xl font-bold text-gray-900 mb-4">Perfect For</h2>
+        <ul class="space-y-3 text-gray-700">
+          <li class="flex items-start">
+            <svg class="w-6 h-6 text-blue-500 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>Teams needing complete compliance documentation</span>
+          </li>
+          <li class="flex items-start">
+            <svg class="w-6 h-6 text-blue-500 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>Businesses facing cyber insurance requirements</span>
+          </li>
+          <li class="flex items-start">
+            <svg class="w-6 h-6 text-blue-500 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>Companies preparing for GDPR or ISO27001 audits</span>
+          </li>
+          <li class="flex items-start">
+            <svg class="w-6 h-6 text-blue-500 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>Organizations with 1-20 employees needing comprehensive security</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="bg-gray-50 rounded-2xl p-8 mb-12">
+      <h2 class="text-2xl font-bold text-gray-900 mb-4">What You Get</h2>
+      <p class="text-gray-700 mb-6">When you purchase the Pro Kit, you'll receive:</p>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-white rounded-lg p-6">
+          <h3 class="font-semibold text-lg mb-3">Basic Kit Download</h3>
+          <p class="text-sm text-gray-600">Core training modules, essential policies, and foundational checklists (1.7MB)</p>
+        </div>
+        <div class="bg-white rounded-lg p-6">
+          <h3 class="font-semibold text-lg mb-3">Pro Kit Add-ons Download</h3>
+          <p class="text-sm text-gray-600">Advanced modules, quizzes, extra checklists, and onboarding guides (3.6MB)</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center">
+      <a href="/kits/" class="text-blue-600 hover:underline mb-4 inline-block">← Compare all kits</a>
+      <br>
+      <a href="https://smbcyberhub.gumroad.com/l/prokit" class="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-8 py-4 rounded-lg shadow-lg transform hover:scale-105 transition inline-flex items-center">
+        Get Pro Kit for €99
+        <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+        </svg>
+      </a>
+    </div>
+  </section>
+</Layout>

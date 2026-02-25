@@ -1,5 +1,5 @@
 ---
-title: "How to Provide Proof of Cybersecurity Training for Insurance Renewals: Complete Guide 2026"
+title: "Cyber Insurance Training Proof Guide 2026 | SMBCyberHub"
 description: "Insurance renewal requiring cybersecurity training proof? Complete guide with templates, examples, and documentation. Buy once, use forever - no monthly fees."
 date: 2026-02-22
 tags: ["cyber insurance renewal", "cybersecurity training proof", "insurance documentation", "compliance"]
