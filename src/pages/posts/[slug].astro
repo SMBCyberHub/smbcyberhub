@@ -41,9 +41,14 @@ const articleSchema = {
   image: [ogImageUrl],                 // array is fine/preferred by Google
   url: canonicalUrl,                   // optional but nice to have
   author: {
-    '@type': 'Organization',
-    name: 'SMBCyberHub',
-    url: SITE                          // ✅ adds the missing url on author
+    '@type': 'Person',
+    name: 'Jim SMBCyberHub',
+    jobTitle: 'Cybersecurity Compliance Specialist',
+    url: `${SITE}/about/`,
+    sameAs: [
+      'https://www.linkedin.com/in/smb-cyberhub-67567b374/',
+      'https://x.com/SMBCyberHub'
+    ]
   },
   publisher: {
     '@type': 'Organization',
