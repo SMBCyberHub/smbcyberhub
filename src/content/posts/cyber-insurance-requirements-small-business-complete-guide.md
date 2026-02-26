@@ -6,7 +6,7 @@ tags: ["cyber insurance", "compliance", "small business", "risk management", "cy
 ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Complete guide to cyber insurance requirements for small businesses. Understand coverage types, compliance requirements, and how to optimize your cyber insurance policy."
 featured: true
-canonical: "https://smbcyberhub.com/posts/cyber-insurance-requirements-small-business-complete-guide"
+canonical: "https://smbcyberhub.com/posts/cyber-insurance-requirements-small-business-complete-guide/"
 ---
 
 # 2026 Cyber Insurance Requirements for Small Business

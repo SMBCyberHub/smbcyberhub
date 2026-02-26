@@ -6,7 +6,7 @@ tags: ["cyber hygiene", "compliance", "small business security"]
 ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Think you're too small to be targeted? Think again. We bust common cybersecurity myths that leave small teams vulnerable — and how to fix them."
 featured: false
-canonical: "https://smbcyberhub.com/posts/cybersecurity-myths-small-teams"
+canonical: "https://smbcyberhub.com/posts/cybersecurity-myths-small-teams/"
 ---
 
 Cybersecurity isn't just for big companies. In fact, small teams are often *easier* targets — and attackers know it. Yet too many founders and teams fall into false beliefs that create real risk.

@@ -6,7 +6,7 @@ tags: ["email security", "phishing", "dmarc", "small business", "email authentic
 ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Learn the difference between spoofed and lookalike emails—and follow a 7-step playbook to block invoice fraud and fake sender tricks with comprehensive protection strategies."
 featured: false
-canonical: "https://smbcyberhub.com/posts/stop-fake-emails-spoofing-lookalikes"
+canonical: "https://smbcyberhub.com/posts/stop-fake-emails-spoofing-lookalikes/"
 ---
 
 Fake invoices. "CEO" wire requests. Supplier bank-detail changes. Most start with a fake sender. Here's a simple guide to the two most common tricks—and a small-team playbook to block them fast.

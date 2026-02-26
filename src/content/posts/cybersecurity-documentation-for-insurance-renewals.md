@@ -6,7 +6,7 @@ tags: ["cyber insurance documentation", "insurance security questionnaire", "cyb
 ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Complete guide to providing cybersecurity documentation for insurance renewals. Answer 'Yes' to all insurance security questions with our ready-to-use kits."
 featured: true
-canonical: "https://smbcyberhub.com/posts/cybersecurity-documentation-for-insurance-renewals"
+canonical: "https://smbcyberhub.com/posts/cybersecurity-documentation-for-insurance-renewals/"
 ---
 
 <script type="application/ld+json">
@@ -40,25 +40,25 @@ canonical: "https://smbcyberhub.com/posts/cybersecurity-documentation-for-insura
       "@type": "HowToStep",
       "name": "Review Insurance Security Questionnaire",
       "text": "Identify the specific cybersecurity questions your insurance provider needs answered",
-      "url": "https://smbcyberhub.com/posts/cybersecurity-documentation-for-insurance-renewals"
+      "url": "https://smbcyberhub.com/posts/cybersecurity-documentation-for-insurance-renewals/"
     },
     {
       "@type": "HowToStep",
       "name": "Map Questions to Required Documentation",
       "text": "Match each insurance question to the specific documentation needed for 'Yes' answers",
-      "url": "https://smbcyberhub.com/posts/cybersecurity-documentation-for-insurance-renewals"
+      "url": "https://smbcyberhub.com/posts/cybersecurity-documentation-for-insurance-renewals/"
     },
     {
       "@type": "HowToStep",
       "name": "Generate Required Documentation",
       "text": "Create or gather all necessary policies, training records, and compliance documentation",
-      "url": "https://smbcyberhub.com/posts/cybersecurity-documentation-for-insurance-renewals"
+      "url": "https://smbcyberhub.com/posts/cybersecurity-documentation-for-insurance-renewals/"
     },
     {
       "@type": "HowToStep",
       "name": "Submit Complete Insurance Package",
       "text": "Compile all documentation into a professional package for your insurance provider",
-      "url": "https://smbcyberhub.com/posts/cybersecurity-documentation-for-insurance-renewals"
+      "url": "https://smbcyberhub.com/posts/cybersecurity-documentation-for-insurance-renewals/"
     }
   ]
 }
