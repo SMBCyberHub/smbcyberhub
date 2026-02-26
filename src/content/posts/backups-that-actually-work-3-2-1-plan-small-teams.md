@@ -92,7 +92,7 @@ Common: 30–90 days for everyday work; 7 years for finance/tax (follow your loc
 ---
 
 ## 📎 Internal Reference (for fast audit wins)
-Backing up is one pillar of basic cyber hygiene. If you’re formalising your checklist, see **[Audit-Ready in Under an Hour: A Cyber Hygiene Checklist](/posts/audit-ready-in-under-an-hour-a-cyber-hygiene-checklist/)** for simple password/MFA and device steps that pair well with this plan.
+Backing up is one pillar of basic cyber hygiene. If you're formalising your checklist, see **[Audit-Ready in Under an Hour: A Cyber Hygiene Checklist](/posts/audit-ready-in-under-an-hour-a-cyber-hygiene-checklist/)** for simple password/MFA and device steps that pair well with this plan. Our [cybersecurity compliance kits](/kits/) include backup policy templates and audit-ready checklists you can use straight away.
 
 ---
 

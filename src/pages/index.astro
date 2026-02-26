@@ -254,55 +254,9 @@ const schemaData = {
       ]
     },
     {
-      "@type": "Service",
-      "name": "Cybersecurity Compliance Consulting",
-      "description": "Downloadable cybersecurity compliance kits and consulting services for small businesses. NIST CSF 2.0 aligned, GDPR compliant, audit-ready.",
-      "provider": {
-        "@type": "Organization",
-        "name": "SMBCyberHub",
-        "url": "https://smbcyberhub.com"
-      },
-      "serviceType": "Cybersecurity Compliance",
-      "areaServed": "Worldwide",
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Compliance Kits",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Product",
-              "name": "Basic Compliance Kit"
-            },
-            "price": "49",
-            "priceCurrency": "EUR"
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Product",
-              "name": "Pro Compliance Kit"
-            },
-            "price": "99",
-            "priceCurrency": "EUR"
-          }
-        ]
-      },
-      "keywords": "cybersecurity compliance, NIST CSF, GDPR, ISO 27001, audit readiness, small business security",
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://smbcyberhub.com"
-      }
-    },
-    {
       "@type": "WebSite",
       "name": "SMBCyberHub",
-      "url": "https://smbcyberhub.com",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://smbcyberhub.com/blog/?search={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }
+      "url": "https://smbcyberhub.com"
     },
     {
       "@type": "BreadcrumbList",
@@ -321,7 +275,7 @@ const schemaData = {
 
 <Layout 
   title="SMB Cybersecurity Compliance Kits | Audit-Ready Training"
-  description="Download cybersecurity compliance kits for small business. GDPR-aligned, audit-ready training materials. No logins, no subscriptions. Get audit-ready in 30 minutes. Updated 2026."
+  description="SMB cybersecurity compliance kits — GDPR-aligned training, policies, and checklists. Audit-ready in 30 minutes. No logins, no subscriptions."
 >
   <script type="application/ld+json" set:html={JSON.stringify(schemaData)}></script>
 
@@ -537,12 +491,6 @@ const schemaData = {
   <!-- 💬 Testimonials -->
   <section class="bg-gray-50 py-12 px-6 text-center text-gray-700">
     <blockquote class="max-w-2xl mx-auto italic">
-      “Our insurance broker was chasing us for proof of training, but I had no idea what they wanted. The SMBCyberHub kit saved hours and made our renewal painless. It was so clear, and we actually looked professional to the insurer.”
-    </blockquote>
-    <p class="mt-4 font-semibold text-sm">– Emma P, Office Manager, Local Retailer</p>
-  </section>
-  <section class="bg-gray-50 py-12 px-6 text-center text-gray-700">
-    <blockquote class="max-w-2xl mx-auto italic">
       “I printed the kit, ran the training at lunch, and had our whole team documented in under an hour. Zero hassle, and the quizzes made everyone laugh. It was great to finally have compliance ticked off—no IT help needed!”
     </blockquote>
     <p class="mt-4 font-semibold text-sm">– Niall C, Small Business Owner, Dublin</p>
@@ -569,7 +517,7 @@ const schemaData = {
   <!-- 🔐 GDPR Badge & Trust Note -->
   <section class="bg-white py-12 px-6 text-center">
     <div class="max-w-md mx-auto">
-      <img src="/images/gdpr-badge.webp" alt="Official SMBCyberHub GDPR Article 39.1(b) compliance certification badge demonstrating small business cybersecurity training meets EU data protection requirements" class="h-36 mx-auto mb-3" />
+      <img src="/images/gdpr-badge.webp" alt="Official SMBCyberHub GDPR Article 39.1(b) compliance certification badge demonstrating small business cybersecurity training meets EU data protection requirements" class="h-36 mx-auto mb-3" width="144" height="144" loading="lazy" />
       <p class="text-sm text-gray-600">
         SMBCyberHub kits help meet <strong>GDPR Article 39.1(b)</strong> training compliance — even with no IT staff.
       </p>

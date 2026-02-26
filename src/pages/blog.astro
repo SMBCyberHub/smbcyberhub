@@ -62,7 +62,7 @@ const featuredPosts = posts.filter(post => post.data.featured).sort((a, b) => ne
           {featuredPosts.map(post => (
             <article class="bg-white p-6 rounded-lg shadow-sm border border-blue-100">
               <h3 class="text-xl font-semibold text-blue-800 mb-2">
-                <a href={`/posts/${post.slug}`} class="hover:underline">
+                <a href={`/posts/${post.slug}/`} class="hover:underline">
                   {post.data.title}
                 </a>
               </h3>
@@ -97,7 +97,7 @@ const featuredPosts = posts.filter(post => post.data.featured).sort((a, b) => ne
               {categoryPosts.sort((a, b) => new Date(b.data.date) - new Date(a.data.date)).map(post => (
                 <article class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 hover:border-blue-200 transition">
                   <h3 class="text-lg font-semibold text-blue-800 mb-2">
-                    <a href={`/posts/${post.slug}`} class="hover:underline">
+                    <a href={`/posts/${post.slug}/`} class="hover:underline">
                       {post.data.title}
                     </a>
                   </h3>
@@ -120,7 +120,7 @@ const featuredPosts = posts.filter(post => post.data.featured).sort((a, b) => ne
 
     <!-- Social Proof -->
     <section class="bg-gray-50 p-8 rounded-lg mt-12">
-      <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">Trusted by 500+ Small Businesses</h2>
+      <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">Trusted by 100+ Small Businesses</h2>
       <div class="grid md:grid-cols-3 gap-6">
         <div class="bg-white p-6 rounded-lg shadow-sm">
           <p class="text-gray-700 mb-3 italic">"Passed our GDPR audit on the first attempt! The auditor was impressed with our documentation."</p>
@@ -138,7 +138,7 @@ const featuredPosts = posts.filter(post => post.data.featured).sort((a, b) => ne
       <div class="text-center mt-6">
         <div class="inline-flex items-center text-yellow-500">
           <span class="text-2xl">★★★★★</span>
-          <span class="ml-2 text-gray-600">5.0/5 from 7 reviews</span>
+          <span class="ml-2 text-gray-600">4.9/5 from 7 reviews</span>
         </div>
       </div>
     </section>

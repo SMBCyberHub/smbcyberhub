@@ -345,6 +345,9 @@ Implement robust business processes for financial security.
 5. **Train staff** regularly on fraud prevention
 
 ### Your Action Plan
+
+Our [cybersecurity compliance kits](/kits/) include payment security procedures, staff training on fraud prevention, and audit-ready policy templates for your team.
+
 - [ ] **Implement callback playbook** for all payment changes
 - [ ] **Train all staff** on payment fraud awareness
 - [ ] **Set up dual-control** approval processes

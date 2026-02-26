@@ -220,6 +220,9 @@ Professional services to protect your brand online.
 5. **Regular monitoring** and updates are necessary
 
 ### **Your Action Plan**
+
+Our [cybersecurity compliance kits](/kits/) include email security policies, phishing awareness training, and audit-ready checklists to protect your team from spoofing attacks.
+
 - [ ] **Implement SPF, DKIM, DMARC** for all email services
 - [ ] **Lock down domain** and DNS security
 - [ ] **Configure email clients** for security
