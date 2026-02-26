@@ -295,9 +295,10 @@ Get all necessary templates and documentation in one download:
 ## 📚 **Related Resources**
 
 ### **Internal Links:**
-- **[How to Provide Proof of Cybersecurity Training for Insurance Renewals](/posts/how-to-provide-proof-of-cybersecurity-training-for-insurance-renewals)** - Step-by-step training documentation guide
-- **[Cyber Insurance Requirements Guide](/posts/cyber-insurance-requirements-small-business-complete-guide)** - Complete insurance requirements
-- **[SMB Cybersecurity Compliance Guide](/posts/smb-cybersecurity-compliance-guide-2026)** - Full compliance implementation
+- **[2026 SMB Cybersecurity Compliance Checklist](/2026-compliance-checklist/)** - Every document your insurer expects, step by step
+- **[How to Provide Proof of Cybersecurity Training for Insurance Renewals](/posts/how-to-provide-proof-of-cybersecurity-training-for-insurance-renewals/)** - Step-by-step training documentation guide
+- **[Cyber Insurance Requirements Guide](/posts/cyber-insurance-requirements-small-business-complete-guide/)** - Complete insurance requirements
+- **[SMB Cybersecurity Compliance Guide](/posts/smb-cybersecurity-compliance-guide-2026/)** - Full compliance implementation
 
 ### **External Resources:**
 - **Insurance Regulatory Authority**: Cybersecurity documentation guidelines
@@ -322,16 +323,16 @@ Get all necessary templates and documentation in one download:
 ## 📚 Related Reading
 
 ### Insurance & Compliance
-- **[2026 Cyber Insurance Requirements for SMB](/posts/cyber-insurance-requirements-small-business-complete-guide)** - Complete documentation checklist for 1-20 employees
-- **[Cyber Insurance Training Proof Guide 2026](/posts/how-to-provide-proof-of-cybersecurity-training-for-insurance-renewals)** - Step-by-step training documentation guide
+- **[2026 Cyber Insurance Requirements for SMB](/posts/cyber-insurance-requirements-small-business-complete-guide/)** - Complete documentation checklist for 1-20 employees
+- **[Cyber Insurance Training Proof Guide 2026](/posts/how-to-provide-proof-of-cybersecurity-training-for-insurance-renewals/)** - Step-by-step training documentation guide
 
 ### Staff Training & Policies  
-- **[2026 SMB Cybersecurity Compliance Guide](/posts/smb-cybersecurity-compliance-guide-2026)** - Full compliance implementation
-- **[Quarterly Access Reviews in 20 Minutes](/posts/quarterly-access-reviews-small-team-playbook)** - Ongoing compliance maintenance
+- **[2026 SMB Cybersecurity Compliance Guide](/posts/smb-cybersecurity-compliance-guide-2026/)** - Full compliance implementation
+- **[Quarterly Access Reviews in 20 Minutes](/posts/quarterly-access-reviews-small-team-playbook/)** - Ongoing compliance maintenance
 
 ### Security Best Practices
-- **[Stop Payment Fraud: Callback Playbook](/posts/stop-payment-fraud-callback-playbook)** - Essential for fraud prevention
-- **[Remote Work Security Habits](/posts/remote-work-security-habits-that-stop-data-leaks-before-they-start)** - Modern security challenges
+- **[Stop Payment Fraud: Callback Playbook](/posts/stop-payment-fraud-callback-playbook/)** - Essential for fraud prevention
+- **[Remote Work Security Habits](/posts/remote-work-security-habits-that-stop-data-leaks-before-they-start/)** - Modern security challenges
 
 ---
 

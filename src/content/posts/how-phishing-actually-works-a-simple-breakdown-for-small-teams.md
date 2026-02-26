@@ -307,10 +307,10 @@ Our phishing awareness kit includes:
 ## 📚 Related Resources
 
 ### **Internal Links:**
-- **[What Happens After a Phishing Click?](/posts/what-happens-after-a-phishing-click-and-what-you-should-do)** - Complete incident response guide for phishing attacks
-- **[How to Spot Social Engineering in Messages and Meetings](/posts/how-to-spot-social-engineering-in-messages-and-meetings)** - Advanced social engineering detection techniques
-- **[Stop Fake Emails: Spoofing vs Lookalike Domains](/posts/stop-fake-emails-spoofing-lookalikes)** - Technical protection against email forgery
-- **[MFA Myths Busted: What Multi-Factor Authentication Really Does](/posts/mfa-myths-busted-what-multi-factor-authentication-really-does)** - Essential protection against credential theft
+- **[What Happens After a Phishing Click?](/posts/what-happens-after-a-phishing-click-and-what-you-should-do/)** - Complete incident response guide for phishing attacks
+- **[How to Spot Social Engineering in Messages and Meetings](/posts/how-to-spot-social-engineering-in-messages-and-meetings/)** - Advanced social engineering detection techniques
+- **[Stop Fake Emails: Spoofing vs Lookalike Domains](/posts/stop-fake-emails-spoofing-lookalikes/)** - Technical protection against email forgery
+- **[MFA Myths Busted: What Multi-Factor Authentication Really Does](/posts/mfa-myths-busted-what-multi-factor-authentication-really-does/)** - Essential protection against credential theft
 
 ### **External Resources:**
 - **National Cyber Security Centre**: Phishing guidance and reporting

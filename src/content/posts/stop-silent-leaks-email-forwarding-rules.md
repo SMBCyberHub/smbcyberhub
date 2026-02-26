@@ -283,9 +283,9 @@ Need ready-to-use checklists and short staff training slides?
 ## 📚 Related Resources
 
 ### **Internal Links:**
-- **[How to Spot Social Engineering in Messages and Meetings](/posts/how-to-spot-social-engineering-in-messages-and-meetings)**
-- **[Stop Payment Fraud: A Simple Callback Playbook for Invoice & Bank-Detail Changes](/posts/stop-payment-fraud-callback-playbook)**
-- **[What Happens After a Phishing Click?](/posts/what-happens-after-a-phishing-click-and-what-you-should-do)**
+- **[How to Spot Social Engineering in Messages and Meetings](/posts/how-to-spot-social-engineering-in-messages-and-meetings/)**
+- **[Stop Payment Fraud: A Simple Callback Playbook for Invoice & Bank-Detail Changes](/posts/stop-payment-fraud-callback-playbook/)**
+- **[What Happens After a Phishing Click?](/posts/what-happens-after-a-phishing-click-and-what-you-should-do/)**
 
 ### **External Resources:**
 - **Microsoft**: Email security best practices

@@ -23,7 +23,7 @@ For a small team, one poorly shared file can be as damaging as a full-blown data
 - A spreadsheet of customer details can end up forwarded around without anyone noticing.  
 - ID documents can sit in “anyone with the link” folders for years.
 
-If something goes wrong, you’re the one explaining it to the client, the insurer, and possibly regulators. Posts like [The True Cost of a Breach for SMBs (and How to Avoid One)](/posts/the-true-cost-of-a-breach-for-smbs-and-how-to-avoid-one) show how quickly a “small” mistake becomes expensive.
+If something goes wrong, you’re the one explaining it to the client, the insurer, and possibly regulators. Posts like [The True Cost of a Breach for SMBs (and How to Avoid One)](/posts/the-true-cost-of-a-breach-for-smbs-and-how-to-avoid-one/) show how quickly a “small” mistake becomes expensive.
 
 You don’t need new tools to fix this. You just need a simple way to:
 
@@ -83,7 +83,7 @@ For personal data:
 - Require sign-in where possible.  
 - Set an **expiry** on links.
 
-If the file contains payment information or bank details, combine these sharing rules with the callback process in [Stop Payment Fraud: A Simple Callback Playbook for Invoice & Bank-Detail Changes](/posts/stop-payment-fraud-callback-playbook).
+If the file contains payment information or bank details, combine these sharing rules with the callback process in [Stop Payment Fraud: A Simple Callback Playbook for Invoice & Bank-Detail Changes](/posts/stop-payment-fraud-callback-playbook/).
 
 ### Highly sensitive information
 
@@ -109,7 +109,7 @@ Set your organisation’s default sharing policy to:
 
 Avoid “anyone with the link” for anything containing client or staff data. That setting is effectively “public if someone forwards it”.
 
-When you hand off folders to a client, remember that access is a form of “user permission”. The same logic from [Quarterly Access Reviews in 20 Minutes: A Small-Team Playbook](/posts/quarterly-access-reviews-small-team-playbook) applies here: keep it tight, review it occasionally, and remove access when it’s no longer needed.
+When you hand off folders to a client, remember that access is a form of “user permission”. The same logic from [Quarterly Access Reviews in 20 Minutes: A Small-Team Playbook](/posts/quarterly-access-reviews-small-team-playbook/) applies here: keep it tight, review it occasionally, and remove access when it’s no longer needed.
 
 ### Prefer least privilege every time
 
@@ -156,7 +156,7 @@ Basic controls that actually help:
 - Make it policy to double-check the **entire** recipient address when sending attachments with personal data.  
 - For bulk sends, use proper mailing tools or BCC, not long CC chains.
 
-If someone still clicks on a malicious attachment or link, you handle the fallout with the steps in [What Happens After a Phishing Click? (And What You Should Do)](/posts/what-happens-after-a-phishing-click-and-what-you-should-do).
+If someone still clicks on a malicious attachment or link, you handle the fallout with the steps in [What Happens After a Phishing Click? (And What You Should Do)](/posts/what-happens-after-a-phishing-click-and-what-you-should-do/).
 
 ---
 

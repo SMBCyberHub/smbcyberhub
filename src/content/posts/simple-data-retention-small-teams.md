@@ -32,7 +32,7 @@ Keeping too little (or deleting at random) can also hurt you:
 
 Under GDPR, the storage limitation principle says you must not keep personal data longer than necessary for the purpose you collected it. Regulators like the ICO also stress there are no fixed time limits in law — you decide your own periods, document them, and then stick to them. Their plain-English [data storage advice for small organisations](https://ico.org.uk/for-organisations/advice-for-small-organisations/information-security/data-storage-advice/) is a useful reference when you’re sense-checking your approach.
 
-If a breach does happen, the less unnecessary historic data you hold, the lower the impact on cost and reputation — a point that ties directly into **[The True Cost of a Breach for SMBs (and How to Avoid One)](/posts/the-true-cost-of-a-breach-for-smbs-and-how-to-avoid-one)**.
+If a breach does happen, the less unnecessary historic data you hold, the lower the impact on cost and reputation — a point that ties directly into **[The True Cost of a Breach for SMBs (and How to Avoid One)](/posts/the-true-cost-of-a-breach-for-smbs-and-how-to-avoid-one/)**.
 
 ---
 
@@ -128,7 +128,7 @@ Choose a frequency that fits your size — quarterly works well for many small t
 
 Why it matters: tying deletion to your calendar is how you show you’re following your policy, not just writing it. It also keeps the job small and manageable.
 
-These clean-ups sit neatly alongside routines like those in **[A Simple Daily Inbox Security Routine for Small Teams](/posts/simple-inbox-security-routine)**, so you’re controlling both what arrives and how long it sticks around.
+These clean-ups sit neatly alongside routines like those in **[A Simple Daily Inbox Security Routine for Small Teams](/posts/simple-inbox-security-routine/)**, so you’re controlling both what arrives and how long it sticks around.
 
 ### Use tools and filters, not manual trawling
 
@@ -166,7 +166,7 @@ Backups exist so you can recover from accidents or ransomware, not as a secondar
 
 Why it matters: if your main systems respect retention rules but your backups and CSV exports live forever, you’ve only done half the job. You still need to minimise what would be exposed if a backup or export leaked.
 
-For a deeper backup walkthrough, pair this with **[Backups That Actually Work: The 3-2-1 Plan for Small Teams (No Jargon)](/posts/backups-that-actually-work-3-2-1-plan-small-teams)**.
+For a deeper backup walkthrough, pair this with **[Backups That Actually Work: The 3-2-1 Plan for Small Teams (No Jargon)](/posts/backups-that-actually-work-3-2-1-plan-small-teams/)**.
 
 ### Plan how deleted data ages out of backups
 
@@ -238,5 +238,5 @@ Need a ready-to-use checklist and easy training resources to help your team buil
 
 **Related post:**  
 
-Read **[Audit-Ready in Under an Hour: A Cyber Hygiene Checklist](/posts/audit-ready-in-under-an-hour-a-cyber-hygiene-checklist)** next.
+Read **[Audit-Ready in Under an Hour: A Cyber Hygiene Checklist](/posts/audit-ready-in-under-an-hour-a-cyber-hygiene-checklist/)** next.
 

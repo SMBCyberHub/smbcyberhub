@@ -25,8 +25,8 @@ Almost every major small-business attack — invoice fraud, gift-card scams, fak
 A consistent daily routine catches the signs early.
 
 If you’ve already read our posts on  
-- **[How phishing actually works](/posts/how-phishing-actually-works-a-simple-breakdown-for-small-teams)**  
-- **[Stopping fake emails and lookalike domains](/posts/stop-fake-emails-spoofing-lookalikes)**  
+- **[How phishing actually works](/posts/how-phishing-actually-works-a-simple-breakdown-for-small-teams/)**  
+- **[Stopping fake emails and lookalike domains](/posts/stop-fake-emails-spoofing-lookalikes/)**  
 
 …this routine builds on those foundations and gives your team a predictable process to follow.
 
@@ -40,7 +40,7 @@ Attackers rely on display-name deception.
 Look at the actual address and confirm it’s an **exact match**, letter for letter.
 
 If you haven’t seen how close lookalikes can get, see:  
-**[Stop Fake Emails: Spoofing vs Lookalikes](/posts/stop-fake-emails-spoofing-lookalikes)**.
+**[Stop Fake Emails: Spoofing vs Lookalikes](/posts/stop-fake-emails-spoofing-lookalikes/)**.
 
 ### 2. Hover every link before clicking
 Before clicking anything, hover (or long-press on mobile) and check that the link:
@@ -58,7 +58,7 @@ Fake “CEO requests”, surprise invoices, and payment-change scams all attempt
 
 If an email triggers urgency, escalate it.  
 If it’s money-related, follow the **verify-before-pay rule** from our post:  
-**[Stop Payment Fraud: A Simple Callback Playbook](/posts/stop-payment-fraud-callback-playbook)**.
+**[Stop Payment Fraud: A Simple Callback Playbook](/posts/stop-payment-fraud-callback-playbook/)**.
 
 ### 4. Check shared mailboxes carefully
 Billing@, accounts@, support@, and sales@ are attacker favorites.
@@ -120,5 +120,5 @@ Need quick, ready-to-use security checklists and a staff refresher pack?
 
 ## Related Post
 
-Read **[How Phishing Actually Works: A Simple Breakdown for Small Teams](/posts/how-phishing-actually-works-a-simple-breakdown-for-small-teams)** next.
+Read **[How Phishing Actually Works: A Simple Breakdown for Small Teams](/posts/how-phishing-actually-works-a-simple-breakdown-for-small-teams/)** next.
 

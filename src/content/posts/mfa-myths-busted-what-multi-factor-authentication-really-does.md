@@ -407,9 +407,9 @@ Need ready-to-use checklists and simple team training?
 ## 📚 Related Resources
 
 ### **Internal Links:**
-- **[Top 5 Password Mistakes Small Businesses Still Make in 2025](/posts/top-5-password-mistakes-small-businesses-still-make-in-2025)**
-- **[How to Spot Social Engineering in Messages and Meetings](/posts/how-to-spot-social-engineering-in-messages-and-meetings)**
-- **[What Happens After a Phishing Click?](/posts/what-happens-after-a-phishing-click-and-what-you-should-do)**
+- **[Top 5 Password Mistakes Small Businesses Still Make in 2025](/posts/top-5-password-mistakes-small-businesses-still-make-in-2025/)**
+- **[How to Spot Social Engineering in Messages and Meetings](/posts/how-to-spot-social-engineering-in-messages-and-meetings/)**
+- **[What Happens After a Phishing Click?](/posts/what-happens-after-a-phishing-click-and-what-you-should-do/)**
 
 ### **External Resources:**
 - **Microsoft**: MFA best practices

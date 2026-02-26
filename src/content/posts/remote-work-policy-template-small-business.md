@@ -172,9 +172,9 @@ This policy establishes security requirements for employees working remotely fro
 ## 📚 **Related Resources**
 
 ### **Internal Links:**
-- **[SMB Cybersecurity Compliance Guide 2026](/posts/smb-cybersecurity-compliance-guide-2026)** - Complete compliance implementation
-- **[Acceptable Use Policy Template](/posts/acceptable-use-policy-template-small-business)** - Device and software usage policies
-- **[Device Security Basics](/posts/device-security-basics)** - Securing company and personal devices
+- **[SMB Cybersecurity Compliance Guide 2026](/posts/smb-cybersecurity-compliance-guide-2026/)** - Complete compliance implementation
+- **[Acceptable Use Policy Template](/posts/acceptable-use-policy-template-small-business/)** - Device and software usage policies
+- **[Device Security Basics](/posts/device-security-basics/)** - Securing company and personal devices
 
 ### **External Resources:**
 - **GDPR Official Documentation**: Article 32 - Security of processing

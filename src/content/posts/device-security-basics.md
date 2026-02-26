@@ -67,6 +67,6 @@ Need a printable device security checklist and policy template for your team? Ou
 
 🕒 **Estimated Reading Time**: 4–5 minutes  
 📎 **Related Posts**:
-- [What happens after a Phishing Click](/posts/what-happens-after-a-phishing-click-and-what-you-should-do)
-- [MFA Myths Busted: What Multi-Factor Authentication Really Does](/posts/mfa-myths-busted-what-multi-factor-authentication-really-does)
+- [What happens after a Phishing Click](/posts/what-happens-after-a-phishing-click-and-what-you-should-do/)
+- [MFA Myths Busted: What Multi-Factor Authentication Really Does](/posts/mfa-myths-busted-what-multi-factor-authentication-really-does/)
 

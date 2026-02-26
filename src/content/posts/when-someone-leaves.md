@@ -399,9 +399,9 @@ Need ready-to-use checklists and other easy training resources?
 ## Related Resources
 
 ### Internal Links:
-- **[Audit-Ready in Under an Hour: A Cyber Hygiene Checklist](/posts/audit-ready-in-under-an-hour-a-cyber-hygiene-checklist)**
-- **[Top 5 Password Mistakes Small Businesses Still Make in 2025](/posts/top-5-password-mistakes-small-businesses-still-make-in-2025)**
-- **[What Happens After a Phishing Click?](/posts/what-happens-after-a-phishing-click-and-what-you-should-do)**
+- **[Audit-Ready in Under an Hour: A Cyber Hygiene Checklist](/posts/audit-ready-in-under-an-hour-a-cyber-hygiene-checklist/)**
+- **[Top 5 Password Mistakes Small Businesses Still Make in 2025](/posts/top-5-password-mistakes-small-businesses-still-make-in-2025/)**
+- **[What Happens After a Phishing Click?](/posts/what-happens-after-a-phishing-click-and-what-you-should-do/)**
 
 ### External Resources:
 - **CISA**: Insider threat mitigation guidance

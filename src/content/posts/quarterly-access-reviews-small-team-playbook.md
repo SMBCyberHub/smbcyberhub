@@ -124,5 +124,5 @@ Need ready-to-use checklists and quick staff training?
 ---
 
 **Related post:**  
-Running a leaver process soon? Read **[When Someone Leaves: A Simple Offboarding Security Checklist for Small Teams](/posts/when-someone-leaves)** next.
+Running a leaver process soon? Read **[When Someone Leaves: A Simple Offboarding Security Checklist for Small Teams](/posts/when-someone-leaves/)** next.
 

@@ -268,9 +268,9 @@ Need ready-to-use checklists and a quick staff refresher?
 ## 📚 Related Resources
 
 ### **Internal Links:**
-- **[How Phishing Actually Works: A Simple Breakdown for Small Teams](/posts/how-phishing-actually-works-a-simple-breakdown-for-small-teams)**
-- **[Stop Payment Fraud: A Simple Callback Playbook for Invoice & Bank-Detail Changes](/posts/stop-payment-fraud-callback-playbook)**
-- **[What Happens After a Phishing Click?](/posts/what-happens-after-a-phishing-click-and-what-you-should-do)**
+- **[How Phishing Actually Works: A Simple Breakdown for Small Teams](/posts/how-phishing-actually-works-a-simple-breakdown-for-small-teams/)**
+- **[Stop Payment Fraud: A Simple Callback Playbook for Invoice & Bank-Detail Changes](/posts/stop-payment-fraud-callback-playbook/)**
+- **[What Happens After a Phishing Click?](/posts/what-happens-after-a-phishing-click-and-what-you-should-do/)**
 
 ### **External Resources:**
 - **DMARC.org**: DMARC overview and implementation guide

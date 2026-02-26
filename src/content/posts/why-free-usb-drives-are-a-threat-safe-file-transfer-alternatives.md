@@ -337,9 +337,9 @@ Need ready-to-use checklists and training materials?
 ## 📚 Related Resources
 
 ### **Internal Links:**
-- **[Device Security Basics](/posts/device-security-basics)**
-- **[Remote Work Security Habits That Stop Data Leaks Before They Start](/posts/remote-work-security-habits-that-stop-data-leaks-before-they-start)**
-- **[What Happens After a Phishing Click?](/posts/what-happens-after-a-phishing-click-and-what-you-should-do)**
+- **[Device Security Basics](/posts/device-security-basics/)**
+- **[Remote Work Security Habits That Stop Data Leaks Before They Start](/posts/remote-work-security-habits-that-stop-data-leaks-before-they-start/)**
+- **[What Happens After a Phishing Click?](/posts/what-happens-after-a-phishing-click-and-what-you-should-do/)**
 
 ### **External Resources:**
 - **National Cyber Security Centre**: USB security guidance

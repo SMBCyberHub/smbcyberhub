@@ -179,9 +179,9 @@ Ensure shared device policies align with your broader security framework.
 
 #### **Cross-Reference Your Existing Content:**
 Your shared device policy should reference related blog posts:
-- [Quarterly Access Reviews in 20 Minutes](/posts/quarterly-access-reviews-small-team-playbook)
-- [Device Security Basics](/posts/device-security-basics)
-- [Remote Work Security Habits](/posts/remote-work-security-habits-that-stop-data-leaks-before-they-start)
+- [Quarterly Access Reviews in 20 Minutes](/posts/quarterly-access-reviews-small-team-playbook/)
+- [Device Security Basics](/posts/device-security-basics/)
+- [Remote Work Security Habits](/posts/remote-work-security-habits-that-stop-data-leaks-before-they-start/)
 
 ---
 
