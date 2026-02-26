@@ -9,7 +9,8 @@ export default defineConfig({
     tailwind(),
     sitemap({
         entryLimit: 99999,
-        filter: (page) => !['/terms/', '/privacy/', '/licensing/'].some(p => page.includes(p))
+        filter: (page) => !['/terms/', '/privacy/', '/licensing/'].some(p => page.includes(p)),
+        serialize: (item) => ({ ...item, lastmod: new Date().toISOString() })
   })
   ],
 });
