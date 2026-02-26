@@ -6,7 +6,7 @@ tags: ["access control", "least privilege", "small business"]
 ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Run a quick, consistent quarterly access review that catches permission creep without slowing your team down."
 featured: false
-canonical: "https://smbcyberhub.com/posts/quarterly-access-reviews-small-team-playbook"
+canonical: "https://smbcyberhub.com/posts/quarterly-access-reviews-small-team-playbook/"
 ---
 
 Permission creep is real: people change roles, vendors get added “just for a week,” and test accounts linger. A lightweight quarterly review keeps access lean, reduces audit headaches, and prevents avoidable incidents — without new tools or jargon.

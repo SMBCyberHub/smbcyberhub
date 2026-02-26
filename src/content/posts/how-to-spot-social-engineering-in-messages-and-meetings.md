@@ -6,7 +6,7 @@ tags: ["social engineering", "human risk", "training", "cybersecurity awareness"
 ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Social engineering is one of the easiest ways for attackers to trick staff. Learn how to spot fake requests, urgent emails, and phone scams with real examples and prevention strategies."
 featured: false
-canonical: "https://smbcyberhub.com/posts/how-to-spot-social-engineering-in-messages-and-meetings"
+canonical: "https://smbcyberhub.com/posts/how-to-spot-social-engineering-in-messages-and-meetings/"
 ---
 
 Technology isn't always the weakest link — people are. Social engineering attacks use manipulation, not malware, to get what they want. Here's how to protect your team.

@@ -6,7 +6,7 @@ tags: ["offboarding", "access control", "small business", "employee offboarding"
 ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Step-by-step offboarding checklist to remove access, protect data, and stay audit-ready when someone leaves your small business with comprehensive security procedures."
 featured: false
-canonical: "https://smbcyberhub.com/posts/when-someone-leaves"
+canonical: "https://smbcyberhub.com/posts/when-someone-leaves/"
 ---
 
 When someone leaves—whether it's a resignation, contract end, or dismissal—there's a short window to cleanly remove access and protect your files. This simple checklist keeps it calm, fast, and audit-ready for small teams.

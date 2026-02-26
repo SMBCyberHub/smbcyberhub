@@ -6,7 +6,7 @@ tags: ["cyber insurance renewal", "cybersecurity training proof", "insurance doc
 ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Step-by-step guide to providing proof of cybersecurity training for insurance renewals. Includes templates, examples, and audit-ready documentation."
 featured: true
-canonical: "https://smbcyberhub.com/posts/how-to-provide-proof-of-cybersecurity-training-for-insurance-renewals"
+canonical: "https://smbcyberhub.com/posts/how-to-provide-proof-of-cybersecurity-training-for-insurance-renewals/"
 ---
 
 <script type="application/ld+json">
@@ -40,25 +40,25 @@ canonical: "https://smbcyberhub.com/posts/how-to-provide-proof-of-cybersecurity-
       "@type": "HowToStep",
       "name": "Gather Training Documentation",
       "text": "Collect all training completion records, certificates, and attendance logs from the past 12 months",
-      "url": "https://smbcyberhub.com/posts/how-to-provide-proof-of-cybersecurity-training-for-insurance-renewals"
+      "url": "https://smbcyberhub.com/posts/how-to-provide-proof-of-cybersecurity-training-for-insurance-renewals/"
     },
     {
       "@type": "HowToStep",
       "name": "Create Training Summary Report",
       "text": "Prepare a summary document showing training dates, topics covered, and staff completion rates",
-      "url": "https://smbcyberhub.com/posts/how-to-provide-proof-of-cybersecurity-training-for-insurance-renewals"
+      "url": "https://smbcyberhub.com/posts/how-to-provide-proof-of-cybersecurity-training-for-insurance-renewals/"
     },
     {
       "@type": "HowToStep",
       "name": "Compile Policy Acknowledgments",
       "text": "Gather signed policy acknowledgment forms from all employees who completed training",
-      "url": "https://smbcyberhub.com/posts/how-to-provide-proof-of-cybersecurity-training-for-insurance-renewals"
+      "url": "https://smbcyberhub.com/posts/how-to-provide-proof-of-cybersecurity-training-for-insurance-renewals/"
     },
     {
       "@type": "HowToStep",
       "name": "Submit Insurance Documentation Package",
       "text": "Organize all documents into a professional package for your insurance provider",
-      "url": "https://smbcyberhub.com/posts/how-to-provide-proof-of-cybersecurity-training-for-insurance-renewals"
+      "url": "https://smbcyberhub.com/posts/how-to-provide-proof-of-cybersecurity-training-for-insurance-renewals/"
     }
   ]
 }
