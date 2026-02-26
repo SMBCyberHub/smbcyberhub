@@ -65,6 +65,6 @@ Cybersecurity is about *habits* — not hardware. Busting these myths is your fi
 
 **Estimated Reading Time**: 3–4 minutes  
 **Aligned With**: GDPR Article 39.1(b), ISO27001 Clause 7.2.2  
-**Related Post**: [Audit-Ready in Under an Hour: A Cyber Hygiene Checklist](/posts/audit-ready-in-under-an-hour-a-cyber-hygiene-checklist)
+**Related Post**: [Audit-Ready in Under an Hour: A Cyber Hygiene Checklist](/posts/audit-ready-in-under-an-hour-a-cyber-hygiene-checklist/)
 
 

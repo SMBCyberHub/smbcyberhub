@@ -117,4 +117,4 @@ Need a ready-to-use training starter that matches this plan?
 ---
 
 **Related post:**  
-For fast policy and training wins, read **[Audit-Ready in Under an Hour: A Cyber Hygiene Checklist](/posts/audit-ready-in-under-an-hour-a-cyber-hygiene-checklist)** next.
+For fast policy and training wins, read **[Audit-Ready in Under an Hour: A Cyber Hygiene Checklist](/posts/audit-ready-in-under-an-hour-a-cyber-hygiene-checklist/)** next.

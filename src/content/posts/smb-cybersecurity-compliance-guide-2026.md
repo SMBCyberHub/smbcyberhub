@@ -216,11 +216,11 @@ tags: ["SMB cybersecurity", "GDPR compliance", "audit readiness", "small busines
 
 **Complete your compliance journey with these targeted resources:**
 
-- **[Cyber Insurance Requirements 2026](/posts/cyber-insurance-requirements-small-business-complete-guide)** - Complete insurance compliance documentation
-- **[Top SMB Security Policies](/posts/audit-ready-in-under-an-hour-a-cyber-hygiene-checklist)** - Essential security templates and checklists
-- **[How to Run a 30-Minute Security Training](/posts/how-to-spot-social-engineering-in-messages-and-meetings)** - Staff training implementation guide
-- **[Quarterly Access Reviews](/posts/quarterly-access-reviews-small-team-playbook)** - Ongoing compliance maintenance
-- **[Employee Offboarding Checklist](/posts/when-someone-leaves)** - Secure staff departure procedures
+- **[Cyber Insurance Requirements 2026](/posts/cyber-insurance-requirements-small-business-complete-guide/)** - Complete insurance compliance documentation
+- **[Top SMB Security Policies](/posts/audit-ready-in-under-an-hour-a-cyber-hygiene-checklist/)** - Essential security templates and checklists
+- **[How to Run a 30-Minute Security Training](/posts/how-to-spot-social-engineering-in-messages-and-meetings/)** - Staff training implementation guide
+- **[Quarterly Access Reviews](/posts/quarterly-access-reviews-small-team-playbook/)** - Ongoing compliance maintenance
+- **[Employee Offboarding Checklist](/posts/when-someone-leaves/)** - Secure staff departure procedures
 
 ---
 
@@ -429,7 +429,7 @@ Small and medium businesses face increasing pressure to demonstrate cybersecurit
 ## Getting Started with Compliance
 
 ### Quick Start Options
-1. **Download compliance templates**: Get started immediately with proven frameworks
+1. **Use the [2026 SMB Cybersecurity Compliance Checklist](/2026-compliance-checklist/)**: Step-by-step requirements for GDPR, NIST, and insurance readiness
 2. **Conduct gap analysis**: Identify current compliance status
 3. **Create implementation timeline**: Set realistic completion dates
 4. **Assign responsibilities**: Designate compliance oversight
@@ -707,12 +707,13 @@ The key is starting with comprehensive templates, implementing systematically, a
 ## 📚 Related Resources
 
 ### **Internal Links:**
-- **[Audit-Ready in Under an Hour: A Cyber Hygiene Checklist](/posts/audit-ready-in-under-an-hour-a-cyber-hygiene-checklist)** - Quick implementation guide
-- **[When Someone Leaves: Complete Employee Offboarding Checklist](/posts/when-someone-leaves)** - Secure offboarding procedures
-- **[Quarterly Access Reviews: Small Team Playbook](/posts/quarterly-access-reviews-small-team-playbook)** - Ongoing compliance maintenance
-- **[Cyber Insurance Requirements: Complete Guide](/posts/cyber-insurance-requirements-small-business-complete-guide)** - Insurance-specific compliance
-- **[Top 5 Password Mistakes Small Businesses Still Make in 2025](/posts/top-5-password-mistakes-small-businesses-still-make-in-2025)** - Security awareness training
-- **[How to Spot Social Engineering in Messages and Meetings](/posts/how-to-spot-social-engineering-in-messages-and-meetings)** - Staff training materials
+- **[2026 SMB Cybersecurity Compliance Checklist](/2026-compliance-checklist/)** - Step-by-step compliance requirements for insurance and audit readiness
+- **[Audit-Ready in Under an Hour: A Cyber Hygiene Checklist](/posts/audit-ready-in-under-an-hour-a-cyber-hygiene-checklist/)** - Quick implementation guide
+- **[When Someone Leaves: Complete Employee Offboarding Checklist](/posts/when-someone-leaves/)** - Secure offboarding procedures
+- **[Quarterly Access Reviews: Small Team Playbook](/posts/quarterly-access-reviews-small-team-playbook/)** - Ongoing compliance maintenance
+- **[Cyber Insurance Requirements: Complete Guide](/posts/cyber-insurance-requirements-small-business-complete-guide/)** - Insurance-specific compliance
+- **[Top 5 Password Mistakes Small Businesses Still Make in 2025](/posts/top-5-password-mistakes-small-businesses-still-make-in-2025/)** - Security awareness training
+- **[How to Spot Social Engineering in Messages and Meetings](/posts/how-to-spot-social-engineering-in-messages-and-meetings/)** - Staff training materials
 
 ### **External Resources:**
 - **[GDPR Official Documentation](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679)**: Complete regulatory text from the European Union

@@ -253,9 +253,10 @@ Insurance Renewal Cybersecurity Documentation
 ## 📚 **Related Resources**
 
 ### **Internal Links:**
-- **[Cyber Insurance Requirements Guide](/posts/cyber-insurance-requirements-small-business-complete-guide)** - Complete insurance requirements
-- **[Audit-Ready in Under an Hour](/posts/audit-ready-in-under-an-hour-a-cyber-hygiene-checklist)** - Quick compliance checklist
-- **[SMB Cybersecurity Compliance Guide](/posts/smb-cybersecurity-compliance-guide-2026)** - Full compliance implementation
+- **[2026 SMB Cybersecurity Compliance Checklist](/2026-compliance-checklist/)** - Every document your insurer expects, step by step
+- **[Cyber Insurance Requirements Guide](/posts/cyber-insurance-requirements-small-business-complete-guide/)** - Complete insurance requirements
+- **[Audit-Ready in Under an Hour](/posts/audit-ready-in-under-an-hour-a-cyber-hygiene-checklist/)** - Quick compliance checklist
+- **[SMB Cybersecurity Compliance Guide](/posts/smb-cybersecurity-compliance-guide-2026/)** - Full compliance implementation
 
 ### **External Resources:**
 - **Insurance Regulatory Authority**: Cybersecurity requirements guidelines

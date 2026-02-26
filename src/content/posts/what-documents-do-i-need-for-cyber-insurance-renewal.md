@@ -256,11 +256,12 @@ Everything is downloadable, PDF-based, and audit-ready. No subscriptions, no log
 
 ## Next Steps
 
-1. **Download our Free Sample** to preview the quality
-2. **Assess your current documentation** against this checklist
-3. **Get the Pro Kit** if you need complete templates
-4. **Implement the missing documents** using our templates
-5. **Schedule your renewal preparation** 30 days in advance
+1. **Use the [2026 SMB Cybersecurity Compliance Checklist](/2026-compliance-checklist/)** to see every requirement at a glance
+2. **Download our Free Sample** to preview the quality
+3. **Assess your current documentation** against this checklist
+4. **Get the Pro Kit** if you need complete templates
+5. **Implement the missing documents** using our templates
+6. **Schedule your renewal preparation** 30 days in advance
 
 ---
 

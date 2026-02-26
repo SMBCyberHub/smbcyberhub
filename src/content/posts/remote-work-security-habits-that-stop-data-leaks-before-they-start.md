@@ -478,9 +478,9 @@ Need ready-to-use checklists and simple team training?
 ## 📚 Related Resources
 
 ### **Internal Links:**
-- **[How to Spot Social Engineering in Messages and Meetings](/posts/how-to-spot-social-engineering-in-messages-and-meetings)**
-- **[What Happens After a Phishing Click?](/posts/what-happens-after-a-phishing-click-and-what-you-should-do)**
-- **[Device Security Basics](/posts/device-security-basics)**
+- **[How to Spot Social Engineering in Messages and Meetings](/posts/how-to-spot-social-engineering-in-messages-and-meetings/)**
+- **[What Happens After a Phishing Click?](/posts/what-happens-after-a-phishing-click-and-what-you-should-do/)**
+- **[Device Security Basics](/posts/device-security-basics/)**
 
 ### **External Resources:**
 - **National Cyber Security Centre**: Remote working guidance

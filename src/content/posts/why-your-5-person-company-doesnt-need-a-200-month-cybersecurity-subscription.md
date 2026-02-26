@@ -274,9 +274,9 @@ canonical: "https://smbcyberhub.com/posts/why-your-5-person-company-doesnt-need-
 ## 📚 **Related Resources**
 
 ### **Internal Links:**
-- **[Cybersecurity Documentation for Insurance Renewals](/posts/cybersecurity-documentation-for-insurance-renewals)** - Complete insurance questionnaire answers
-- **[SMB Cybersecurity Compliance Guide](/posts/smb-cybersecurity-compliance-guide-2026)** - Full compliance implementation
-- **[How to Provide Proof of Cybersecurity Training](/posts/how-to-provide-proof-of-cybersecurity-training-for-insurance-renewals)** - Training documentation guide
+- **[Cybersecurity Documentation for Insurance Renewals](/posts/cybersecurity-documentation-for-insurance-renewals/)** - Complete insurance questionnaire answers
+- **[SMB Cybersecurity Compliance Guide](/posts/smb-cybersecurity-compliance-guide-2026/)** - Full compliance implementation
+- **[How to Provide Proof of Cybersecurity Training](/posts/how-to-provide-proof-of-cybersecurity-training-for-insurance-renewals/)** - Training documentation guide
 
 ### **External Resources:**
 - **Small Business Administration**: Cybersecurity cost guidelines
