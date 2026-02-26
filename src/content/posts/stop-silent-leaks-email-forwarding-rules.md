@@ -235,6 +235,9 @@ Implement secure email archiving solutions.
 5. **Staff awareness** is critical for prevention
 
 ### **Your Action Plan**
+
+Our [cybersecurity compliance kits](/kits/) include email security policies, inbox audit checklists, and staff training to help you lock down forwarding rules across your team.
+
 - [ ] **Block external auto-forwarding** organization-wide
 - [ ] **Review all inbox rules** for high-risk mailboxes
 - [ ] **Enable monitoring** and alerting for suspicious activities

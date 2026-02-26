@@ -407,6 +407,9 @@ For businesses with higher security requirements.
 5. **Separate work and personal** data on all devices
 
 ### **Your Action Plan**
+
+Our [cybersecurity compliance kits](/kits/) include remote work policy templates, device security checklists, and staff training materials — everything you need to secure a distributed team.
+
 - [ ] **Implement device security** policies for all team members
 - [ ] **Set up VPN access** for remote work
 - [ ] **Create regular training** on remote work security

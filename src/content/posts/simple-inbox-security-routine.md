@@ -111,9 +111,10 @@ Yes. This is designed so non-technical staff can follow it daily.
 
 ---
 
-## 🎁 Download Your Free Cyber Security Training Kit
+## 🎁 Get Audit-Ready Training for Your Team
 
-Need quick, ready-to-use security checklists and a staff refresher pack?  
+Need quick, ready-to-use security checklists and a staff refresher pack? Our [cybersecurity compliance kits](/kits/) include phishing awareness training, inbox security checklists, and policy templates — everything your team needs to stay secure.
+
 👉 **[Download the Free Cyber Security Training Kit](https://smbcyberhub.com/free-cyber-security-training/)**
 
 ---

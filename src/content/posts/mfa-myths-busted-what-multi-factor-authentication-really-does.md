@@ -360,6 +360,9 @@ Combine SSO with MFA for streamlined access.
 5. **All businesses** need MFA, regardless of size
 
 ### **Your Action Plan**
+
+Our [cybersecurity compliance kits](/kits/) include MFA policy templates and staff training materials to help you roll out multi-factor authentication across your team.
+
 - [ ] **Assess current accounts** for MFA compatibility
 - [ ] **Select appropriate MFA solution** for your business
 - [ ] **Implement MFA** on high-priority accounts first

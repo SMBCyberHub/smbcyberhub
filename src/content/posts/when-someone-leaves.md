@@ -352,6 +352,9 @@ Professional services for offboarding support.
 - **Document everything** for audit and compliance
 
 ### Your Action Plan
+
+Our [cybersecurity compliance kits](/kits/) include offboarding checklists, access review templates, and policy documents to make this process repeatable and audit-ready.
+
 - [ ] **Create offboarding policies** and procedures
 - [ ] **Implement automated offboarding** where possible
 - [ ] **Train staff** on offboarding procedures

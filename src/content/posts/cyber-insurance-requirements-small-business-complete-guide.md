@@ -541,6 +541,9 @@ Follow these steps for a successful application.
 5. **Regular review and updates** needed as business and threat landscape evolve
 
 ### **Your Action Plan**
+
+Our [cybersecurity compliance kits](/kits/) include every policy template, training record, and checklist your insurer expects — audit-ready in 30 minutes.
+
 - [ ] **Assess current cyber risks** and insurance needs
 - [ ] **Implement security improvements** to reduce premiums
 - [ ] **Gather required documentation** for insurance applications
