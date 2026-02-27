@@ -7,6 +7,7 @@ ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Small teams are mobile — and that means new risks. These everyday habits can prevent major device-related security incidents with practical guidance for remote work."
 featured: false
 canonical: "https://smbcyberhub.com/posts/remote-work-security-habits-that-stop-data-leaks-before-they-start/"
+dateModified: 2026-02-27
 ---
 
 Working remotely is here to stay. But without the right habits, remote work can expose sensitive data — from lost devices to unsafe networks.

@@ -7,6 +7,7 @@ ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "From public Wi-Fi to unattended laptops, small security gaps can lead to big breaches. Here’s how to keep your work devices and data safe wherever you are."
 featured: false
 canonical: "https://smbcyberhub.com/posts/device-security-basics/"
+dateModified: 2026-02-27
 ---
 
 Working remotely is here to stay — but without strong device security, your data is more exposed than ever. Whether you're logging in from a café or stepping away from your desk, a few simple habits can prevent major risks.

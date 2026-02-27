@@ -7,6 +7,7 @@ ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Complete guide to providing cybersecurity documentation for insurance renewals. Answer 'Yes' to all insurance security questions with our ready-to-use kits."
 featured: true
 canonical: "https://smbcyberhub.com/posts/cybersecurity-documentation-for-insurance-renewals/"
+dateModified: 2026-02-27
 ---
 
 <script type="application/ld+json">

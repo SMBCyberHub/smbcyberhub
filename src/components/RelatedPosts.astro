@@ -1,0 +1,45 @@
+---
+import { getCollection } from 'astro:content';
+
+interface Props {
+  currentSlug: string;
+  tags: string[];
+  limit?: number;
+}
+
+const { currentSlug, tags = [], limit = 3 } = Astro.props;
+
+const allPosts = await getCollection('posts');
+
+// Score each post by number of shared tags, exclude current post
+const scored = allPosts
+  .filter((post) => post.slug !== currentSlug)
+  .map((post) => {
+    const postTags = post.data.tags || [];
+    const shared = tags.filter((t) => postTags.includes(t)).length;
+    return { post, shared };
+  })
+  .filter((item) => item.shared > 0)
+  .sort((a, b) => b.shared - a.shared || new Date(b.post.data.date).getTime() - new Date(a.post.data.date).getTime())
+  .slice(0, limit);
+---
+
+{scored.length > 0 && (
+  <aside class="mt-12 pt-8 border-t border-gray-200">
+    <h3 class="text-xl font-bold text-gray-900 mb-6">📖 Related Articles</h3>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {scored.map(({ post }) => (
+        <a
+          href={`/posts/${post.slug}/`}
+          class="block p-4 bg-gray-50 rounded-lg border border-gray-200 hover:border-blue-300 hover:shadow-sm transition"
+        >
+          <h4 class="font-semibold text-blue-900 text-sm mb-2 line-clamp-2">{post.data.title}</h4>
+          <p class="text-xs text-gray-600 line-clamp-2">{post.data.description}</p>
+          <p class="text-xs text-gray-400 mt-2">
+            {new Date(post.data.date).toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' })}
+          </p>
+        </a>
+      ))}
+    </div>
+  </aside>
+)}

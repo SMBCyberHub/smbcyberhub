@@ -7,6 +7,7 @@ ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Think you're too small to be targeted? Think again. We bust common cybersecurity myths that leave small teams vulnerable — and how to fix them."
 featured: false
 canonical: "https://smbcyberhub.com/posts/cybersecurity-myths-small-teams/"
+dateModified: 2026-02-27
 ---
 
 Cybersecurity isn't just for big companies. In fact, small teams are often *easier* targets — and attackers know it. Yet too many founders and teams fall into false beliefs that create real risk.

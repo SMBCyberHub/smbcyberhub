@@ -7,6 +7,7 @@ ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Before you change where money goes, call back on a known number. Here's a 10-minute playbook that stops invoice and bank-detail scams with comprehensive verification procedures."
 featured: false
 canonical: "https://smbcyberhub.com/posts/stop-payment-fraud-callback-playbook/"
+dateModified: 2026-02-27
 ---
 
 When money is about to move—especially after an email asking you to **update bank details** or **pay a new account**—you have one job: slow down and **verify using a callback you control**. This simple playbook turns a risky moment into a safe one.

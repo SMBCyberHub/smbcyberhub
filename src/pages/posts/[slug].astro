@@ -1,5 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import RelatedPosts from '../../components/RelatedPosts.astro';
 import { getCollection, getEntryBySlug } from 'astro:content';
 import { AstroError } from 'astro/errors';
 
@@ -24,8 +25,8 @@ const { data } = post;
 
 // --- Helpers for safe schema values ---
 const canonicalUrl = `${SITE}/posts/${slug}/`;
-const isoDate =
-  typeof data.date === 'string' ? new Date(data.date).toISOString() : new Date(data.date).toISOString();
+const isoDate = new Date(data.date).toISOString();
+const isoModified = data.dateModified ? new Date(data.dateModified).toISOString() : isoDate;
 const ogImageUrl =
   typeof data.ogImage === 'string' && data.ogImage.startsWith('http')
     ? data.ogImage
@@ -57,7 +58,7 @@ const articleSchema = {
     logo: { '@type': 'ImageObject', url: `${SITE}/images/smbcyberhub-logo.webp` }
   },
   datePublished: isoDate,
-  dateModified: isoDate,
+  dateModified: isoModified,
   mainEntityOfPage: canonicalUrl
 };
 
@@ -103,6 +104,8 @@ const breadcrumbSchema = {
       <Content />
     </div>
     
+    <RelatedPosts currentSlug={slug} tags={data.tags || []} />
+
     <!-- Next Steps CTA -->
     <div class="mt-12 p-6 bg-gradient-to-r from-blue-50 to-emerald-50 rounded-xl border border-blue-200">
       <h3 class="text-xl font-bold text-gray-900 mb-3">📋 The 30-Minute Audit-Ready Framework</h3>

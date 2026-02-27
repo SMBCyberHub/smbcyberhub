@@ -7,6 +7,7 @@ ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Complete remote work policy template designed for small businesses. GDPR compliant, ready to customize, and includes all essential security requirements."
 featured: false
 canonical: "https://smbcyberhub.com/posts/remote-work-policy-template-small-business/"
+dateModified: 2026-02-27
 ---
 
 <script type="application/ld+json">

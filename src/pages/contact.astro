@@ -1,11 +1,44 @@
- ---
+---
 import Layout from '../layouts/Layout.astro';
+
+const contactSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ContactPage',
+  name: 'Contact SMBCyberHub',
+  description: 'Contact SMBCyberHub for support, licensing questions, co-branded kits, and privacy-first communications.',
+  url: 'https://smbcyberhub.com/contact/',
+  mainEntity: {
+    '@type': 'Organization',
+    name: 'SMBCyberHub',
+    url: 'https://smbcyberhub.com',
+    email: 'info@smbcyberhub.com',
+    contactPoint: {
+      '@type': 'ContactPoint',
+      contactType: 'customer support',
+      email: 'info@smbcyberhub.com',
+      availableLanguage: ['English'],
+      areaServed: 'Worldwide'
+    }
+  }
+};
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://smbcyberhub.com/' },
+    { '@type': 'ListItem', position: 2, name: 'Contact', item: 'https://smbcyberhub.com/contact/' },
+  ],
+};
 ---
 
 <Layout 
   title="Contact SMBCyberHub – Support & Inquiries" 
   description="Contact SMBCyberHub for support, licensing questions, co-branded kits, and privacy-first communications. Email us directly for quick help."
 >
+  <script type="application/ld+json" set:html={JSON.stringify(contactSchema)}></script>
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)}></script>
+
   <section class="py-16 px-6 max-w-3xl mx-auto">
     <h1 class="text-4xl font-bold text-blue-900 mb-6">Contact Us</h1>
 

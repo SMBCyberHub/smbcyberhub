@@ -4,6 +4,7 @@ description: "Complete GDPR compliance for 1-20 employee teams without monthly f
 pubDate: 2026-02-14
 date: 2026-02-14
 tags: ["SMB cybersecurity", "GDPR compliance", "audit readiness", "small business security"]
+dateModified: 2026-02-27
 ---
 
 <script type="application/ld+json">

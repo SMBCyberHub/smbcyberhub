@@ -7,6 +7,7 @@ ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Attackers love silent auto-forwarding. This comprehensive guide finds and fixes risky inbox rules in Gmail and Microsoft 365 with detailed implementation strategies."
 featured: false
 canonical: "https://smbcyberhub.com/posts/stop-silent-leaks-email-forwarding-rules/"
+dateModified: 2026-02-27
 ---
 
 Email auto-forwarding is a favourite trick in invoice fraud and account takeovers. One sneaky rule can copy quotes, invoices, and client emails to an attacker for weeks—without anyone noticing. Good news: a **10-minute** check closes most gaps.

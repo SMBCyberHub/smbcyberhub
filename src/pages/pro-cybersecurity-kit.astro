@@ -9,6 +9,16 @@ const meta = {
 
 const canonicalUrl = 'https://smbcyberhub.com/pro-cybersecurity-kit/';
 
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://smbcyberhub.com/' },
+    { '@type': 'ListItem', position: 2, name: 'Kits', item: 'https://smbcyberhub.com/kits/' },
+    { '@type': 'ListItem', position: 3, name: 'Pro Kit', item: canonicalUrl },
+  ],
+};
+
 const productSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
@@ -38,6 +48,7 @@ const productSchema = {
 
 <Layout title={meta.title} description={meta.description} canonical={meta.canonical}>
   <script type="application/ld+json" set:html={JSON.stringify(productSchema)}></script>
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)}></script>
 
   <section class="py-16 px-6 max-w-4xl mx-auto">
     <nav class="mb-6" aria-label="Breadcrumb">
