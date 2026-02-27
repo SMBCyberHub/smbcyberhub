@@ -42,7 +42,51 @@ const productSchema = {
     '@type': 'AggregateRating',
     ratingValue: '5',
     reviewCount: '7'
-  }
+  },
+  review: [
+    {
+      '@type': 'Review',
+      reviewBody: 'Our insurance broker was chasing us for proof of training, but I had no idea what they wanted. The SMBCyberHub kit saved hours and made our renewal painless.',
+      reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
+      author: { '@type': 'Person', name: 'Emma P', jobTitle: 'Office Manager' }
+    },
+    {
+      '@type': 'Review',
+      reviewBody: 'I printed the kit, ran the training at lunch, and had our whole team documented in under an hour. Zero hassle, and the quizzes made everyone laugh.',
+      reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
+      author: { '@type': 'Person', name: 'Niall C', jobTitle: 'Small Business Owner' }
+    },
+    {
+      '@type': 'Review',
+      reviewBody: 'All done in one afternoon. No logins, no subscriptions, just what we needed for our cyber insurance.',
+      reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
+      author: { '@type': 'Person', name: 'Anna F', jobTitle: 'Café Owner' }
+    },
+    {
+      '@type': 'Review',
+      reviewBody: 'Passed our GDPR audit on the first attempt! The auditor was impressed with our documentation and training records.',
+      reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
+      author: { '@type': 'Person', name: 'Michael R', jobTitle: 'Managing Director' }
+    },
+    {
+      '@type': 'Review',
+      reviewBody: 'Saved us 20+ hours of compliance work. The templates are professional and the training materials are actually engaging.',
+      reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
+      author: { '@type': 'Person', name: 'Sarah L', jobTitle: 'Operations Manager' }
+    },
+    {
+      '@type': 'Review',
+      reviewBody: 'Best investment we made this year. Cyber insurance premiums went down after implementing the SMBCyberHub training.',
+      reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
+      author: { '@type': 'Person', name: 'David K', jobTitle: 'Finance Director' }
+    },
+    {
+      '@type': 'Review',
+      reviewBody: 'Perfect for our 8-person team. We went from zero compliance documentation to fully audit-ready in one afternoon.',
+      reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
+      author: { '@type': 'Person', name: 'Karen T', jobTitle: 'HR Manager' }
+    }
+  ]
 };
 ---
 
