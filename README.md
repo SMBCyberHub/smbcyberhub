@@ -1,47 +1,90 @@
-# Astro Starter Kit: Minimal
+# SMBCyberHub
+
+**Website:** https://smbcyberhub.com  
+**Purpose:** Downloadable cybersecurity compliance kits for small businesses (1–20 staff). Privacy-first, no-SaaS, one-time purchase.
+
+---
+
+## Tech Stack
+
+- **Framework:** [Astro](https://astro.build/) v5
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/) v3 + `@tailwindcss/typography`
+- **Sitemap:** `@astrojs/sitemap` (auto-generated, excludes `/terms/`, `/privacy/`, `/licensing/`)
+- **Analytics:** [Umami](https://umami.is/) (privacy-friendly, no cookies)
+- **Hosting:** [Netlify](https://www.netlify.com/) (auto-deploys on push to `master`)
+- **Payments:** [Gumroad](https://gumroad.com/) (external checkout)
+
+## Project Structure
+
+```
+src/
+├── content/
+│   └── posts/          # 30 Markdown blog posts (frontmatter + body)
+├── content.config.ts   # Content collection schema
+├── layouts/
+│   └── Layout.astro    # Base layout (head, nav, footer, org schema)
+├── pages/
+│   ├── index.astro     # Homepage
+│   ├── blog.astro      # Blog listing with category tabs
+│   ├── posts/
+│   │   └── [slug].astro # Blog post template
+│   ├── kits.astro      # Kit comparison page
+│   ├── basic-cybersecurity-kit.astro
+│   ├── pro-cybersecurity-kit.astro
+│   ├── free-cyber-security-training.astro
+│   ├── 2026-compliance-checklist.astro
+│   ├── cyber-insurance-renewal-checklist.astro
+│   ├── about.astro
+│   ├── faq.astro
+│   ├── contact.astro
+│   ├── philosophy.astro
+│   ├── saas-vs-downloadable.astro
+│   ├── what-is-smb-cybersecurity-compliance.astro
+│   ├── terms.astro       # noindex
+│   ├── privacy.astro     # noindex
+│   ├── licensing.astro   # noindex
+│   └── 404.astro
+public/
+├── images/             # Logo, GDPR badge, OG images
+├── robots.txt          # Allows AI bots, blocks scrapers
+├── favicon.ico + PNGs
+```
+
+## Development
 
 ```sh
-npm create astro@latest -- --template minimal
+npm install
+npm run dev       # Local dev server at localhost:4321
+npm run build     # Production build to ./dist/
+npm run preview   # Preview production build locally
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+## Deployment
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Push to `master` — Netlify auto-builds and deploys.
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+```sh
+git add -A
+git commit -m "description of changes"
+git push origin master
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+Build command: `npm run build` | Publish directory: `dist`
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## Key Configuration
 
-Any static assets, like images, can be placed in the `public/` directory.
+- **Trailing slashes:** Enforced site-wide (`trailingSlash: 'always'` in `astro.config.mjs`)
+- **Canonical URLs:** Auto-generated with trailing slash in `Layout.astro`
+- **Sitemap:** Auto-generated at `/sitemap-index.xml`, entries get `lastmod` at build time
+- **Robots.txt:** Explicitly allows GPTBot, ChatGPT-User, PerplexityBot, ClaudeBot, Google-Extended
 
-## 🧞 Commands
+## Schema Markup
 
-All commands are run from the root of the project, from a terminal:
+Every page has structured data (JSON-LD):
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- **Site-wide:** Organization (in `Layout.astro`)
+- **Homepage:** Product (x2), WebSite, BreadcrumbList
+- **Product pages:** Product with AggregateRating and Offers
+- **Blog posts:** BlogPosting with Person author
+- **Checklist pages:** FAQPage + custom checklist schemas
+- **About/FAQ/Terms/etc.:** FAQPage and/or BreadcrumbList as appropriate
