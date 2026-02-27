@@ -7,6 +7,7 @@ ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Need to pass a client or GDPR audit? This checklist gets your team’s cyber hygiene in shape — fast."
 featured: false
 canonical: "https://smbcyberhub.com/posts/audit-ready-in-under-an-hour-a-cyber-hygiene-checklist/"
+dateModified: 2026-02-27
 ---
 
 Client asking for proof of training? GDPR review coming up? This fast checklist helps small teams get cyber hygiene in order — without a consultant.

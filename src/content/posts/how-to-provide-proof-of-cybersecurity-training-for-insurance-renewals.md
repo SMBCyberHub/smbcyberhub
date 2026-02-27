@@ -7,6 +7,7 @@ ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Step-by-step guide to providing proof of cybersecurity training for insurance renewals. Includes templates, examples, and audit-ready documentation."
 featured: true
 canonical: "https://smbcyberhub.com/posts/how-to-provide-proof-of-cybersecurity-training-for-insurance-renewals/"
+dateModified: 2026-02-27
 ---
 
 <script type="application/ld+json">

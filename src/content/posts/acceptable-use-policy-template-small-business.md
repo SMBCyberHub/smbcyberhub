@@ -7,6 +7,7 @@ ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Complete acceptable use policy template designed for small businesses. GDPR compliant, ready to customize, and covers all essential usage requirements."
 featured: false
 canonical: "https://smbcyberhub.com/posts/acceptable-use-policy-template-small-business/"
+dateModified: 2026-02-27
 ---
 
 <script type="application/ld+json">

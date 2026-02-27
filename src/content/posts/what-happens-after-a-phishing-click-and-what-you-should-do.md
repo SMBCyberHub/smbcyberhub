@@ -7,6 +7,7 @@ ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "If someone clicks a phishing email, what really happens next? Here's what to expect — and how to minimize the damage with detailed incident response procedures."
 featured: false
 canonical: "https://smbcyberhub.com/posts/what-happens-after-a-phishing-click-and-what-you-should-do/"
+dateModified: 2026-02-27
 ---
 
 Someone on your team clicked a phishing email. Now what?

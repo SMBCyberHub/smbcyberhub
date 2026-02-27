@@ -7,6 +7,7 @@ ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Weak or reused passwords are still common in small teams. These are the top mistakes — and how to fix them fast with practical solutions and implementation guidance."
 featured: false
 canonical: "https://smbcyberhub.com/posts/top-5-password-mistakes-small-businesses-still-make-in-2025/"
+dateModified: 2026-02-27
 ---
 
 <div class="bg-gradient-to-r from-blue-50 to-emerald-50 border-l-4 border-blue-500 p-6 mb-8 rounded-lg">

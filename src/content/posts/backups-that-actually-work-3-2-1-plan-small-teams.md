@@ -7,6 +7,7 @@ ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "A simple, reliable backup plan you can set up this week—without extra software or jargon."
 featured: false
 canonical: "https://smbcyberhub.com/posts/backups-that-actually-work-3-2-1-plan-small-teams/"
+dateModified: 2026-02-27
 ---
 
 If a laptop dies, a file is deleted by mistake, or ransomware hits, a good backup is the difference between a small hiccup and a very bad week. This plain-English guide shows small teams how to set up **3-2-1 backups** that actually restore when you need them.

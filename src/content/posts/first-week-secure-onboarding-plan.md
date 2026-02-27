@@ -7,6 +7,7 @@ ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "A practical, non-technical onboarding plan for the first 7 days — covering accounts, devices, passwords, MFA, and basic training."
 featured: false
 canonical: "https://smbcyberhub.com/posts/first-week-secure-onboarding-plan/"
+dateModified: 2026-02-27
 ---
 
 Hiring someone new? Great. The first week is when good security habits stick (or don’t). This simple plan gets a new starter set up safely **without** turning day one into an IT saga.

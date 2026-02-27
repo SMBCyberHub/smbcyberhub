@@ -7,6 +7,7 @@ ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Think a data breach is just an IT issue? It could cost your business thousands — or your reputation. Here's what it really means with real costs and prevention strategies."
 featured: true
 canonical: "https://smbcyberhub.com/posts/the-true-cost-of-a-breach-for-smbs-and-how-to-avoid-one/"
+dateModified: 2026-02-27
 ---
 
 <div class="bg-gradient-to-r from-blue-50 to-emerald-50 border-l-4 border-blue-500 p-6 mb-8 rounded-lg">

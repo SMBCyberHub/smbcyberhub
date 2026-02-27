@@ -7,6 +7,7 @@ ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "A practical, plain-English guide to sharing client files safely with email and cloud links — without turning your small team into IT admins."
 featured: false
 canonical: "https://smbcyberhub.com/posts/safe-client-file-sharing-simple-rules/"
+dateModified: 2026-02-27
 ---
 
 Most small teams send sensitive information every day: invoices, payroll, ID documents, contracts, and reports. Most of it moves via email attachments and cloud links that nobody has really configured.

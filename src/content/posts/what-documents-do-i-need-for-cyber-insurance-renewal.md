@@ -4,6 +4,7 @@ description: "Step-by-step guide to cyber insurance compliance for small busines
 pubDate: 2026-02-23
 date: 2026-02-23
 tags: ["cyber insurance", "compliance", "documentation", "GDPR", "audit", "small business"]
+dateModified: 2026-02-27
 ---
 
 # Cyber Insurance Renewal Checklist 2026: Essential Documents for SMBs
