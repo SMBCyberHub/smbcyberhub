@@ -106,21 +106,49 @@ const breadcrumbSchema = {
     
     <RelatedPosts currentSlug={slug} tags={data.tags || []} />
 
-    <!-- Next Steps CTA -->
-    <div class="mt-12 p-6 bg-gradient-to-r from-blue-50 to-emerald-50 rounded-xl border border-blue-200">
-      <h3 class="text-xl font-bold text-gray-900 mb-3">📋 The 30-Minute Audit-Ready Framework</h3>
-      <p class="text-gray-700 mb-6">
-        Download SMBCyberHub's compliance kits — GDPR-aligned training, policies, and checklists. 
-        No subscriptions, no logins, instant access.
-      </p>
-      <div class="flex flex-col sm:flex-row gap-4">
-        <a href="/free-cyber-security-training/" class="inline-flex items-center justify-center px-6 py-3 bg-emerald-600 text-white font-medium rounded-lg hover:bg-emerald-700 transition">
-          📥 Try Free Sample
-        </a>
-        <a href="/kits/" class="inline-flex items-center justify-center px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition">
-          🧰 Compare All Kits
-        </a>
-      </div>
-    </div>
+    <!-- Contextual CTA based on tags -->
+    {(() => {
+      const tags = data.tags || [];
+      let ctaTitle = "📋 The 30-Minute Audit-Ready Framework";
+      let ctaDescription = "Download SMBCyberHub's compliance kits — GDPR-aligned training, policies, and checklists. No subscriptions, no logins, instant access.";
+      let primaryCTA = "📥 Try Free Sample";
+      
+      if (tags.includes('phishing')) {
+        ctaTitle = "🎣 Complete Phishing Protection Kit";
+        ctaDescription = "Get our phishing awareness training slides, staff quizzes, and prevention checklists. Everything you need to protect your team from email attacks.";
+        primaryCTA = "📥 Get Phishing Training Kit";
+      } else if (tags.includes('gdpr') || tags.includes('compliance')) {
+        ctaTitle = "📋 GDPR Compliance Documentation Kit";
+        ctaDescription = "Download GDPR-aligned policy templates, staff training records, and audit checklists. Pass your compliance audit with confidence.";
+        primaryCTA = "📥 Get GDPR Compliance Kit";
+      } else if (tags.includes('cyber insurance')) {
+        ctaTitle = "🛡️ Cyber Insurance Documentation Kit";
+        ctaDescription = "Get everything insurers expect to see: training records, policies, incident response plans, and audit documentation.";
+        primaryCTA = "📥 Get Insurance Documentation Kit";
+      } else if (tags.includes('mfa') || tags.includes('password')) {
+        ctaTitle = "🔐 Security Awareness Training Kit";
+        ctaDescription = "Complete security awareness training covering passwords, MFA, and device security. Perfect for insurance compliance.";
+        primaryCTA = "📥 Get Security Training Kit";
+      } else if (tags.includes('offboarding') || tags.includes('access control')) {
+        ctaTitle = "👥 Access Management Templates Kit";
+        ctaDescription = "Professional templates for onboarding, offboarding, and access reviews. Audit-ready documentation for compliance.";
+        primaryCTA = "📥 Get Access Management Kit";
+      }
+      
+      return (
+        <div class="mt-12 p-6 bg-gradient-to-r from-blue-50 to-emerald-50 rounded-xl border border-blue-200">
+          <h3 class="text-xl font-bold text-gray-900 mb-3">{ctaTitle}</h3>
+          <p class="text-gray-700 mb-6">{ctaDescription}</p>
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a href="/free-cyber-security-training/" class="inline-flex items-center justify-center px-6 py-3 bg-emerald-600 text-white font-medium rounded-lg hover:bg-emerald-700 transition">
+              {primaryCTA}
+            </a>
+            <a href="/kits/" class="inline-flex items-center justify-center px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition">
+              🧰 Compare All Kits
+            </a>
+          </div>
+        </div>
+      );
+    })()}
   </article>
 </Layout>
