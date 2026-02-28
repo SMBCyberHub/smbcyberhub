@@ -14,6 +14,7 @@ const schemaData = {
         "name": "SMBCyberHub"
       },
       "category": "Cybersecurity Compliance",
+      "sameAs": "https://smbcyberhub.com/basic-cybersecurity-kit/",
       "additionalProperty": [
         {
           "@type": "PropertyValue",
@@ -136,6 +137,7 @@ const schemaData = {
         "name": "SMBCyberHub"
       },
       "url": "https://smbcyberhub.gumroad.com/l/prokit",
+      "sameAs": "https://smbcyberhub.com/pro-cybersecurity-kit/",
       "additionalProperty": [
         {
           "@type": "PropertyValue",
@@ -256,7 +258,12 @@ const schemaData = {
     {
       "@type": "WebSite",
       "name": "SMBCyberHub",
-      "url": "https://smbcyberhub.com"
+      "url": "https://smbcyberhub.com",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://smbcyberhub.com/blog/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
     },
     {
       "@type": "BreadcrumbList",
@@ -271,6 +278,37 @@ const schemaData = {
     }
   ]
 };
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need IT experience to use these kits?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No — all materials are designed for non-technical users. If you can onboard a new hire, you can run this training. Our Free Sample Kit shows exactly how simple it is."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is it a subscription?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. All kits are a one-time download. No subscriptions, logins, or SaaS. You buy once and use forever."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I see a sample before buying?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — try the Free Sample Kit first, no signup required. It includes real training materials and tools from our Pro Kit."
+      }
+    }
+  ]
+};
 ---
 
 <Layout 
@@ -278,6 +316,7 @@ const schemaData = {
   description="SMB cybersecurity compliance kits — GDPR-aligned training, policies, and checklists. Audit-ready in 30 minutes. No logins, no subscriptions."
 >
   <script type="application/ld+json" set:html={JSON.stringify(schemaData)}></script>
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)}></script>
 
   <!-- 🏠 Homepage Hero Section -->
   <section class="bg-blue-50 py-20 px-6 text-center">
