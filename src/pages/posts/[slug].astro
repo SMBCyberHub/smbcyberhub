@@ -59,7 +59,11 @@ const articleSchema = {
   },
   datePublished: isoDate,
   dateModified: isoModified,
-  mainEntityOfPage: canonicalUrl
+  mainEntityOfPage: canonicalUrl,
+  speakable: {
+    '@type': 'SpeakableSpecification',
+    cssSelector: ['article h1', 'article .prose p:first-of-type']
+  }
 };
 
 
