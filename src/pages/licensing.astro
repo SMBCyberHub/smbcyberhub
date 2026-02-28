@@ -93,7 +93,6 @@ const webPageSchema = {
 <Layout title={meta.title} description={meta.description} robots={meta.robots}>
   <!-- JSON-LD for Breadcrumbs, FAQ, and WebPage (allowed in body if head slot isn’t available) -->
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)}></script>
-  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)}></script>
   <script type="application/ld+json" set:html={JSON.stringify(webPageSchema)}></script>
 
   <section class="py-16 px-6 max-w-3xl mx-auto">

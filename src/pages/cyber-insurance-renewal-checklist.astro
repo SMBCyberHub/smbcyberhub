@@ -39,39 +39,43 @@ const schemaData = {
 
 const checklistSchema = {
   "@context": "https://schema.org",
-  "@type": "Checklist",
-  "name": "Cyber Insurance Renewal Checklist 2026",
+  "@type": "HowTo",
+  "name": "How to Prepare for Cyber Insurance Renewal in 2026",
   "description": "Step-by-step checklist for SMB cyber insurance renewal with all required documentation and compliance evidence.",
-  "itemListElement": [
+  "totalTime": "PT30M",
+  "tool": [
+    { "@type": "HowToTool", "name": "SMBCyberHub Basic or Pro Kit" }
+  ],
+  "step": [
     {
-      "@type": "ListItem",
+      "@type": "HowToStep",
       "position": 1,
-      "name": "Staff Training Records",
-      "description": "Documented security awareness training for all staff with completion dates"
+      "name": "Gather Staff Training Records",
+      "text": "Collect documented security awareness training records for all staff with completion dates, attendance records, and GDPR Article 39.1(b) compliance evidence."
     },
     {
-      "@type": "ListItem",
+      "@type": "HowToStep",
       "position": 2,
-      "name": "Security Policies",
-      "description": "Information Security Policy, Acceptable Use Policy, Data Protection Policy"
+      "name": "Prepare Security Policies",
+      "text": "Compile your Information Security Policy, Acceptable Use Policy, Data Protection Policy, and Remote Work Policy if applicable."
     },
     {
-      "@type": "ListItem",
+      "@type": "HowToStep",
       "position": 3,
-      "name": "Incident Response Plan",
-      "description": "Documented procedures for handling security incidents"
+      "name": "Document Your Incident Response Plan",
+      "text": "Prepare documented procedures for handling security incidents including reporting procedures, response team contacts, and recovery steps."
     },
     {
-      "@type": "ListItem",
+      "@type": "HowToStep",
       "position": 4,
-      "name": "Risk Assessment",
-      "description": "Current risk assessment with mitigation plans"
+      "name": "Complete Risk Assessment",
+      "text": "Prepare a current risk assessment with identified vulnerabilities, risk scoring, mitigation measures, and review sign-off."
     },
     {
-      "@type": "ListItem",
+      "@type": "HowToStep",
       "position": 5,
-      "name": "MFA Implementation",
-      "description": "Evidence of multi-factor authentication on critical systems"
+      "name": "Collect MFA and Technical Controls Evidence",
+      "text": "Gather evidence of multi-factor authentication deployment, backup verification logs, antivirus status, and firewall configuration."
     }
   ]
 };
