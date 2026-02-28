@@ -2,7 +2,7 @@
 title: "Quarterly Access Reviews in 20 Minutes: A Small-Team Playbook"
 description: "A simple, non-technical process to review and right-size user access each quarter so your small team stays compliant and secure."
 date: 2025-10-16
-tags: ["access control", "least privilege", "small business"]
+tags: ["access control"]
 ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Run a quick, consistent quarterly access review that catches permission creep without slowing your team down."
 featured: false

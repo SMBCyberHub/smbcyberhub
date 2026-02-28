@@ -2,7 +2,7 @@
 title: "2026 Cyber Insurance Documentation Guide | SMBCyberHub"
 description: "Insurance security questionnaire due? Learn how to answer 'Yes' to all 10 common cybersecurity questions with audit-ready templates."
 date: 2026-02-22
-tags: ["cyber insurance documentation", "insurance security questionnaire", "cybersecurity compliance", "insurance renewal"]
+tags: ["cyber insurance", "compliance"]
 ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Complete guide to providing cybersecurity documentation for insurance renewals. Answer 'Yes' to all insurance security questions with our ready-to-use kits."
 featured: true

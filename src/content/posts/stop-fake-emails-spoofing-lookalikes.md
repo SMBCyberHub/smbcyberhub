@@ -2,7 +2,7 @@
 title: "Stop Fake Emails: Spoofing vs Lookalike Domains (Complete Guide for Small Teams)"
 description: "How to prevent email spoofing and lookalike domain attacks. Technical controls, process safeguards, and actionable strategies for small businesses."
 date: 2025-10-28
-tags: ["email security", "phishing", "dmarc", "small business", "email authentication", "domain security"]
+tags: ["phishing"]
 ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Learn the difference between spoofed and lookalike emails—and follow a 7-step playbook to block invoice fraud and fake sender tricks with comprehensive protection strategies."
 featured: false

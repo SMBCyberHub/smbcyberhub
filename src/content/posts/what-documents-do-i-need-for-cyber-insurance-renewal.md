@@ -3,7 +3,7 @@ title: "2026 Cyber Insurance Compliance Checklist | SMBCyberHub"
 description: "Step-by-step guide to cyber insurance compliance for small businesses in 2026. Includes GDPR compliance, training records, policies, and audit-ready templates."
 pubDate: 2026-02-23
 date: 2026-02-23
-tags: ["cyber insurance", "compliance", "documentation", "GDPR", "audit", "small business"]
+tags: ["cyber insurance", "compliance"]
 dateModified: 2026-02-27
 ---
 

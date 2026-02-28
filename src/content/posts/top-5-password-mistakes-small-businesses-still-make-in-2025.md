@@ -2,7 +2,7 @@
 title: "Top 5 Password Mistakes Small Businesses Still Make in 2025"
 description: "Top 5 password mistakes small businesses still make. Common errors, practical fixes, and step-by-step implementation for better security."
 date: 2025-03-30
-tags: ["passwords", "credential hygiene", "compliance", "cybersecurity training", "authentication"]
+tags: ["password"]
 ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Weak or reused passwords are still common in small teams. These are the top mistakes — and how to fix them fast with practical solutions and implementation guidance."
 featured: false
