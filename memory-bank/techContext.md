@@ -17,6 +17,7 @@
 - **@astrojs/markdown-remark** - Markdown content processing
 - **@astrojs/sitemap** - Automatic sitemap generation
 - **@astrojs/tailwind** - Tailwind CSS integration
+- **@astrojs/rss** - RSS feed generation (/rss.xml)
 - **sharp** - Image optimization
 
 ### Analytics & Tracking
@@ -84,19 +85,35 @@ src/
 - Static path generation for posts
 
 ### SEO Implementation
-- JSON-LD structured data schemas
-- Meta tags optimization (150-160 char descriptions)
-- Canonical URL handling
+- JSON-LD structured data schemas (all valid, GSC/Bing audited)
+- Meta tags optimization (all descriptions ≤160 chars, titles ≤60 chars)
+- Canonical URL handling with trailing slashes
 - Automatic sitemap generation
+- RSS feed at /rss.xml with autodiscovery link
+- hreflang tags (en + x-default) on all pages
+- article:published_time and article:tag OG meta on blog posts
+- twitter:site handle (@SMBCyberHub) on all pages
+- dateModified in frontmatter for all blog posts
 
 ### Schema Types Used
-- Organization
-- Product
-- BlogPosting
-- BreadcrumbList
-- FAQPage
-- WebSite
-- Person (for author profiles)
+- Organization (Layout, all pages)
+- Product (homepage, product pages, kits, free training)
+- BlogPosting + SpeakableSpecification (blog posts)
+- BreadcrumbList (all key pages)
+- FAQPage (indexed pages only — removed from noindex pages)
+- CollectionPage + ItemList (blog listing)
+- HowTo + HowToStep (checklist pages — replaced invalid Checklist type)
+- Article + SpeakableSpecification (philosophy, SaaS vs downloadable)
+- WebPage (compliance definition, terms, privacy, licensing)
+- WebSite + SearchAction (homepage — Sitelinks Search Box)
+- ContactPage (contact page)
+- Person (author profiles on blog posts + articles)
+
+### Key Schema Rules
+- Never put FAQPage schema on noindex pages (GSC flags as contradictory)
+- All Article/BlogPosting schemas must have url, author, publisher, datePublished, dateModified
+- Product schemas use sameAs for cross-referencing between homepage and dedicated pages
+- Prefer set:html={JSON.stringify(obj)} over inline JSON-LD
 
 ## Configuration Files
 

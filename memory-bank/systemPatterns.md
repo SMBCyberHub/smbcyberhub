@@ -282,22 +282,32 @@ Each page type uses specific JSON-LD schemas:
 | Page | Schema Types | Injection Method |
 |---|---|---|
 | **Layout (all pages)** | Organization | `set:html` in `<head>` |
-| **Homepage** | Product (×2), WebSite, BreadcrumbList | `@graph` array, `set:html` in body |
-| **Blog posts** | BlogPosting, BreadcrumbList | `set:html` in body (some also have inline HowTo in markdown) |
-| **Product pages** | Product (with AggregateRating, Offers) | `set:html` in body |
+| **Homepage** | Product (×2, with sameAs), WebSite+SearchAction, BreadcrumbList, FAQPage | `@graph` array + separate FAQPage, `set:html` in body |
+| **Blog listing** | CollectionPage+ItemList, BreadcrumbList | `set:html` in body |
+| **Blog posts** | BlogPosting+SpeakableSpecification, BreadcrumbList | `set:html` in body (some also have inline HowTo in markdown) |
+| **Product pages** | Product (with AggregateRating, Offers, sameAs), BreadcrumbList | `set:html` in body |
 | **Kits comparison** | Product (×3), FAQPage | `set:html` in `<head>` via separate `<script>` tags |
-| **Checklist pages** | FAQPage, custom checklist | Inline in body |
+| **2026 checklist** | HowTo+HowToStep, FAQPage | `set:html` in body |
+| **Insurance checklist** | HowTo+HowToStep, FAQPage | `set:html` in body |
 | **FAQ page** | FAQPage | Inline in `<head>` |
-| **About page** | FAQPage | Inline in body |
-| **Philosophy page** | Article (author: Person) | Inline in body |
-| **Terms/Privacy/Licensing** | BreadcrumbList, WebPage, FAQPage | Inline in body |
+| **About page** | FAQPage | `set:html` in body |
+| **Philosophy page** | Article (author: Person), BreadcrumbList | `set:html` in body |
+| **SaaS vs Downloadable** | Article+SpeakableSpecification, BreadcrumbList | `set:html` in body |
+| **What is Compliance** | WebPage+SpeakableSpecification, FAQPage, BreadcrumbList | `set:html` in body |
+| **Contact page** | ContactPage, BreadcrumbList | `set:html` in body |
+| **Terms/Privacy/Licensing** | BreadcrumbList, WebPage (NO FAQPage — noindex) | `set:html` in body |
 | **404 page** | BreadcrumbList, WebPage | `set:html` in body |
-| **Contact page** | None | — |
 
 ### Schema injection methods
 
-- **`set:html={JSON.stringify(obj)}`** — Used when schema is built as a JS object in the frontmatter. Preferred method.
+- **`set:html={JSON.stringify(obj)}`** — Used when schema is built as a JS object in the frontmatter. **Preferred method.**
 - **Inline `<script type="application/ld+json">`** — Used in `.astro` page bodies and inside markdown blog posts (for HowTo schemas). The JSON is written directly as a string.
+
+### Critical schema rules
+- **Never** put FAQPage or other rich-result schemas on `noindex` pages (GSC flags as contradictory)
+- All Article/BlogPosting schemas **must** have `url`, `author`, `publisher`, `datePublished`, `dateModified`
+- Product schemas use `sameAs` for cross-referencing between homepage and dedicated product pages
+- `Checklist` is **not** a valid schema.org type — use `HowTo` with `HowToStep` items instead
 
 ---
 

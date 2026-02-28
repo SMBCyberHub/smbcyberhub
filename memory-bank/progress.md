@@ -14,14 +14,24 @@
 ### SEO & Schema Implementation
 - ✅ JSON-LD structured data for all pages
 - ✅ Organization schema with privacy-first USP
-- ✅ Product schemas with Gumroad integration
-- ✅ BlogPosting schemas for all articles
-- ✅ BreadcrumbList schemas
-- ✅ FAQPage schemas where applicable
-- ✅ Meta description optimization (150-160 chars)
-- ✅ Title tag optimization (≤60 chars)
+- ✅ Product schemas with Gumroad integration + sameAs cross-references
+- ✅ BlogPosting schemas with SpeakableSpecification for voice search
+- ✅ BreadcrumbList schemas on all key pages
+- ✅ FAQPage schemas on indexed pages (removed from noindex pages)
+- ✅ CollectionPage schema on blog listing page
+- ✅ HowTo schemas on checklist pages (replaced invalid Checklist type)
+- ✅ Article schemas on philosophy + SaaS vs downloadable pages
+- ✅ WebPage + FAQPage on compliance definition page
+- ✅ WebSite schema with SearchAction (Sitelinks Search Box)
+- ✅ Meta description optimization (all ≤160 chars)
+- ✅ Title tag optimization (all ≤60 chars)
 - ✅ Canonical URL handling with trailing slashes
 - ✅ Automatic sitemap generation
+- ✅ RSS feed at /rss.xml with autodiscovery link
+- ✅ hreflang tags (en + x-default) on all pages
+- ✅ article:published_time and article:tag OG meta on blog posts
+- ✅ twitter:site handle (@SMBCyberHub) on all pages
+- ✅ dateModified in frontmatter for all 31 blog posts
 
 ### Content
 - ✅ 18+ blog posts covering cybersecurity topics
@@ -64,18 +74,18 @@
 ## Medium Priority Items (Planned)
 
 ### Content Enhancements
-- 🔄 Contact page schema (ContactPage or LocalBusiness)
-- 🔄 BreadcrumbList for product pages
-- 🔄 Reduce homepage Product schema duplication
-- 🔄 Add dateModified to blog posts
-- 🔄 Dynamic Related Posts component
+- 🔄 Differentiated sitemap lastmod per blog post (currently all use build date)
+- 🔄 Distinct OG images per page type (blog, products, tools)
+- 🔄 Pillar/cluster internal linking strategy (hub-and-spoke)
 - 🔄 Downloadable PDF resources for lead capture
+- 🔄 Dynamic Related Posts improvements
 
 ### Technical Improvements
 - 🔄 Video content for key posts (phishing, MFA, compliance)
 - 🔄 Interactive checklists with client-side state
 - 🔄 Newsletter/email capture system
 - 🔄 A/B testing for CTA copy
+- 🔄 Google Search Console verification meta tag
 
 ## Low Priority Items (Future Considerations)
 
@@ -91,16 +101,40 @@
 - 📋 User account system (optional)
 - 📋 Kit customization wizard
 
-## Recent Completed Work (as of Feb 2026)
+## Recent Completed Work (28 Feb 2026)
 
-### Critical Fixes
+### Round 1: Traffic Quick Wins
+- RSS feed at /rss.xml with @astrojs/rss dependency
+- CollectionPage + BreadcrumbList schema on blog page
+- hreflang tags (en + x-default) on all pages via Layout.astro
+- article:published_time and article:tag OG meta for blog posts
+- RSS autodiscovery link in <head> on all pages
+
+### Round 2: Schema Enhancements
+- WebSite SearchAction schema on homepage (Sitelinks Search Box)
+- FAQPage schema on homepage FAQ section
+- SpeakableSpecification on BlogPosting schema for voice search
+- sameAs cross-references between homepage and product page schemas
+
+### Round 3: Page-Level Schema Fixes
+- Article + Speakable + BreadcrumbList on saas-vs-downloadable page
+- WebPage + FAQPage + BreadcrumbList on compliance definition page
+- HowTo schema replacing invalid Checklist type on 2026 checklist page
+- twitter:site @SMBCyberHub handle on all pages via Layout.astro
+
+### GSC/Bing Audit Fixes
+- Replaced invalid Checklist schema with HowTo on cyber-insurance-renewal-checklist
+- Fixed meta description too long on basic-cybersecurity-kit (197→139 chars)
+- Fixed philosophy.astro: added url field, publisher logo, BreadcrumbList, set:html
+- Removed FAQPage schema from noindex pages (terms, privacy, licensing)
+- Added description to homepage WebSite schema
+
+### Earlier Work (Feb 2026)
 - Mobile hamburger navigation implementation
 - Trust numbers standardization
 - Schema cleanup (removed misleading entries)
 - Trailing slash fixes across all URLs
-- Meta description optimizations
-
-### High Priority Updates
+- Meta description optimizations (all posts 150-160 chars)
 - Contextual CTA implementation based on post tags
 - Author schema correction (Organization → Person)
 - Image optimization improvements
@@ -128,11 +162,11 @@
 
 ## Next Sprint Priorities
 
-1. **Contact Page Enhancement** - Add LocalBusiness schema
-2. **Product Page Breadcrumbs** - Improve navigation structure
-3. **Schema Optimization** - Reduce duplication on homepage
-4. **Blog Improvements** - Add dateModified, dynamic related posts
-5. **Lead Generation** - Create downloadable PDF resources
+1. **Sitemap lastmod differentiation** - Pass actual dateModified per blog post instead of build date
+2. **Distinct OG images** - Create 2-3 OG images for different page types
+3. **Pillar/cluster linking** - Formalize hub-and-spoke content structure
+4. **Lead generation** - Create downloadable PDF resources for link bait
+5. **Google Search Console** - Add verification meta tag and monitor indexing
 
 ## Technical Debt
 
