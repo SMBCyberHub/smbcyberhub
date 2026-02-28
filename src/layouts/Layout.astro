@@ -12,7 +12,9 @@ const {
   ogImage = "https://smbcyberhub.com/images/smbcyberhub-logo.webp",
   ogType = "website",                // e.g. "website" (default) or "article" on posts
   robots = "index,follow",           // allow per-page override, e.g. "noindex,follow"
-  canonical                          // optional explicit canonical URL
+  canonical,                         // optional explicit canonical URL
+  publishedTime,                     // ISO date string for article:published_time (blog posts)
+  tags = []                          // string[] for article:tag OG meta (blog posts)
 } = Astro.props;
 
 const pathWithSlash = Astro.url.pathname.endsWith('/') ? Astro.url.pathname : `${Astro.url.pathname}/`;
@@ -87,6 +89,17 @@ const orgSchema = {
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImage} />
+
+    <!-- Article-specific OG meta (blog posts only) -->
+    {ogType === 'article' && publishedTime && <meta property="article:published_time" content={publishedTime} />}
+    {ogType === 'article' && tags.length > 0 && tags.map(tag => <meta property="article:tag" content={tag} />)}
+
+    <!-- hreflang -->
+    <link rel="alternate" hreflang="en" href={canonicalHref} />
+    <link rel="alternate" hreflang="x-default" href={canonicalHref} />
+
+    <!-- RSS Feed -->
+    <link rel="alternate" type="application/rss+xml" title="SMBCyberHub Blog" href="/rss.xml" />
 
     <!-- Site-wide Organization Schema -->
     <script type="application/ld+json" set:html={JSON.stringify(orgSchema)}></script>
