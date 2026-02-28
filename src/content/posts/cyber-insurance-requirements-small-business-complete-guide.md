@@ -2,7 +2,7 @@
 title: "2026 Cyber Insurance Requirements for SMB | SMBCyberHub"
 description: "2026 cyber insurance requirements for small business. Complete compliance checklist, policy templates, and audit-ready documentation you need."
 date: 2026-02-15
-tags: ["cyber insurance", "compliance", "small business", "risk management", "cybersecurity"]
+tags: ["cyber insurance", "compliance"]
 ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Complete guide to cyber insurance requirements for small businesses. Understand coverage types, compliance requirements, and how to optimize your cyber insurance policy."
 featured: true

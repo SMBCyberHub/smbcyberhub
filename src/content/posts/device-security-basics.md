@@ -2,7 +2,7 @@
 title: "Device Security Basics for Remote Work: What Every Small Team Should Know"
 description: "Learn how to secure your laptops, phones, and remote work habits with these practical, GDPR-aligned tips tailored for small business teams."
 date: 2025-07-20
-tags: ["device security", "remote work", "gdpr", "cyber hygiene"]
+tags: ["remote work", "gdpr"]
 ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "From public Wi-Fi to unattended laptops, small security gaps can lead to big breaches. Here’s how to keep your work devices and data safe wherever you are."
 featured: false

@@ -2,7 +2,7 @@
 title: "How to Spot Social Engineering in Messages and Meetings"
 description: "Complete guide to identifying social engineering attacks. Real examples, red flags, verification procedures, and team training strategies for small businesses."
 date: 2025-05-25
-tags: ["social engineering", "human risk", "training", "cybersecurity awareness", "business security"]
+tags: ["phishing"]
 ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Social engineering is one of the easiest ways for attackers to trick staff. Learn how to spot fake requests, urgent emails, and phone scams with real examples and prevention strategies."
 featured: false

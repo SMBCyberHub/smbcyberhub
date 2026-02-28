@@ -2,7 +2,7 @@
 title: "When Someone Leaves: Complete Offboarding Security Checklist for Small Teams"
 description: "Employee offboarding security checklist for small teams. Access removal, data protection, and compliance steps to follow when someone leaves."
 date: 2025-08-12
-tags: ["offboarding", "access control", "small business", "employee offboarding", "security compliance"]
+tags: ["offboarding", "access control"]
 ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Step-by-step offboarding checklist to remove access, protect data, and stay audit-ready when someone leaves your small business with comprehensive security procedures."
 featured: false

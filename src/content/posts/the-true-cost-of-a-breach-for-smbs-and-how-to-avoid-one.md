@@ -2,7 +2,7 @@
 title: "The True Cost of a Breach for SMBs (and How to Avoid One)"
 description: "What a data breach really costs a small business: financial impact, downtime, reputation damage, and practical prevention strategies you can use now."
 date: 2025-06-08
-tags: ["breach", "cost of inaction", "insurance", "cybersecurity", "risk management"]
+tags: ["compliance"]
 ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Think a data breach is just an IT issue? It could cost your business thousands — or your reputation. Here's what it really means with real costs and prevention strategies."
 featured: true

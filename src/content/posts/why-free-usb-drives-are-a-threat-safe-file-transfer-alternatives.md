@@ -2,7 +2,7 @@
 title: "Why Free USB Drives Are a Threat: Complete Guide to Safe File Transfer"
 description: "Why free USB drives are a security threat and what to use instead. Real attack scenarios, prevention strategies, and safe file transfer options."
 date: 2025-05-11
-tags: ["usb", "device security", "malware", "file transfer", "cybersecurity"]
+tags: ["gdpr"]
 ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "That free USB at the conference? It might be a trap. Here's why physical media can carry digital threats — and what to use instead with comprehensive security guidance."
 featured: false

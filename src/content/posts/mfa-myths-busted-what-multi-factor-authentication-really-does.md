@@ -2,7 +2,7 @@
 title: "MFA Myths Busted: What Multi-Factor Authentication Really Does"
 description: "Complete guide to multi-factor authentication for small businesses. Common myths debunked, implementation strategies, and security benefits explained."
 date: 2025-04-13
-tags: ["mfa", "multi-factor authentication", "gdpr", "cybersecurity", "authentication security"]
+tags: ["mfa", "gdpr"]
 ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Is MFA overkill for a small business? Not at all. We break down the common myths and what MFA actually protects against with comprehensive implementation guidance."
 featured: false

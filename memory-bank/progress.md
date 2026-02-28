@@ -34,11 +34,12 @@
 - ✅ dateModified in frontmatter for all 31 blog posts
 
 ### Content
-- ✅ 18+ blog posts covering cybersecurity topics
-- ✅ Posts tagged for categorization (phishing, gdpr, compliance, etc.)
+- ✅ 31 blog posts covering cybersecurity topics
+- ✅ Posts tagged with 10 core tags (phishing, compliance, gdpr, cyber insurance, mfa, password, access control, offboarding, remote work, backups)
 - ✅ Contextual CTAs based on post tags
 - ✅ Related posts component
 - ✅ Featured posts section on homepage
+- ✅ Tag consolidation eliminates thin content and improves SEO
 
 ### Design & UX
 - ✅ Mobile-responsive navigation with hamburger menu
@@ -128,6 +129,12 @@
 - Fixed philosophy.astro: added url field, publisher logo, BreadcrumbList, set:html
 - Removed FAQPage schema from noindex pages (terms, privacy, licensing)
 - Added description to homepage WebSite schema
+
+### Tag Consolidation (28 Feb 2026)
+- Consolidated 85+ unique tags down to 10 core tags (phishing, compliance, gdpr, cyber insurance, mfa, password, access control, offboarding, remote work, backups)
+- Updated all 31 blog post frontmatter to use only core tags
+- Reduced sitemap from 133 to ~58 URLs (eliminated thin tag pages)
+- Eliminated keyword cannibalization and crawl budget waste
 
 ### Earlier Work (Feb 2026)
 - Mobile hamburger navigation implementation

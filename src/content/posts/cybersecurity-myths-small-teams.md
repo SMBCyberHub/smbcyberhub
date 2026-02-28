@@ -2,7 +2,7 @@
 title: "7 Cybersecurity Myths That Put Small Teams at Risk"
 description: "Think you're too small to be targeted? Think again. We bust common security myths that leave small businesses exposed — and how to fix them."
 date: 2025-07-29
-tags: ["cyber hygiene", "compliance", "small business security"]
+tags: ["compliance"]
 ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Think you're too small to be targeted? Think again. We bust common cybersecurity myths that leave small teams vulnerable — and how to fix them."
 featured: false
