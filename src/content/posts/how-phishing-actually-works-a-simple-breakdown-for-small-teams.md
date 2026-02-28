@@ -1,6 +1,6 @@
 ---
 title: "How Phishing Actually Works: A Simple Breakdown for Small Teams"
-description: "Phishing isn't just spam — it's a leading cause of data breaches. Here's a plain-English breakdown for non-technical teams with real examples and prevention strategies."
+description: "Phishing causes most small business data breaches. A plain-English breakdown of how phishing works, with real examples and practical prevention strategies."
 date: 2025-03-16
 tags: ["phishing", "email threats", "smb security", "cybersecurity training"]
 ogImage: "/images/smbcyberhub-logo.webp"

@@ -1,6 +1,6 @@
 ---
 title: "Securing Shared Devices Without Killing Productivity"
-description: "Complete guide to secure shared devices for small teams. Practical policies, user accounts, browser profiles, and productivity-friendly security measures for laptops and workstations."
+description: "How to secure shared devices for small teams without slowing people down. Practical policies, user accounts, and browser profiles."
 date: 2025-06-22
 tags: ["shared devices", "device policy", "small teams", "cybersecurity", "productivity"]
 ogImage: "/images/smbcyberhub-logo.webp"

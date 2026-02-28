@@ -1,6 +1,6 @@
 ---
 title: "Top 5 Password Mistakes Small Businesses Still Make in 2025"
-description: "Complete guide to password security for small businesses. Common mistakes, practical solutions, and step-by-step implementation to protect your business from credential-based attacks."
+description: "Top 5 password mistakes small businesses still make. Common errors, practical fixes, and step-by-step implementation for better security."
 date: 2025-03-30
 tags: ["passwords", "credential hygiene", "compliance", "cybersecurity training", "authentication"]
 ogImage: "/images/smbcyberhub-logo.webp"
