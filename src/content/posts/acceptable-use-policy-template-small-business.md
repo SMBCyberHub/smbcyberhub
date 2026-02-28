@@ -1,6 +1,6 @@
 ---
 title: "Acceptable Use Policy Template for Small Business: GDPR Compliant 2026"
-description: "Free acceptable use policy template for 1-20 employee teams. GDPR compliant, buy once use forever, no monthly fees. Covers devices, software, internet, and data usage."
+description: "Free acceptable use policy template for small business teams. GDPR compliant, covers devices, software, internet, and data usage rules."
 date: 2026-02-22
 tags: ["acceptable use policy", "GDPR compliance", "small business", "template", "cybersecurity"]
 ogImage: "/images/smbcyberhub-logo.webp"

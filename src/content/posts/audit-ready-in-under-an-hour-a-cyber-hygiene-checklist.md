@@ -1,6 +1,6 @@
 ---
 title: "How to Pass Security Audit Without Subscription: 1-Hour Cyber Hygiene Checklist for Small Business"
-description: "Need to pass client security audit or GDPR compliance? This one-time checklist gets small teams audit-ready in 60 minutes. Buy once, use forever - no monthly fees."
+description: "Need to pass a security audit or GDPR compliance check? This one-time checklist gets small business teams audit-ready in under 60 minutes."
 date: 2025-07-06
 tags: ["audit", "checklist", "compliance"]
 ogImage: "/images/smbcyberhub-logo.webp"

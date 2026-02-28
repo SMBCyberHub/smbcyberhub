@@ -1,6 +1,6 @@
 ---
 title: "2026 SMB Cybersecurity Compliance Guide | SMBCyberHub"
-description: "Complete GDPR compliance for 1-20 employee teams without monthly fees. One-time purchase templates for cyber insurance, audit readiness, and staff training. Buy once, use forever."
+description: "Complete 2026 GDPR compliance guide for small business teams. Templates for cyber insurance, audit readiness, and staff training."
 pubDate: 2026-02-14
 date: 2026-02-14
 tags: ["SMB cybersecurity", "GDPR compliance", "audit readiness", "small business security"]
