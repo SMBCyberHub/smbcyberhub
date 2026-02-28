@@ -8,52 +8,57 @@ const meta = {
 
 const schemaData = {
   "@context": "https://schema.org",
-  "@type": "Checklist",
-  "name": "The 2026 SMB Cybersecurity Compliance Readiness Checklist",
-  "description": "Audit-Ready Standards for Teams of 1–20. Direct path to meeting GDPR Article 39.1(b) and ISO27001 standards without complex SaaS platforms.",
+  "@type": "HowTo",
+  "name": "How to Achieve SMB Cybersecurity Compliance in 2026",
+  "description": "Audit-Ready Standards for Teams of 1-20. Direct path to meeting GDPR Article 39.1(b) and ISO27001 standards without complex SaaS platforms.",
   "datePublished": "2026-02-23",
-  "dateModified": "2026-02-23",
-  "author": {
-    "@type": "Organization",
-    "name": "SMBCyberHub",
-    "url": "https://smbcyberhub.com"
+  "dateModified": "2026-02-28",
+  "totalTime": "PT60M",
+  "estimatedCost": {
+    "@type": "MonetaryAmount",
+    "currency": "EUR",
+    "value": "49"
   },
-  "itemListElement": [
+  "tool": [
+    { "@type": "HowToTool", "name": "SMBCyberHub Basic or Pro Kit" },
+    { "@type": "HowToTool", "name": "Printer (optional)" }
+  ],
+  "step": [
     {
-      "@type": "ListItem",
+      "@type": "HowToStep",
       "position": 1,
-      "name": "Core Information Security Policy (ISP)",
-      "description": "A signed document outlining how your team handles data"
+      "name": "Create a Core Information Security Policy (ISP)",
+      "text": "Draft and sign a document outlining how your team handles data. Use SMBCyberHub policy templates for a ready-made version."
     },
     {
-      "@type": "ListItem",
+      "@type": "HowToStep",
       "position": 2,
-      "name": "Acceptable Use Policy (AUP)",
-      "description": "Clear rules for staff on using company devices and AI tools"
+      "name": "Establish an Acceptable Use Policy (AUP)",
+      "text": "Define clear rules for staff on using company devices and AI tools. Cover internet use, personal devices, and data handling."
     },
     {
-      "@type": "ListItem",
+      "@type": "HowToStep",
       "position": 3,
-      "name": "Remote Work & BYOD Policy",
-      "description": "Specific guidelines for staff working from home or using personal phones"
+      "name": "Create a Remote Work & BYOD Policy",
+      "text": "Write specific guidelines for staff working from home or using personal phones. Address VPN use, Wi-Fi security, and data storage."
     },
     {
-      "@type": "ListItem",
+      "@type": "HowToStep",
       "position": 4,
-      "name": "Annual Cyber Awareness Session",
-      "description": "Evidence of team-wide briefing on current 2026 threats"
+      "name": "Run an Annual Cyber Awareness Session",
+      "text": "Conduct a team-wide briefing on current 2026 threats using the included training slides. Document attendance with sign-off sheets."
     },
     {
-      "@type": "ListItem",
+      "@type": "HowToStep",
       "position": 5,
-      "name": "Knowledge Verification",
-      "description": "Quizzes or sign-offs proving staff understood the training"
+      "name": "Verify Staff Knowledge",
+      "text": "Use quizzes or sign-offs to prove staff understood the training. Keep records for audit and insurance evidence."
     },
     {
-      "@type": "ListItem",
+      "@type": "HowToStep",
       "position": 6,
-      "name": "Breach Notification Template",
-      "description": "A pre-written letter ready to go if data is lost or stolen"
+      "name": "Prepare a Breach Notification Template",
+      "text": "Have a pre-written notification letter ready to go if data is lost or stolen. Include contact details and regulatory reporting steps."
     }
   ]
 };
