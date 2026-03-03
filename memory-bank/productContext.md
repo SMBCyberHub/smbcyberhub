@@ -70,3 +70,37 @@ SMBCyberHub provides privacy-first, downloadable cybersecurity compliance kits f
 - Complex implementation requiring IT expertise
 - Long setup times for compliance frameworks
 - Recurring subscription fatigue
+
+## Marketing Strategy: SEO & AI Discovery Only
+
+**IMPERATIVE: SEO and AI engine optimization are the ONLY marketing channels for SMBCyberHub.**
+
+### Critical Requirements:
+- **No paid advertising** - No Google Ads, social media ads, or other paid channels
+- **No outbound marketing** - No email campaigns, cold outreach, or sales team
+- **No social media marketing** - Organic presence only for verification/credibility
+- **No content distribution** - No guest posts, partnerships, or PR outreach
+
+### Success Depends Entirely On:
+1. **Search Engine Optimization (SEO)**
+   - Google/Bing organic discovery for cybersecurity compliance queries
+   - Featured snippets for "how-to" compliance questions
+   - Local search for "cybersecurity compliance [location]"
+
+2. **AI Engine Optimization (AEO)**
+   - ChatGPT, Claude, Perplexity recommendations
+   - AI training data inclusion for compliance queries
+   - RSS feed full content for AI ingestion
+
+3. **Technical SEO Excellence**
+   - Perfect schema markup for rich snippets
+   - Fast loading times and Core Web Vitals
+   - Mobile-first indexing optimization
+   - XML sitemaps and proper internal linking
+
+4. **Content Strategy**
+   - Comprehensive coverage of SMB compliance topics
+   - Answer Engine Optimization (direct answers to questions)
+   - E-E-A-T signals for expertise and trustworthiness
+
+**Every technical decision must prioritize search/AI discoverability over other considerations.**
