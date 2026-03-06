@@ -16,7 +16,7 @@ export async function GET(context) {
       link: `/posts/${post.slug}/`,
       categories: post.data.tags || [],
     })),
-    customData: '<language>en</language>',
+    customData: '<language>en</language><lastBuildDate>' + new Date().toUTCString() + '</lastBuildDate>',
     trailingSlash: true,
   });
 }
