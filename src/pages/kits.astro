@@ -378,12 +378,10 @@ const faqSchema = {
 };
 ---
 
-<head>
-  <script type="application/ld+json" set:html={JSON.stringify(productsSchema)}></script>
-  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)}></script>
-</head>
 <Layout title="Compare SMB Cybersecurity Compliance Kits"
 description="Compare SMB cybersecurity compliance kits. Audit-ready training, GDPR-aligned policies, and checklists. From free to Pro — buy once, use forever.">
+  <script type="application/ld+json" set:html={JSON.stringify(productsSchema)}></script>
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)}></script>
 
   <section class="bg-blue-50 py-14 px-6 text-center">
     <!-- Breadcrumbs -->
@@ -413,7 +411,7 @@ description="Compare SMB cybersecurity compliance kits. Audit-ready training, GD
         Try Free Sample
       </a>
       <a href="/basic-cybersecurity-kit/" class="bg-white border border-blue-600 text-blue-700 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50">
-        Buy Basic Kit (49)
+        Buy Basic Kit (€49)
       </a>
       <a href="/pro-cybersecurity-kit/" class="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-6 py-3 rounded-lg shadow transform hover:scale-105 transition flex items-center justify-center">
         ✅ Get Pro Kit (€99)

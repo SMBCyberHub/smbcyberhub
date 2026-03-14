@@ -20,7 +20,7 @@ Permission creep is real: people change roles, vendors get added “just for a w
 
 ---
 
-## �� Prep (5 minutes)
+## 🔎 Prep (5 minutes)
 
 **Where to check:**  
 - Identity & email: Google Workspace or Microsoft 365  

@@ -347,8 +347,8 @@ Professional services for offboarding support.
 ### Remember These Rules
 1. **Suspend first** before deleting accounts
 2. **Revoke all sessions** and MFA methods immediately
-3 **Transfer ownership** before account removal
-4 **Collect devices** and secure them properly
+3. **Transfer ownership** before account removal
+4. **Collect devices** and secure them properly
 - **Rotate all shared** credentials and API keys
 - **Document everything** for audit and compliance
 

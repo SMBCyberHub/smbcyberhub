@@ -7,7 +7,7 @@ tags: ["gdpr"]
 ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "A practical, non-technical guide to data retention for small teams: what to keep, what to delete, and how to build a simple policy you can actually follow."
 featured: false
-canonical: https://smbcyberhub.com/posts/simple-data-retention-small-teams
+canonical: "https://smbcyberhub.com/posts/simple-data-retention-small-teams/"
 ---
 
 Most small teams have files everywhere — inboxes, shared drives, laptops, old systems — and almost no one knows what can safely be deleted. That’s a problem for GDPR, for clients, and for you if something leaks.

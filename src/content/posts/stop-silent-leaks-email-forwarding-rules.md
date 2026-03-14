@@ -166,7 +166,7 @@ Email forwarding is one of the most dangerous and overlooked security vulnerabil
 
 ---
 
-## � Incident Response for Forwarding Leaks
+## 🚨 Incident Response for Forwarding Leaks
 
 ### **Immediate Response (First 5 Minutes)**
 1. **Remove suspicious rules** immediately

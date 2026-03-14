@@ -28,50 +28,6 @@ const webPageSchema = {
   isPartOf: { '@type': 'Website', name: 'SMBCyberHub', url: 'https://smbcyberhub.com' },
   dateModified: '2026-02-23',
 };
-
-// Optional FAQ block to earn rich results for common policy questions
-const faqSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: [
-    {
-      '@type': 'Question',
-      name: 'What does my license allow?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text:
-          'Each purchase grants a non‑transferable, perpetual license for internal use by the purchasing organization. Files may be downloaded, printed, or edited for internal training and compliance.',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: 'Do you offer refunds on digital products?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text:
-          'All sales are final due to the digital nature of our products. If you experience a technical issue or receive an incorrect file, contact us and we will make it right.',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: 'Do you use tracking or analytics?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text:
-          'No. We do not use tracking scripts, analytics tools, or cookies. Email addresses are collected only for delivery and occasional product updates.',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: 'Can the terms change?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text:
-          'Terms may be updated periodically. Continued use after changes implies acceptance of the revised terms.',
-      },
-    },
-  ],
-};
 ---
 
 <Layout title={meta.title} description={meta.description} robots={meta.robots}>
@@ -112,7 +68,7 @@ const faqSchema = {
 
     <h2 class="text-xl font-semibold mt-8 mb-2 text-gray-800">4. Privacy &amp; Data</h2>
     <ul class="list-disc list-inside text-sm text-gray-700 space-y-2">
-      <li>We do <strong>not</strong> use tracking scripts, analytics tools, or cookies.</li>
+      <li>We use only <strong>privacy-friendly, cookie-free analytics</strong> (Umami). No invasive tracking scripts or cookies.</li>
       <li>Email addresses are collected only for delivery and occasional product updates (max 4–6/year).</li>
       <li>We never sell or share your data with third parties. See our <a href="/privacy/" class="text-emerald-700 underline">Privacy Policy</a>.</li>
     </ul>

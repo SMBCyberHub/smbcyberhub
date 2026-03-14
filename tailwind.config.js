@@ -3,9 +3,8 @@ import typography from '@tailwindcss/typography';
 
 export default {
   content: [
-    './src/**/*.{astro,html,js,jsx,ts,tsx,vue,svelte,md}'
+    './src/**/*.{astro,html,js,ts,md}'
   ],
-  darkMode: 'class', // Use `dark` class for toggling
   theme: {
     extend: {
       typography: ({ theme }) => ({
@@ -32,17 +31,6 @@ export default {
               backgroundColor: theme('colors.gray.100'),
               padding: '0.2em 0.4em',
               borderRadius: '0.25rem',
-            },
-          },
-        },
-        dark: {
-          css: {
-            color: theme('colors.gray.100'),
-            a: { color: theme('colors.blue.400') },
-            strong: { color: theme('colors.white') },
-            blockquote: { color: theme('colors.gray.300') },
-            code: {
-              backgroundColor: theme('colors.gray.800'),
             },
           },
         },

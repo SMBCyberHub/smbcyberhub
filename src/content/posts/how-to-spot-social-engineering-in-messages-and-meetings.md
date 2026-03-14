@@ -216,7 +216,7 @@ Regular training helps staff recognize social engineering attempts.
 
 ---
 
-## � Comprehensive Defense Checklist
+## 🛡️ Comprehensive Defense Checklist
 
 ### **Daily Habits**
 - [ ] **Question unexpected requests** for sensitive information
@@ -279,7 +279,7 @@ Regular training helps staff recognize social engineering attempts.
 
 ---
 
-## � Advanced Social Engineering Techniques
+## ⚠️ Advanced Social Engineering Techniques
 
 ### **Sophisticated Attack Methods**
 Attackers are constantly evolving their techniques.
@@ -340,8 +340,6 @@ SMBCyberHub's kits include comprehensive social engineering protection:
 👉 [Download our social engineering protection kit](/kits/) - Includes training, procedures, and templates
 
 ---
-
-## 🎯 Key Takeaways
 
 ### **GDPR Article 32(4)**
 - **Security of processing**: Implement appropriate technical measures

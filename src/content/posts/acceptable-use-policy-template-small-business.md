@@ -10,27 +10,6 @@ canonical: "https://smbcyberhub.com/posts/acceptable-use-policy-template-small-b
 dateModified: 2026-02-27
 ---
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Acceptable Use Policy Template for Small Business: GDPR Compliant 2026",
-  "description": "Free acceptable use policy template for 1-20 employee teams. GDPR compliant, one-time download, no subscription.",
-  "author": {
-    "@type": "Organization",
-    "name": "SMBCyberHub"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "SMBCyberHub",
-    "url": "https://smbcyberhub.com"
-  },
-  "datePublished": "2026-02-22",
-  "dateModified": "2026-02-22",
-  "mainEntityOfPage": "https://smbcyberhub.com/posts/acceptable-use-policy-template-small-business/"
-}
-</script>
-
 # Acceptable Use Policy Template for Small Business
 
 **Need a GDPR-compliant acceptable use policy for your small team?** This template establishes clear guidelines for using company resources, protecting data, and maintaining security - designed specifically for 1-20 employee businesses.
@@ -172,7 +151,7 @@ This policy defines acceptable use of company equipment, software, networks, and
 
 ---
 
-## � **Download Complete Acceptable Use Policy Template**
+## 📦 **Download Complete Acceptable Use Policy Template**
 
 **Get the complete, customizable acceptable use policy template plus 9 other essential policies in our [Small Business Security Policy Kit](/kits/)**
 
