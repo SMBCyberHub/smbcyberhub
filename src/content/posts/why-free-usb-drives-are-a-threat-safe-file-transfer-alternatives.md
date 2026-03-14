@@ -12,7 +12,7 @@ dateModified: 2026-02-27
 
 Free USB drives might seem like harmless swag — but they can be serious security threats. For small teams, the risk is even greater.
 
-## � Understanding USB Security Threats
+## 💾 Understanding USB Security Threats
 
 ### **The USB Attack Vector**
 USB drives are one of the most common and dangerous physical attack vectors for small businesses.

@@ -1,11 +1,13 @@
 # Node
 node_modules/
-npm-debug.log
+npm-debug.log*
+npm-error.log*
 pnpm-lock.yaml
 yarn.lock
 
 # Astro build output
 dist/
+.astro/
 
 # Local environment
 .env
@@ -18,10 +20,12 @@ customer-downloads/
 .DS_Store
 *.swp
 
+# AI assistant context files
+.windsurfrules
+memory-bank/
 
+# Editor config
+.vscode/
 
-.astro/
-dist/
-node_modules/
-.env
-
+# Backup files
+*.backup

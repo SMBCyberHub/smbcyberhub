@@ -4,6 +4,10 @@ description: "Step-by-step guide to cyber insurance compliance for small busines
 pubDate: 2026-02-23
 date: 2026-02-23
 tags: ["cyber insurance", "compliance"]
+ogImage: "/images/smbcyberhub-logo.webp"
+excerpt: "Step-by-step guide to cyber insurance compliance for small businesses in 2026. Includes GDPR compliance, training records, policies, and audit-ready templates."
+featured: false
+canonical: "https://smbcyberhub.com/posts/what-documents-do-i-need-for-cyber-insurance-renewal/"
 dateModified: 2026-02-27
 ---
 

@@ -14,7 +14,7 @@ Working remotely is here to stay. But without the right habits, remote work can 
 
 Here are simple, powerful habits your team should adopt.
 
-## � The Remote Work Security Challenge
+## 💻 The Remote Work Security Challenge
 
 ### **Why Remote Work Increases Risk**
 Remote work introduces unique security challenges that office-based work doesn't face.
@@ -189,7 +189,7 @@ Separate different types of network traffic.
 
 ---
 
-## � Mobile Device Security
+## 📱 Mobile Device Security
 
 ### **Treat Phones Like Laptops**
 Phones often contain sensitive business information and need protection.

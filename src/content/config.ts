@@ -10,6 +10,10 @@ const posts = defineCollection({
     heroImage: z.string().optional(),
     tags: z.array(z.string()).optional(),
     dateModified: z.date().optional(),
+    ogImage: z.string().optional(),
+    excerpt: z.string().optional(),
+    featured: z.boolean().optional(),
+    canonical: z.string().optional(),
   }),
 });
 

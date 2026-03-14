@@ -28,49 +28,6 @@ const webPageSchema = {
   dateModified: '2026-02-23',
   isPartOf: { '@type': 'Website', name: 'SMBCyberHub', url: 'https://smbcyberhub.com' },
 };
-
-const faqSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: [
-    {
-      '@type': 'Question',
-      name: 'What personal data do you collect?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text:
-          'We only collect an email address when voluntarily provided for kit downloads or purchases, and purchase details via Gumroad. We do not collect names, addresses, passwords, or behavioral analytics.',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: 'How is my data used?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text:
-          'We use your data solely to deliver products, provide support, and send occasional critical updates. We never track, profile, or sell your data.',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: 'Can I request deletion of my data?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text:
-          'Yes. You may request deletion of your email or any associated records at any time by emailing info@smbcyberhub.com.',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: 'Where is the site hosted and is it GDPR-compliant?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text:
-          'Our site is hosted on Netlify, which is GDPR-compliant. Email is delivered via Buttondown, also GDPR-compliant. No third-party trackers are used.',
-      },
-    },
-  ],
-};
 ---
 
 <Layout title={meta.title} description={meta.description} robots={meta.robots}>

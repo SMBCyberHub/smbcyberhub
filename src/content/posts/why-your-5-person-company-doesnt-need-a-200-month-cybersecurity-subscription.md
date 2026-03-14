@@ -10,27 +10,6 @@ canonical: "https://smbcyberhub.com/posts/why-your-5-person-company-doesnt-need-
 dateModified: 2026-02-27
 ---
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Why Your 5-Person Company Doesn't Need a $200/Month Cybersecurity Subscription",
-  "description": "Stop paying monthly fees for cybersecurity. One-time purchase kits give 5-person companies complete compliance without ongoing costs.",
-  "author": {
-    "@type": "Organization",
-    "name": "SMBCyberHub"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "SMBCyberHub",
-    "url": "https://smbcyberhub.com"
-  },
-  "datePublished": "2026-02-22",
-  "dateModified": "2026-02-22",
-  "mainEntityOfPage": "https://smbcyberhub.com/posts/why-your-5-person-company-doesnt-need-a-200-month-cybersecurity-subscription/"
-}
-</script>
-
 # Why Your 5-Person Company Doesn't Need a $200/Month Cybersecurity Subscription
 
 **Paying $200+ per month for cybersecurity software?** You're wasting $2,400 per year on features you don't need. Here's the math that proves your 5-person company can achieve better compliance with a one-time purchase.

@@ -415,7 +415,6 @@ For businesses with higher security requirements or compliance needs.
 ---
 
 **🕒 Estimated Reading Time**: 12 minutes  
-**🔐 Aligned With**: GDPR Article 32(4), ISO27001 Clause 9.4.3  
+**🔐 Aligned With**: GDPR Article 32(4), GDPR Article 39.1(b), ISO27001 Clause 9.4.3, ISO27001 Clause 7.2.2  
 **📊 Target Audience**: Small business owners, office managers, IT administrators  
-**🎯 Learning Objectives**: Implement strong password security, prevent credential-based attacks, maintain compliance  
-**🔐 Aligned With**: GDPR Article 39.1(b), ISO27001 Clause 7.2.2
+**🎯 Learning Objectives**: Implement strong password security, prevent credential-based attacks, maintain compliance
