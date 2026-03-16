@@ -24,12 +24,12 @@ const webPageSchema = {
   name: meta.title,
   url: 'https://smbcyberhub.com/404',
   description: meta.description,
-  isPartOf: { '@type': 'Website', name: 'SMBCyberHub', url: 'https://smbcyberhub.com' },
+  isPartOf: { '@type': 'WebSite', name: 'SMBCyberHub', url: 'https://smbcyberhub.com' },
   dateModified: '2026-02-23',
 };
 ---
 
-<Layout title={meta.title} description={meta.description}>
+<Layout title={meta.title} description={meta.description} robots="noindex">
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)}></script>
   <script type="application/ld+json" set:html={JSON.stringify(webPageSchema)}></script>
 

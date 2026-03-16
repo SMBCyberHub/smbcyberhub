@@ -1,5 +1,5 @@
 ---
-title: "2026 Cyber Insurance Compliance Checklist | SMBCyberHub"
+title: "2026 Cyber Insurance Compliance Checklist"
 description: "Step-by-step guide to cyber insurance compliance for small businesses in 2026. Includes GDPR compliance, training records, policies, and audit-ready templates."
 pubDate: 2026-02-23
 date: 2026-02-23
@@ -11,7 +11,7 @@ canonical: "https://smbcyberhub.com/posts/what-documents-do-i-need-for-cyber-ins
 dateModified: 2026-02-27
 ---
 
-# Cyber Insurance Renewal Checklist 2026: Essential Documents for SMBs
+## Cyber Insurance Renewal Checklist 2026: Essential Documents for SMBs
 
 Getting your cyber insurance renewed shouldn't be a last-minute scramble. Insurers are getting stricter about documentation, and being prepared with the right documents can make the difference between smooth sailing and premium hikes.
 

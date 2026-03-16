@@ -10,7 +10,7 @@ dateModified: 2026-02-27
 featured: true
 ---
 
-# What Insurers Expect to See in Cybersecurity Training Records
+## What Insurers Expect to See in Cybersecurity Training Records
 
 <div class="bg-gradient-to-r from-blue-50 to-emerald-50 border-l-4 border-blue-500 p-6 mb-8 rounded-lg">
 

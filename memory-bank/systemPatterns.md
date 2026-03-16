@@ -13,8 +13,7 @@
 | Typography | `@tailwindcss/typography` | `^0.5.16` | Prose styling for blog post markdown |
 | Sitemap | `@astrojs/sitemap` | `^3.4.2` | Auto-generates `/sitemap-index.xml` at build |
 | Tailwind integration | `@astrojs/tailwind` | `^6.0.2` | Astro ↔ Tailwind bridge |
-| Markdown | `@astrojs/markdown-remark` | `^6.3.3` | Markdown processing for content collections |
-| Image processing | `sharp` | `^0.34.4` | Image optimisation (dev dependency) |
+| Image processing | `sharp` | `^0.34.4` | Image optimisation (production dependency) |
 | CSS tooling | `postcss` `^8.5.6`, `autoprefixer` `^10.4.21` | PostCSS pipeline |
 | Analytics | Umami Cloud | `fa515cb9-555e-45c1-92d5-7dee474ca120` | Privacy-friendly, no cookies, loaded via `<script defer>` |
 | Hosting | Netlify | — | Auto-deploys on push to `master` |
@@ -23,7 +22,7 @@
 ### Build & Deploy
 
 - **Build command:** `npm run build` → outputs to `./dist/`
-- **Netlify config:** `netlify.toml` — `command = "npm run build"`, `publish = "dist"`
+- **Netlify config:** `netlify.toml` — `command = "npm run build"`, `publish = "dist"`, `NODE_VERSION = "20"`
 - **Deploy trigger:** `git push origin master`
 - **No local Node.js build needed** — Netlify handles the build remotely
 - **TypeScript config:** `tsconfig.json` extends `astro/tsconfigs/strict`
@@ -41,7 +40,7 @@ integrations: [tailwind(), sitemap({...})]
 ### Critical rules
 
 - **Trailing slashes are enforced site-wide.** Every internal link MUST end with `/`. Non-slash URLs cause 301 redirects which hurt SEO and Core Web Vitals.
-- **Sitemap** filters out `/terms/`, `/privacy/`, `/licensing/` (noindex pages). All other entries receive `lastmod` set to the build date via the `serialize` callback.
+- **Sitemap** filters out `/terms/`, `/privacy/`, `/licensing/` (noindex pages). No `lastmod` override — uses Astro/sitemap defaults.
 - **Site URL** is hardcoded as `https://smbcyberhub.com` — used for canonical URLs and sitemap generation.
 
 ---
@@ -127,7 +126,7 @@ The header logo is the LCP element:
 
 ## 4. Content Collection — Blog Posts
 
-### Schema (`src/content.config.ts`)
+### Schema (`src/content/config.ts`)
 
 ```ts
 const posts = defineCollection({
@@ -139,6 +138,11 @@ const posts = defineCollection({
     pubDate: z.date().optional(),
     heroImage: z.string().optional(),
     tags: z.array(z.string()).optional(),
+    dateModified: z.date().optional(),
+    ogImage: z.string().optional(),
+    excerpt: z.string().optional(),
+    featured: z.boolean().optional(),
+    canonical: z.string().optional(),
   }),
 });
 ```
@@ -151,13 +155,14 @@ const posts = defineCollection({
 | `date` | Yes | `2025-09-09` | Used for display date, schema `datePublished`, sorting |
 | `description` | Yes | String ≤160 chars ideal | Meta description, schema `description` |
 | `tags` | No | `["backups", "ransomware"]` | Used for blog categorisation and display |
-| `ogImage` | No | `"/images/smbcyberhub-logo.webp"` | Overrides default OG image. NOT in Zod schema but used in `[slug].astro` |
-| `excerpt` | No | Short summary string | Used in schema `description` fallback. NOT in Zod schema |
-| `featured` | No | `true` / `false` | Controls appearance in Featured Posts section on blog page. NOT in Zod schema |
-| `canonical` | No | Full URL with trailing slash | Explicit canonical. NOT in Zod schema |
+| `ogImage` | No | `"/images/smbcyberhub-logo.webp"` | Overrides default OG image |
+| `excerpt` | No | Short summary string | Used in schema `description` fallback |
+| `featured` | No | `true` / `false` | Controls appearance in Featured Posts section on blog page |
+| `canonical` | No | Full URL with trailing slash | Explicit canonical URL |
+| `dateModified` | No | `2026-02-27` | Used in schema `dateModified` if different from `date` |
 | `pubDate` | No | Same as `date` | Legacy field, rarely used |
 
-**Important:** `ogImage`, `excerpt`, `featured`, and `canonical` are used in code but not validated by Zod. They are accessed via `data.ogImage`, `data.excerpt`, `data.featured`, `data.canonical` — Astro passes them through even though they're not in the schema.
+All frontmatter fields are validated by the Zod schema in `src/content/config.ts`.
 
 ### Frontmatter conventions
 
@@ -185,21 +190,21 @@ export async function getStaticPaths() {
   const posts = await getCollection('posts');
   return posts.map((post) => ({
     params: { slug: post.slug },
-    props: { slug: post.slug },
+    props: { post },
   }));
 }
 ```
 
-### Error handling
+### Post retrieval
 
 ```js
-const post = await getEntryBySlug('posts', slug);
+const { post } = Astro.props;
 if (!post) {
-  throw new AstroError(`No post found for slug: ${slug}`);
+  throw new AstroError('No post found');
 }
 ```
 
-This is the **only explicit error handling** in the codebase. It throws `AstroError` (imported from `astro/errors`) if a slug doesn't resolve. This triggers Astro's built-in error page during dev and a build failure in production.
+The post object is passed directly via `getStaticPaths` props (not fetched with `getEntryBySlug` or `getEntry`). This is the **only explicit error handling** in the codebase. It throws `AstroError` (imported from `astro/errors`) if a slug doesn't resolve. This triggers Astro's built-in error page during dev and a build failure in production.
 
 ### Schema generation
 
@@ -282,11 +287,11 @@ Each page type uses specific JSON-LD schemas:
 | Page | Schema Types | Injection Method |
 |---|---|---|
 | **Layout (all pages)** | Organization | `set:html` in `<head>` |
-| **Homepage** | Product (×2, with sameAs), WebSite+SearchAction, BreadcrumbList, FAQPage | `@graph` array + separate FAQPage, `set:html` in body |
+| **Homepage** | Product (×2, with sameAs), WebSite, BreadcrumbList, FAQPage | `@graph` array + separate FAQPage, `set:html` in body |
 | **Blog listing** | CollectionPage+ItemList, BreadcrumbList | `set:html` in body |
 | **Blog posts** | BlogPosting+SpeakableSpecification, BreadcrumbList | `set:html` in body (some also have inline HowTo in markdown) |
 | **Product pages** | Product (with AggregateRating, Offers, sameAs), BreadcrumbList | `set:html` in body |
-| **Kits comparison** | Product (×3), FAQPage | `set:html` in `<head>` via separate `<script>` tags |
+| **Kits comparison** | Product (×3), FAQPage | `<Fragment slot="schema">` in `<head>` via Layout slot |
 | **2026 checklist** | HowTo+HowToStep, FAQPage | `set:html` in body |
 | **Insurance checklist** | HowTo+HowToStep, FAQPage | `set:html` in body |
 | **FAQ page** | FAQPage | Inline in `<head>` |
@@ -316,9 +321,7 @@ Each page type uses specific JSON-LD schemas:
 ### Tailwind config (`tailwind.config.js`)
 
 - **Content paths:** `'./src/**/*.{astro,html,js,jsx,ts,tsx,vue,svelte,md}'`
-- **Dark mode:** `'class'` (toggle via `dark` class — not currently used on the site)
 - **Typography plugin** customises: link colour (`blue.700`), strong colour, blockquote style, code background
-- **Dark typography variant** defined but not currently active
 
 ### Colour palette (used throughout)
 

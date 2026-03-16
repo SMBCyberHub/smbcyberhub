@@ -10,7 +10,7 @@ canonical: "https://smbcyberhub.com/posts/acceptable-use-policy-template-small-b
 dateModified: 2026-02-27
 ---
 
-# Acceptable Use Policy Template for Small Business
+## Acceptable Use Policy Template for Small Business
 
 **Need a GDPR-compliant acceptable use policy for your small team?** This template establishes clear guidelines for using company resources, protecting data, and maintaining security - designed specifically for 1-20 employee businesses.
 

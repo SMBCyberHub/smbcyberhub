@@ -14,11 +14,10 @@
 - **Autoprefixer** - Browser compatibility
 
 ### Integrations
-- **@astrojs/markdown-remark** - Markdown content processing
 - **@astrojs/sitemap** - Automatic sitemap generation
 - **@astrojs/tailwind** - Tailwind CSS integration
 - **@astrojs/rss** - RSS feed generation (/rss.xml)
-- **sharp** - Image optimization
+- **sharp** - Image optimization (production dependency)
 
 ### Analytics & Tracking
 - **Umami Analytics** - Privacy-focused analytics (self-hosted)
@@ -105,7 +104,7 @@ src/
 - HowTo + HowToStep (checklist pages — replaced invalid Checklist type)
 - Article + SpeakableSpecification (philosophy, SaaS vs downloadable)
 - WebPage (compliance definition, terms, privacy, licensing)
-- WebSite + SearchAction (homepage — Sitelinks Search Box)
+- WebSite (homepage)
 - ContactPage (contact page)
 - Person (author profiles on blog posts + articles)
 
@@ -124,12 +123,12 @@ src/
 - Sitemap configuration (excludes terms/privacy pages)
 
 ### package.json
-- Dependencies: Astro, Tailwind, integrations
-- Dev dependencies: PostCSS, Autoprefixer, Sharp
+- Dependencies: Astro, Tailwind, integrations, Sharp
+- Dev dependencies: PostCSS, Autoprefixer, Tailwind CSS
 - Scripts: dev, build, preview
 
 ### netlify.toml
-- Build settings
+- Build settings (NODE_VERSION = "20")
 - Deployment configuration
 - Publish directory specification
 
