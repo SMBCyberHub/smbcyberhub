@@ -81,7 +81,7 @@ const webPageSchema = {
   name: meta.title,
   url: canonicalUrl,
   description: meta.description,
-  isPartOf: { '@type': 'Website', name: 'SMBCyberHub', url: 'https://smbcyberhub.com' },
+  isPartOf: { '@type': 'WebSite', name: 'SMBCyberHub', url: 'https://smbcyberhub.com' },
   about: {
     '@type': 'Thing',
     name: 'Cybersecurity kit licensing terms for small businesses and consultants',
@@ -94,6 +94,7 @@ const webPageSchema = {
   <!-- JSON-LD for Breadcrumbs, FAQ, and WebPage (allowed in body if head slot isn’t available) -->
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)}></script>
   <script type="application/ld+json" set:html={JSON.stringify(webPageSchema)}></script>
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)}></script>
 
   <section class="py-16 px-6 max-w-3xl mx-auto">
     <header class="mb-8">

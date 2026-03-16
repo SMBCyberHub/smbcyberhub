@@ -1,5 +1,5 @@
 ---
-title: "How to Pass Security Audit Without Subscription: 1-Hour Cyber Hygiene Checklist for Small Business"
+title: "1-Hour Cyber Hygiene Checklist: Pass Any Security Audit"
 description: "Need to pass a security audit or GDPR compliance check? This one-time checklist gets small business teams audit-ready in under 60 minutes."
 date: 2025-07-06
 tags: ["compliance"]

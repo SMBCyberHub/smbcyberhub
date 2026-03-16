@@ -1,11 +1,12 @@
 ---
 import Layout from '../layouts/Layout.astro';
 
-const productsSchema = [
-  {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "SMBCyberHub Basic Kit",
+const productsSchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Product",
+      "name": "SMBCyberHub Basic Kit",
     "description": "Transform your small business compliance in 30 minutes flat. 3 core training modules plus ready-to-use policy templates and checklists. No IT expertise required - just print and deploy for GDPR compliance and cyber insurance requirements.",
     "image": "https://smbcyberhub.com/images/smbcyberhub-logo.webp",
     "url": "https://smbcyberhub.gumroad.com/l/basickit",
@@ -57,6 +58,7 @@ const productsSchema = [
     "review": [
       {
         "@type": "Review",
+        "datePublished": "2025-06-15",
         "reviewBody": "Our insurance broker was chasing us for proof of training, but I had no idea what they wanted. The SMBCyberHub kit saved hours and made our renewal painless. It was so clear, and we actually looked professional to the insurer.",
         "reviewRating": {
           "@type": "Rating",
@@ -72,6 +74,7 @@ const productsSchema = [
       },
       {
         "@type": "Review",
+        "datePublished": "2025-06-15",
         "reviewBody": "I printed the kit, ran the training at lunch, and had our whole team documented in under an hour. Zero hassle, and the quizzes made everyone laugh. It was great to finally have compliance ticked off—no IT help needed!",
         "reviewRating": {
           "@type": "Rating",
@@ -87,6 +90,7 @@ const productsSchema = [
       },
       {
         "@type": "Review",
+        "datePublished": "2025-06-15",
         "reviewBody": "All done in one afternoon. No logins, no subscriptions, just what we needed for our cyber insurance.",
         "reviewRating": {
           "@type": "Rating",
@@ -102,6 +106,7 @@ const productsSchema = [
       },
       {
         "@type": "Review",
+        "datePublished": "2025-06-15",
         "reviewBody": "Passed our GDPR audit on the first attempt! The auditor was impressed with our documentation and training records. SMBCyberHub made compliance actually achievable for our small team.",
         "reviewRating": {
           "@type": "Rating",
@@ -117,6 +122,7 @@ const productsSchema = [
       },
       {
         "@type": "Review",
+        "datePublished": "2025-06-15",
         "reviewBody": "Saved us 20+ hours of compliance work. The templates are professional and the training materials are actually engaging. Our team finally understands cybersecurity without the technical jargon.",
         "reviewRating": {
           "@type": "Rating",
@@ -132,6 +138,7 @@ const productsSchema = [
       },
       {
         "@type": "Review",
+        "datePublished": "2025-06-15",
         "reviewBody": "Best investment we made this year. Cyber insurance premiums went down after implementing the SMBCyberHub training. The ROI was immediate.",
         "reviewRating": {
           "@type": "Rating",
@@ -147,7 +154,6 @@ const productsSchema = [
     ]
   },
   {
-    "@context": "https://schema.org",
     "@type": "Product",
     "name": "SMBCyberHub Pro Kit",
     "description": "Complete audit-ready compliance powerhouse for growing SMBs. All 6 training modules, 6 staff quizzes, and a full compliance toolkit of policies, checklists, and audit documentation. Unlimited team licensing, onboarding guides, and comprehensive GDPR/ISO audit toolkit.",
@@ -201,6 +207,7 @@ const productsSchema = [
     "review": [
       {
         "@type": "Review",
+        "datePublished": "2025-06-15",
         "reviewBody": "Our insurance broker was chasing us for proof of training, but I had no idea what they wanted. The SMBCyberHub kit saved hours and made our renewal painless. It was so clear, and we actually looked professional to the insurer.",
         "reviewRating": {
           "@type": "Rating",
@@ -216,6 +223,7 @@ const productsSchema = [
       },
       {
         "@type": "Review",
+        "datePublished": "2025-06-15",
         "reviewBody": "I printed the kit, ran the training at lunch, and had our whole team documented in under an hour. Zero hassle, and the quizzes made everyone laugh. It was great to finally have compliance ticked off—no IT help needed!",
         "reviewRating": {
           "@type": "Rating",
@@ -231,6 +239,7 @@ const productsSchema = [
       },
       {
         "@type": "Review",
+        "datePublished": "2025-06-15",
         "reviewBody": "All done in one afternoon. No logins, no subscriptions, just what we needed for our cyber insurance.",
         "reviewRating": {
           "@type": "Rating",
@@ -246,6 +255,7 @@ const productsSchema = [
       },
       {
         "@type": "Review",
+        "datePublished": "2025-06-15",
         "reviewBody": "Passed our GDPR audit on the first attempt! The auditor was impressed with our documentation and training records. SMBCyberHub made compliance actually achievable for our small team.",
         "reviewRating": {
           "@type": "Rating",
@@ -261,6 +271,7 @@ const productsSchema = [
       },
       {
         "@type": "Review",
+        "datePublished": "2025-06-15",
         "reviewBody": "Saved us 20+ hours of compliance work. The templates are professional and the training materials are actually engaging. Our team finally understands cybersecurity without the technical jargon.",
         "reviewRating": {
           "@type": "Rating",
@@ -276,6 +287,7 @@ const productsSchema = [
       },
       {
         "@type": "Review",
+        "datePublished": "2025-06-15",
         "reviewBody": "Best investment we made this year. Cyber insurance premiums went down after implementing the SMBCyberHub training. The ROI was immediate.",
         "reviewRating": {
           "@type": "Rating",
@@ -290,7 +302,8 @@ const productsSchema = [
       }
     ]
   }
-];
+  ]
+};
 
 const faqSchema = {
   "@context": "https://schema.org",
@@ -386,12 +399,22 @@ const faqSchema = {
     }
   ]
 };
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://smbcyberhub.com/' },
+    { '@type': 'ListItem', position: 2, name: 'Compare Kits', item: 'https://smbcyberhub.com/kits/' }
+  ]
+};
 ---
 
 <Layout title="Compare SMB Cybersecurity Compliance Kits"
 description="Compare SMB cybersecurity compliance kits. Audit-ready training, GDPR-aligned policies, and checklists. From free to Pro — buy once, use forever.">
   <script type="application/ld+json" set:html={JSON.stringify(productsSchema)}></script>
   <script type="application/ld+json" set:html={JSON.stringify(faqSchema)}></script>
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)}></script>
 
   <section class="bg-blue-50 py-14 px-6 text-center">
     <!-- Breadcrumbs -->

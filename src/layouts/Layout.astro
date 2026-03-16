@@ -25,7 +25,12 @@ const orgSchema = {
   "@type": "Organization",
   "name": "SMBCyberHub",
   "url": "https://smbcyberhub.com",
-  "logo": "https://smbcyberhub.com/images/smbcyberhub-logo.webp",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://smbcyberhub.com/images/smbcyberhub-logo.webp",
+    "width": 224,
+    "height": 112
+  },
   "description": "Expert-led, downloadable cybersecurity compliance kits for small businesses. Privacy-first, No-SaaS approach with 30-minute implementation.",
   "knowsAbout": [
     "Cybersecurity Compliance",

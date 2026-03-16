@@ -8,7 +8,7 @@ export default defineConfig({
   integrations: [
     tailwind(),
     sitemap({
-        filter: (page) => !['/terms/', '/privacy/', '/licensing/'].some(p => page.includes(p)),
+        filter: (page) => !['/terms/', '/privacy/', '/licensing/', '/tags/offboarding/', '/tags/password/', '/tags/mfa/', '/tags/backups/'].some(p => page.includes(p)),
     })
   ],
 });

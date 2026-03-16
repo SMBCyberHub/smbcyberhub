@@ -10,7 +10,7 @@ canonical: "https://smbcyberhub.com/posts/remote-work-policy-template-small-busi
 dateModified: 2026-02-27
 ---
 
-# Remote Work Policy Template for Small Business
+## Remote Work Policy Template for Small Business
 
 **Need a GDPR-compliant remote work policy for your small team?** This template is designed specifically for 1-20 employee businesses and covers all essential security requirements without the complexity of enterprise policies.
 
