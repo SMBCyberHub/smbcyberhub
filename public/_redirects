@@ -19,6 +19,14 @@
 /basic-cybersecurity-kit  /basic-cybersecurity-kit/  301
 /pro-cybersecurity-kit  /pro-cybersecurity-kit/  301
 
+# Deleted pages — redirect to closest equivalent
+/checklist       /2026-compliance-checklist/  301
+/checklist/      /2026-compliance-checklist/  301
+/kit-comparison  /kits/  301
+/kit-comparison/ /kits/  301
+/posts/gdpr-checklist-small-business   /what-is-smb-cybersecurity-compliance/  301
+/posts/gdpr-checklist-small-business/  /what-is-smb-cybersecurity-compliance/  301
+
 # Blog post consolidation — content merged into pillar page
 /posts/smb-cybersecurity-compliance-guide-2026   /what-is-smb-cybersecurity-compliance/  301
 /posts/smb-cybersecurity-compliance-guide-2026/  /what-is-smb-cybersecurity-compliance/  301
