@@ -34,12 +34,13 @@
 - ✅ dateModified in frontmatter for all 31 blog posts
 
 ### Content
-- ✅ 31 blog posts covering cybersecurity topics
+- ✅ 34 blog posts covering cybersecurity topics (31 original + 3 US market expansion)
 - ✅ Posts tagged with 10 core tags (phishing, compliance, gdpr, cyber insurance, mfa, password, access control, offboarding, remote work, backups)
 - ✅ Contextual CTAs based on post tags
 - ✅ Related posts component
 - ✅ Featured posts section on homepage
 - ✅ Tag consolidation eliminates thin content and improves SEO
+- ✅ US market expansion: 3 blog posts targeting US compliance frameworks (NIST CSF, FTC Safeguards, US cyber insurance)
 
 ### Design & UX
 - ✅ Mobile-responsive navigation with hamburger menu
@@ -101,6 +102,27 @@
 - 📋 Advanced search functionality
 - 📋 User account system (optional)
 - 📋 Kit customization wizard
+
+## Recent Completed Work (16 Mar 2026)
+
+### US Market Expansion
+- Added 3 US-targeted blog posts:
+  - `us-cyber-insurance-requirements-small-business.md` (~2,475 words, tags: cyber insurance + compliance, featured: true)
+  - `ftc-safeguards-rule-small-business-compliance.md` (~2,100 words, tags: compliance)
+  - `nist-cybersecurity-framework-small-business-guide.md` (~2,186 words, tags: compliance)
+- Added US Compliance Frameworks deep-dive section to compliance pillar page (NIST CSF, FTC Safeguards, HIPAA, State Privacy Laws, CMMC)
+- Added FTC Safeguards Rule and HIPAA to frameworks comparison table
+- Updated compliance pillar page FAQ schema with US-specific question
+- Added "NIST CSF 2.0 aligned" to homepage Key Benefits TL;DR
+- Updated "Why Choose" section: GDPR & ISO27001 → GDPR, ISO27001 & NIST CSF
+- Added US compliance resource card to homepage Featured Resources (now 3-col grid)
+- Added Rachel M testimonial (CPA Practice Owner, Austin) — US-focused, FTC compliance
+- Added Rachel M review to schema data across homepage, kits page (reviewCount: 7→8)
+- Added "NIST CSF 2.0 aligned" to kits page Key Benefits line
+- Updated compliance pillar page Related Resources to include US content (6 resources, up from 4)
+- Added trailing-slash redirects for all 3 new blog posts in _redirects
+- Updated homepage and compliance page meta descriptions to include NIST/FTC
+- Build: 61 pages, 0 errors, 0 warnings
 
 ## Recent Completed Work (14 Mar 2026)
 
