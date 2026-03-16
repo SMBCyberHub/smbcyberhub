@@ -80,7 +80,7 @@ const schemaData = {
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5",
-        "reviewCount": "7"
+        "reviewCount": "8"
       },
       "review": [
         {
@@ -129,6 +129,22 @@ const schemaData = {
             "name": "Anna F",
             "jobTitle": "Café Owner",
             "addressLocality": "Boston"
+          }
+        },
+        {
+          "@type": "Review",
+          "datePublished": "2026-03-01",
+          "reviewBody": "Our FTC compliance was overdue and I had no idea where to start. The kit gave us policies, training records, and checklists that our compliance reviewer accepted immediately. Saved us thousands in consulting fees.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Rachel M",
+            "jobTitle": "CPA Practice Owner",
+            "addressLocality": "Austin"
           }
         }
       ]
@@ -214,7 +230,7 @@ const schemaData = {
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5",
-        "reviewCount": "7"
+        "reviewCount": "8"
       },
       "review": [
         {
@@ -263,6 +279,22 @@ const schemaData = {
             "name": "Anna F",
             "jobTitle": "Café Owner",
             "addressLocality": "Boston"
+          }
+        },
+        {
+          "@type": "Review",
+          "datePublished": "2026-03-01",
+          "reviewBody": "Our FTC compliance was overdue and I had no idea where to start. The kit gave us policies, training records, and checklists that our compliance reviewer accepted immediately. Saved us thousands in consulting fees.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Rachel M",
+            "jobTitle": "CPA Practice Owner",
+            "addressLocality": "Austin"
           }
         }
       ]
@@ -321,7 +353,7 @@ const faqSchema = {
 
 <Layout 
   title="SMB Cybersecurity Compliance Kits | Audit-Ready Training"
-  description="SMB cybersecurity compliance kits — GDPR-aligned training, policies, and checklists. Audit-ready in 30 minutes. No logins, no subscriptions."
+  description="SMB cybersecurity compliance kits — GDPR-aligned, NIST CSF-aligned training, policies, and checklists. Audit-ready in 30 minutes. No logins, no subscriptions."
 >
   <script type="application/ld+json" set:html={JSON.stringify(schemaData)}></script>
   <script type="application/ld+json" set:html={JSON.stringify(faqSchema)}></script>
@@ -501,6 +533,7 @@ const faqSchema = {
             <ul class="text-gray-700 space-y-1">
               <li>• Audit-ready in 30 minutes</li>
               <li>• GDPR Article 39.1(b) compliant</li>
+              <li>• NIST CSF 2.0 aligned</li>
               <li>• ISO27001 aligned</li>
               <li>• No subscriptions ever</li>
             </ul>
@@ -535,8 +568,8 @@ const faqSchema = {
         <p class="text-gray-700">One-time download. Offline-ready. Yours forever — not SaaS. <a href="/saas-vs-downloadable/" class="text-blue-600 hover:underline">Learn why downloadable beats SaaS</a> for privacy and cost.</p>
       </div>
       <div class="bg-gray-50 p-6 rounded-lg">
-        <h3 class="text-lg font-semibold text-blue-800 mb-3">✅ <a href="/what-is-smb-cybersecurity-compliance/" class="text-blue-600 hover:underline">GDPR</a> & <a href="/what-is-smb-cybersecurity-compliance/" class="text-blue-600 hover:underline">ISO27001</a> Aligned</h3>
-        <p class="text-gray-700">Built by a 20+ year IT/compliance veteran. Covers what auditors expect.</p>
+        <h3 class="text-lg font-semibold text-blue-800 mb-3">✅ <a href="/what-is-smb-cybersecurity-compliance/" class="text-blue-600 hover:underline">GDPR</a>, <a href="/what-is-smb-cybersecurity-compliance/" class="text-blue-600 hover:underline">ISO27001</a> & <a href="/posts/nist-cybersecurity-framework-small-business-guide/" class="text-blue-600 hover:underline">NIST CSF</a> Aligned</h3>
+        <p class="text-gray-700">Built by a 20+ year IT/compliance veteran. Covers what auditors and US cyber insurers expect.</p>
       </div>
       <div class="bg-gray-50 p-6 rounded-lg">
         <h3 class="text-lg font-semibold text-blue-800 mb-3">✅ Built for Non-Tech Teams</h3>
@@ -551,7 +584,7 @@ const faqSchema = {
   <!-- 📚 Featured Resources Section -->
   <section class="bg-white py-16 px-6 max-w-4xl mx-auto text-center">
     <h2 class="text-2xl font-bold text-blue-800 mb-8">Featured Resources</h2>
-    <div class="grid md:grid-cols-2 gap-6 text-left">
+    <div class="grid md:grid-cols-3 gap-6 text-left">
       <div class="bg-emerald-50 border border-emerald-200 p-6 rounded-lg">
         <h3 class="text-lg font-semibold text-emerald-800 mb-3">🎯 SMB Cybersecurity Compliance Guide</h3>
         <p class="text-gray-700 mb-4">Complete guide to GDPR requirements, audit readiness, and practical implementation steps for small businesses.</p>
@@ -561,6 +594,11 @@ const faqSchema = {
         <h3 class="text-lg font-semibold text-blue-800 mb-3">📋 2026 Cyber Insurance Compliance Checklist</h3>
         <p class="text-gray-700 mb-4">Step-by-step checklist of every document your insurer expects — policies, training records, and technical evidence.</p>
         <a href="/2026-compliance-checklist/" class="text-blue-700 font-semibold hover:underline">Download the 2026 Compliance Checklist →</a>
+      </div>
+      <div class="bg-amber-50 border border-amber-200 p-6 rounded-lg">
+        <h3 class="text-lg font-semibold text-amber-800 mb-3">🇺🇸 US Compliance: NIST & FTC Guides</h3>
+        <p class="text-gray-700 mb-4">NIST Cybersecurity Framework and FTC Safeguards Rule explained for US small businesses — plain English, no jargon.</p>
+        <a href="/posts/nist-cybersecurity-framework-small-business-guide/" class="text-amber-700 font-semibold hover:underline">Read US Compliance Guides →</a>
       </div>
     </div>
   </section>
@@ -596,6 +634,12 @@ const faqSchema = {
       “All done in one afternoon. No logins, no subscriptions, just what we needed for our cyber insurance.”
     </blockquote>
     <p class="mt-4 font-semibold text-sm">– Anna F, Café Owner, Boston</p>
+  </section>
+  <section class="bg-gray-50 py-12 px-6 text-center text-gray-700">
+    <blockquote class="max-w-2xl mx-auto italic">
+      "Our FTC compliance was overdue and I had no idea where to start. The kit gave us policies, training records, and checklists that our compliance reviewer accepted immediately. Saved us thousands in consulting fees."
+    </blockquote>
+    <p class="mt-4 font-semibold text-sm">– Rachel M, CPA Practice Owner, Austin</p>
   </section>
   <section class="bg-gray-50 py-12 px-6 text-center text-gray-700">
     <blockquote class="max-w-2xl mx-auto italic">
