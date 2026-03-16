@@ -244,7 +244,7 @@ Get all necessary templates and documentation in one download:
 - **[2026 SMB Cybersecurity Compliance Checklist](/2026-compliance-checklist/)** - Every document your insurer expects, step by step
 - **[How to Provide Proof of Cybersecurity Training for Insurance Renewals](/posts/how-to-provide-proof-of-cybersecurity-training-for-insurance-renewals/)** - Step-by-step training documentation guide
 - **[Cyber Insurance Requirements Guide](/posts/cyber-insurance-requirements-small-business-complete-guide/)** - Complete insurance requirements
-- **[SMB Cybersecurity Compliance Guide](/posts/smb-cybersecurity-compliance-guide-2026/)** - Full compliance implementation
+- **[SMB Cybersecurity Compliance Guide](/what-is-smb-cybersecurity-compliance/)** - Full compliance implementation
 
 ### **External Resources:**
 - **Insurance Regulatory Authority**: Cybersecurity documentation guidelines
@@ -273,7 +273,7 @@ Get all necessary templates and documentation in one download:
 - **[Cyber Insurance Training Proof Guide 2026](/posts/how-to-provide-proof-of-cybersecurity-training-for-insurance-renewals/)** - Step-by-step training documentation guide
 
 ### Staff Training & Policies  
-- **[2026 SMB Cybersecurity Compliance Guide](/posts/smb-cybersecurity-compliance-guide-2026/)** - Full compliance implementation
+- **[2026 SMB Cybersecurity Compliance Guide](/what-is-smb-cybersecurity-compliance/)** - Full compliance implementation
 - **[Quarterly Access Reviews in 20 Minutes](/posts/quarterly-access-reviews-small-team-playbook/)** - Ongoing compliance maintenance
 
 ### Security Best Practices

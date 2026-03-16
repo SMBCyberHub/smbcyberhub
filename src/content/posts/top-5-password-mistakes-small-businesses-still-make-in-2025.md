@@ -409,7 +409,7 @@ For businesses with higher security requirements or compliance needs.
 - **NYDFS**: Cybersecurity requirements for financial services
 
 ### **Internal Links:**
-- **[SMB Cybersecurity Compliance Guide 2026](/posts/smb-cybersecurity-compliance-guide-2026/)** - Complete compliance framework with password security requirements
+- **[SMB Cybersecurity Compliance Guide 2026](/what-is-smb-cybersecurity-compliance/)** - Complete compliance framework with password security requirements
 - **[Compare All Cybersecurity Kits](/kits/)** - Ready-made password policies, training slides, and compliance checklists for small teams
 
 ---

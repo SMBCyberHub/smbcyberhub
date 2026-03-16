@@ -152,7 +152,7 @@ This policy establishes security requirements for employees working remotely fro
 ## 📚 **Related Resources**
 
 ### **Internal Links:**
-- **[SMB Cybersecurity Compliance Guide 2026](/posts/smb-cybersecurity-compliance-guide-2026/)** - Complete compliance implementation
+- **[SMB Cybersecurity Compliance Guide 2026](/what-is-smb-cybersecurity-compliance/)** - Complete compliance implementation
 - **[Acceptable Use Policy Template](/posts/acceptable-use-policy-template-small-business/)** - Device and software usage policies
 - **[Device Security Basics](/posts/device-security-basics/)** - Securing company and personal devices
 

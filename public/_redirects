@@ -17,6 +17,10 @@
 /philosophy   /philosophy/   301
 /saas-vs-downloadable  /saas-vs-downloadable/  301
 
+# Blog post consolidation — content merged into pillar page
+/posts/smb-cybersecurity-compliance-guide-2026   /what-is-smb-cybersecurity-compliance/  301
+/posts/smb-cybersecurity-compliance-guide-2026/  /what-is-smb-cybersecurity-compliance/  301
+
 # Blog post slug cleanups
 /posts/remote-work-security-habits-that-stop-data-leaks-before-they-start  /posts/remote-work-security-habits-that-stop-data-leaks-before-they-start/  301
 /posts/securing-shared-devices-without-killing-productivity               /posts/securing-shared-devices-without-killing-productivity/               301
