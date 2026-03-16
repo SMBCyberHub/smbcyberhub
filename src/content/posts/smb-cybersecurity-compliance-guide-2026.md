@@ -583,22 +583,22 @@ The key is starting with comprehensive templates, implementing systematically, a
 ### **"Passed Our First GDPR Audit"**
 *"We were terrified of our first GDPR audit, but this guide made it straightforward. We implemented the 30-day plan, documented everything, and the auditor was impressed with our preparation. We actually looked professional!"*
 
-**— Sarah L., Operations Manager, 15-employee consulting firm**
+**— Sarah L., Operations Manager, Toronto, 15-employee consulting firm**
 
 ### **"Cyber Insurance Premiums Reduced by 25%"**
 *"Our insurance broker kept asking for compliance documentation. After following this guide, we had everything they needed. Our premiums dropped by 25% and we got better coverage. Best investment we made this year."*
 
-**— Michael R., Managing Director, 8-person design agency**
+**— Michael R., Managing Director, Sydney, 8-person design agency**
 
 ### **"Client Requirements Met, New Business Won"**
 *"A major client required proof of cybersecurity compliance before signing our contract. We used the templates from this guide, implemented in 3 weeks, and landed the €50,000 project. Compliance became our competitive advantage."*
 
-**— Emma P., Office Manager, 12-person software company**
+**— Emma P., Office Manager, London, 12-person software company**
 
 ### **"No IT Background Needed"**
 *"I'm not technical at all, but this guide walked me through everything step by step. Our team is now trained, policies are in place, and I sleep better at night knowing we're protected."*
 
-**— Niall C., Small Business Owner, 6-person retail business**
+**— Niall C., Small Business Owner, Dublin, 6-person retail business**
 
 ---
 
