@@ -27,6 +27,12 @@
 /posts/gdpr-checklist-small-business   /what-is-smb-cybersecurity-compliance/  301
 /posts/gdpr-checklist-small-business/  /what-is-smb-cybersecurity-compliance/  301
 
+# Consolidated tag redirects (85+ tags → 10 core tags)
+/tags/device%20security   /tags/remote%20work/  301
+/tags/device%20security/  /tags/remote%20work/  301
+/tags/device+security     /tags/remote%20work/  301
+/tags/device+security/    /tags/remote%20work/  301
+
 # Blog post consolidation — content merged into pillar page
 /posts/smb-cybersecurity-compliance-guide-2026   /what-is-smb-cybersecurity-compliance/  301
 /posts/smb-cybersecurity-compliance-guide-2026/  /what-is-smb-cybersecurity-compliance/  301
