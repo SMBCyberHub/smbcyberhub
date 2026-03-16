@@ -165,7 +165,7 @@ This policy defines acceptable use of company equipment, software, networks, and
 ## 📚 **Related Resources**
 
 ### **Internal Links:**
-- **[SMB Cybersecurity Compliance Guide 2026](/posts/smb-cybersecurity-compliance-guide-2026/)** - Complete compliance implementation
+- **[SMB Cybersecurity Compliance Guide 2026](/what-is-smb-cybersecurity-compliance/)** - Complete compliance implementation
 - **[Remote Work Policy Template](/posts/remote-work-policy-template-small-business/)** - Remote work specific policies
 - **[Device Security Basics](/posts/device-security-basics/)** - Securing company devices
 
