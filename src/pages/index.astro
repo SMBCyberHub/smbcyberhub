@@ -305,7 +305,11 @@ const schemaData = {
       "@type": "WebSite",
       "name": "SMBCyberHub",
       "url": "https://smbcyberhub.com",
-      "description": "Privacy-first, downloadable cybersecurity compliance kits for small businesses. Audit-ready in 60 minutes. No logins, no subscriptions."
+      "description": "Privacy-first, downloadable cybersecurity compliance kits for small businesses. Audit-ready in 60 minutes. No logins, no subscriptions.",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".bg-blue-50 p", ".bg-emerald-50 p"]
+      }
     },
     {
       "@type": "BreadcrumbList",
@@ -354,7 +358,7 @@ const faqSchema = {
 ---
 
 <Layout 
-  title="SMB Cybersecurity Compliance Kits | Audit-Ready Training"
+  title="SMB Cybersecurity Compliance Kits | SMBCyberHub"
   description="SMB cybersecurity compliance kits — GDPR-aligned, NIST CSF-aligned training, policies, and checklists. Audit-ready in 60 minutes. No logins, no subscriptions."
 >
   <script type="application/ld+json" set:html={JSON.stringify(schemaData)}></script>
@@ -384,7 +388,7 @@ const faqSchema = {
         </svg>
         Compare All Kits
       </a>
-      <a href="https://smbcyberhub.gumroad.com/l/prokit" class="text-blue-600 hover:text-blue-800 font-medium underline">
+      <a href="https://smbcyberhub.gumroad.com/l/prokit" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 font-medium underline">
         Get Pro Kit (€99) →
       </a>
     </div>

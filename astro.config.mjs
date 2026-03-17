@@ -9,6 +9,7 @@ export default defineConfig({
     tailwind(),
     sitemap({
         filter: (page) => !['/terms/', '/privacy/', '/licensing/', '/tags/offboarding/', '/tags/password/', '/tags/mfa/', '/tags/backups/'].some(p => page.includes(p)),
+        serialize: (item) => ({ ...item, lastmod: new Date().toISOString() }),
     })
   ],
 });
