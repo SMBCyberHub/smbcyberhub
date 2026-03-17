@@ -1,6 +1,8 @@
 ---
 import Layout from '../layouts/Layout.astro';
 
+const priceValidUntil = `${new Date().getFullYear() + 1}-12-31`;
+
 const schemaData = {
   "@context": "https://schema.org",
   "@graph": [
@@ -43,7 +45,7 @@ const schemaData = {
         "priceCurrency": "EUR",
         "availability": "https://schema.org/InStock",
         "url": "https://smbcyberhub.gumroad.com/l/basickit",
-        "priceValidUntil": "2026-12-31",
+        "priceValidUntil": priceValidUntil,
         "hasMerchantReturnPolicy": {
           "@type": "MerchantReturnPolicy",
           "applicableCountry": "IE",
@@ -193,7 +195,7 @@ const schemaData = {
         "priceCurrency": "EUR",
         "availability": "https://schema.org/InStock",
         "url": "https://smbcyberhub.gumroad.com/l/prokit",
-        "priceValidUntil": "2026-12-31",
+        "priceValidUntil": priceValidUntil,
         "hasMerchantReturnPolicy": {
           "@type": "MerchantReturnPolicy",
           "applicableCountry": "IE",

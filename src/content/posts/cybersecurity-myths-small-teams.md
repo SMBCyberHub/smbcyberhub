@@ -36,7 +36,7 @@ Here are 7 myths we hear all the time — and how to stay protected.
 
 ## 6. "We can’t afford cybersecurity"
 
-**Reality:** You can’t afford *not* to. A single breach can cost weeks of downtime, lost clients, or GDPR fines. Most protections — like training and MFA — are low-cost or free.
+**Reality:** You can’t afford *not* to. A single breach can cost weeks of downtime, lost clients, or GDPR fines. Most protections — like [training](/free-cyber-security-training/) and MFA — are low-cost or free.
 
 ## 7. "We did a training once, so we're covered"
 

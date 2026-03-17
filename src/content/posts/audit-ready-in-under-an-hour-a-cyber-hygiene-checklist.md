@@ -10,7 +10,7 @@ canonical: "https://smbcyberhub.com/posts/audit-ready-in-under-an-hour-a-cyber-h
 dateModified: 2026-02-27
 ---
 
-Client asking for proof of training? GDPR review coming up? This fast checklist helps small teams get cyber hygiene in order — without a consultant.
+Client asking for proof of training? [GDPR review coming up](/what-is-smb-cybersecurity-compliance/)? This fast checklist helps small teams get cyber hygiene in order — without a consultant.
 
 ## 🧾 10-Point Audit-Readiness Checklist
 
