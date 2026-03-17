@@ -62,7 +62,7 @@ Speed matters. Take these steps right away:
 
 If you wouldn't leave sensitive papers on a café table, don't leave your laptop unlocked or your files unencrypted. A few proactive steps go a long way.
 
-Need a printable device security checklist and policy template for your team? Our [cybersecurity compliance kits](/kits/) include everything you need — ready in 30 minutes.
+Need a printable device security checklist and policy template for your team? Our [cybersecurity compliance kits](/kits/) include everything you need — ready in 60 minutes.
 
 ---
 

@@ -5,7 +5,7 @@ const priceValidUntil = `${new Date().getFullYear() + 1}-12-31`;
 
 const meta = {
   title: 'Basic Cybersecurity Kit for Small Teams | SMBCyberHub',
-  description: 'Essential SMB compliance kit: 3 training modules, policy templates, and checklists. Audit-ready in 30 minutes. Buy once, use forever.',
+  description: 'Essential SMB compliance kit: 3 training modules, policy templates, and checklists. Audit-ready in 60 minutes. Buy once, use forever.',
   canonical: 'https://smbcyberhub.com/basic-cybersecurity-kit/'
 };
 
@@ -44,7 +44,7 @@ const productSchema = {
   aggregateRating: {
     '@type': 'AggregateRating',
     ratingValue: '5',
-    reviewCount: '7'
+    reviewCount: '8'
   },
   review: [
     {
@@ -95,6 +95,13 @@ const productSchema = {
       reviewBody: 'Perfect for our 8-person team. We went from zero compliance documentation to fully audit-ready in one afternoon.',
       reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
       author: { '@type': 'Person', name: 'Karen T', jobTitle: 'HR Manager' }
+    },
+    {
+      '@type': 'Review',
+      datePublished: '2026-03-01',
+      reviewBody: 'Our FTC compliance was overdue and I had no idea where to start. The kit gave us policies, training records, and checklists that our compliance reviewer accepted immediately.',
+      reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
+      author: { '@type': 'Person', name: 'Rachel M', jobTitle: 'CPA Practice Owner', addressLocality: 'Austin' }
     }
   ]
 };
@@ -182,7 +189,7 @@ const productSchema = {
             <svg class="w-6 h-6 text-emerald-500 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
             </svg>
-            <span>Companies with 1-10 employees</span>
+            <span>Companies with 1-20 employees</span>
           </li>
           <li class="flex items-start">
             <svg class="w-6 h-6 text-emerald-500 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
