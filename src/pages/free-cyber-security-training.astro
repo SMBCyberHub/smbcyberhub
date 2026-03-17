@@ -1,6 +1,8 @@
 ---
 import Layout from '../layouts/Layout.astro';
 
+const priceValidUntil = `${new Date().getFullYear() + 1}-12-31`;
+
 const meta = {
   title: "Free Cybersecurity Training for Small Business",
   description:
@@ -62,7 +64,7 @@ const productSchema = {
     "priceCurrency": "EUR",
     "availability": "https://schema.org/InStock",
     "url": "https://smbcyberhub.gumroad.com/l/samplekit",
-    "priceValidUntil": "2026-12-31",
+    "priceValidUntil": priceValidUntil,
     "hasMerchantReturnPolicy": {
       "@type": "MerchantReturnPolicy",
       "applicableCountry": "IE",
