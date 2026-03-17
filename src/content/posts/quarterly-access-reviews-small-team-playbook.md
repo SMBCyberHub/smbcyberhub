@@ -107,7 +107,9 @@ SMBCyberHub's kits include everything for effective access reviews:
 ✅ **Leaver Offboarding Procedures** - Step-by-step suspension/deletion process  
 ✅ **Role-Based Access Policies** - Clear permission guidelines  
 ✅ **Audit Documentation Forms** - Proof for regulators and insurers  
-✅ **MFA Implementation Guide** - Ensure full coverage  
+✅ **MFA Implementation Guide** - Ensure full coverage
+
+Access reviews are essential documentation for insurance renewals — see our guide on [cybersecurity documentation for insurance renewals](/posts/cybersecurity-documentation-for-insurance-renewals/) to understand what insurers expect.  
 
 **Never wonder who has access to what.**
 

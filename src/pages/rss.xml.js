@@ -15,6 +15,7 @@ export async function GET(context) {
       description: post.data.description,
       link: `/posts/${post.slug}/`,
       categories: post.data.tags || [],
+      author: 'info@smbcyberhub.com (Jim SMBCyberHub)',
     })),
     customData: '<language>en</language><lastBuildDate>' + new Date().toUTCString() + '</lastBuildDate>',
     trailingSlash: true,

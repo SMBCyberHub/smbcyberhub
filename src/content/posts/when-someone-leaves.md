@@ -385,6 +385,8 @@ Our [cybersecurity compliance kits](/kits/) include offboarding checklists, acce
 - **Incident response**: Document and test response procedures
 - **Business continuity**: Ensure operations during security incidents
 
+Offboarding is a critical compliance requirement — reference our [2026 compliance checklist](/2026-compliance-checklist/) to ensure your offboarding procedures meet all regulatory obligations.
+
 ### Industry Regulations
 - **HIPAA**: Employee offboarding for healthcare data
 - **PCI DSS**: Employee offboarding for payment data

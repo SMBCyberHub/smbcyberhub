@@ -353,4 +353,6 @@ SMBCyberHub's compliance kits include everything you need to protect against phi
 - **Premium reductions**: Security measures may reduce premiums
 - **Coverage limits**: Understand what incidents are covered
 
+Incident response documentation is critical for insurance claims — learn what documentation insurers expect in our guide on [cybersecurity documentation for insurance renewals](/posts/cybersecurity-documentation-for-insurance-renewals/).
+
 ---

@@ -168,6 +168,8 @@ MFA (Multi-Factor Authentication) blocks over 99% of automated attacks — but t
 - **60% of SMBs** still don't use MFA
 - **Average breach cost**: €50,000-€100,000 for SMBs
 
+For a deeper dive into how MFA works and why it's essential, see our [complete MFA guide](/posts/mfa-myths-busted-what-multi-factor-authentication-really-does/).
+
 ### **The Fix: Implement MFA Everywhere**
 #### **MFA Types:**
 - **SMS/Text Message**: Receive codes via text message
