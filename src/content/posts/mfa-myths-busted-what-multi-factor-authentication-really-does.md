@@ -84,6 +84,8 @@ Strong passwords are important but insufficient alone.
 - **Social engineering**: Password reset manipulation
 - **Data breaches**: Password databases can be stolen
 
+For a comprehensive look at password security best practices, check out our guide on [top 5 password mistakes small businesses still make](/posts/top-5-password-mistakes-small-businesses-still-make-in-2025/).
+
 #### **MFA Protection:**
 - **Blocks 99.9%** of automated attacks
 - **Prevents account takeover** even with stolen passwords

@@ -84,6 +84,8 @@ Outcome: Least privilege from week one — and fewer surprises later.
 - **Quarterly:** Rotate any shared passwords/API tokens still in use.
 - **When they change roles:** Review permissions the same week — don’t wait.
 
+When employees do leave, follow our complete [offboarding security checklist](/posts/when-someone-leaves/) to ensure secure access removal and compliance.
+
 ---
 
 ## 🧰 Handy Templates You Can Use

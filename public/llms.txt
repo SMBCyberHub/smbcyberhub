@@ -20,7 +20,7 @@ All kits are architected to map directly to:
 
 ## Unique Differentiators
 - **No-SaaS Approach:** All materials are downloadable and stored locally, eliminating third-party data exposure.
-- **30-Minute Implementation:** Designed for rapid deployment without IT expertise.
+- **60-Minute Implementation:** Designed for rapid deployment without IT expertise.
 - **Audit-Ready Documentation:** Everything needed for insurance renewals and compliance audits.
 
 ## Expertise Foundation

@@ -191,6 +191,8 @@ Our phishing awareness kit includes:
 - **$50,000** average cost of a small business data breach
 - **60%** of small businesses go out of business within 6 months of a cyber attack
 
+Since phishing is the #1 insurance claim trigger, understanding your [cyber insurance requirements](/posts/cyber-insurance-requirements-small-business-complete-guide/) helps you prepare for both prevention and recovery.
+
 #### **Industry-Specific Risks**
 - **Healthcare**: Patient data breaches, HIPAA violations
 - **Financial services**: Regulatory fines, customer trust
