@@ -288,7 +288,7 @@ Start with the most critical: training records and security policy. Use our kits
 
 ## Get Help
 
-Need assistance with your cyber insurance renewal preparation? Email us at [info@smbcyberhub.com](mailto:info@smbcyberhub.com) - we respond within 48 hours.
+Need assistance with your cyber insurance renewal preparation? Email us at [info@smbcyberhub.com](mailto:info@smbcyberhub.com) - we respond within 1–2 business days.
 
 ---
 

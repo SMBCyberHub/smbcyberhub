@@ -182,13 +182,14 @@ Here's a shortcut that works across almost every US insurer: **align your securi
 
 ### Why NIST CSF Matters
 
-NIST CSF isn't a law — it's a voluntary framework published by the National Institute of Standards and Technology. But it has become the de facto standard that US insurers reference when evaluating small businesses. If your documentation maps to NIST CSF's five core functions, you're covering what insurers want to see:
+NIST CSF isn't a law — it's a voluntary framework published by the National Institute of Standards and Technology. But it has become the de facto standard that US insurers reference when evaluating small businesses. If your documentation maps to NIST CSF 2.0's six core functions, you're covering what insurers want to see:
 
-1. **Identify** — Know what data and systems you have (asset inventory, risk assessment)
-2. **Protect** — Implement safeguards (MFA, training, access controls, encryption)
-3. **Detect** — Monitor for threats (endpoint protection, log review)
-4. **Respond** — Have a plan ready (incident response plan, communication procedures)
-5. **Recover** — Restore operations (backup strategy, business continuity plan)
+1. **Govern** — Establish cybersecurity governance and risk management strategy
+2. **Identify** — Know what data and systems you have (asset inventory, risk assessment)
+3. **Protect** — Implement safeguards (MFA, training, access controls, encryption)
+4. **Detect** — Monitor for threats (endpoint protection, log review)
+5. **Respond** — Have a plan ready (incident response plan, communication procedures)
+6. **Recover** — Restore operations (backup strategy, business continuity plan)
 
 ### The Practical Benefit
 
@@ -277,7 +278,7 @@ Operating in multiple states means complying with multiple data protection laws.
 <div class="bg-gray-50 border-l-4 border-gray-300 p-4 mb-6 mt-8">
   <p class="text-sm text-gray-700">
     <strong>Written by the SMBCyberHub Team</strong><br>
-    Cybersecurity compliance specialists helping US small businesses meet insurer requirements with practical, no-jargon documentation. Our kits are used by 500+ organizations across all 50 states.
+    Cybersecurity compliance specialists helping US small businesses meet insurer requirements with practical, no-jargon documentation. Our kits are used by 100+ small businesses across all 50 states.
   </p>
 </div>
 

@@ -26,7 +26,7 @@ dateModified: 2026-02-27
 6. **Backup Verification Logs** - Regular testing records
 7. **Breach Notification Template** - Pre-written response letter
 
-**Our Compliance Kit helps you get started on these requirements in 30 minutes** — with training modules, policy templates, checklists, and audit-ready documentation. Buy once, use forever.
+**Our Compliance Kit helps you get started on these requirements in 60 minutes** — with training modules, policy templates, checklists, and audit-ready documentation. Buy once, use forever.
 
 </div>
 
@@ -34,7 +34,7 @@ dateModified: 2026-02-27
 
 ## What are the 10 most common insurance cybersecurity questions in 2026?
 
-**Insurance providers consistently ask these 10 questions during renewal.** Answering "Yes" to all requires proper documentation - our kit helps you build that foundation in 30 minutes.
+**Insurance providers consistently ask these 10 questions during renewal.** Answering "Yes" to all requires proper documentation - our kit helps you build that foundation in 60 minutes.
 
 ### **1. "Do you provide regular security awareness training to all employees?"**
 **✅ YES - With Our Documentation:**
@@ -123,9 +123,9 @@ dateModified: 2026-02-27
 | Data Encryption | Encryption policy, records | ✅ Pro Kit |
 | Compliance Documentation | Complete documentation package | ✅ Pro Kit |
 
-## How can I complete my insurance cybersecurity questionnaire in 30 minutes?
+## How can I complete my insurance cybersecurity questionnaire in 60 minutes?
 
-**The 30-Minute Compliance Framework** makes it simple: Download → Review → Train → Document. Our kit gives you the training modules, policy templates, and checklists to build your compliance foundation fast.
+**The 60-Minute Compliance Framework** makes it simple: Download → Review → Train → Document. Our kit gives you the training modules, policy templates, and checklists to build your compliance foundation fast.
 
 ### **Step 1: Download the Complete Kit**
 Get all necessary templates and documentation in one download:
@@ -262,7 +262,7 @@ Get all necessary templates and documentation in one download:
 <div class="bg-gray-50 border-l-4 border-gray-300 p-4 mb-6 mt-8">
   <p class="text-sm text-gray-700">
     <strong>Written by the SMBCyberHub Team</strong><br>
-    Cybersecurity compliance specialists with 20+ years experience helping small businesses achieve audit-ready security. Our expertise spans NIST CSF 2.0, GDPR compliance, and cyber insurance requirements across 500+ organizations.
+    Cybersecurity compliance specialists with 20+ years experience helping small businesses achieve audit-ready security. Our expertise spans NIST CSF 2.0, GDPR compliance, and cyber insurance requirements across 100+ small businesses.
   </p>
 </div>
 

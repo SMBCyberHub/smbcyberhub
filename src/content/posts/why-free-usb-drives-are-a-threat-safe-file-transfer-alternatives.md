@@ -292,7 +292,7 @@ Implement network-based security measures.
 
 ### **Your Action Plan**
 
-Our [cybersecurity compliance kits](/kits/) include device security policies, acceptable use templates, and staff training on safe file transfer — audit-ready in 30 minutes.
+Our [cybersecurity compliance kits](/kits/) include device security policies, acceptable use templates, and staff training on safe file transfer — audit-ready in 60 minutes.
 
 - [ ] **Implement USB security** policy for all staff
 - [ ] **Deploy technical controls** for USB device management

@@ -231,7 +231,7 @@ If you’re under 20 people, it’s usually the founder or operations/office man
 
 ## 🎁 Get Audit-Ready Training for Your Team
 
-Need a ready-to-use checklist and easy training resources to help your team build better habits around data, email, and everyday security? Our [cybersecurity compliance kits](/kits/) include data retention policy templates, GDPR checklists, and staff training — audit-ready in 30 minutes.
+Need a ready-to-use checklist and easy training resources to help your team build better habits around data, email, and everyday security? Our [cybersecurity compliance kits](/kits/) include data retention policy templates, GDPR checklists, and staff training — audit-ready in 60 minutes.
 
 👉 [Download the Free Cyber Security Training Kit](https://smbcyberhub.com/free-cyber-security-training/?utm_source=blog&utm_medium=cta&utm_campaign=simple-data-retention-small-teams)
 

@@ -24,7 +24,7 @@ dateModified: 2026-02-27
 4. **Risk Assessment** - Documented cybersecurity risk analysis
 5. **Incident Response Plan** - Step-by-step breach procedures
 
-**Premiums average €1,500-5,000 annually** but can be reduced 20-30% with proper security measures. Our kit helps you build your compliance foundation in 30 minutes.
+**Premiums average €1,500-5,000 annually** but can be reduced 20-30% with proper security measures. Our kit helps you build your compliance foundation in 60 minutes.
 
 </div>
 
@@ -543,7 +543,7 @@ Follow these steps for a successful application.
 
 ### **Your Action Plan**
 
-Our [cybersecurity compliance kits](/kits/) include every policy template, training record, and checklist your insurer expects — audit-ready in 30 minutes.
+Our [cybersecurity compliance kits](/kits/) include every policy template, training record, and checklist your insurer expects — audit-ready in 60 minutes.
 
 - [ ] **Assess current cyber risks** and insurance needs
 - [ ] **Implement security improvements** to reduce premiums
@@ -608,7 +608,7 @@ Manage legal risks associated with cyber insurance.
 <div class="bg-gray-50 border-l-4 border-gray-300 p-4 mb-6 mt-8">
   <p class="text-sm text-gray-700">
     <strong>Written by the SMBCyberHub Team</strong><br>
-    Cybersecurity compliance specialists with 20+ years experience helping small businesses achieve audit-ready security. Our expertise spans NIST CSF 2.0, GDPR compliance, and cyber insurance requirements across 500+ organizations.
+    Cybersecurity compliance specialists with 20+ years experience helping small businesses achieve audit-ready security. Our expertise spans NIST CSF 2.0, GDPR compliance, and cyber insurance requirements across 100+ small businesses.
   </p>
 </div>
 
