@@ -86,6 +86,7 @@ const breadcrumbSchema = {
   ogType="article"
   canonical={canonicalUrl}
   publishedTime={isoDate}
+  modifiedTime={isoModified}
   tags={data.tags || []}
 >
   <script type="application/ld+json" set:html={JSON.stringify(articleSchema)}></script>
