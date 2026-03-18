@@ -32,8 +32,6 @@ const staticDates = {
   '/contact/':                            '2026-02-28',
   '/philosophy/':                         '2026-02-27',
   '/saas-vs-downloadable/':              '2026-03-17',
-  '/knowbe4-alternative-small-business/': '2026-03-18',
-  '/best-cybersecurity-training-small-business/': '2026-03-18',
   '/cybersecurity-training-no-subscription/': '2026-03-18',
   '/cybersecurity-compliance-accountants/': '2026-03-18',
   '/cybersecurity-compliance-law-firms/':  '2026-03-18',
@@ -75,7 +73,7 @@ export default defineConfig({
             changefreq = 'monthly';  priority = 0.9;
           } else if (['/what-is-smb-cybersecurity-compliance/', '/2026-compliance-checklist/', '/cyber-insurance-renewal-checklist/'].includes(urlPath)) {
             changefreq = 'monthly';  priority = 0.9;
-          } else if (['/knowbe4-alternative-small-business/', '/best-cybersecurity-training-small-business/', '/cybersecurity-training-no-subscription/', '/cybersecurity-compliance-accountants/', '/cybersecurity-compliance-law-firms/', '/cybersecurity-compliance-healthcare/'].includes(urlPath)) {
+          } else if (['/cybersecurity-training-no-subscription/', '/cybersecurity-compliance-accountants/', '/cybersecurity-compliance-law-firms/', '/cybersecurity-compliance-healthcare/'].includes(urlPath)) {
             changefreq = 'monthly';  priority = 0.8;
           } else if (urlPath.startsWith('/posts/')) {
             changefreq = 'monthly';  priority = 0.7;
