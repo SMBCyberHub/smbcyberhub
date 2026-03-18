@@ -1,5 +1,9 @@
 import rss from '@astrojs/rss';
 import { getCollection } from 'astro:content';
+import sanitizeHtml from 'sanitize-html';
+import MarkdownIt from 'markdown-it';
+
+const md = new MarkdownIt();
 
 export async function GET(context) {
   const posts = await getCollection('posts');
@@ -13,6 +17,9 @@ export async function GET(context) {
       title: post.data.title,
       pubDate: post.data.date,
       description: post.data.description,
+      content: sanitizeHtml(md.render(post.body), {
+        allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img']),
+      }),
       link: `/posts/${post.slug}/`,
       categories: post.data.tags || [],
       author: 'info@smbcyberhub.com (Jim SMBCyberHub)',

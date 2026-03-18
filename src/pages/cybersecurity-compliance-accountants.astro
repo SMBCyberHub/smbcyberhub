@@ -1,0 +1,423 @@
+---
+import Layout from '../layouts/Layout.astro'
+
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: 'Cybersecurity Compliance for Accountants: Complete Guide for Small Firms',
+  description: 'Cybersecurity compliance guide for accountants, CPAs, and tax preparers. Covers FTC Safeguards Rule, GDPR, cyber insurance, and staff training for firms with 1-20 employees.',
+  url: 'https://smbcyberhub.com/cybersecurity-compliance-accountants/',
+  author: {
+    '@type': 'Person',
+    name: 'Jim SMBCyberHub',
+    jobTitle: 'Cybersecurity Compliance Specialist',
+    url: 'https://smbcyberhub.com/about/'
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: 'SMBCyberHub',
+    url: 'https://smbcyberhub.com',
+    logo: { '@type': 'ImageObject', url: 'https://smbcyberhub.com/images/smbcyberhub-logo.webp' }
+  },
+  datePublished: '2026-03-18',
+  dateModified: '2026-03-18',
+  image: ['https://smbcyberhub.com/images/smbcyberhub-logo.webp'],
+  speakable: {
+    '@type': 'SpeakableSpecification',
+    cssSelector: ['h1', 'section .bg-gradient-to-r p']
+  }
+};
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'Does the SMBCyberHub kit cover FTC Safeguards Rule requirements?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Yes. The SMBCyberHub Pro Kit includes policy templates, staff training modules, risk assessment documentation, and incident response plans that map directly to FTC Safeguards Rule requirements for tax preparers and accountants.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'Do I need separate cybersecurity training for each staff member?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Yes — both the FTC Safeguards Rule and GDPR Article 39 require documented training for every employee who handles client data. The SMBCyberHub kit includes 6 training modules with individual quizzes and completion certificates, so each staff member gets their own documented training record.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'Will this satisfy my cyber insurance provider?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'The SMBCyberHub kit provides exactly what cyber insurers look for during underwriting and renewal: documented security policies, staff training records with completion dates, an incident response plan, and risk assessment documentation.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'Can I use this for multiple office locations?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'The standard license covers one business entity. If you operate multiple office locations under a single firm, the kit can be deployed across all locations. For separate legal entities, each entity needs its own license.'
+      }
+    }
+  ]
+};
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://smbcyberhub.com/' },
+    { '@type': 'ListItem', position: 2, name: 'Compliance Guide', item: 'https://smbcyberhub.com/what-is-smb-cybersecurity-compliance/' },
+    { '@type': 'ListItem', position: 3, name: 'Accountants', item: 'https://smbcyberhub.com/cybersecurity-compliance-accountants/' }
+  ]
+};
+---
+
+<Layout
+  title="Cybersecurity Compliance for Accountants | SMBCyberHub"
+  description="Cybersecurity compliance for accountants and tax preparers. FTC Safeguards Rule, GDPR, cyber insurance — audit-ready in 60 minutes. From 49 EUR."
+  ogType="article"
+>
+  <script type="application/ld+json" set:html={JSON.stringify(articleSchema)}></script>
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)}></script>
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)}></script>
+
+  <nav aria-label="Breadcrumb" class="max-w-4xl mx-auto px-4 pt-6 pb-2">
+    <ol class="flex flex-wrap items-center gap-1 text-sm text-gray-500">
+      <li><a href="/" class="hover:text-blue-700 underline">Home</a></li>
+      <li class="before:content-['/'] before:mx-1"><a href="/what-is-smb-cybersecurity-compliance/" class="hover:text-blue-700 underline">Compliance Guide</a></li>
+      <li class="before:content-['/'] before:mx-1 text-gray-800 font-medium" aria-current="page">Accountants</li>
+    </ol>
+  </nav>
+
+  <section class="max-w-4xl mx-auto px-4 pt-4 pb-10">
+    <h1 class="text-4xl md:text-5xl font-extrabold text-blue-900 leading-tight mb-6">
+      Cybersecurity Compliance for Accountants, CPAs, and Tax Preparers
+    </h1>
+
+    <div class="bg-gradient-to-r from-blue-50 to-emerald-50 rounded-xl p-6 border-l-4 border-blue-500 mb-8">
+      <p class="text-lg text-gray-800 leading-relaxed">
+        <strong>Your accounting firm handles the most sensitive data your clients have:</strong> tax returns with Social Security numbers, bank account details, payroll records, and financial statements. Regulators know this — the FTC Safeguards Rule explicitly names tax preparers and accountants as covered entities. If you serve EU clients, GDPR applies too. This guide covers exactly what cybersecurity compliance your firm needs, and how to achieve it in a single afternoon for a fraction of what consultants charge.
+      </p>
+    </div>
+
+    <section class="mb-12">
+      <h2 class="text-3xl font-bold text-blue-900 mb-5">Why Accounting Firms Need Cybersecurity Compliance</h2>
+
+      <p class="text-gray-700 mb-4">
+        Accounting firms sit at the intersection of every cybersecurity risk factor. You hold client financial data year-round. Tax returns contain Social Security numbers, employer identification numbers, bank routing details, and income records — everything an attacker needs for identity theft and financial fraud.
+      </p>
+
+      <p class="text-gray-700 mb-4">
+        This makes accounting firms disproportionately targeted. According to industry research, <strong>accounting and financial services firms are among the top targets for phishing attacks</strong> precisely because the data they hold is immediately monetisable. A single compromised email account at a tax preparation firm can expose hundreds of client returns.
+      </p>
+
+      <div class="bg-gray-50 rounded-lg p-6 mb-6">
+        <h3 class="text-xl font-semibold text-blue-900 mb-3">Key drivers for cybersecurity compliance in accounting:</h3>
+        <ul class="space-y-3 text-gray-700">
+          <li class="flex items-start gap-2">
+            <span class="text-emerald-600 font-bold mt-0.5">1.</span>
+            <span><strong>Client financial data exposure</strong> — tax returns, bank details, payroll records, and financial statements are high-value targets for cybercriminals.</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-emerald-600 font-bold mt-0.5">2.</span>
+            <span><strong>Regulatory mandate</strong> — the <a href="/posts/ftc-safeguards-rule-small-business-compliance/" class="text-blue-700 underline hover:text-blue-900">FTC Safeguards Rule</a> explicitly covers tax preparation services and accountants handling financial data.</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-emerald-600 font-bold mt-0.5">3.</span>
+            <span><strong>GDPR obligations</strong> — if you serve any EU or UK-based clients, GDPR Article 39 requires documented security awareness training for staff who process personal data.</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-emerald-600 font-bold mt-0.5">4.</span>
+            <span><strong>Cyber insurance requirements</strong> — insurers increasingly require documented security policies, training records, and incident response plans before issuing or renewing coverage.</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-emerald-600 font-bold mt-0.5">5.</span>
+            <span><strong>Professional body expectations</strong> — organisations like the AICPA, ICAEW, and CPA Australia are raising cybersecurity standards.</span>
+          </li>
+        </ul>
+      </div>
+
+      <p class="text-gray-700">
+        The reality is straightforward: if your firm handles client financial data and you lack documented cybersecurity policies and training, you are out of compliance with at least one regulation — and likely uninsurable at competitive rates. The good news is that compliance for a small accounting firm is achievable in a single afternoon with the right tools.
+      </p>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-3xl font-bold text-blue-900 mb-5">What Regulations Apply to Accounting Firms</h2>
+
+      <p class="text-gray-700 mb-6">
+        The regulatory landscape for <strong>cybersecurity policy for accounting firms</strong> spans multiple frameworks depending on your location and client base:
+      </p>
+
+      <div class="space-y-6">
+        <div class="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
+          <h3 class="text-xl font-semibold text-blue-900 mb-2">FTC Safeguards Rule (United States)</h3>
+          <p class="text-gray-700 mb-3">
+            The revised FTC Safeguards Rule (16 CFR Part 314) is the single most important regulation for US-based accountants. It explicitly names <strong>"tax preparation services"</strong> and <strong>"accountants"</strong> as financial institutions covered by its requirements. The rule mandates:
+          </p>
+          <ul class="list-disc pl-6 space-y-1 text-gray-600">
+            <li>A designated qualified individual to oversee your information security programme</li>
+            <li>A written information security programme with risk assessments</li>
+            <li>Staff training on security awareness</li>
+            <li>An incident response plan</li>
+            <li>Periodic assessment and adjustment of your security controls</li>
+          </ul>
+          <p class="mt-3 text-sm text-gray-500">
+            Non-compliance can result in FTC enforcement actions and fines. Read our full <a href="/posts/ftc-safeguards-rule-small-business-compliance/" class="text-blue-700 underline hover:text-blue-900">FTC Safeguards Rule compliance guide</a>.
+          </p>
+        </div>
+
+        <div class="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
+          <h3 class="text-xl font-semibold text-blue-900 mb-2">GDPR Article 39 (EU and UK Clients)</h3>
+          <p class="text-gray-700 mb-3">
+            If your firm processes data for any EU or UK-based clients — even from a US or non-EU office — GDPR applies. Article 39.1(b) specifically requires documented security awareness training for all staff who handle personal data.
+          </p>
+        </div>
+
+        <div class="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
+          <h3 class="text-xl font-semibold text-blue-900 mb-2">US State Privacy and Data Protection Laws</h3>
+          <p class="text-gray-700 mb-3">
+            Beyond the FTC rule, many states impose additional requirements. New York's SHIELD Act requires reasonable safeguards for private information. Massachusetts 201 CMR 17.00 mandates a written information security programme. These state laws layer on top of the FTC Safeguards Rule.
+          </p>
+        </div>
+
+        <div class="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
+          <h3 class="text-xl font-semibold text-blue-900 mb-2">Cyber Insurance Requirements</h3>
+          <p class="text-gray-700 mb-3">
+            <strong>Cyber insurance for accountants</strong> is increasingly a business necessity. Insurers now require documented evidence of security controls before issuing policies. See our <a href="/cyber-insurance-renewal-checklist/" class="text-blue-700 underline hover:text-blue-900">cyber insurance renewal checklist</a> for the full documentation list.
+          </p>
+        </div>
+
+        <div class="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
+          <h3 class="text-xl font-semibold text-blue-900 mb-2">Professional Body Requirements</h3>
+          <p class="text-gray-700 mb-3">
+            Professional accounting organisations are tightening cybersecurity expectations. The AICPA's SOC framework includes cybersecurity criteria. ICAEW (UK) guidance requires documented security measures. CPA Australia and Chartered Accountants ANZ publish cybersecurity guidance that members are expected to follow.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-3xl font-bold text-blue-900 mb-5">The SMBCyberHub Solution for Accounting Firms</h2>
+
+      <p class="text-gray-700 mb-4">
+        The SMBCyberHub compliance kits were built for exactly this scenario: small professional firms (1-20 staff) that need documented <a href="/what-is-smb-cybersecurity-compliance/" class="text-blue-700 underline hover:text-blue-900">cybersecurity compliance</a> without hiring consultants or deploying enterprise software.
+      </p>
+
+      <div class="grid md:grid-cols-2 gap-6 mb-6">
+        <div class="bg-gray-50 rounded-lg p-5">
+          <h3 class="text-lg font-semibold text-blue-900 mb-2">Staff Training on Client Data Handling</h3>
+          <p class="text-gray-600 text-sm">
+            Six training modules covering secure handling of financial records, tax documents, and personally identifiable information. Each module includes a quiz with documented completion records — exactly what the FTC Safeguards Rule and GDPR Article 39 require.
+          </p>
+        </div>
+
+        <div class="bg-gray-50 rounded-lg p-5">
+          <h3 class="text-lg font-semibold text-blue-900 mb-2">Phishing Awareness Training</h3>
+          <p class="text-gray-600 text-sm">
+            Accounting firms are top phishing targets because attackers know you have access to financial data. Our phishing module covers invoice fraud, tax season scams, client impersonation, and Business Email Compromise.
+          </p>
+        </div>
+
+        <div class="bg-gray-50 rounded-lg p-5">
+          <h3 class="text-lg font-semibold text-blue-900 mb-2">Policy Templates</h3>
+          <p class="text-gray-600 text-sm">
+            Ready-to-customise templates for <a href="/posts/acceptable-use-policy-template-small-business/" class="text-blue-700 underline hover:text-blue-900">acceptable use policies</a>, data retention policies, incident response plans, and information security policies. Fill in your firm name, review, and deploy.
+          </p>
+        </div>
+
+        <div class="bg-gray-50 rounded-lg p-5">
+          <h3 class="text-lg font-semibold text-blue-900 mb-2">Audit Documentation</h3>
+          <p class="text-gray-600 text-sm">
+            Every element of the kit produces documentation that satisfies insurers, regulators, and professional bodies. Training records, policy sign-offs, risk assessment forms, and compliance checklists — all audit-ready from day one.
+          </p>
+        </div>
+      </div>
+
+      <div class="flex flex-wrap gap-4">
+        <a href="/pro-cybersecurity-kit/" class="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-6 py-3 rounded-lg shadow transition">
+          View the Pro Kit
+        </a>
+        <a href="/kits/" class="border border-blue-600 text-blue-700 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition">
+          Compare All Kits
+        </a>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-3xl font-bold text-blue-900 mb-5">What's In the Kit</h2>
+
+      <div class="bg-gray-50 rounded-xl p-6 mb-6">
+        <div class="grid md:grid-cols-2 gap-8">
+          <div>
+            <h3 class="text-lg font-semibold text-blue-900 mb-3">6 Training Modules</h3>
+            <ul class="space-y-2 text-gray-700 text-sm">
+              <li class="flex items-start gap-2"><span class="text-emerald-600 font-bold">1.</span><span>Introduction to Cybersecurity for Small Businesses</span></li>
+              <li class="flex items-start gap-2"><span class="text-emerald-600 font-bold">2.</span><span>Password Security and Multi-Factor Authentication</span></li>
+              <li class="flex items-start gap-2"><span class="text-emerald-600 font-bold">3.</span><span>Phishing and Social Engineering Awareness</span></li>
+              <li class="flex items-start gap-2"><span class="text-emerald-600 font-bold">4.</span><span>Safe Data Handling and Classification</span></li>
+              <li class="flex items-start gap-2"><span class="text-emerald-600 font-bold">5.</span><span>Remote Work and Device Security</span></li>
+              <li class="flex items-start gap-2"><span class="text-emerald-600 font-bold">6.</span><span>Incident Reporting and Response Procedures</span></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-semibold text-blue-900 mb-3">Policy Templates and Checklists</h3>
+            <ul class="space-y-2 text-gray-700 text-sm">
+              <li class="flex items-start gap-2"><span class="text-emerald-600">&#10003;</span><span>6 quizzes with individual completion certificates</span></li>
+              <li class="flex items-start gap-2"><span class="text-emerald-600">&#10003;</span><span>Information Security Policy template</span></li>
+              <li class="flex items-start gap-2"><span class="text-emerald-600">&#10003;</span><span>Acceptable Use Policy template</span></li>
+              <li class="flex items-start gap-2"><span class="text-emerald-600">&#10003;</span><span>Data Retention Policy template</span></li>
+              <li class="flex items-start gap-2"><span class="text-emerald-600">&#10003;</span><span>Incident Response Plan template</span></li>
+              <li class="flex items-start gap-2"><span class="text-emerald-600">&#10003;</span><span>Risk Assessment checklist</span></li>
+              <li class="flex items-start gap-2"><span class="text-emerald-600">&#10003;</span><span>Compliance audit documentation pack</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="mt-6 bg-blue-50 border border-blue-200 rounded-lg p-4">
+          <p class="text-sm text-blue-900 font-medium">
+            Designed for non-technical teams — your office manager can deploy this, no IT staff needed. Everything is delivered as downloadable files. No logins, no subscriptions, no cloud dependencies.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-3xl font-bold text-blue-900 mb-5">Cost Comparison: Consultants vs. SMBCyberHub</h2>
+
+      <div class="overflow-x-auto">
+        <table class="w-full text-left border-collapse mb-6">
+          <thead>
+            <tr class="bg-blue-900 text-white">
+              <th class="px-5 py-3 rounded-tl-lg">Approach</th>
+              <th class="px-5 py-3">Cost</th>
+              <th class="px-5 py-3">Timeline</th>
+              <th class="px-5 py-3 rounded-tr-lg">Ongoing Fees</th>
+            </tr>
+          </thead>
+          <tbody class="text-gray-700">
+            <tr class="border-b border-gray-200 bg-gray-50">
+              <td class="px-5 py-4 font-medium">Compliance consultant</td>
+              <td class="px-5 py-4">&#8364;5,000 &ndash; &#8364;15,000</td>
+              <td class="px-5 py-4">4-8 weeks</td>
+              <td class="px-5 py-4">Annual retainer</td>
+            </tr>
+            <tr class="border-b border-gray-200">
+              <td class="px-5 py-4 font-medium">SaaS compliance platform</td>
+              <td class="px-5 py-4">&#8364;200 &ndash; &#8364;500/month</td>
+              <td class="px-5 py-4">2-4 weeks setup</td>
+              <td class="px-5 py-4">Monthly subscription</td>
+            </tr>
+            <tr class="bg-emerald-50 border-2 border-emerald-300">
+              <td class="px-5 py-4 font-bold text-emerald-800">SMBCyberHub Pro Kit</td>
+              <td class="px-5 py-4 font-bold text-emerald-800">&#8364;99 one-time</td>
+              <td class="px-5 py-4 font-bold text-emerald-800">1 afternoon</td>
+              <td class="px-5 py-4 font-bold text-emerald-800">None</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="text-gray-700">
+        For a small accounting firm, the maths is straightforward. Typical compliance consulting costs <strong>&#8364;5,000 to &#8364;15,000</strong>. The SMBCyberHub Pro Kit delivers the same documentation outputs for <strong>&#8364;99 as a one-time purchase</strong>. No recurring fees, no vendor lock-in, no data leaving your firm.
+      </p>
+    </section>
+
+    <section class="mb-12">
+      <div class="bg-gray-50 border-l-4 border-emerald-500 rounded-r-xl p-6">
+        <blockquote class="text-gray-800 text-lg italic mb-4">
+          "Our FTC compliance was overdue and I had no idea where to start. The kit gave us policies, training records, and checklists that our compliance reviewer accepted immediately. Saved us thousands in consulting fees."
+        </blockquote>
+        <p class="text-gray-600 font-semibold">
+          — Rachel M., CPA Practice Owner, Austin
+        </p>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-3xl font-bold text-blue-900 mb-6">Frequently Asked Questions</h2>
+
+      <div class="space-y-6">
+        <div class="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
+          <h3 class="text-lg font-semibold text-blue-900 mb-2">Does the SMBCyberHub kit cover FTC Safeguards Rule requirements?</h3>
+          <p class="text-gray-700">
+            Yes. The Pro Kit includes a written information security programme template, risk assessment documentation, staff training modules with completion records, and an incident response plan — all requirements under the revised FTC Safeguards Rule.
+          </p>
+        </div>
+
+        <div class="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
+          <h3 class="text-lg font-semibold text-blue-900 mb-2">Do I need separate cybersecurity training for each staff member?</h3>
+          <p class="text-gray-700">
+            Yes — both the FTC Safeguards Rule and GDPR Article 39 require documented training for every employee who handles client data. The SMBCyberHub kit includes 6 training modules with individual quizzes and completion certificates. Your office manager can administer the <a href="/free-cyber-security-training/" class="text-blue-700 underline hover:text-blue-900">training</a> in-house with no IT expertise required.
+          </p>
+        </div>
+
+        <div class="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
+          <h3 class="text-lg font-semibold text-blue-900 mb-2">Will this satisfy my cyber insurance provider?</h3>
+          <p class="text-gray-700">
+            The kit provides exactly what cyber insurers look for during underwriting and renewal: documented security policies, staff training records with completion dates, an incident response plan, and risk assessment documentation. See our <a href="/cyber-insurance-renewal-checklist/" class="text-blue-700 underline hover:text-blue-900">cyber insurance renewal checklist</a>.
+          </p>
+        </div>
+
+        <div class="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
+          <h3 class="text-lg font-semibold text-blue-900 mb-2">Can I use this for multiple office locations?</h3>
+          <p class="text-gray-700">
+            The standard licence covers one business entity. If you operate multiple office locations under a single firm, the kit can be deployed across all locations. For separate legal entities, each entity needs its own licence. See our <a href="/licensing/" class="text-blue-700 underline hover:text-blue-900">licensing page</a> for full details.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <div class="bg-blue-50 rounded-xl p-8 text-center">
+        <h2 class="text-2xl md:text-3xl font-bold text-blue-900 mb-4">
+          Get Your Accounting Firm Compliant Today
+        </h2>
+        <p class="text-gray-700 mb-6 max-w-2xl mx-auto">
+          Download the complete cybersecurity compliance kit — policies, training, checklists, and audit documentation — and have your firm audit-ready by end of day. No IT staff required.
+        </p>
+        <div class="flex flex-wrap justify-center gap-4">
+          <a href="/kits/" class="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-8 py-4 rounded-lg shadow text-lg transition">
+            Get the Complete Kit (&#8364;49-99)
+          </a>
+          <a href="/free-cyber-security-training/" class="border border-emerald-600 text-emerald-700 px-8 py-4 rounded-lg font-semibold hover:bg-emerald-50 text-lg transition">
+            Try the Free Sample First
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-2xl font-bold text-blue-900 mb-5">Related Resources</h2>
+
+      <div class="grid md:grid-cols-2 gap-4">
+        <a href="/posts/ftc-safeguards-rule-small-business-compliance/" class="block bg-white border border-gray-200 rounded-lg p-5 hover:shadow-md transition">
+          <h3 class="text-base font-semibold text-blue-700 mb-1">FTC Safeguards Rule: Small Business Compliance Guide</h3>
+          <p class="text-sm text-gray-500">Step-by-step guide to meeting FTC requirements for tax preparers and accountants.</p>
+        </a>
+
+        <a href="/what-is-smb-cybersecurity-compliance/" class="block bg-white border border-gray-200 rounded-lg p-5 hover:shadow-md transition">
+          <h3 class="text-base font-semibold text-blue-700 mb-1">What is SMB Cybersecurity Compliance?</h3>
+          <p class="text-sm text-gray-500">Complete overview of compliance frameworks, costs, and implementation for small businesses.</p>
+        </a>
+
+        <a href="/cyber-insurance-renewal-checklist/" class="block bg-white border border-gray-200 rounded-lg p-5 hover:shadow-md transition">
+          <h3 class="text-base font-semibold text-blue-700 mb-1">Cyber Insurance Renewal Checklist</h3>
+          <p class="text-sm text-gray-500">Every document your insurer requires, organised in one checklist with templates.</p>
+        </a>
+
+        <a href="/posts/acceptable-use-policy-template-small-business/" class="block bg-white border border-gray-200 rounded-lg p-5 hover:shadow-md transition">
+          <h3 class="text-base font-semibold text-blue-700 mb-1">Acceptable Use Policy Template</h3>
+          <p class="text-sm text-gray-500">Free template for creating your firm's acceptable use policy for staff devices and data.</p>
+        </a>
+      </div>
+    </section>
+  </section>
+</Layout>

@@ -1,0 +1,326 @@
+---
+import Layout from '../layouts/Layout.astro'
+
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: 'KnowBe4 Alternative for Small Business: SMBCyberHub Compliance Kits',
+  description: 'Compare KnowBe4 vs SMBCyberHub for small teams. One-time €99 compliance kit vs $18/user/month. No subscriptions, no logins.',
+  url: 'https://smbcyberhub.com/knowbe4-alternative-small-business/',
+  author: {
+    '@type': 'Person',
+    name: 'Jim SMBCyberHub',
+    jobTitle: 'Cybersecurity Compliance Specialist',
+    url: 'https://smbcyberhub.com/about/'
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: 'SMBCyberHub',
+    url: 'https://smbcyberhub.com',
+    logo: { '@type': 'ImageObject', url: 'https://smbcyberhub.com/images/smbcyberhub-logo.webp' }
+  },
+  datePublished: '2026-03-18',
+  dateModified: '2026-03-18',
+  image: ['https://smbcyberhub.com/images/smbcyberhub-logo.webp'],
+  speakable: {
+    '@type': 'SpeakableSpecification',
+    cssSelector: ['h1', 'section .bg-gradient-to-r p']
+  }
+};
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'Is SMBCyberHub as good as KnowBe4?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'They serve different markets. KnowBe4 is an enterprise-grade platform with active phishing simulations and LMS features designed for large organisations with dedicated IT teams. SMBCyberHub provides downloadable compliance kits — training modules, policies, quizzes, and audit documentation — purpose-built for small teams of 1–20 people who need to get compliant quickly without managing a SaaS platform.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'Can I switch from KnowBe4 to SMBCyberHub?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Yes. SMBCyberHub kits are standalone downloadable files. You can purchase a kit, run your training, and have audit-ready documentation the same day — no migration or data transfer needed.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'Do insurers accept SMBCyberHub documentation?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Yes. SMBCyberHub kits include signed training logs, quiz records, policy templates, and checklists aligned with NIST and GDPR frameworks. These are the same types of documentation cyber insurance underwriters request during renewals and audits.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'Does SMBCyberHub include phishing simulations like KnowBe4?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'No. SMBCyberHub focuses on compliance documentation, staff training materials, and audit readiness — not active phishing simulations. If your primary need is simulated phishing campaigns for a large workforce, KnowBe4 is more appropriate. If you need affordable compliance training and documentation for a small team, SMBCyberHub is the practical choice.'
+      }
+    }
+  ]
+};
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://smbcyberhub.com/' },
+    { '@type': 'ListItem', position: 2, name: 'KnowBe4 Alternative', item: 'https://smbcyberhub.com/knowbe4-alternative-small-business/' }
+  ]
+};
+---
+
+<Layout
+  title="KnowBe4 Alternative for Small Business | SMBCyberHub"
+  description="Compare KnowBe4 vs SMBCyberHub for small teams. One-time €99 kit vs $18/user/month. No subscriptions, no logins, audit-ready."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(articleSchema)}></script>
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)}></script>
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)}></script>
+
+  <section class="max-w-4xl mx-auto px-4 py-10">
+    <nav class="mb-6" aria-label="Breadcrumb">
+      <ol class="flex items-center space-x-2 text-sm text-gray-600">
+        <li><a href="/" class="hover:text-blue-600">Home</a></li>
+        <li><span class="mx-2">/</span></li>
+        <li class="text-gray-900 font-medium">KnowBe4 Alternative</li>
+      </ol>
+    </nav>
+
+    <h1 class="text-4xl font-bold text-blue-900 mb-6">KnowBe4 Alternative for Small Business</h1>
+
+    <div class="bg-gradient-to-r from-blue-50 to-emerald-50 rounded-xl p-6 border-l-4 border-blue-500 mb-10">
+      <p class="font-semibold text-gray-800 text-lg mb-2">TL;DR</p>
+      <p class="text-gray-700">
+        KnowBe4 is a powerful enterprise security awareness platform — but for small teams of 1–20 people, it's overbuilt and expensive.
+        <a href="/kits/" class="text-blue-600 hover:underline">SMBCyberHub compliance kits</a> give you audit-ready training, policies, and documentation for a one-time payment of €99 (Pro Kit) — no per-user fees, no subscriptions, no logins.
+      </p>
+    </div>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-semibold text-blue-900 mb-4">Why Small Teams Look for KnowBe4 Alternatives</h2>
+      <p class="text-gray-700 mb-4">
+        KnowBe4 has earned its reputation as one of the leading security awareness training platforms in the world. With active phishing simulations, a massive content library, and enterprise-grade reporting, it's an excellent choice for mid-size and large organisations with dedicated IT and security teams.
+      </p>
+      <p class="text-gray-700 mb-4">
+        But if you run a 5-person accounting firm, a 12-person marketing agency, or a family-owned retail shop, KnowBe4's feature set quickly becomes a mismatch. The per-user monthly pricing, platform management overhead, and enterprise-oriented workflows weren't designed for your situation.
+      </p>
+      <p class="text-gray-700">
+        That's exactly the gap SMBCyberHub fills. Our <a href="/pro-cybersecurity-kit/" class="text-blue-600 hover:underline">downloadable compliance kits</a> provide everything a small team needs — training modules, staff quizzes, policies, checklists, and audit documentation — without the complexity or recurring costs of a SaaS platform. Learn more about the <a href="/saas-vs-downloadable/" class="text-blue-600 hover:underline">SaaS vs downloadable approach</a>.
+      </p>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-semibold text-blue-900 mb-6">KnowBe4 vs SMBCyberHub: Side-by-Side Comparison</h2>
+      <div class="overflow-x-auto">
+        <table class="w-full border-collapse border border-gray-300 rounded-lg overflow-hidden">
+          <thead>
+            <tr class="bg-gray-50">
+              <th class="border border-gray-300 px-6 py-4 text-left font-semibold text-gray-800">Feature</th>
+              <th class="border border-gray-300 px-6 py-4 text-left font-semibold text-gray-800">KnowBe4</th>
+              <th class="border border-gray-300 px-6 py-4 text-left font-semibold text-emerald-700">SMBCyberHub</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="border border-gray-300 px-6 py-4 font-medium">Pricing Model</td>
+              <td class="border border-gray-300 px-6 py-4 text-gray-700">~$18/user/month (annual contract)</td>
+              <td class="border border-gray-300 px-6 py-4 text-emerald-600">€99 one-time (Pro Kit)</td>
+            </tr>
+            <tr class="bg-gray-50">
+              <td class="border border-gray-300 px-6 py-4 font-medium">Per-User Fees</td>
+              <td class="border border-gray-300 px-6 py-4 text-gray-700">Yes — cost scales with headcount</td>
+              <td class="border border-gray-300 px-6 py-4 text-emerald-600">None — unlimited internal use</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-6 py-4 font-medium">Contract Length</td>
+              <td class="border border-gray-300 px-6 py-4 text-gray-700">Typically 1–3 year commitment</td>
+              <td class="border border-gray-300 px-6 py-4 text-emerald-600">No contract — buy once, own forever</td>
+            </tr>
+            <tr class="bg-gray-50">
+              <td class="border border-gray-300 px-6 py-4 font-medium">Setup Time</td>
+              <td class="border border-gray-300 px-6 py-4 text-gray-700">Days to weeks (onboarding, config)</td>
+              <td class="border border-gray-300 px-6 py-4 text-emerald-600">Under 60 minutes</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-6 py-4 font-medium">Team Size</td>
+              <td class="border border-gray-300 px-6 py-4 text-gray-700">Optimised for 25+ users</td>
+              <td class="border border-gray-300 px-6 py-4 text-emerald-600">Built for 1–20 person teams</td>
+            </tr>
+            <tr class="bg-gray-50">
+              <td class="border border-gray-300 px-6 py-4 font-medium">Phishing Simulations</td>
+              <td class="border border-gray-300 px-6 py-4 text-gray-700">Yes — active campaigns</td>
+              <td class="border border-gray-300 px-6 py-4 text-gray-600">No — training-focused approach</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-6 py-4 font-medium">Data Privacy</td>
+              <td class="border border-gray-300 px-6 py-4 text-gray-700">Cloud-hosted (vendor access)</td>
+              <td class="border border-gray-300 px-6 py-4 text-emerald-600">100% local — your files, your drive</td>
+            </tr>
+            <tr class="bg-gray-50">
+              <td class="border border-gray-300 px-6 py-4 font-medium">Offline Access</td>
+              <td class="border border-gray-300 px-6 py-4 text-gray-700">No — requires internet</td>
+              <td class="border border-gray-300 px-6 py-4 text-emerald-600">Yes — works fully offline</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-6 py-4 font-medium">Audit-Ready Docs</td>
+              <td class="border border-gray-300 px-6 py-4 text-gray-700">Yes — via platform exports</td>
+              <td class="border border-gray-300 px-6 py-4 text-emerald-600">Yes — print-ready PDFs included</td>
+            </tr>
+            <tr class="bg-gray-50">
+              <td class="border border-gray-300 px-6 py-4 font-medium">GDPR Compliance</td>
+              <td class="border border-gray-300 px-6 py-4 text-gray-700">Compliant (as data processor)</td>
+              <td class="border border-gray-300 px-6 py-4 text-emerald-600">No data shared — no processor needed</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-6 py-4 font-medium">IT Staff Required</td>
+              <td class="border border-gray-300 px-6 py-4 text-gray-700">Yes — admin setup and management</td>
+              <td class="border border-gray-300 px-6 py-4 text-emerald-600">No — any team member can run it</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-semibold text-blue-900 mb-4">3-Year Cost Comparison: 10-Person Team</h2>
+      <p class="text-gray-600 mb-6">Here's what each option actually costs over three years for a typical small team of 10 people.</p>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-white rounded-lg p-6 shadow-sm border border-gray-200">
+          <h3 class="font-semibold text-gray-800 text-lg mb-4">KnowBe4 (estimated)</h3>
+          <ul class="space-y-2 text-gray-700 text-sm mb-4">
+            <li class="flex justify-between"><span>10 users x $18/mo</span><span class="font-medium">$180/month</span></li>
+            <li class="flex justify-between"><span>Year 1</span><span class="font-medium">$2,160</span></li>
+            <li class="flex justify-between"><span>Year 2</span><span class="font-medium">$2,160</span></li>
+            <li class="flex justify-between"><span>Year 3</span><span class="font-medium">$2,160</span></li>
+          </ul>
+          <div class="border-t border-gray-200 pt-3">
+            <p class="flex justify-between font-bold text-lg"><span>3-Year Total</span><span class="text-red-600">$6,480</span></p>
+          </div>
+          <p class="text-xs text-gray-500 mt-2">Based on publicly available pricing estimates. Actual pricing may vary by plan and contract.</p>
+        </div>
+        <div class="bg-emerald-50 rounded-lg p-6 shadow-sm border border-emerald-200">
+          <h3 class="font-semibold text-emerald-800 text-lg mb-4">SMBCyberHub Pro Kit</h3>
+          <ul class="space-y-2 text-gray-700 text-sm mb-4">
+            <li class="flex justify-between"><span>Pro Kit (unlimited users)</span><span class="font-medium">€99</span></li>
+            <li class="flex justify-between"><span>Year 1 renewal</span><span class="font-medium">€0</span></li>
+            <li class="flex justify-between"><span>Year 2 renewal</span><span class="font-medium">€0</span></li>
+            <li class="flex justify-between"><span>Year 3 renewal</span><span class="font-medium">€0</span></li>
+          </ul>
+          <div class="border-t border-emerald-200 pt-3">
+            <p class="flex justify-between font-bold text-lg"><span>3-Year Total</span><span class="text-emerald-600">€99</span></p>
+          </div>
+          <p class="text-xs text-gray-500 mt-2">One-time purchase. No subscriptions. No per-user fees. Use with your entire team forever.</p>
+        </div>
+      </div>
+      <p class="text-center text-gray-600 mt-6 text-sm">That's a potential saving of over <strong>$6,000</strong> across three years for a 10-person team.</p>
+    </section>
+
+    <div class="bg-gray-50 rounded-xl p-6 mb-12 border-l-4 border-emerald-500">
+      <blockquote class="text-gray-700 italic text-lg mb-3">"All done in one afternoon. No logins, no subscriptions, just what we needed for our cyber insurance."</blockquote>
+      <p class="text-gray-600 font-medium text-sm">— Anna F, Cafe Owner, Boston</p>
+    </div>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-semibold text-blue-900 mb-4">Who Should Choose KnowBe4</h2>
+      <div class="bg-white rounded-lg p-6 border border-gray-200">
+        <p class="text-gray-700 mb-4">KnowBe4 is a genuinely strong platform, and it's the right fit if your organisation:</p>
+        <ul class="space-y-3 text-gray-700">
+          <li class="flex items-start"><svg class="w-5 h-5 text-blue-500 mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span>Has <strong>25+ employees</strong> and needs ongoing simulated phishing campaigns</span></li>
+          <li class="flex items-start"><svg class="w-5 h-5 text-blue-500 mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span>Has a <strong>dedicated IT team</strong> to manage the platform</span></li>
+          <li class="flex items-start"><svg class="w-5 h-5 text-blue-500 mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span>Requires <strong>granular analytics and reporting</strong> for compliance officers</span></li>
+          <li class="flex items-start"><svg class="w-5 h-5 text-blue-500 mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span>Has the <strong>budget for annual SaaS subscriptions</strong> with per-user pricing</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-semibold text-blue-900 mb-4">Who Should Choose SMBCyberHub</h2>
+      <div class="bg-emerald-50 rounded-lg p-6 border border-emerald-200">
+        <p class="text-gray-700 mb-4">SMBCyberHub is built specifically for small teams that need to get compliant without the overhead:</p>
+        <ul class="space-y-3 text-gray-700">
+          <li class="flex items-start"><svg class="w-5 h-5 text-emerald-500 mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span>Run a <strong>team of 1–20 people</strong> and need compliance training done this week</span></li>
+          <li class="flex items-start"><svg class="w-5 h-5 text-emerald-500 mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span>Have <strong>no dedicated IT staff</strong> — the office manager or owner handles compliance</span></li>
+          <li class="flex items-start"><svg class="w-5 h-5 text-emerald-500 mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span>Need <strong>audit-ready documentation</strong> for cyber insurance or a GDPR audit</span></li>
+          <li class="flex items-start"><svg class="w-5 h-5 text-emerald-500 mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span>Want a <strong>privacy-first approach</strong> — no employee data uploaded to any cloud platform</span></li>
+          <li class="flex items-start"><svg class="w-5 h-5 text-emerald-500 mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span>Prefer a <strong>one-time purchase</strong> — no monthly bills, no cancellation fees</span></li>
+        </ul>
+        <p class="text-gray-600 mt-4 text-sm">Try our <a href="/free-cyber-security-training/" class="text-blue-600 hover:underline">free training sample</a> to see the quality before you buy.</p>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-semibold text-blue-900 mb-4">What's in the SMBCyberHub Pro Kit</h2>
+      <p class="text-gray-700 mb-6">The <a href="/pro-cybersecurity-kit/" class="text-blue-600 hover:underline">Pro Kit (€99)</a> is our most complete compliance package:</p>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-white p-6 rounded-lg shadow-sm border">
+          <h3 class="font-semibold text-gray-800 mb-3">Training &amp; Assessment</h3>
+          <ul class="space-y-2 text-gray-700 text-sm">
+            <li>6 training modules (Phishing, Passwords, Device Security, MFA, Social Engineering, Ransomware)</li>
+            <li>6 staff quizzes with answer keys</li>
+            <li>Signed training log templates</li>
+          </ul>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-sm border">
+          <h3 class="font-semibold text-gray-800 mb-3">Policies &amp; Documentation</h3>
+          <ul class="space-y-2 text-gray-700 text-sm">
+            <li>Acceptable use, incident response, and backup policies</li>
+            <li>GDPR awareness documentation</li>
+            <li>Security self-audit checklists</li>
+            <li>Onboarding security guide</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <div class="bg-gray-50 rounded-xl p-6 mb-12 border-l-4 border-blue-500">
+      <blockquote class="text-gray-700 italic text-lg mb-3">"Our insurance broker was chasing us for proof of training, but I had no idea what they wanted. The SMBCyberHub kit saved hours and made our renewal painless."</blockquote>
+      <p class="text-gray-600 font-medium text-sm">— Emma P, Office Manager, London</p>
+    </div>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-semibold text-blue-900 mb-6">Frequently Asked Questions</h2>
+      <div class="space-y-6">
+        <div class="bg-white rounded-lg p-6 border border-gray-200">
+          <h3 class="font-semibold text-gray-900 mb-2">Is SMBCyberHub as good as KnowBe4?</h3>
+          <p class="text-gray-700">They serve different markets. KnowBe4 is an enterprise-grade platform with active phishing simulations designed for large organisations with dedicated IT teams. SMBCyberHub provides downloadable compliance kits purpose-built for small teams of 1–20 people who need to get compliant quickly without managing a SaaS platform.</p>
+        </div>
+        <div class="bg-white rounded-lg p-6 border border-gray-200">
+          <h3 class="font-semibold text-gray-900 mb-2">Can I switch from KnowBe4 to SMBCyberHub?</h3>
+          <p class="text-gray-700">Yes. SMBCyberHub kits are standalone downloadable files. You can purchase a kit, run your training, and have audit-ready documentation the same day — no migration or data transfer needed.</p>
+        </div>
+        <div class="bg-white rounded-lg p-6 border border-gray-200">
+          <h3 class="font-semibold text-gray-900 mb-2">Do insurers accept SMBCyberHub documentation?</h3>
+          <p class="text-gray-700">Yes. Our kits include signed training logs, quiz records, policy templates, and checklists aligned with NIST and GDPR frameworks. These are the same types of documentation cyber insurance underwriters request during renewals and audits.</p>
+        </div>
+        <div class="bg-white rounded-lg p-6 border border-gray-200">
+          <h3 class="font-semibold text-gray-900 mb-2">Does SMBCyberHub include phishing simulations?</h3>
+          <p class="text-gray-700">No. SMBCyberHub focuses on compliance documentation, staff training materials, and audit readiness. If your primary need is simulated phishing campaigns for a large workforce, KnowBe4 is more appropriate. If you need affordable compliance training and documentation for a small team, SMBCyberHub is the practical choice.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-gray-50 rounded-xl p-6 mb-10">
+      <h2 class="text-2xl font-semibold text-blue-900 mb-4">The Bottom Line</h2>
+      <p class="text-lg text-gray-700 mb-4">KnowBe4 is a world-class security awareness platform — and if you're a 200-person company with an IT department, it deserves to be on your shortlist. But most small businesses don't need simulated phishing campaigns, LMS dashboards, or annual SaaS contracts.</p>
+      <p class="text-gray-700">What they need is a fast, affordable way to train their team, document their policies, and satisfy their insurer — all without creating new vendor dependencies or uploading employee data to another cloud platform. That's what <a href="/kits/" class="text-blue-600 hover:underline">SMBCyberHub kits</a> deliver.</p>
+    </section>
+
+    <div class="bg-gradient-to-r from-blue-50 to-emerald-50 rounded-xl p-8 text-center">
+      <h2 class="text-2xl font-bold text-blue-900 mb-3">Ready to Get Compliant — Without the Complexity?</h2>
+      <p class="text-gray-700 mb-6">Start with our free training sample or go straight to the Pro Kit for complete coverage.</p>
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="/free-cyber-security-training/" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg shadow transform hover:scale-105 transition">Try Free Training Sample</a>
+        <a href="/kits/" class="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-6 py-3 rounded-lg shadow transform hover:scale-105 transition">Compare Kits &amp; Pricing</a>
+      </div>
+      <p class="text-sm text-gray-500 mt-4">No account needed. No email required. Download instantly.</p>
+    </div>
+  </section>
+</Layout>

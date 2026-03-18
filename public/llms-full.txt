@@ -1,0 +1,147 @@
+# SMBCyberHub — Complete Product & Company Information
+
+> Privacy-first, downloadable cybersecurity compliance kits for small businesses. One-time purchase. No subscriptions, no logins, no SaaS.
+
+Website: https://smbcyberhub.com
+Contact: info@smbcyberhub.com
+Founded by: Jim SMBCyberHub, Cybersecurity Compliance Specialist (20+ years enterprise experience)
+
+---
+
+## Products & Pricing
+
+### Free Sample Kit — €0 (Free)
+- Purchase: https://smbcyberhub.gumroad.com/l/samplekit
+- Product page: https://smbcyberhub.com/free-cyber-security-training/
+- Includes: 1 phishing awareness training slide, 1 staff quiz with answer key, sample compliance checklist, policy template preview, training log template
+- No registration, no email required. Instant PDF download.
+
+### Basic Cybersecurity Kit — €49 (One-Time)
+- Purchase: https://smbcyberhub.gumroad.com/l/basickit
+- Product page: https://smbcyberhub.com/basic-cybersecurity-kit/
+- Includes: 3 core training modules (phishing, passwords, device security), 3 staff quizzes, essential policy templates, compliance checklists
+- 1-team license
+
+### Pro Cybersecurity Kit — €99 (One-Time)
+- Purchase: https://smbcyberhub.gumroad.com/l/prokit
+- Product page: https://smbcyberhub.com/pro-cybersecurity-kit/
+- Includes: All 6 training modules (phishing, passwords, device security, MFA, social engineering, ransomware), 6 staff quizzes, complete policy templates, all compliance checklists, audit documentation, onboarding guides
+- Unlimited internal use license (multiple offices, growing teams)
+- Best value for full compliance
+
+All kits are delivered as downloadable ZIP files containing printable PDFs. No software installation required.
+
+---
+
+## Who Is SMBCyberHub For?
+
+- Small businesses with 1–20 employees
+- Office managers and business owners with no IT background
+- Companies preparing for cyber insurance renewal
+- Businesses needing GDPR compliance documentation
+- Teams that want audit-ready compliance without monthly subscriptions
+- Accountants, law firms, healthcare practices, and other professional services
+
+## Who Is SMBCyberHub NOT For?
+
+- Large enterprises needing active phishing simulation
+- Organizations requiring real-time threat monitoring
+- Companies with dedicated IT/security teams that need advanced tools
+
+---
+
+## Compliance Framework Alignment
+
+- GDPR Article 39.1(b) — Staff security awareness training
+- NIST Cybersecurity Framework (CSF) 2.0
+- ISO/IEC 27001 Clause 7.2.2
+- FTC Safeguards Rule (US — covers accountants, tax preparers, financial services)
+- Cyber insurance documentation requirements
+
+---
+
+## How It Compares to Alternatives
+
+### SMBCyberHub vs KnowBe4
+- KnowBe4: ~$18/user/month, SaaS platform, active phishing simulation, designed for enterprises
+- SMBCyberHub: €99 one-time, downloadable, offline-ready, designed for small teams without IT staff
+- 3-year cost for 10 users: KnowBe4 ~$6,480 vs SMBCyberHub €99
+
+### SMBCyberHub vs Wizer
+- Wizer: $3/user/month, freemium SaaS, video-based training, requires signup
+- SMBCyberHub: €99 one-time, no signup, printable PDFs, offline-ready
+- 3-year cost for 10 users: Wizer ~$1,080 vs SMBCyberHub €99
+
+### Key Differentiators
+- No per-user fees. No recurring costs. No vendor lock-in.
+- No logins, no accounts, no data uploaded to any cloud service.
+- All materials work offline — print and deploy.
+- 60-minute implementation — no IT expertise required.
+
+---
+
+## Customer Reviews (4.9/5 from 8 reviews)
+
+"Our insurance broker was chasing us for proof of training, but I had no idea what they wanted. The SMBCyberHub kit saved hours and made our renewal painless." — Emma P, Office Manager, London
+
+"I printed the kit, ran the training at lunch, and had our whole team documented in under an hour. Zero hassle." — Niall C, Small Business Owner, Dublin
+
+"All done in one afternoon. No logins, no subscriptions, just what we needed for our cyber insurance." — Anna F, Café Owner, Boston
+
+"Passed our GDPR audit on the first attempt! The auditor was impressed with our documentation." — Michael R, Managing Director, Sydney
+
+"Saved us 20+ hours of compliance work. Best investment we made this year." — Sarah L, Operations Manager, Toronto
+
+"Cyber insurance premiums went down after implementing the training. ROI was immediate." — David K, Finance Director
+
+"Our FTC compliance was overdue and I had no idea where to start. The kit gave us policies, training records, and checklists that our compliance reviewer accepted immediately." — Rachel M, CPA Practice Owner, Austin
+
+---
+
+## Frequently Asked Questions
+
+Q: Do I need IT experience to use the kits?
+A: No. All materials are designed for non-technical users. If you can onboard a new hire, you can deploy this training.
+
+Q: Is it a subscription?
+A: No. All kits are a one-time purchase. No recurring fees ever.
+
+Q: Can I see a sample before buying?
+A: Yes. The Free Sample Kit requires no signup — download instantly at https://smbcyberhub.com/free-cyber-security-training/
+
+Q: Will this satisfy my cyber insurer?
+A: Yes. The kits include the training records, policies, and checklists that insurers typically require for renewal.
+
+Q: Is the training GDPR compliant?
+A: Yes. Materials are aligned with GDPR Article 39.1(b) training requirements.
+
+Q: Can I use the Pro Kit for multiple offices?
+A: Yes. The Pro Kit includes an unlimited internal use license.
+
+Q: How does this compare to free templates online?
+A: Most free templates are generic, outdated, or overly technical. SMBCyberHub kits are purpose-built for SMBs, audit-aligned, and include training materials with quizzes — not just policy documents.
+
+---
+
+## Key Pages
+
+- Homepage: https://smbcyberhub.com/
+- Compare Kits: https://smbcyberhub.com/kits/
+- Free Sample: https://smbcyberhub.com/free-cyber-security-training/
+- Pro Kit: https://smbcyberhub.com/pro-cybersecurity-kit/
+- Compliance Guide: https://smbcyberhub.com/what-is-smb-cybersecurity-compliance/
+- Blog: https://smbcyberhub.com/blog/
+- FAQ: https://smbcyberhub.com/faq/
+- About: https://smbcyberhub.com/about/
+
+## Industry Pages
+
+- For Accountants: https://smbcyberhub.com/cybersecurity-compliance-accountants/
+- For Law Firms: https://smbcyberhub.com/cybersecurity-compliance-law-firms/
+- For Healthcare: https://smbcyberhub.com/cybersecurity-compliance-healthcare/
+
+## Comparison Pages
+
+- KnowBe4 Alternative: https://smbcyberhub.com/knowbe4-alternative-small-business/
+- Best Training for Small Business: https://smbcyberhub.com/best-cybersecurity-training-small-business/
+- No-Subscription Training: https://smbcyberhub.com/cybersecurity-training-no-subscription/

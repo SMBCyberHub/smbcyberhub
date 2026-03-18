@@ -1,0 +1,390 @@
+---
+import Layout from '../layouts/Layout.astro'
+
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: 'Cybersecurity Compliance for Small Healthcare Practices',
+  description: 'How small healthcare practices (1-20 staff) can meet cybersecurity compliance requirements including HIPAA training, GDPR health data protection, and cyber insurance documentation.',
+  url: 'https://smbcyberhub.com/cybersecurity-compliance-healthcare/',
+  author: {
+    '@type': 'Person',
+    name: 'Jim SMBCyberHub',
+    jobTitle: 'Cybersecurity Compliance Specialist',
+    url: 'https://smbcyberhub.com/about/'
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: 'SMBCyberHub',
+    url: 'https://smbcyberhub.com',
+    logo: { '@type': 'ImageObject', url: 'https://smbcyberhub.com/images/smbcyberhub-logo.webp' }
+  },
+  datePublished: '2026-03-18',
+  dateModified: '2026-03-18',
+  image: ['https://smbcyberhub.com/images/smbcyberhub-logo.webp'],
+  speakable: {
+    '@type': 'SpeakableSpecification',
+    cssSelector: ['h1', 'section .bg-gradient-to-r p']
+  }
+};
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'Does this cover HIPAA training requirements?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'The SMBCyberHub kit covers general cybersecurity awareness training and documentation — which addresses the workforce training component required by the HIPAA Security Rule (45 CFR 164.308(a)(5)). It is not a complete HIPAA compliance solution. Practices may need additional HIPAA-specific technical and administrative controls depending on their setup.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'Is this enough for a small medical office?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'For the cybersecurity awareness training and policy documentation component, yes. The kit provides 6 training modules, quizzes, policy templates, and training records suitable for audit evidence. For full regulatory compliance, small medical offices should also implement HIPAA-specific technical safeguards such as access controls, encryption, and audit logging.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'Can reception and admin staff use this without IT help?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Absolutely. The entire kit is designed for non-technical staff. Training modules use plain language with healthcare-relevant examples. Your practice manager or office administrator can deploy the training without any IT expertise. Everything runs offline from downloaded files.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'Will my cyber insurer accept this documentation?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Yes. The kit produces the documentation cyber insurers look for: dated staff training records with completion evidence, written security policies, incident response plans, and signed acknowledgment forms. These are the exact documents insurers request during application and renewal.'
+      }
+    }
+  ]
+};
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://smbcyberhub.com/' },
+    { '@type': 'ListItem', position: 2, name: 'Cybersecurity Compliance for Healthcare', item: 'https://smbcyberhub.com/cybersecurity-compliance-healthcare/' }
+  ]
+};
+---
+
+<Layout
+  title="Cybersecurity Compliance for Healthcare | SMBCyberHub"
+  description="Cybersecurity compliance training and documentation for small healthcare practices. HIPAA-aligned awareness training, policy templates, and audit-ready records."
+  ogType="article"
+>
+  <script type="application/ld+json" set:html={JSON.stringify(articleSchema)}></script>
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)}></script>
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)}></script>
+
+  <nav aria-label="Breadcrumb" class="max-w-4xl mx-auto px-4 pt-6 pb-2">
+    <ol class="flex flex-wrap items-center gap-1 text-sm text-gray-500">
+      <li><a href="/" class="hover:underline text-blue-700">Home</a></li>
+      <li class="mx-1" aria-hidden="true">/</li>
+      <li class="text-gray-700 font-medium" aria-current="page">Cybersecurity Compliance for Healthcare</li>
+    </ol>
+  </nav>
+
+  <section class="max-w-4xl mx-auto px-4 pt-4 pb-10">
+    <h1 class="text-4xl md:text-5xl font-extrabold text-blue-900 leading-tight mb-6">
+      Cybersecurity Compliance for Small Healthcare Practices
+    </h1>
+
+    <div class="bg-gradient-to-r from-blue-50 to-emerald-50 rounded-xl p-6 mb-8">
+      <p class="text-sm font-bold text-blue-800 uppercase tracking-wide mb-2">TL;DR</p>
+      <p class="text-lg font-semibold text-gray-800">
+        Small healthcare practices face the highest cybersecurity risk of any industry, yet most lack documented training and policies. The SMBCyberHub kit provides cybersecurity awareness training, policy templates, and audit-ready documentation that covers the workforce training requirements in the HIPAA Security Rule and GDPR health data protections — deployable by your practice manager in under 60 minutes, entirely offline, with zero patient data exposure.
+      </p>
+      <p class="text-sm text-gray-600 mt-3">
+        <strong>What it covers:</strong> Staff training (6 modules + quizzes), policy templates (acceptable use, data protection, incident response), training records for HIPAA audit evidence, and cyber insurance documentation. <strong>What it doesn't replace:</strong> A full HIPAA compliance program — you may still need technical safeguards, access controls, and a HIPAA-specific risk analysis.
+      </p>
+    </div>
+  </section>
+
+  <section class="bg-gray-50 py-12 px-4">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold text-blue-900 mb-6">Why Small Healthcare Practices Need Cybersecurity Compliance</h2>
+
+      <p class="text-lg text-gray-700 mb-6">
+        If you run a dental office, physiotherapy clinic, small GP practice, or counseling practice, your patient data is among the most valuable information on the dark web. Healthcare is not just another industry when it comes to cybersecurity — it is <em>the</em> most targeted sector.
+      </p>
+
+      <div class="space-y-4 mb-8">
+        <div class="bg-white p-5 rounded-lg shadow-sm border-l-4 border-red-500">
+          <h3 class="font-semibold text-gray-800 mb-1">Patient records are worth 10x more than credit cards</h3>
+          <p class="text-gray-600">A stolen medical record sells for $250-$1,000 on the dark web, compared to $5-$110 for a credit card number. Medical records contain names, dates of birth, insurance details, and health histories — a complete identity theft package that cannot be cancelled like a credit card.</p>
+        </div>
+        <div class="bg-white p-5 rounded-lg shadow-sm border-l-4 border-red-500">
+          <h3 class="font-semibold text-gray-800 mb-1">Healthcare is the #1 targeted industry for ransomware</h3>
+          <p class="text-gray-600">Attackers know healthcare practices will pay ransoms to restore access to patient data and keep operations running. Small practices are especially vulnerable because they rarely have dedicated IT security staff.</p>
+        </div>
+        <div class="bg-white p-5 rounded-lg shadow-sm border-l-4 border-amber-500">
+          <h3 class="font-semibold text-gray-800 mb-1">HIPAA requires security awareness training</h3>
+          <p class="text-gray-600">The HIPAA Security Rule (45 CFR 164.308(a)(5)) mandates that covered entities implement a security awareness and training program for all workforce members. Documented training records are among the first things auditors request.</p>
+        </div>
+        <div class="bg-white p-5 rounded-lg shadow-sm border-l-4 border-amber-500">
+          <h3 class="font-semibold text-gray-800 mb-1">Cyber insurance is increasingly required</h3>
+          <p class="text-gray-600">Many medical associations and healthcare networks now require member practices to carry cyber insurance. Insurers, in turn, require documented security awareness training and written policies before issuing or renewing coverage.</p>
+        </div>
+        <div class="bg-white p-5 rounded-lg shadow-sm border-l-4 border-blue-500">
+          <h3 class="font-semibold text-gray-800 mb-1">Patients are asking about data protection</h3>
+          <p class="text-gray-600">Patients are increasingly aware of data privacy. Being able to demonstrate that your practice trains staff on cybersecurity and has documented policies builds trust — and can be a differentiator when patients choose between providers.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-4xl mx-auto px-4 py-12">
+    <h2 class="text-3xl font-bold text-blue-900 mb-6">Regulatory Requirements for Healthcare Cybersecurity</h2>
+
+    <p class="text-gray-700 mb-6">
+      Healthcare practices face overlapping cybersecurity requirements depending on location and the type of data they handle:
+    </p>
+
+    <div class="space-y-6 mb-8">
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-blue-500">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">HIPAA Security Rule (United States)</h3>
+        <p class="text-gray-600 mb-2">Requires covered entities and business associates to implement administrative, physical, and technical safeguards for electronic Protected Health Information (ePHI). The administrative safeguards include mandatory workforce training on security policies and procedures.</p>
+        <p class="text-sm text-gray-500"><strong>Training requirement:</strong> 45 CFR 164.308(a)(5) — "Implement a security awareness and training program for all members of its workforce (including management)."</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-blue-500">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">GDPR (EU and UK)</h3>
+        <p class="text-gray-600 mb-2">Health data is classified as "special category data" under GDPR Article 9, requiring enhanced protections. GDPR Article 39.1(b) mandates regular security awareness training for staff handling personal data.</p>
+        <p class="text-sm text-gray-500"><strong>Penalties:</strong> Up to 20 million euro or 4% of global turnover for non-compliance.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-gray-400">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">State Health Privacy Laws</h3>
+        <p class="text-gray-600">Many US states have their own health data privacy laws that supplement HIPAA, including California (CCPA/CMIA), New York (SHIELD Act), Texas (HB 300), and Massachusetts (201 CMR 17.00). These often require additional training and documentation.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-gray-400">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Cyber Insurance Requirements</h3>
+        <p class="text-gray-600">Healthcare cyber insurers increasingly require evidence of documented security awareness training, written policies, and incident response plans before providing coverage. Non-compliant practices face higher premiums or coverage denial.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-gray-400">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Professional Body Standards</h3>
+        <p class="text-gray-600">Dental associations, medical boards, and professional licensing bodies increasingly include cybersecurity training and data protection in their continuing education and practice management requirements.</p>
+      </div>
+    </div>
+
+    <div class="bg-amber-50 border-l-4 border-amber-500 p-5 rounded-r-lg mb-8">
+      <p class="font-semibold text-gray-800 mb-2">Important: Understanding What the SMBCyberHub Kit Covers</p>
+      <p class="text-gray-700">
+        The SMBCyberHub kit covers <strong>general cybersecurity awareness training and policy documentation</strong> — the workforce training and documentation component that HIPAA, GDPR, and cyber insurers require. It is <strong>not</strong> a full HIPAA compliance solution. A complete HIPAA compliance program also requires technical safeguards (access controls, encryption, audit logging), physical safeguards, a HIPAA-specific risk analysis, and Business Associate Agreements. The kit addresses the training and documentation piece that most small practices find hardest to implement on their own.
+      </p>
+    </div>
+  </section>
+
+  <section class="bg-gray-50 py-12 px-4">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold text-blue-900 mb-6">How SMBCyberHub Helps Healthcare Practices</h2>
+
+      <p class="text-lg text-gray-700 mb-8">
+        Our kit is designed for practices without a dedicated IT person. Your office manager, practice administrator, or lead receptionist can deploy the entire training program — no technical expertise required.
+      </p>
+
+      <div class="grid md:grid-cols-2 gap-6 mb-8">
+        <div class="bg-white p-6 rounded-lg shadow-sm">
+          <h3 class="font-semibold text-blue-900 mb-3">Staff Training for Non-Technical Teams</h3>
+          <p class="text-gray-600">Training modules written in plain language for front desk staff, nurses, office administrators, and practice managers. No jargon — just clear, practical guidance on recognising threats and handling patient data responsibly. Each module takes 10-15 minutes.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-sm">
+          <h3 class="font-semibold text-blue-900 mb-3">Phishing Awareness</h3>
+          <p class="text-gray-600">Healthcare phishing is epidemic — fake insurance claims, spoofed patient portal emails, fraudulent appointment confirmations. The training includes real-world healthcare-relevant phishing examples so your team learns to spot the attacks they will actually encounter.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-sm">
+          <h3 class="font-semibold text-blue-900 mb-3">Policy Templates</h3>
+          <p class="text-gray-600">Ready-to-customise templates for acceptable use policies, data protection policies, and incident response plans. Written for small healthcare practices — not adapted from enterprise documents. Fill in your practice name and you are ready to go.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-sm">
+          <h3 class="font-semibold text-blue-900 mb-3">Training Records for Audit Evidence</h3>
+          <p class="text-gray-600">Every module includes completion records and signed acknowledgment forms. When a HIPAA auditor, insurer, or professional body asks for evidence that your staff have been trained, you have dated, documented proof ready to present.</p>
+        </div>
+      </div>
+
+      <div class="bg-blue-900 text-white rounded-xl p-6">
+        <h3 class="text-xl font-semibold mb-2">100% Offline — Zero Patient Data Exposure</h3>
+        <p class="text-blue-100">
+          The entire kit runs from downloaded files on your own computer. No cloud accounts, no logins, no data uploads. Unlike cloud-based training platforms that process employee data on external servers, SMBCyberHub never touches patient information or staff personal data. For a healthcare practice handling sensitive patient records, this offline approach eliminates an entire category of data exposure risk.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-4xl mx-auto px-4 py-12">
+    <h2 class="text-3xl font-bold text-blue-900 mb-6">What's In the Kit</h2>
+
+    <p class="text-lg text-gray-700 mb-6">
+      Everything your practice needs to implement cybersecurity awareness training and documentation — structured so your practice manager can deploy it in a lunch break.
+    </p>
+
+    <div class="grid md:grid-cols-3 gap-4 mb-8">
+      <div class="bg-white p-5 rounded-lg shadow-sm text-center">
+        <p class="text-3xl font-bold text-blue-900">6</p>
+        <p class="text-gray-600 font-medium">Training Modules</p>
+        <p class="text-sm text-gray-500 mt-1">Covering phishing, passwords, data protection, social engineering, incident reporting, and safe browsing</p>
+      </div>
+      <div class="bg-white p-5 rounded-lg shadow-sm text-center">
+        <p class="text-3xl font-bold text-blue-900">6</p>
+        <p class="text-gray-600 font-medium">Staff Quizzes</p>
+        <p class="text-sm text-gray-500 mt-1">One quiz per module to verify understanding and create documented assessment records</p>
+      </div>
+      <div class="bg-white p-5 rounded-lg shadow-sm text-center">
+        <p class="text-3xl font-bold text-blue-900">5+</p>
+        <p class="text-gray-600 font-medium">Policy Templates</p>
+        <p class="text-sm text-gray-500 mt-1">Acceptable use, data protection, incident response, remote work, and more</p>
+      </div>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-4 mb-8">
+      <div class="bg-white p-5 rounded-lg shadow-sm">
+        <h3 class="font-semibold text-gray-800 mb-2">Checklists</h3>
+        <p class="text-gray-600 text-sm">Implementation checklists, compliance verification checklists, and annual review checklists to keep your practice on track year after year.</p>
+      </div>
+      <div class="bg-white p-5 rounded-lg shadow-sm">
+        <h3 class="font-semibold text-gray-800 mb-2">Training Log Templates</h3>
+        <p class="text-gray-600 text-sm">Date-stamped training completion records, staff acknowledgment forms, and attendance logs — the exact documentation auditors and insurers request.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-gray-50 py-12 px-4">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold text-blue-900 mb-6">Cost Comparison</h2>
+
+      <div class="grid md:grid-cols-2 gap-6 mb-6">
+        <div class="bg-white p-6 rounded-lg shadow-sm border-2 border-gray-200">
+          <h3 class="text-xl font-semibold text-gray-800 mb-3">Healthcare Compliance Consulting</h3>
+          <p class="text-4xl font-bold text-gray-400 mb-2">$8,000 - $20,000</p>
+          <ul class="text-gray-600 text-sm space-y-2">
+            <li>Ongoing consulting fees</li>
+            <li>Monthly or annual retainers</li>
+            <li>Per-employee pricing that scales up</li>
+            <li>Weeks of implementation time</li>
+          </ul>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-sm border-2 border-emerald-500">
+          <h3 class="text-xl font-semibold text-emerald-800 mb-3">SMBCyberHub Pro Kit</h3>
+          <p class="text-4xl font-bold text-emerald-700 mb-2">$99 one-time</p>
+          <ul class="text-gray-600 text-sm space-y-2">
+            <li>One payment, yours to keep forever</li>
+            <li>No per-employee pricing</li>
+            <li>Deploy in under 60 minutes</li>
+            <li>No subscriptions, no renewals</li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="text-gray-600 text-sm text-center">
+        The SMBCyberHub kit covers cybersecurity awareness training and documentation. For practices needing full HIPAA compliance consulting (technical audits, risk analysis, BAA management), dedicated HIPAA consultants may also be needed. The kit handles the training component at a fraction of the cost.
+      </p>
+    </div>
+  </section>
+
+  <section class="max-w-4xl mx-auto px-4 py-12">
+    <div class="bg-white border border-gray-200 rounded-xl p-8 shadow-sm">
+      <blockquote>
+        <p class="text-lg text-gray-800 italic mb-4">
+          "Saved us 20+ hours of compliance work. The templates are professional and the training materials are actually engaging. Our team finally understands cybersecurity without the technical jargon."
+        </p>
+        <footer class="text-gray-600">
+          <strong>Sarah L.</strong>, Operations Manager — Toronto
+        </footer>
+      </blockquote>
+    </div>
+  </section>
+
+  <section class="bg-blue-900 text-white py-12 px-4">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-4">The Privacy Advantage for Healthcare</h2>
+      <p class="text-lg text-blue-100 max-w-3xl mx-auto mb-4">
+        Unlike cloud-based training platforms, SMBCyberHub never processes or stores patient information. Zero data exposure risk.
+      </p>
+      <p class="text-blue-200 max-w-3xl mx-auto">
+        Cloud-based compliance tools require employee accounts, store training data on external servers, and often integrate with practice management systems. For a healthcare practice, every external data connection is a potential HIPAA liability. SMBCyberHub eliminates this risk entirely — everything stays on your own systems, under your control.
+      </p>
+    </div>
+  </section>
+
+  <section class="max-w-4xl mx-auto px-4 py-12">
+    <h2 class="text-3xl font-bold text-blue-900 mb-8">Frequently Asked Questions</h2>
+
+    <div class="space-y-6">
+      <div class="bg-white p-6 rounded-lg shadow-sm">
+        <h3 class="text-lg font-semibold text-gray-800 mb-3">Does this cover HIPAA training requirements?</h3>
+        <p class="text-gray-700">
+          The kit covers general cybersecurity awareness training and documentation, which addresses the workforce training component required by the HIPAA Security Rule (45 CFR 164.308(a)(5)). It provides the training foundation and audit-ready documentation that most small practices struggle with. However, it is not a complete HIPAA compliance solution — practices may also need HIPAA-specific technical controls, a formal risk analysis, and Business Associate Agreements depending on their setup.
+        </p>
+      </div>
+
+      <div class="bg-white p-6 rounded-lg shadow-sm">
+        <h3 class="text-lg font-semibold text-gray-800 mb-3">Is this enough for a small medical office?</h3>
+        <p class="text-gray-700">
+          For the cybersecurity awareness training and policy documentation component — yes. The kit provides 6 training modules, quizzes, policy templates, and training records suitable for audit evidence. For full regulatory compliance, small medical offices should also implement technical safeguards (access controls, encryption, audit logging) and complete a HIPAA-specific risk analysis. Think of the kit as covering the human and documentation layer that regulators and insurers consistently find missing in small practices.
+        </p>
+      </div>
+
+      <div class="bg-white p-6 rounded-lg shadow-sm">
+        <h3 class="text-lg font-semibold text-gray-800 mb-3">Can reception and admin staff use this without IT help?</h3>
+        <p class="text-gray-700">
+          Absolutely. The entire kit is designed for non-technical staff. Training modules use plain language with practical examples relevant to healthcare settings. Your practice manager or office administrator can deploy the training, distribute policy documents, and collect signed acknowledgments without any IT expertise. Everything runs offline from downloaded files — no software installation, no cloud accounts, no technical setup.
+        </p>
+      </div>
+
+      <div class="bg-white p-6 rounded-lg shadow-sm">
+        <h3 class="text-lg font-semibold text-gray-800 mb-3">Will my cyber insurer accept this documentation?</h3>
+        <p class="text-gray-700">
+          Yes. The kit produces the documentation cyber insurers look for: dated staff training records with completion evidence, written security policies, incident response plans, and signed acknowledgment forms. These are the exact documents insurers request during application and renewal. Demonstrating an active security awareness program can also help reduce premiums.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-gray-50 py-12 px-4">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-blue-900 mb-4">Protect Your Practice and Your Patients</h2>
+      <p class="text-lg text-gray-700 mb-6 max-w-2xl mx-auto">
+        Get the cybersecurity training and documentation your healthcare practice needs — deployed in under 60 minutes, entirely offline, with no subscriptions and no patient data exposure.
+      </p>
+      <div class="flex flex-wrap justify-center gap-4 mb-8">
+        <a href="/kits/" class="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-8 py-4 rounded-lg shadow text-lg transition">
+          Get the Kit ($49 - $99)
+        </a>
+        <a href="/free-cyber-security-training/" class="border border-emerald-600 text-emerald-700 px-8 py-4 rounded-lg font-semibold hover:bg-emerald-50 text-lg transition">
+          Try Free Sample First
+        </a>
+      </div>
+      <p class="text-sm text-gray-500">One-time purchase. No subscription. No login required. Instant download.</p>
+    </div>
+  </section>
+
+  <section class="max-w-4xl mx-auto px-4 py-12">
+    <h2 class="text-2xl font-bold text-blue-900 mb-6">Related Resources</h2>
+    <div class="grid md:grid-cols-2 gap-4">
+      <a href="/free-cyber-security-training/" class="block bg-white p-5 rounded-lg shadow-sm border border-gray-200 hover:border-emerald-300 transition">
+        <h3 class="font-semibold text-blue-900 mb-1">Free Cybersecurity Training Sample</h3>
+        <p class="text-sm text-gray-600">Try a free training module before purchasing. See exactly what your team will receive.</p>
+      </a>
+      <a href="/kits/" class="block bg-white p-5 rounded-lg shadow-sm border border-gray-200 hover:border-emerald-300 transition">
+        <h3 class="font-semibold text-blue-900 mb-1">Compare Basic and Pro Kits</h3>
+        <p class="text-sm text-gray-600">See what is included in the Basic ($49) and Pro ($99) cybersecurity compliance kits.</p>
+      </a>
+      <a href="/what-is-smb-cybersecurity-compliance/" class="block bg-white p-5 rounded-lg shadow-sm border border-gray-200 hover:border-emerald-300 transition">
+        <h3 class="font-semibold text-blue-900 mb-1">What Is SMB Cybersecurity Compliance?</h3>
+        <p class="text-sm text-gray-600">Complete guide to cybersecurity compliance for small businesses with 1-20 employees.</p>
+      </a>
+      <a href="/cyber-insurance-renewal-checklist/" class="block bg-white p-5 rounded-lg shadow-sm border border-gray-200 hover:border-emerald-300 transition">
+        <h3 class="font-semibold text-blue-900 mb-1">Cyber Insurance Renewal Checklist</h3>
+        <p class="text-sm text-gray-600">Everything you need to prepare for cyber insurance renewal, including required documentation.</p>
+      </a>
+    </div>
+  </section>
+</Layout>
