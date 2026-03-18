@@ -1,0 +1,418 @@
+---
+import Layout from '../layouts/Layout.astro'
+
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: 'Cybersecurity Training Without a Subscription — One-Time Compliance Kits for Small Business',
+  description: 'Get audit-ready cybersecurity training with no monthly fees. One-time downloadable kits from €49. No logins, no subscriptions, no per-user pricing.',
+  url: 'https://smbcyberhub.com/cybersecurity-training-no-subscription/',
+  author: {
+    '@type': 'Person',
+    name: 'Jim SMBCyberHub',
+    jobTitle: 'Cybersecurity Compliance Specialist',
+    url: 'https://smbcyberhub.com/about/'
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: 'SMBCyberHub',
+    url: 'https://smbcyberhub.com',
+    logo: { '@type': 'ImageObject', url: 'https://smbcyberhub.com/images/smbcyberhub-logo.webp' }
+  },
+  datePublished: '2026-03-18',
+  dateModified: '2026-03-18',
+  image: ['https://smbcyberhub.com/images/smbcyberhub-logo.webp'],
+  speakable: {
+    '@type': 'SpeakableSpecification',
+    cssSelector: ['h1', 'section .bg-gradient-to-r p']
+  }
+};
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'Can I really get audit-ready without a subscription?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Yes. The SMBCyberHub Pro Kit includes 6 training modules, 6 quizzes, security policies, checklists, and audit documentation — everything needed to demonstrate compliance for cyber insurance or GDPR audits. It is a one-time download with no recurring fees.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'What if I need updates?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Cybersecurity fundamentals (password hygiene, phishing awareness, data handling) do not change year to year. The kit covers timeless best practices aligned with NIST CSF 2.0 and ISO 27001. If major regulatory changes occur, updated kits are available at the same one-time price — no forced upgrades or subscription lock-in.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'Is a one-time kit accepted by insurers?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Yes. Insurers require proof of training and documented policies — not a specific vendor platform. The SMBCyberHub kits include completion certificates, signed acknowledgment forms, and policy documents that satisfy standard cyber insurance requirements.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'How does no-subscription training compare to SaaS?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'SaaS platforms like KnowBe4 charge per user per month, require logins, and store your data on third-party servers. SMBCyberHub kits are a one-time download — no logins, no tracking, no per-user fees. You own the files outright and can train unlimited team members from a single purchase.'
+      }
+    }
+  ]
+};
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://smbcyberhub.com/' },
+    { '@type': 'ListItem', position: 2, name: 'No-Subscription Training', item: 'https://smbcyberhub.com/cybersecurity-training-no-subscription/' }
+  ]
+};
+---
+
+<Layout
+  title="Cybersecurity Training No Subscription | SMBCyberHub"
+  description="One-time cybersecurity compliance kits from €49. No monthly fees, no logins, no per-user pricing. Audit-ready training for small business."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(articleSchema)}></script>
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)}></script>
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)}></script>
+
+  <nav aria-label="Breadcrumb" class="max-w-4xl mx-auto px-4 pt-6 text-sm text-gray-500">
+    <ol class="flex items-center gap-1">
+      <li><a href="/" class="hover:text-blue-700 underline">Home</a></li>
+      <li class="before:content-['/'] before:mx-1">Cybersecurity Training No Subscription</li>
+    </ol>
+  </nav>
+
+  <section class="bg-gray-50 py-14 px-6 text-center">
+    <h1 class="text-4xl md:text-5xl font-extrabold text-blue-900 leading-tight mb-6 max-w-4xl mx-auto">
+      Cybersecurity Training Without a Subscription
+    </h1>
+    <p class="text-lg text-gray-700 max-w-2xl mx-auto mb-8">
+      One-time compliance kits that replace monthly SaaS fees. No logins, no per-user pricing, no vendor lock-in. Pay once, own it forever.
+    </p>
+
+    <div class="bg-white border border-blue-200 rounded-xl p-5 max-w-3xl mx-auto mb-8 text-left">
+      <p class="text-sm font-bold text-blue-800 uppercase tracking-wide mb-2">TL;DR</p>
+      <p class="text-gray-800">
+        SMBCyberHub sells <strong>downloadable cybersecurity compliance kits</strong> as a one-time purchase — <a href="/basic-cybersecurity-kit/" class="text-blue-700 underline">Basic at €49</a> or <a href="/pro-cybersecurity-kit/" class="text-blue-700 underline">Pro at €99</a>. No subscriptions, no logins, no per-user fees. The Pro Kit includes 6 training modules, 6 quizzes, security policies, checklists, and audit documentation. A 10-person team on KnowBe4 costs $2,160/year. SMBCyberHub Pro costs <strong>€99 once</strong>.
+      </p>
+    </div>
+
+    <div class="flex flex-wrap justify-center gap-4">
+      <a href="/free-cyber-security-training/" class="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-6 py-3 rounded-lg shadow transition">
+        Try the Free Sample
+      </a>
+      <a href="/kits/" class="bg-white border border-blue-600 text-blue-700 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition">
+        Compare Kits
+      </a>
+    </div>
+  </section>
+
+  <section class="max-w-4xl mx-auto px-4 py-12">
+    <h2 class="text-3xl font-bold text-blue-900 mb-6">The Subscription Problem</h2>
+
+    <p class="text-gray-700 mb-4">
+      Most cybersecurity training platforms charge per user, per month. For a small business, that math gets painful fast.
+    </p>
+
+    <div class="bg-red-50 rounded-lg p-6 mb-6">
+      <h3 class="font-semibold text-red-800 mb-4">Annual cost for a 10-person team:</h3>
+      <ul class="space-y-3 text-gray-700">
+        <li class="flex justify-between items-center border-b border-red-100 pb-2">
+          <span><strong>KnowBe4</strong> — ~$18/user/month</span>
+          <span class="font-bold text-red-700">$2,160/year</span>
+        </li>
+        <li class="flex justify-between items-center border-b border-red-100 pb-2">
+          <span><strong>Wizer</strong> — ~$3/user/month</span>
+          <span class="font-bold text-red-700">$360/year</span>
+        </li>
+        <li class="flex justify-between items-center">
+          <span><strong>SMBCyberHub Pro Kit</strong> — one-time purchase</span>
+          <span class="font-bold text-emerald-700">€99 once</span>
+        </li>
+      </ul>
+    </div>
+
+    <p class="text-gray-700 mb-4">
+      Subscription fatigue is real. You are paying for logins, dashboards, and user management features you may never use. Meanwhile, the core need is straightforward: train your team, document it, and have policies ready for an audit or insurance renewal.
+    </p>
+    <p class="text-gray-700">
+      That is exactly what a one-time compliance kit delivers — without the recurring invoice. For a detailed breakdown of how <a href="/saas-vs-downloadable/" class="text-blue-700 underline hover:text-blue-900">SaaS compares to downloadable kits</a>, see our full comparison.
+    </p>
+  </section>
+
+  <section class="bg-gray-50 py-12">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-blue-900 mb-6">What You Get Without a Subscription</h2>
+      <p class="text-gray-700 mb-6">
+        The <a href="/pro-cybersecurity-kit/" class="text-blue-700 underline hover:text-blue-900">SMBCyberHub Pro Kit (€99)</a> is a single download. No account creation, no login portal, no recurring charges. Here is everything included:
+      </p>
+
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-white p-6 rounded-lg shadow-sm border">
+          <h3 class="font-semibold text-blue-900 mb-3">Training Modules (6)</h3>
+          <ul class="space-y-2 text-gray-700 text-sm">
+            <li>Password security and MFA</li>
+            <li>Phishing and social engineering</li>
+            <li>Data handling and GDPR basics</li>
+            <li>Device and network security</li>
+            <li>Incident reporting procedures</li>
+            <li>Remote work security practices</li>
+          </ul>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow-sm border">
+          <h3 class="font-semibold text-blue-900 mb-3">Quizzes (6)</h3>
+          <ul class="space-y-2 text-gray-700 text-sm">
+            <li>One quiz per training module</li>
+            <li>Print-ready PDF format</li>
+            <li>Completion records for audit evidence</li>
+            <li>No online portal required</li>
+            <li>Reusable for new hires</li>
+            <li>Immediate scoring and documentation</li>
+          </ul>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow-sm border">
+          <h3 class="font-semibold text-blue-900 mb-3">Security Policies</h3>
+          <ul class="space-y-2 text-gray-700 text-sm">
+            <li>Information Security Policy</li>
+            <li>Acceptable Use Policy</li>
+            <li>Data Protection Policy</li>
+            <li>Remote Work Policy</li>
+            <li>Incident Response Plan</li>
+            <li>Ready to customize with your company name</li>
+          </ul>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow-sm border">
+          <h3 class="font-semibold text-blue-900 mb-3">Checklists and Audit Docs</h3>
+          <ul class="space-y-2 text-gray-700 text-sm">
+            <li>Compliance implementation checklist</li>
+            <li>Risk assessment template</li>
+            <li>Staff acknowledgment forms</li>
+            <li>Training completion certificates</li>
+            <li>Audit-ready documentation pack</li>
+            <li>Cyber insurance evidence bundle</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-4xl mx-auto px-4 py-12">
+    <h2 class="text-3xl font-bold text-blue-900 mb-6">3-Year Cost Comparison (10-Person Team)</h2>
+    <p class="text-gray-700 mb-6">
+      Subscriptions compound. A one-time purchase does not. Here is what each option costs over three years:
+    </p>
+
+    <div class="overflow-x-auto mb-8">
+      <table class="w-full border-collapse border border-gray-300 rounded-lg overflow-hidden">
+        <thead>
+          <tr class="bg-gray-50">
+            <th class="border border-gray-300 px-6 py-4 text-left font-semibold text-gray-800">Platform</th>
+            <th class="border border-gray-300 px-6 py-4 text-right font-semibold text-gray-800">Year 1</th>
+            <th class="border border-gray-300 px-6 py-4 text-right font-semibold text-gray-800">Year 2</th>
+            <th class="border border-gray-300 px-6 py-4 text-right font-semibold text-gray-800">Year 3</th>
+            <th class="border border-gray-300 px-6 py-4 text-right font-semibold text-gray-800">3-Year Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="border border-gray-300 px-6 py-4 font-medium">KnowBe4</td>
+            <td class="border border-gray-300 px-6 py-4 text-right text-red-600">$2,160</td>
+            <td class="border border-gray-300 px-6 py-4 text-right text-red-600">$2,160</td>
+            <td class="border border-gray-300 px-6 py-4 text-right text-red-600">$2,160</td>
+            <td class="border border-gray-300 px-6 py-4 text-right font-bold text-red-700">$6,480</td>
+          </tr>
+          <tr class="bg-gray-50">
+            <td class="border border-gray-300 px-6 py-4 font-medium">Wizer</td>
+            <td class="border border-gray-300 px-6 py-4 text-right text-red-600">$360</td>
+            <td class="border border-gray-300 px-6 py-4 text-right text-red-600">$360</td>
+            <td class="border border-gray-300 px-6 py-4 text-right text-red-600">$360</td>
+            <td class="border border-gray-300 px-6 py-4 text-right font-bold text-red-700">$1,080</td>
+          </tr>
+          <tr>
+            <td class="border border-gray-300 px-6 py-4 font-medium">SMBCyberHub Pro</td>
+            <td class="border border-gray-300 px-6 py-4 text-right text-emerald-600">€99</td>
+            <td class="border border-gray-300 px-6 py-4 text-right text-emerald-600">€0</td>
+            <td class="border border-gray-300 px-6 py-4 text-right text-emerald-600">€0</td>
+            <td class="border border-gray-300 px-6 py-4 text-right font-bold text-emerald-700">€99</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p class="text-gray-600 text-sm">
+      Figures based on published pricing as of early 2026. KnowBe4 pricing estimated from publicly available data for small business tiers. Wizer pricing based on their published per-user rates. SMBCyberHub kits are a one-time download with no renewal required.
+    </p>
+  </section>
+
+  <section class="bg-gray-50 py-12">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-blue-900 mb-6">But Is It As Good?</h2>
+
+      <p class="text-gray-700 mb-4">
+        Fair question. A lower price means nothing if the quality is not there. Here is what backs the SMBCyberHub kits:
+      </p>
+
+      <div class="grid md:grid-cols-2 gap-6 mb-6">
+        <div class="bg-white p-6 rounded-lg shadow-sm border">
+          <h3 class="font-semibold text-blue-900 mb-3">Standards Alignment</h3>
+          <ul class="space-y-2 text-gray-700 text-sm">
+            <li><strong>GDPR Article 39</strong> — Training content satisfies the Data Protection Officer awareness obligation under EU regulation</li>
+            <li><strong>ISO 27001</strong> — Policies and controls map to Annex A requirements for information security management</li>
+            <li><strong>NIST CSF 2.0</strong> — Training modules cover all five core functions: Identify, Protect, Detect, Respond, Recover</li>
+          </ul>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow-sm border">
+          <h3 class="font-semibold text-blue-900 mb-3">Real Customer Feedback</h3>
+          <div class="mb-4">
+            <div class="flex items-center gap-1 mb-2">
+              <span class="text-amber-500 text-lg">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <span class="text-gray-600 text-sm font-medium">4.9/5 from 8 reviews</span>
+            </div>
+            <p class="text-gray-700 text-sm">
+              Customers consistently highlight the speed of implementation and the completeness of the documentation. No fluff, no upsells — just the materials needed to get compliant.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <p class="text-gray-700">
+        The kits are not a stripped-down alternative. They cover the same compliance ground as enterprise SaaS platforms — the difference is the delivery model. You download files instead of logging into a portal. For a deeper comparison, see <a href="/saas-vs-downloadable/" class="text-blue-700 underline hover:text-blue-900">SaaS vs Downloadable</a>.
+      </p>
+    </div>
+  </section>
+
+  <section class="max-w-4xl mx-auto px-4 py-12">
+    <h2 class="text-3xl font-bold text-blue-900 mb-8">What Customers Say</h2>
+
+    <div class="grid md:grid-cols-2 gap-6">
+      <blockquote class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-emerald-500">
+        <p class="text-gray-700 mb-4 italic">
+          "Saved us 20+ hours of compliance work. Best investment we made this year."
+        </p>
+        <footer class="text-sm text-gray-600">
+          <strong>Sarah L.</strong> — Operations Manager, Toronto
+        </footer>
+      </blockquote>
+
+      <blockquote class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-emerald-500">
+        <p class="text-gray-700 mb-4 italic">
+          "All done in one afternoon. No logins, no subscriptions, just what we needed for our cyber insurance."
+        </p>
+        <footer class="text-sm text-gray-600">
+          <strong>Anna F.</strong> — Cafe Owner, Boston
+        </footer>
+      </blockquote>
+    </div>
+  </section>
+
+  <section class="bg-gray-50 py-12">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-blue-900 mb-6">Who This Is For</h2>
+
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-white p-6 rounded-lg shadow-sm border">
+          <h3 class="font-semibold text-blue-900 mb-3">Small Teams (1-20 People)</h3>
+          <p class="text-gray-700 text-sm">
+            Per-user SaaS pricing punishes growth. A downloadable kit covers your entire team for one fixed price, whether you have 2 employees or 20.
+          </p>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow-sm border">
+          <h3 class="font-semibold text-blue-900 mb-3">Office Managers Handling Compliance</h3>
+          <p class="text-gray-700 text-sm">
+            You are not a security expert — and you should not need to be. The kits are written in plain language with step-by-step instructions. No IT background required.
+          </p>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow-sm border">
+          <h3 class="font-semibold text-blue-900 mb-3">Businesses Preparing for Insurance or Audit</h3>
+          <p class="text-gray-700 text-sm">
+            Your insurer or auditor wants documented training and policies. The kit gives you exactly that — certificates, signed forms, and policy documents ready to submit. See our <a href="/cyber-insurance-renewal-checklist/" class="text-blue-700 underline hover:text-blue-900">insurance renewal checklist</a> for specifics.
+          </p>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow-sm border">
+          <h3 class="font-semibold text-blue-900 mb-3">Anyone Tired of Per-User Monthly Fees</h3>
+          <p class="text-gray-700 text-sm">
+            If you have cancelled a SaaS tool because the cost no longer made sense, this is the alternative. One payment, full ownership, no expiration date.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-4xl mx-auto px-4 py-12">
+    <h2 class="text-3xl font-bold text-blue-900 mb-8">Frequently Asked Questions</h2>
+
+    <div class="space-y-6">
+      <div class="bg-white p-6 rounded-lg shadow-sm border">
+        <h3 class="text-lg font-semibold text-gray-900 mb-3">Can I really get audit-ready without a subscription?</h3>
+        <p class="text-gray-700">
+          Yes. The Pro Kit includes training modules, quizzes with completion records, security policies, risk assessment templates, and staff acknowledgment forms. That is the full set of documentation auditors and insurers look for. No login portal required.
+        </p>
+      </div>
+
+      <div class="bg-white p-6 rounded-lg shadow-sm border">
+        <h3 class="text-lg font-semibold text-gray-900 mb-3">What if I need updates?</h3>
+        <p class="text-gray-700">
+          Cybersecurity fundamentals — password hygiene, phishing awareness, data handling — are stable year over year. The kits are aligned with NIST CSF 2.0 and ISO 27001, which update on multi-year cycles. If a major framework revision occurs, updated kits are available at the same one-time price. There is no forced upgrade path.
+        </p>
+      </div>
+
+      <div class="bg-white p-6 rounded-lg shadow-sm border">
+        <h3 class="text-lg font-semibold text-gray-900 mb-3">Is a one-time kit accepted by insurers?</h3>
+        <p class="text-gray-700">
+          Insurers require evidence of training and policies — not a specific platform or vendor. The kit provides completion certificates, signed acknowledgment forms, and formal policy documents. These meet standard cyber insurance documentation requirements. See our <a href="/cyber-insurance-renewal-checklist/" class="text-blue-700 underline hover:text-blue-900">insurance checklist</a> for the full list of what insurers ask for.
+        </p>
+      </div>
+
+      <div class="bg-white p-6 rounded-lg shadow-sm border">
+        <h3 class="text-lg font-semibold text-gray-900 mb-3">How does no-subscription training compare to SaaS?</h3>
+        <p class="text-gray-700">
+          SaaS platforms add dashboards, user management, and analytics — features that justify monthly fees but that many small businesses never use. A downloadable kit cuts to the core: training materials, quizzes, and policies in standard file formats you own. No logins, no tracking, no vendor dependency. For a detailed comparison, read <a href="/saas-vs-downloadable/" class="text-blue-700 underline hover:text-blue-900">SaaS vs Downloadable</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-blue-50 py-14 px-6 text-center">
+    <h2 class="text-3xl font-bold text-blue-900 mb-4">Stop Paying Monthly for Compliance</h2>
+    <p class="text-lg text-gray-700 max-w-2xl mx-auto mb-8">
+      Get the training, policies, and audit documentation your business needs — in one download, for one price.
+    </p>
+    <div class="flex flex-wrap justify-center gap-4 mb-6">
+      <a href="/kits/" class="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-8 py-4 rounded-lg shadow text-lg transition">
+        View Kits (€49 – €99)
+      </a>
+      <a href="/free-cyber-security-training/" class="border border-emerald-600 text-emerald-700 px-8 py-4 rounded-lg font-semibold hover:bg-emerald-50 text-lg transition">
+        Try Free Sample First
+      </a>
+    </div>
+    <p class="text-sm text-gray-500">No account required. Instant download. Yours to keep forever.</p>
+  </section>
+
+  <section class="max-w-4xl mx-auto px-4 py-10">
+    <h2 class="text-2xl font-bold text-blue-900 mb-4">Related Resources</h2>
+    <ul class="space-y-2 text-gray-700">
+      <li><a href="/kits/" class="text-blue-700 underline hover:text-blue-900">Compare Basic and Pro Kits</a></li>
+      <li><a href="/free-cyber-security-training/" class="text-blue-700 underline hover:text-blue-900">Free Cybersecurity Training Sample</a></li>
+      <li><a href="/saas-vs-downloadable/" class="text-blue-700 underline hover:text-blue-900">SaaS vs Downloadable — Full Comparison</a></li>
+      <li><a href="/knowbe4-alternative-small-business/" class="text-blue-700 underline hover:text-blue-900">KnowBe4 Alternative for Small Business</a></li>
+      <li><a href="/best-cybersecurity-training-small-business/" class="text-blue-700 underline hover:text-blue-900">Best Cybersecurity Training for Small Business</a></li>
+    </ul>
+  </section>
+</Layout>

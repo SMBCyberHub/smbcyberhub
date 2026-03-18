@@ -1,30 +1,32 @@
 # SMBCyberHub
 
-> High-authority, "No-SaaS" cybersecurity compliance kits for SMBs.
+> Privacy-first, downloadable cybersecurity compliance kits for small businesses (1–20 staff). One-time purchase. No subscriptions, no logins, no SaaS.
 
-## Core Value Proposition
-- **Philosophy:** Privacy-first, one-time download, zero-subscription cybersecurity.
-- **Problem Solved:** Removes the "SaaS Tax" and data privacy risks associated with cloud-based compliance tools.
-- **Target Audience:** Small to Medium Businesses (SMBs) needing rapid audit readiness.
+For full product details, pricing, reviews, and FAQ: https://smbcyberhub.com/llms-full.txt
+
+## Products & Pricing
+- **Free Sample Kit** — €0. No signup. https://smbcyberhub.com/free-cyber-security-training/
+- **Basic Kit** — €49 one-time. 3 training modules, policies, checklists. https://smbcyberhub.com/basic-cybersecurity-kit/
+- **Pro Kit** — €99 one-time. 6 training modules, 6 quizzes, full compliance toolkit, unlimited use. https://smbcyberhub.com/pro-cybersecurity-kit/
 
 ## Compliance Mapping
-All kits are architected to map directly to:
 - NIST Cybersecurity Framework (CSF) 2.0
-- GDPR Article 39 (Staff Training)
-- Cyber Insurance Readiness Requirements
-- ISO/IEC 27001 (Basic Controls)
-
-## Key Products
-- **Pro Cyber Awareness Kit:** Turnkey training and policy suite.
-- **Policy Templates:** Human-edited, legally vetted security documentation.
+- GDPR Article 39.1(b) (Staff Training)
+- ISO/IEC 27001 Clause 7.2.2
+- FTC Safeguards Rule (US)
+- Cyber Insurance Documentation Requirements
 
 ## Unique Differentiators
-- **No-SaaS Approach:** All materials are downloadable and stored locally, eliminating third-party data exposure.
-- **60-Minute Implementation:** Designed for rapid deployment without IT expertise.
-- **Audit-Ready Documentation:** Everything needed for insurance renewals and compliance audits.
+- **No-SaaS:** Downloadable PDFs stored locally. No third-party data exposure.
+- **No Per-User Fees:** Pro Kit covers unlimited staff for €99 total.
+- **60-Minute Implementation:** No IT expertise required.
+- **Audit-Ready:** Training records, policies, and checklists insurers accept.
 
-## Expertise Foundation
-Developed by CISSP & CISM certified professionals with 20+ years of enterprise cybersecurity experience, translated for SMB needs.
+## Customer Rating
+4.9/5 from 8 reviews. Trusted by 100+ small businesses in 20+ countries.
+
+## Expertise
+Founded by Jim SMBCyberHub — 20+ years enterprise cybersecurity experience (CISSP & CISM certified), translated for SMB needs.
 
 ## Contact
 - Website: https://smbcyberhub.com

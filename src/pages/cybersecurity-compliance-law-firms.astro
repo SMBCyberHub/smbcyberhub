@@ -1,0 +1,335 @@
+---
+import Layout from '../layouts/Layout.astro'
+
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: 'Cybersecurity Compliance for Law Firms: A Practical Guide',
+  description: 'How small law firms (1-20 staff) achieve cybersecurity compliance, protect attorney-client privilege, and satisfy SRA, ABA, and cyber insurance requirements.',
+  url: 'https://smbcyberhub.com/cybersecurity-compliance-law-firms/',
+  author: {
+    '@type': 'Person',
+    name: 'Jim SMBCyberHub',
+    jobTitle: 'Cybersecurity Compliance Specialist',
+    url: 'https://smbcyberhub.com/about/'
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: 'SMBCyberHub',
+    url: 'https://smbcyberhub.com',
+    logo: { '@type': 'ImageObject', url: 'https://smbcyberhub.com/images/smbcyberhub-logo.webp' }
+  },
+  datePublished: '2026-03-18',
+  dateModified: '2026-03-18',
+  image: ['https://smbcyberhub.com/images/smbcyberhub-logo.webp'],
+  speakable: {
+    '@type': 'SpeakableSpecification',
+    cssSelector: ['h1', 'section .bg-gradient-to-r p']
+  }
+};
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'Does this meet SRA cybersecurity requirements?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Yes. The SMBCyberHub Pro Kit provides the documented security policies, staff training records, incident response plan, and risk assessment evidence that the SRA Standards and Regulations expect from regulated law firms. All materials run offline, so no client data leaves your premises.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'Can I use this for Law Society compliance?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Yes. The kit covers the core cybersecurity obligations common across Law Society requirements in England & Wales, Ireland, Scotland, and other common-law jurisdictions: documented policies, staff awareness training, data protection procedures, and incident response planning.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'Is the training suitable for non-technical legal staff?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Absolutely. Every module is written in plain English for secretaries, paralegals, associates, and office managers with no IT background. Topics include phishing awareness, password security, safe file sharing, and clean desk practices — all with legal-sector examples like fraudulent settlement emails and spoofed court notices.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'Will this satisfy our professional indemnity insurer?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'The kit provides exactly what cyber and professional indemnity insurers look for: documented staff training records, written security policies, an incident response plan, and risk assessment evidence. Many small law firms use SMBCyberHub documentation to support their insurance applications and renewals.'
+      }
+    }
+  ]
+};
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://smbcyberhub.com/' },
+    { '@type': 'ListItem', position: 2, name: 'Cybersecurity Compliance for Law Firms', item: 'https://smbcyberhub.com/cybersecurity-compliance-law-firms/' }
+  ]
+};
+---
+
+<Layout
+  title="Cybersecurity Compliance for Law Firms | SMBCyberHub"
+  description="Cybersecurity compliance for small law firms. Protect client privilege, meet SRA and ABA requirements, and satisfy cyber insurers. From 49 one-time."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(articleSchema)}></script>
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)}></script>
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)}></script>
+
+  <section class="max-w-4xl mx-auto px-4 py-10">
+
+    <nav aria-label="Breadcrumb" class="text-sm text-gray-500 mb-6">
+      <ol class="flex items-center gap-1">
+        <li><a href="/" class="hover:underline text-blue-600">Home</a></li>
+        <li class="before:content-['/'] before:mx-1">Cybersecurity Compliance for Law Firms</li>
+      </ol>
+    </nav>
+
+    <h1 class="text-4xl md:text-5xl font-extrabold text-blue-900 leading-tight mb-6">Cybersecurity Compliance for Law Firms</h1>
+
+    <div class="bg-gradient-to-r from-blue-50 to-emerald-50 rounded-xl p-6 border-l-4 border-blue-500 mb-8">
+      <p class="text-sm font-bold text-blue-800 uppercase tracking-wide mb-2">TL;DR</p>
+      <p class="text-lg text-gray-800">
+        Small law firms hold some of the most sensitive data in any industry — yet most lack formal cybersecurity policies. Regulators, insurers, and clients now expect documented compliance. The <strong>SMBCyberHub Pro Kit</strong> gives your practice audit-ready training, policies, and checklists for <strong>a one-time fee of just &euro;99</strong> — no subscriptions, no logins, and no client data ever leaves your devices.
+      </p>
+    </div>
+
+    <p class="text-lg text-gray-700 mb-10">
+      If you are a solicitor, partner, or office manager at a small law firm, this guide explains what cybersecurity compliance means for your practice, why it matters now more than ever, and how to achieve it without hiring consultants or deploying enterprise software.
+    </p>
+
+    <h2 class="text-3xl font-bold text-blue-900 mt-12 mb-5">Why Law Firms Need Cybersecurity Compliance</h2>
+
+    <p class="text-gray-700 mb-6">
+      Law firms are not ordinary small businesses when it comes to data risk. Attorney-client privilege creates a duty of confidentiality that goes beyond standard data protection — a breach does not just expose personal data, it can compromise active cases, destroy client trust, and trigger professional misconduct proceedings.
+    </p>
+
+    <div class="grid md:grid-cols-2 gap-6 mb-8">
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-red-500">
+        <h3 class="font-semibold text-gray-800 mb-2">High-Value Targets</h3>
+        <p class="text-gray-600">Law firms are disproportionately targeted by phishing and business email compromise (BEC) attacks. Criminals know that firms handle large financial transactions — conveyancing deposits, settlement funds, and client account transfers — making fraudulent payment redirection extremely lucrative.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-red-500">
+        <h3 class="font-semibold text-gray-800 mb-2">Attorney-Client Privilege at Risk</h3>
+        <p class="text-gray-600">A data breach at a law firm does not just incur fines — it can waive privilege on affected communications, compromise ongoing litigation, and expose clients to further legal and financial harm. The reputational damage alone can be practice-ending.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-amber-500">
+        <h3 class="font-semibold text-gray-800 mb-2">Regulatory Expectations Are Rising</h3>
+        <p class="text-gray-600">The SRA in England and Wales, bar associations across the US, and law societies globally are tightening cybersecurity requirements. Firms without documented policies and training are increasingly at risk of regulatory action, not just after a breach, but during routine compliance reviews.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-amber-500">
+        <h3 class="font-semibold text-gray-800 mb-2">Cyber Insurance Is Now Essential</h3>
+        <p class="text-gray-600">Professional indemnity insurers now routinely ask about cybersecurity controls. Firms without documented policies, staff training records, and an incident response plan face higher premiums, reduced coverage, or outright refusal. Cyber insurance for law firms has become a prerequisite, not an option.</p>
+      </div>
+    </div>
+
+    <h2 class="text-3xl font-bold text-blue-900 mt-12 mb-5">Regulatory Requirements for Law Firms</h2>
+
+    <p class="text-gray-700 mb-6">
+      Depending on your jurisdiction, multiple overlapping regulations apply to how your firm handles client data and manages cybersecurity risk. Here are the key frameworks:
+    </p>
+
+    <div class="space-y-6 mb-8">
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-blue-500">
+        <h3 class="font-semibold text-gray-800 mb-2">GDPR (EU/UK)</h3>
+        <p class="text-gray-600">Every law firm processing personal data of EU or UK residents must comply. This means documented data protection policies, staff training (Article 39.1(b)), breach notification within 72 hours, and demonstrable technical and organisational measures. Client files, witness statements, and correspondence all contain personal data.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-blue-500">
+        <h3 class="font-semibold text-gray-800 mb-2">SRA Standards and Regulations (UK)</h3>
+        <p class="text-gray-600">The Solicitors Regulation Authority requires firms to have effective systems and controls for identifying, assessing, and managing cybersecurity risks. The SRA has made cybersecurity a regulatory priority and publishes regular thematic reviews on firm preparedness. Non-compliance can result in enforcement action.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-blue-500">
+        <h3 class="font-semibold text-gray-800 mb-2">ABA Model Rules of Professional Conduct — Rule 1.6 (US)</h3>
+        <p class="text-gray-600">Rule 1.6(c) requires lawyers to &ldquo;make reasonable efforts to prevent the inadvertent or unauthorized disclosure of, or unauthorized access to, information relating to the representation of a client.&rdquo; ABA Formal Opinion 477R clarifies that this includes adopting cybersecurity measures proportionate to the sensitivity of the information.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-blue-500">
+        <h3 class="font-semibold text-gray-800 mb-2">State Bar Ethics Rules and Client Contractual Obligations</h3>
+        <p class="text-gray-600">Many US state bars have issued ethics opinions requiring documented cybersecurity practices. Additionally, corporate and institutional clients increasingly require their outside counsel to demonstrate compliance with specific security standards as a condition of engagement.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-blue-500">
+        <h3 class="font-semibold text-gray-800 mb-2">Cyber Insurance and Professional Indemnity Requirements</h3>
+        <p class="text-gray-600">Insurers now require documented evidence of cybersecurity controls: staff training records, written security policies, incident response plans, and risk assessments. Without these, your firm may face exclusions, higher excesses, or policy refusal at renewal. See our <a href="/cyber-insurance-renewal-checklist/" class="text-blue-600 hover:underline">cyber insurance renewal checklist</a>.</p>
+      </div>
+    </div>
+
+    <h2 class="text-3xl font-bold text-blue-900 mt-12 mb-5">How SMBCyberHub Helps Law Firms</h2>
+
+    <p class="text-gray-700 mb-6">
+      The <a href="/pro-cybersecurity-kit/" class="text-blue-600 hover:underline font-semibold">SMBCyberHub Pro Kit</a> maps directly to the compliance requirements that law firms face. It was designed for small teams without dedicated IT staff — your office manager or practice manager can deploy it.
+    </p>
+
+    <div class="bg-emerald-50 rounded-xl p-6 mb-8">
+      <ul class="space-y-4">
+        <li class="flex items-start gap-3">
+          <div class="text-emerald-600 font-bold mt-0.5">&#10003;</div>
+          <span><strong>Staff training for every role:</strong> Modules written for secretaries, paralegals, associates, and partners. No technical jargon. Covers phishing, password security, safe file sharing, and physical security — all with legal-sector examples.</span>
+        </li>
+        <li class="flex items-start gap-3">
+          <div class="text-emerald-600 font-bold mt-0.5">&#10003;</div>
+          <span><strong>Phishing awareness training:</strong> Law firms are the number-one target for business email compromise. The kit includes dedicated phishing modules with examples of fraudulent settlement requests, spoofed court notices, and impersonated client emails.</span>
+        </li>
+        <li class="flex items-start gap-3">
+          <div class="text-emerald-600 font-bold mt-0.5">&#10003;</div>
+          <span><strong>Ready-to-use policy templates:</strong> Acceptable use policy, data retention policy, incident response plan, clean desk policy, remote working policy, and more. Customise with your firm name and you are audit-ready.</span>
+        </li>
+        <li class="flex items-start gap-3">
+          <div class="text-emerald-600 font-bold mt-0.5">&#10003;</div>
+          <span><strong>Audit documentation for insurers and regulators:</strong> Training completion records, staff acknowledgment forms, risk assessment templates, and compliance checklists that satisfy SRA, Law Society, and cyber insurance requirements.</span>
+        </li>
+        <li class="flex items-start gap-3">
+          <div class="text-emerald-600 font-bold mt-0.5">&#10003;</div>
+          <span><strong>100% offline and local:</strong> The entire kit runs on your own devices. No cloud platform, no SaaS login, no third-party data processing. Your client files, case notes, and privileged communications never touch an external server. This is not just a feature — for law firms, it is a privilege-preservation requirement.</span>
+        </li>
+      </ul>
+    </div>
+
+    <h2 class="text-3xl font-bold text-blue-900 mt-12 mb-5">What's In the Kit</h2>
+
+    <div class="grid md:grid-cols-2 gap-6 mb-6">
+      <div class="bg-white p-6 rounded-lg shadow-sm">
+        <h3 class="font-semibold text-blue-900 mb-3">Training Materials</h3>
+        <ul class="space-y-2 text-gray-600">
+          <li>6 security awareness training modules</li>
+          <li>6 corresponding staff quizzes</li>
+          <li>Printable training slides (PDF)</li>
+          <li>Training completion certificates</li>
+          <li>Attendance and sign-off records</li>
+        </ul>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-sm">
+        <h3 class="font-semibold text-blue-900 mb-3">Policies and Checklists</h3>
+        <ul class="space-y-2 text-gray-600">
+          <li>Information Security Policy</li>
+          <li>Acceptable Use Policy</li>
+          <li>Data Retention and Destruction Policy</li>
+          <li>Incident Response Plan</li>
+          <li>Clean Desk Policy</li>
+          <li>Risk assessment templates</li>
+          <li>Audit-readiness checklists</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="bg-blue-50 border-l-4 border-blue-500 p-5 rounded-lg mb-8">
+      <p class="text-gray-800 font-semibold">No IT team needed. Your office manager or practice manager can deploy this in 60 minutes.</p>
+      <p class="text-gray-600 text-sm mt-1">Download, customise the policy templates with your firm name, deliver training to staff, and file the signed records. That is your compliance documentation sorted.</p>
+    </div>
+
+    <h2 class="text-3xl font-bold text-blue-900 mt-12 mb-5">The Cost of Compliance: Consultants vs. SMBCyberHub</h2>
+
+    <div class="bg-gray-50 rounded-xl p-8 mb-8">
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="text-center">
+          <div class="bg-red-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+            <span class="text-red-700 font-bold text-lg">$$$$</span>
+          </div>
+          <h3 class="font-semibold text-gray-800 mb-2">Legal-Specific Cybersecurity Consulting</h3>
+          <p class="text-3xl font-extrabold text-red-700 mb-2">&euro;10,000 &ndash; &euro;25,000</p>
+          <p class="text-sm text-gray-500">Per engagement. Often requires annual refresh.</p>
+        </div>
+        <div class="text-center">
+          <div class="bg-emerald-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+            <span class="text-emerald-700 font-bold text-lg">&euro;99</span>
+          </div>
+          <h3 class="font-semibold text-gray-800 mb-2">SMBCyberHub Pro Kit</h3>
+          <p class="text-3xl font-extrabold text-emerald-700 mb-2">&euro;99 one-time</p>
+          <p class="text-sm text-gray-500">No subscription. No renewal fee. Yours to keep and reuse.</p>
+        </div>
+      </div>
+      <p class="text-center text-gray-600 mt-6 text-sm">
+        The Basic Kit at &euro;49 covers essential training and core policies. The <a href="/pro-cybersecurity-kit/" class="text-blue-600 hover:underline">Pro Kit at &euro;99</a> adds advanced modules, additional policy templates, and comprehensive audit documentation.
+      </p>
+    </div>
+
+    <div class="bg-white border border-gray-200 rounded-xl p-8 mb-10 shadow-sm">
+      <blockquote class="text-lg text-gray-700 italic mb-4">
+        &ldquo;Passed our GDPR audit on the first attempt! The auditor was impressed with our documentation and training records. SMBCyberHub made compliance actually achievable for our small team.&rdquo;
+      </blockquote>
+      <p class="text-gray-600 font-semibold">&mdash; Michael R, Managing Director, Sydney</p>
+    </div>
+
+    <h2 class="text-3xl font-bold text-blue-900 mt-12 mb-5">The Privacy Advantage for Law Firms</h2>
+
+    <div class="bg-gradient-to-r from-blue-50 to-emerald-50 rounded-xl p-6 border-l-4 border-emerald-500 mb-8">
+      <p class="text-lg text-gray-800 font-semibold mb-3">
+        Unlike SaaS compliance platforms, SMBCyberHub kits never upload your data anywhere.
+      </p>
+      <p class="text-gray-700">
+        Your client information stays on your devices — exactly where attorney-client privilege requires it to be. There is no cloud dashboard, no user accounts, no analytics tracking your staff activity, and no third-party processor to add to your GDPR records of processing. You download the kit, use it offline, and maintain complete control over every document.
+      </p>
+      <p class="text-gray-600 text-sm mt-3">
+        For law firms, this is not a nice-to-have — it is a professional obligation. Every SaaS platform you use to manage compliance creates another data processing relationship that must be disclosed, assessed, and documented. SMBCyberHub eliminates that complexity entirely.
+      </p>
+    </div>
+
+    <h2 class="text-3xl font-bold text-blue-900 mt-12 mb-6">Frequently Asked Questions</h2>
+
+    <div class="space-y-6 mb-10">
+      <div class="bg-white p-6 rounded-lg shadow-sm">
+        <h3 class="text-lg font-semibold text-gray-800 mb-3">Does this meet SRA cybersecurity requirements?</h3>
+        <p class="text-gray-700">Yes. The Pro Kit provides the documented security policies, staff training records, incident response plan, and risk assessment evidence that the SRA Standards and Regulations expect from regulated law firms. All materials run offline, so no client data leaves your premises.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-sm">
+        <h3 class="text-lg font-semibold text-gray-800 mb-3">Can I use this for Law Society compliance?</h3>
+        <p class="text-gray-700">Yes. The kit covers the core cybersecurity obligations common across Law Society requirements in England and Wales, Ireland, Scotland, and other common-law jurisdictions: documented policies, staff awareness training, data protection procedures, and incident response planning.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-sm">
+        <h3 class="text-lg font-semibold text-gray-800 mb-3">Is the training suitable for non-technical legal staff?</h3>
+        <p class="text-gray-700">Absolutely. Every module is written in plain English for secretaries, paralegals, associates, and office managers with no IT background. Topics include phishing awareness, password security, safe file sharing, and clean desk practices — all with legal-sector examples like fraudulent settlement emails and spoofed court notices.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-sm">
+        <h3 class="text-lg font-semibold text-gray-800 mb-3">Will this satisfy our professional indemnity insurer?</h3>
+        <p class="text-gray-700">The kit provides exactly what cyber and professional indemnity insurers look for: documented staff training records, written security policies, an incident response plan, and risk assessment evidence. Many small law firms use SMBCyberHub documentation to support their insurance applications and renewals.</p>
+      </div>
+    </div>
+
+    <div class="text-center bg-blue-50 rounded-xl p-8 mb-10">
+      <h2 class="text-2xl font-bold text-blue-900 mb-4">Protect Your Practice. Satisfy Your Regulators.</h2>
+      <p class="text-gray-700 mb-6">Get audit-ready cybersecurity compliance documentation for your law firm — in 60 minutes, for a one-time fee.</p>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="/pro-cybersecurity-kit/" class="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-8 py-4 rounded-lg shadow text-lg transition">
+          Get the Pro Kit — &euro;99
+        </a>
+        <a href="/free-cyber-security-training/" class="border border-emerald-600 text-emerald-700 px-8 py-4 rounded-lg font-semibold hover:bg-emerald-50 text-lg transition">
+          Try a Free Sample First
+        </a>
+      </div>
+      <p class="text-sm text-gray-500 mt-3">One-time purchase. No subscription. No login required.</p>
+    </div>
+
+    <h2 class="text-2xl font-bold text-blue-900 mt-12 mb-5">Related Resources</h2>
+
+    <div class="grid md:grid-cols-2 gap-4 mb-10">
+      <a href="/free-cyber-security-training/" class="block bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition border-l-4 border-emerald-500">
+        <h3 class="font-semibold text-gray-800">Free Cybersecurity Training Sample</h3>
+        <p class="text-sm text-gray-600">Try a training module before you buy — no signup needed.</p>
+      </a>
+      <a href="/kits/" class="block bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition border-l-4 border-blue-500">
+        <h3 class="font-semibold text-gray-800">Compare Basic and Pro Kits</h3>
+        <p class="text-sm text-gray-600">Side-by-side comparison of everything included.</p>
+      </a>
+      <a href="/what-is-smb-cybersecurity-compliance/" class="block bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition border-l-4 border-blue-500">
+        <h3 class="font-semibold text-gray-800">What Is SMB Cybersecurity Compliance?</h3>
+        <p class="text-sm text-gray-600">The complete guide for small businesses.</p>
+      </a>
+      <a href="/cyber-insurance-renewal-checklist/" class="block bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition border-l-4 border-emerald-500">
+        <h3 class="font-semibold text-gray-800">Cyber Insurance Renewal Checklist</h3>
+        <p class="text-sm text-gray-600">Every document your insurer expects at renewal.</p>
+      </a>
+      <a href="/posts/safe-client-file-sharing-simple-rules/" class="block bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition border-l-4 border-blue-500">
+        <h3 class="font-semibold text-gray-800">Safe Client File Sharing: Simple Rules</h3>
+        <p class="text-sm text-gray-600">Practical guidance for sharing sensitive documents securely.</p>
+      </a>
+    </div>
+
+  </section>
+</Layout>
