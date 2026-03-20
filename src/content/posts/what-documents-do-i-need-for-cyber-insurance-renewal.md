@@ -244,7 +244,7 @@ Start training 30 days before renewal. Insurers like to see recent training (wit
 
 ---
 
-## Quick Start: Get Audit-Ready in 30 Minutes
+## Quick Start: Get Audit-Ready in 60 Minutes
 
 If you're short on time, our [Pro Cybersecurity Kit](/kits/) includes:
 
