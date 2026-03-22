@@ -373,7 +373,7 @@ const faqSchema = {
       One-time download. No logins. No subscriptions. Just download and protect your business—<strong>audit-ready in 60 minutes</strong>.
     </p>
     <div class="flex justify-center mb-2">
-      <a href="/free-cyber-security-training/" class="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-8 py-4 rounded-lg shadow transform hover:scale-105 transition inline-flex items-center justify-center text-lg flex-wrap">
+      <a href="/free-cyber-security-training/" data-umami-event="cta-free-sample" class="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-8 py-4 rounded-lg shadow transform hover:scale-105 transition inline-flex items-center justify-center text-lg flex-wrap">
         <svg class="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
         </svg>
@@ -382,13 +382,13 @@ const faqSchema = {
       </a>
     </div>
     <div class="flex flex-col sm:flex-row justify-center gap-4 mb-6">
-      <a href="/kits/" class="bg-white border border-blue-600 text-blue-700 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 flex items-center justify-center">
+      <a href="/kits/" data-umami-event="cta-compare-kits" class="bg-white border border-blue-600 text-blue-700 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 flex items-center justify-center">
         <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path>
         </svg>
         Compare All Kits
       </a>
-      <a href="https://smbcyberhub.gumroad.com/l/prokit" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 font-medium underline">
+      <a href="https://smbcyberhub.gumroad.com/l/prokit" target="_blank" rel="noopener noreferrer" data-umami-event="buy-pro-kit" class="text-blue-600 hover:text-blue-800 font-medium underline">
         Get Pro Kit (€99) →
       </a>
     </div>
@@ -451,7 +451,7 @@ const faqSchema = {
           <p class="text-sm text-gray-600">
             <strong>One-time purchase. No subscriptions. No per-user fees. Yours forever.</strong>
           </p>
-          <a href="/kits/" class="inline-block mt-3 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-6 py-3 rounded-lg shadow transition">
+          <a href="/kits/" data-umami-event="cta-compare-kits" class="inline-block mt-3 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-6 py-3 rounded-lg shadow transition">
             See Full Comparison →
           </a>
         </div>
@@ -590,7 +590,7 @@ const faqSchema = {
   <!-- 📚 Featured Resources Section -->
   <section class="bg-white py-16 px-6 max-w-4xl mx-auto text-center">
     <h2 class="text-2xl font-bold text-blue-800 mb-8">Featured Resources</h2>
-    <div class="grid md:grid-cols-3 gap-6 text-left">
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 text-left">
       <div class="bg-emerald-50 border border-emerald-200 p-6 rounded-lg">
         <h3 class="text-lg font-semibold text-emerald-800 mb-3">🎯 SMB Cybersecurity Compliance Guide</h3>
         <p class="text-gray-700 mb-4">Complete guide to GDPR requirements, audit readiness, and practical implementation steps for small businesses.</p>
@@ -605,6 +605,15 @@ const faqSchema = {
         <h3 class="text-lg font-semibold text-amber-800 mb-3">🇺🇸 US Compliance: NIST & FTC Guides</h3>
         <p class="text-gray-700 mb-4">NIST Cybersecurity Framework and FTC Safeguards Rule explained for US small businesses — plain English, no jargon.</p>
         <a href="/posts/nist-cybersecurity-framework-small-business-guide/" class="text-amber-700 font-semibold hover:underline">Read US Compliance Guides →</a>
+      </div>
+      <div class="bg-purple-50 border border-purple-200 p-6 rounded-lg">
+        <h3 class="text-lg font-semibold text-purple-800 mb-3">🏥 Industry Compliance Guides</h3>
+        <p class="text-gray-700 mb-4">Tailored cybersecurity compliance guidance for regulated industries — healthcare, accounting, and legal.</p>
+        <ul class="space-y-2">
+          <li><a href="/cybersecurity-compliance-healthcare/" class="text-purple-700 font-semibold hover:underline">Healthcare Compliance →</a></li>
+          <li><a href="/cybersecurity-compliance-accountants/" class="text-purple-700 font-semibold hover:underline">Accountants Compliance →</a></li>
+          <li><a href="/cybersecurity-compliance-law-firms/" class="text-purple-700 font-semibold hover:underline">Law Firms Compliance →</a></li>
+        </ul>
       </div>
     </div>
   </section>
