@@ -5,7 +5,7 @@ const webPageSchema = {
   '@context': 'https://schema.org',
   '@type': 'WebPage',
   name: 'SMB Cybersecurity Compliance: Complete Guide for Small Businesses',
-  description: 'What cybersecurity compliance means for small businesses (1-20 employees). Covers GDPR, ISO 27001, NIST CSF, FTC Safeguards Rule, cyber insurance requirements, costs, and a 30-day implementation plan.',
+  description: 'What cybersecurity compliance means for small businesses (1-20 employees). Covers GDPR, ISO 27001, Cyber Essentials, NIST CSF, FTC Safeguards Rule, cyber insurance requirements, costs, and a 30-day implementation plan.',
   url: 'https://smbcyberhub.com/what-is-smb-cybersecurity-compliance/',
   speakable: {
     '@type': 'SpeakableSpecification',
@@ -54,7 +54,7 @@ const faqSchema = {
       name: 'What compliance frameworks apply to small businesses?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'The most relevant frameworks for SMBs are: GDPR (EU data protection, mandatory for any business processing EU data), ISO 27001 (international information security standard), NIST Cybersecurity Framework (US standard, widely adopted globally), FTC Safeguards Rule (US, for businesses handling financial data), and SOC 2 (for service providers). EU businesses should start with GDPR; US businesses should start with NIST CSF and add FTC Safeguards or HIPAA based on industry.'
+        text: 'The most relevant frameworks for SMBs are: GDPR (EU data protection, mandatory for any business processing EU data), ISO 27001 (international information security standard), Cyber Essentials (UK Government-backed baseline of five technical controls — firewalls, secure config, patching, access control, malware protection), NIST Cybersecurity Framework (US standard, widely adopted globally), FTC Safeguards Rule (US, for businesses handling financial data), and SOC 2 (for service providers). UK businesses should consider Cyber Essentials alongside GDPR; US businesses should start with NIST CSF.'
       }
     },
     {
@@ -88,7 +88,7 @@ const breadcrumbSchema = {
 
 <Layout 
   title="SMB Cybersecurity Compliance: Complete Guide | SMBCyberHub" 
-  description="What cybersecurity compliance means for small businesses (1-20 employees). Covers GDPR, ISO 27001, NIST CSF, FTC Safeguards Rule, cyber insurance requirements, costs, and a 30-day implementation plan."
+  description="What cybersecurity compliance means for small businesses (1-20 employees). GDPR, ISO 27001, Cyber Essentials, NIST CSF, FTC Safeguards, and insurance."
 >
   <script type="application/ld+json" set:html={JSON.stringify(webPageSchema)}></script>
   <script type="application/ld+json" set:html={JSON.stringify(faqSchema)}></script>
@@ -237,6 +237,12 @@ const breadcrumbSchema = {
             <td class="px-4 py-3">Loss of certification / contracts</td>
           </tr>
           <tr class="border-t">
+            <td class="px-4 py-3 font-medium"><a href="/posts/cyber-essentials-2026-changes-danzell-update-v3-3/" class="text-blue-600 hover:underline">Cyber Essentials</a></td>
+            <td class="px-4 py-3">IT security (UK)</td>
+            <td class="px-4 py-3">Firewalls, secure config, patching, access control, malware protection</td>
+            <td class="px-4 py-3">Loss of contracts / insurance discounts</td>
+          </tr>
+          <tr class="border-t">
             <td class="px-4 py-3 font-medium"><a href="https://www.nist.gov/cyberframework" class="text-blue-600 hover:underline" rel="noopener noreferrer">NIST CSF</a></td>
             <td class="px-4 py-3">Cybersecurity (US)</td>
             <td class="px-4 py-3">Govern, Identify, Protect, Detect, Respond, Recover</td>
@@ -262,7 +268,24 @@ const breadcrumbSchema = {
           </tr>
         </tbody>
       </table>
-      <p class="text-xs text-gray-500 mt-2">EU businesses should start with GDPR compliance. US businesses should start with NIST CSF alignment and add industry-specific frameworks as needed.</p>
+      <p class="text-xs text-gray-500 mt-2">EU businesses should start with GDPR compliance. UK businesses should also consider Cyber Essentials for baseline technical security. US businesses should start with NIST CSF alignment and add industry-specific frameworks as needed.</p>
+    </div>
+
+    <!-- UK Cyber Essentials -->
+    <h2 class="text-2xl font-semibold mt-10 mb-4">UK Cyber Essentials for Small Businesses</h2>
+    <p class="mb-6">Cyber Essentials is a UK Government-backed certification scheme managed by the NCSC. It provides a baseline of technical cyber security for organisations of any size, and is widely recognised by UK insurers, government contracts, and supply chain partners.</p>
+
+    <div class="space-y-6 mb-8">
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-blue-500">
+        <h3 class="font-semibold text-gray-800 mb-2">What Cyber Essentials Tests</h3>
+        <p class="text-gray-600 mb-2">CE certifies five technical controls on your IT infrastructure: Firewalls, Secure Configuration, Security Update Management (patch critical vulnerabilities within 14 days), User Access Control (MFA mandatory for cloud services), and Malware Protection. Version 3.3 (Danzell), effective April 2026, adds formal cloud service definitions and FIDO2 passwordless support.</p>
+        <p class="text-sm text-gray-500"><strong>Who needs it:</strong> Any business bidding on UK government contracts, or whose clients/insurers require it. <a href="/posts/cyber-essentials-2026-changes-danzell-update-v3-3/" class="text-blue-600 hover:underline">Read our Cyber Essentials v3.3 guide &rarr;</a></p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-blue-500">
+        <h3 class="font-semibold text-gray-800 mb-2">What Cyber Essentials Doesn't Cover</h3>
+        <p class="text-gray-600 mb-2">CE focuses on technical controls only. It does not test staff training, written security policies, incident response plans, risk assessments, or GDPR documentation. These are required separately by insurers, regulators, and most client contracts.</p>
+        <p class="text-sm text-gray-500"><strong>Key takeaway:</strong> CE is one layer of your security posture. Combine it with GDPR-compliant policies, staff training, and documentation for complete protection.</p>
+      </div>
     </div>
 
     <!-- US Compliance Frameworks Deep Dive -->
@@ -493,6 +516,10 @@ const breadcrumbSchema = {
       <a href="/posts/nist-cybersecurity-framework-small-business-guide/" class="block bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition border-l-4 border-emerald-500">
         <h3 class="font-semibold text-gray-800">NIST CSF Guide for Small Business</h3>
         <p class="text-sm text-gray-600">Implementing the NIST Cybersecurity Framework without IT staff.</p>
+      </a>
+      <a href="/posts/cyber-essentials-2026-changes-danzell-update-v3-3/" class="block bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition border-l-4 border-emerald-500">
+        <h3 class="font-semibold text-gray-800">Cyber Essentials v3.3 Guide</h3>
+        <p class="text-sm text-gray-600">What changed in the Danzell update and what it means for small businesses.</p>
       </a>
       <a href="/posts/ftc-safeguards-rule-small-business-compliance/" class="block bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition border-l-4 border-emerald-500">
         <h3 class="font-semibold text-gray-800">FTC Safeguards Rule Guide</h3>

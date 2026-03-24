@@ -564,6 +564,25 @@ Our [cybersecurity compliance kits](/kits/) include every policy template, train
 
 ## 🔐 Compliance and Legal Considerations
 
+### **Cyber Essentials and Insurance**
+
+UK and Irish insurers increasingly recognise Cyber Essentials certification as evidence of baseline security. Some offer premium discounts for certified businesses.
+
+**How Cyber Essentials helps with insurance:**
+- **Demonstrates technical controls** — firewalls, patching, MFA, secure configuration, and malware protection are exactly what insurers check for
+- **Reduces risk profile** — certified businesses present a lower risk, which can translate to lower premiums
+- **Streamlines applications** — many insurer questionnaires map directly to the five CE controls
+
+**What CE doesn't cover for insurance purposes:**
+- Written security policies and procedures
+- Staff training records and completion evidence
+- Incident response plans and testing documentation
+- Risk assessments and GDPR compliance documentation
+
+These documentation requirements are separate from CE certification. Our [cybersecurity compliance kits](/kits/) cover the policy, training, and documentation layers that insurers require alongside technical controls.
+
+For details on the latest CE requirements, see [What Changed in Cyber Essentials v3.3 (Danzell Update)](/posts/cyber-essentials-2026-changes-danzell-update-v3-3/).
+
 ### **Regulatory Requirements**
 Various regulations impact cyber insurance requirements.
 
@@ -622,6 +641,7 @@ Need ready-to-use checklists and compliance materials for cyber insurance requir
 ### **Internal Links:**
 - **[2026 SMB Cybersecurity Compliance Checklist](/2026-compliance-checklist/)** - Every document your insurer expects, step by step
 - **[SMB Cybersecurity Compliance Guide 2026](/what-is-smb-cybersecurity-compliance/)** - Complete GDPR and audit readiness guide
+- **[Cyber Essentials v3.3 (Danzell Update)](/posts/cyber-essentials-2026-changes-danzell-update-v3-3/)** - How CE certification supports insurance applications
 - **[The True Cost of a Breach for SMBs and How to Avoid One](/posts/the-true-cost-of-a-breach-for-smbs-and-how-to-avoid-one/)**
 - **[What Happens After a Phishing Click?](/posts/what-happens-after-a-phishing-click-and-what-you-should-do/)**
 - **[Audit-Ready in Under an Hour: A Cyber Hygiene Checklist](/posts/audit-ready-in-under-an-hour-a-cyber-hygiene-checklist/)**
@@ -635,6 +655,6 @@ Need ready-to-use checklists and compliance materials for cyber insurance requir
 ---
 
 **🕒 Estimated Reading Time**: 25 minutes  
-**🔐 Aligned With**: GDPR Article 32(4), ISO27001 Clause 7.2.2  
+**🔐 Aligned With**: GDPR Article 32(4), ISO27001 Clause 7.2.2, NCSC Cyber Essentials v3.3  
 **📊 Target Audience**: Small business owners, risk managers, compliance officers  
 **🎯 Learning Objectives**: Understand cyber insurance requirements, optimize coverage, reduce premiums, maintain compliance

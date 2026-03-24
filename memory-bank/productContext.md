@@ -44,7 +44,8 @@ SMBCyberHub provides privacy-first, downloadable cybersecurity compliance kits f
 2. **Cost Efficiency**: One-time payment vs. recurring subscriptions
 3. **Speed**: Audit-ready documentation in 30 minutes
 4. **Simplicity**: No IT expertise required
-5. **Compliance**: GDPR-aligned and insurance-ready
+5. **Compliance**: GDPR-aligned, NIST CSF-aligned, and insurance-ready
+6. **Cyber Essentials awareness**: Positions kits as complementary to CE certification (policies/training/docs layer) — does NOT claim to help pass CE
 
 ## Brand Philosophy
 
