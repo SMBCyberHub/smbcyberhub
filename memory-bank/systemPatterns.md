@@ -57,6 +57,9 @@ There is **one layout** used by every page. It accepts these props:
 | `ogType` | `string` | `"website"` | OG type — blog posts pass `"article"` |
 | `robots` | `string` | `"index,follow"` | Per-page robots override (e.g. `"noindex"` for terms/privacy/licensing) |
 | `canonical` | `string \| undefined` | Auto-generated | Explicit canonical URL; if omitted, auto-built from `Astro.url.pathname` + trailing slash |
+| `publishedTime` | `string \| undefined` | — | ISO date string for `article:published_time` OG meta (blog posts only) |
+| `modifiedTime` | `string \| undefined` | — | ISO date string for `article:modified_time` OG meta (blog posts only) |
+| `tags` | `string[]` | `[]` | Array of tag strings for `article:tag` OG meta (blog posts only) |
 
 ### Canonical URL logic
 
@@ -70,16 +73,24 @@ Pages that define their own `canonical` prop (product pages, blog posts) pass it
 ### Head rendering order
 
 1. `<meta charset>` + `<meta viewport>`
-2. `<title>` and `<meta name="description">`
-3. `<meta name="robots">`
-4. `<link rel="canonical">`
-5. `<link rel="preload">` for LCP image (`/images/smbcyberhub-logo.webp`, type `image/webp`)
-6. Favicon links (`.ico`, `32x32`, `16x16`, `apple-touch-icon`)
-7. Open Graph meta tags (`og:site_name`, `og:title`, `og:description`, `og:type`, `og:image`, `og:url`, `og:locale` = `en_IE`)
-8. Twitter Card meta tags (`summary_large_image`)
-9. Site-wide Organization JSON-LD schema (via `set:html={JSON.stringify(orgSchema)}`)
-10. `<slot name="schema" />` — page-level schema injection point
-11. Umami analytics `<script defer>`
+2. `<title>`
+3. `<link rel="alternate" type="application/rss+xml">` — RSS feed autodiscovery
+4. `<meta name="description">`
+5. `<meta name="robots">`
+6. `<link rel="canonical">`
+7. `<link rel="preload">` for LCP image (`/images/smbcyberhub-logo.webp`, type `image/webp`)
+8. Preconnect to Umami analytics + DNS prefetch to Gumroad
+9. Favicon links (`.ico`, `32x32`, `16x16`, `apple-touch-icon`)
+10. Open Graph meta tags (`og:site_name`, `og:title`, `og:description`, `og:type`, `og:image` with width/height/alt/type, `og:url`, `og:locale` = `en_IE`, `og:locale:alternate` = `en_US`)
+11. Twitter Card meta tags (`summary_large_image`, `twitter:site` = `@SMBCyberHub`)
+12. Article-specific OG meta (blog posts only, conditional on `ogType === 'article'`):
+    - `article:published_time` (from `publishedTime` prop)
+    - `article:modified_time` (from `modifiedTime` prop)
+    - `article:tag` (one per tag from `tags` prop)
+13. hreflang tags: `<link rel="alternate" hreflang="en">` + `<link rel="alternate" hreflang="x-default">` (both point to canonical)
+14. Site-wide Organization JSON-LD schema (via `set:html={JSON.stringify(orgSchema)}`)
+15. `<slot name="schema" />` — page-level schema injection point
+16. Umami analytics `<script defer>`
 
 ### Organization Schema (site-wide, every page)
 
@@ -232,8 +243,12 @@ Two schemas are generated per blog post:
     logo: { '@type': 'ImageObject', url: logo }
   },
   datePublished: isoDate,
-  dateModified: isoDate,               // NOTE: currently same as datePublished
-  mainEntityOfPage: canonicalUrl
+  dateModified: isoModified,               // Uses dateModified from frontmatter if present, falls back to datePublished
+  mainEntityOfPage: canonicalUrl,
+  speakable: {
+    '@type': 'SpeakableSpecification',
+    cssSelector: ['article h1', 'article .prose p:first-of-type']
+  }
 }
 ```
 
@@ -275,8 +290,13 @@ Relative paths are prepended with the site URL. Missing `ogImage` falls back to 
   ogImage={ogImageUrl}
   ogType="article"
   canonical={canonicalUrl}
+  publishedTime={isoDate}
+  modifiedTime={isoModified}
+  tags={data.tags || []}
 >
 ```
+
+This ensures Layout renders `article:published_time`, `article:modified_time`, and `article:tag` OG meta tags for blog posts.
 
 ---
 
