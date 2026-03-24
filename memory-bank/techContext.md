@@ -156,6 +156,8 @@ src/
 
 ### Payment Processing
 - **Gumroad** - External checkout for kit purchases
+- Gumroad captures buyer email addresses on every purchase (including free kit downloads)
+- This gives SMBCyberHub an existing email list of all customers, usable for Gumroad email broadcasts and nurture sequences
 - URLs:
   - Basic Kit: https://smbcyberhub.gumroad.com/l/basickit
   - Pro Kit: https://smbcyberhub.gumroad.com/l/prokit

@@ -78,9 +78,15 @@ SMBCyberHub provides privacy-first, downloadable cybersecurity compliance kits f
 
 ### Critical Requirements:
 - **No paid advertising** - No Google Ads, social media ads, or other paid channels
-- **No outbound marketing** - No email campaigns, cold outreach, or sales team
+- **No outbound marketing** - No cold outreach or sales team
 - **No social media marketing** - Organic presence only for verification/credibility
 - **No content distribution** - No guest posts, partnerships, or PR outreach
+
+### Email Marketing (via Gumroad)
+- **Gumroad captures buyer emails** on every purchase, including free kit downloads
+- Gumroad's built-in email broadcast feature can be used for nurture sequences and upsells
+- This is an existing, underutilised asset — every free kit download = a warm lead with email captured
+- Email nurture from free kit → Basic/Pro upsell is the highest-leverage revenue growth opportunity
 
 ### Success Depends Entirely On:
 1. **Search Engine Optimization (SEO)**
