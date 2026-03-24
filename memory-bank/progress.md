@@ -34,7 +34,7 @@
 - ✅ dateModified in frontmatter for all 31 blog posts
 
 ### Content
-- ✅ 34 blog posts covering cybersecurity topics (31 original + 3 US market expansion)
+- ✅ 35 blog posts covering cybersecurity topics (31 original + 3 US market expansion + 1 Cyber Essentials v3.3)
 - ✅ Posts tagged with 10 core tags (phishing, compliance, gdpr, cyber insurance, mfa, password, access control, offboarding, remote work, backups)
 - ✅ Contextual CTAs based on post tags
 - ✅ Related posts component
@@ -102,6 +102,40 @@
 - 📋 Advanced search functionality
 - 📋 User account system (optional)
 - 📋 Kit customization wizard
+
+## Recent Completed Work (24 Mar 2026)
+
+### NCSC Cyber Essentials v3.3 Integration
+- Reviewed NCSC Cyber Essentials Requirements for IT Infrastructure v3.3 (Danzell, effective 26 April 2026)
+- **Fixed password blog post** (`top-5-password-mistakes-small-businesses-still-make-in-2025.md`):
+  - Updated title/date from 2025 to 2026, updated dateModified
+  - Removed incorrect advice: forced expiry (90-180 days) and complexity requirements
+  - Added NCSC three random words guidance, 12+ char minimum (or 8 with deny list)
+  - Added Cyber Essentials v3.3 compliance alignment section
+  - Updated description/excerpt to reference NCSC alignment
+- **Created new CE v3.3 explainer blog post** (`cyber-essentials-2026-changes-danzell-update-v3-3.md`):
+  - ~2,200 words covering all 6 Danzell changes (cloud in scope, FIDO2, Software Security Code of Practice, scope criteria simplified, backup guidance strengthened, 5 controls unchanged)
+  - Target keywords: "cyber essentials 2026 changes", "danzell update", "cyber essentials v3.3"
+  - Honestly positions SMBCyberHub kits as complementary to CE (policies/training/docs layer) — does NOT claim kit helps pass CE
+  - Tags: compliance, featured: true
+- **Updated compliance pillar page** (`what-is-smb-cybersecurity-compliance.astro`):
+  - Added Cyber Essentials row to frameworks comparison table
+  - Added UK Cyber Essentials deep-dive section (what it tests / what it doesn't cover)
+  - Updated FAQ schema answer to include Cyber Essentials
+  - Updated WebPage schema description and Layout meta description to include CE
+  - Added CE v3.3 guide link to Related Resources section
+  - Updated table footnote with UK-specific CE guidance
+- **Updated insurance blog posts with CE references:**
+  - `cyber-insurance-requirements-small-business-complete-guide.md`: Added "Cyber Essentials and Insurance" section explaining how CE supports insurance applications, added CE link to internal links, updated Aligned With line
+  - `what-documents-do-i-need-for-cyber-insurance-renewal.md`: Added CE certification info to UK and Ireland regional sections, added CE step to Next Steps list
+- Build: 66 pages, 0 errors, 0 warnings
+
+### Key Decisions (CE Integration)
+- **Do NOT claim the kit helps pass Cyber Essentials** — CE tests technical controls, not training/documentation
+- **Do position the kit as complementary** — covering the policies, training, and documentation layers that CE doesn't test but insurers/GDPR require
+- **Password guidance now NCSC-aligned across the site** — no forced expiry, no complexity rules, three random words, 12+ chars or 8 with deny list
+- **Cyber Essentials referenced as a framework** on the compliance pillar page, insurance posts, and password post — not the homepage or primary messaging
+- **PDF source**: `/root/CascadeProjects/smbcyberhub/memory-bank/cyber-essentials-requirements-for-it-infrastructure-v3-3.pdf`
 
 ## Recent Completed Work (16 Mar 2026)
 

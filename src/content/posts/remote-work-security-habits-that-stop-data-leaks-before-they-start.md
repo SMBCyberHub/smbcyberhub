@@ -78,6 +78,8 @@ Strong authentication is your first line of defense.
 - **Password manager**: Use a trusted password manager
 - **No sharing**: Never share passwords with anyone
 
+For the most common mistakes teams make (and NCSC-aligned fixes), read [Top 5 Password Mistakes Small Businesses Make](/posts/top-5-password-mistakes-small-businesses-still-make-in-2025/).
+
 #### **Multi-Factor Authentication (MFA):**
 - **Enable MFA** on all work accounts
 - **Authenticator apps**: Google Authenticator, Microsoft Authenticator

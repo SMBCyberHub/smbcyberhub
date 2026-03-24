@@ -33,7 +33,7 @@ For a plain-English overview you can share with your team, see [CISA’s quick g
 
 ## ✅ Day 1 (First Login)
 **Make access simple, safe, and successful.**
-- **Password manager:** Install and show how to use it (unique, long passwords — no sharing).
+- **Password manager:** Install and show how to use it (unique, long passwords — no sharing). See our [top 5 password mistakes small businesses make](/posts/top-5-password-mistakes-small-businesses-still-make-in-2025/) for what to avoid.
 - **MFA set-up check:** Confirm the authenticator works and capture **one** secure recovery method.
 - **Phishing basics (5 mins):** Show one real example; agree on your “report suspicious” path (Slack/Teams/email).
 
