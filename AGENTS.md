@@ -96,3 +96,17 @@ After any content change, before committing:
 - Branch: master
 - Push triggers Netlify auto-deploy
 - Commit messages should explain "why" not "what"
+- **All commits must be authored by `info@smbcyberhub.com`.** Before committing, run:
+  ```
+  git -c user.name="SMBCyberHub" -c user.email="info@smbcyberhub.com" commit -m "message"
+  ```
+  Or use `git commit --author="SMBCyberHub <info@smbcyberhub.com>"` on every commit.
+- **No other author identity may appear in commits** (no machine hostnames, no personal emails, no default root@ addresses).
+
+## Author & Identity Rules
+
+- **The only author identity on this site is "Jim SMBCyberHub" / `info@smbcyberhub.com`.**
+- Blog post schema author: `Jim SMBCyberHub` (hardcoded in `[slug].astro`)
+- RSS feed author: `info@smbcyberhub.com (Jim SMBCyberHub)` (in `rss.xml.js`)
+- Review schema `author` fields are customer names (Emma P, Niall C, etc.) — these are fine.
+- **No machine hostnames, server names, or agent identities may appear in any site file or commit metadata.**
