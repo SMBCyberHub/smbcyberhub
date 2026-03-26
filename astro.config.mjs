@@ -19,13 +19,13 @@ if (fs.existsSync(postsDir)) {
 // Static page last-modified dates (updated when pages are meaningfully edited)
 const staticDates = {
   '/':                                    '2026-03-17',
-  '/kits/':                               '2026-03-17',
+  '/kits/':                               '2026-03-26',
   '/basic-cybersecurity-kit/':            '2026-03-17',
   '/pro-cybersecurity-kit/':              '2026-03-17',
-  '/free-cyber-security-training/':       '2026-03-17',
-  '/2026-compliance-checklist/':          '2026-02-28',
-  '/cyber-insurance-renewal-checklist/':  '2026-02-28',
-  '/what-is-smb-cybersecurity-compliance/': '2026-03-24',
+  '/free-cyber-security-training/':       '2026-03-26',
+  '/2026-compliance-checklist/':          '2026-03-26',
+  '/cyber-insurance-renewal-checklist/':  '2026-03-26',
+  '/what-is-smb-cybersecurity-compliance/': '2026-03-26',
   '/faq/':                                '2026-03-17',
   '/about/':                              '2026-02-28',
   '/blog/':                               '2026-03-17',
