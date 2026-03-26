@@ -137,6 +137,8 @@ Reputation damage often costs more than the immediate financial costs.
 - **Class action lawsuits**: €50,000-€500,000 in settlements
 - **Contract penalties**: €10,000-€100,000 for SLA breaches
 
+Understanding your [SMB cybersecurity compliance obligations](/what-is-smb-cybersecurity-compliance/) can help you anticipate and prepare for these costs.
+
 ### **Employee-Related Costs**
 - **Recruitment costs**: €3,000-€15,000 for replacement staff
 - **Training expenses**: €1,000-€5,000 for security awareness
@@ -169,7 +171,7 @@ Implement fundamental security measures that prevent most attacks.
 - **Email filtering**: Block spam, phishing, and malicious attachments
 
 ### **Human Controls**
-Your team is your first line of defense against cyber threats.
+Your team is your first line of defense against cyber threats. Understanding [how phishing actually works](/posts/how-phishing-actually-works-a-simple-breakdown-for-small-teams/) is a great starting point for building awareness.
 
 #### **Security Awareness Training:**
 - **Regular sessions**: Monthly or quarterly training
@@ -196,7 +198,7 @@ Our [cybersecurity compliance kits](/kits/) include the exact training materials
 ## 📊 Insurance Benefits and Requirements
 
 ### **Cyber Insurance Evolution**
-The cyber insurance market has become much stricter in recent years.
+The cyber insurance market has become much stricter in recent years. For a full overview, see our [complete guide to cyber insurance requirements for small businesses](/posts/cyber-insurance-requirements-small-business-complete-guide/).
 
 #### **Documentation Requirements:**
 - **Training records**: Proof of regular security awareness training
@@ -266,6 +268,8 @@ Identify and prioritize your most vulnerable areas.
 ---
 
 ## 🔒 Comprehensive Prevention Checklist
+
+Need a quick starting point? Our [cyber hygiene checklist](/posts/audit-ready-in-under-an-hour-a-cyber-hygiene-checklist/) can help you get audit-ready in under an hour.
 
 ### **Technical Security Checklist**
 - [ ] **Strong passwords** (12+ characters, unique per account)

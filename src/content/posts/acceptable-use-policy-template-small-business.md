@@ -118,7 +118,7 @@ This policy defines acceptable use of company equipment, software, networks, and
 
 #### **GDPR Compliance**
 - **Personal data**: Handle personal data according to GDPR requirements
-- **Data retention**: Follow data retention schedules
+- **Data retention**: Follow [data retention schedules](/posts/simple-data-retention-small-teams/)
 - **Breach reporting**: Report data breaches within 24 hours
 - **Rights of individuals**: Respect individual data rights
 - **Documentation**: Maintain data processing records

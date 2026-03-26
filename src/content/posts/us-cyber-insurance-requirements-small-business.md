@@ -195,7 +195,7 @@ NIST CSF isn't a law — it's a voluntary framework published by the National In
 
 You don't need to implement every NIST CSF subcategory. For a small business, covering the basics within each function is enough to satisfy most insurers. The key is having it written down and organized.
 
-Our [2026 Compliance Checklist](/2026-compliance-checklist/) maps directly to these NIST CSF functions, making it easy to track what you've completed.
+Our [2026 Compliance Checklist](/2026-compliance-checklist/) maps directly to these NIST CSF functions, making it easy to track what you've completed. For a practical walkthrough of how to apply the framework to your business, see our [NIST Cybersecurity Framework guide for small businesses](/posts/nist-cybersecurity-framework-small-business-guide/).
 
 ---
 
@@ -247,7 +247,7 @@ You ran a training session last quarter. Great. But if there's no completion ros
 
 ### ❌ Waiting Until Renewal
 
-The worst time to discover you're missing documentation is 2 weeks before your policy renews. Start building your evidence file now, even if renewal is months away. It takes the pressure off and gives you time to close gaps. Our [cyber insurance renewal checklist](/cyber-insurance-renewal-checklist/) can help you plan ahead.
+The worst time to discover you're missing documentation is 2 weeks before your policy renews. Start building your evidence file now, even if renewal is months away. It takes the pressure off and gives you time to close gaps. Our [cyber insurance renewal checklist](/cyber-insurance-renewal-checklist/) can help you plan ahead. Not sure which documents to gather? See our guide on [what documents you need for cyber insurance renewal](/posts/what-documents-do-i-need-for-cyber-insurance-renewal/).
 
 ### ❌ Treating Insurance as a Substitute for Security
 

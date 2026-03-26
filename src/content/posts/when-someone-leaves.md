@@ -356,6 +356,8 @@ Professional services for offboarding support.
 
 Our [cybersecurity compliance kits](/kits/) include offboarding checklists, access review templates, and policy documents to make this process repeatable and audit-ready.
 
+Pair your offboarding process with a [secure onboarding plan for new hires](/posts/first-week-secure-onboarding-plan/) to cover both ends of the employee lifecycle.
+
 - [ ] **Create offboarding policies** and procedures
 - [ ] **Implement automated offboarding** where possible
 - [ ] **Train staff** on offboarding procedures

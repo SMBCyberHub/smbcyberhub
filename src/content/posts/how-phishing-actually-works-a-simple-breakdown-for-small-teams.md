@@ -250,6 +250,8 @@ Since phishing is the #1 insurance claim trigger, understanding your [cyber insu
 3. **Monitor accounts**: Watch for suspicious activity
 4. **Notify bank**: If financial information was entered
 
+One critical step: check for [hidden email forwarding rules attackers may have created](/posts/stop-silent-leaks-email-forwarding-rules/) to silently siphon data even after you’ve changed passwords.
+
 #### **Recovery (First 24 Hours)**
 1. **Full system scan**: Check all devices for malware
 2. **Password reset**: Change all company passwords

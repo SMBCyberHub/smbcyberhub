@@ -229,7 +229,7 @@ If your business operates in both the US and EU (or serves customers in both mar
 
 **The overlap is significant.** If you're already GDPR compliant, you're most of the way to FTC Safeguards compliance. The main additions are the MFA requirement and the specific "Qualified Individual" designation.
 
-For a deeper dive into compliance frameworks, see our [SMB Cybersecurity Compliance Guide](/what-is-smb-cybersecurity-compliance/).
+For a deeper dive into compliance frameworks, see our [SMB Cybersecurity Compliance Guide](/what-is-smb-cybersecurity-compliance/). Businesses looking to align with a broader federal framework will also benefit from our [NIST Cybersecurity Framework guide for small businesses](/posts/nist-cybersecurity-framework-small-business-guide/).
 
 ---
 

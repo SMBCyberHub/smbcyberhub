@@ -2,7 +2,7 @@
 title: "Remote Work Security Habits That Stop Data Leaks Before They Start"
 description: "Complete guide to remote work security for small businesses. Practical habits, device security, network protection, and team training for mobile workforce."
 date: 2025-04-27
-tags: ["remote work"]
+tags: ["remote work", "mfa"]
 ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Small teams are mobile — and that means new risks. These everyday habits can prevent major device-related security incidents with practical guidance for remote work."
 featured: false
@@ -12,7 +12,7 @@ dateModified: 2026-02-27
 
 Working remotely is here to stay. But without the right habits, remote work can expose sensitive data — from lost devices to unsafe networks.
 
-Here are simple, powerful habits your team should adopt.
+Here are simple, powerful habits your team should adopt. If your team doesn’t have a written policy yet, our [remote work security policy template](/posts/remote-work-policy-template-small-business/) is a practical starting point.
 
 ## 💻 The Remote Work Security Challenge
 
@@ -167,6 +167,8 @@ Secure all connections to protect data in transit.
 - **VPN encryption**: Encrypt all internet traffic
 - **Secure email**: Use encrypted email services
 - **Secure file sharing**: Use encrypted file sharing services
+
+For practical rules on sharing files with clients securely, see our guide to [safe client file sharing](/posts/safe-client-file-sharing-simple-rules/).
 
 #### **Connection Verification:**
 - **Check HTTPS padlock** in browser address bar

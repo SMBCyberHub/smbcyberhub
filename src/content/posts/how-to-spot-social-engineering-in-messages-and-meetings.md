@@ -65,6 +65,8 @@ Attackers pose as trusted individuals to exploit compliance.
 - Requests that bypass established procedures
 - Urgency combined with authority
 
+Attackers often use [fake emails, spoofing, and lookalike domains](/posts/stop-fake-emails-spoofing-lookalikes/) to make their impersonation more convincing.
+
 ### **3. Emotional Manipulation**
 Attackers use emotions to override logical thinking.
 
@@ -89,6 +91,8 @@ Attackers build rapport over time before making requests.
 ## 💬 Real-World Examples
 
 ### **Email-Based Social Engineering**
+
+Email attacks are among the most common social engineering tactics. To understand the full mechanics behind these attacks, see our guide on [how phishing actually works](/posts/how-phishing-actually-works-a-simple-breakdown-for-small-teams/).
 
 #### **CEO Fraud Example:**
 ```
@@ -126,6 +130,8 @@ Sort Code: 40-20-30
 Amount: €2,450.00
 Due: Today
 ```
+
+Invoice fraud and payment redirect scams are increasingly common — learn how to protect your business with our [payment fraud callback verification playbook](/posts/stop-payment-fraud-callback-playbook/).
 
 ### **Phone-Based Social Engineering**
 
@@ -255,6 +261,8 @@ Regular training helps staff recognize social engineering attempts.
 ## 🚨 Incident Response for Social Engineering
 
 ### **When Someone Falls for Social Engineering**
+
+Quick, effective response can limit the damage. For a detailed walkthrough of post-attack response, see [what happens after a phishing click and what you should do](/posts/what-happens-after-a-phishing-click-and-what-you-should-do/).
 
 #### **Immediate Actions (First 5 Minutes):**
 1. **Contain the breach**: Disconnect affected systems

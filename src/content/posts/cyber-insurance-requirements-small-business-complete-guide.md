@@ -269,7 +269,7 @@ Complete these steps before applying for cyber insurance.
 - [ ] **Mobile Security**: Mobile device management and secure applications
 
 ### **Documentation Requirements**
-Prepare these documents for insurance applications.
+Prepare these documents for insurance applications. For a step-by-step renewal document checklist, see [What Documents Do I Need for Cyber Insurance Renewal?](/posts/what-documents-do-i-need-for-cyber-insurance-renewal/).
 
 #### **Policy Documentation:**
 - **Information Security Policy**: Comprehensive security policy document

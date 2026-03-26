@@ -161,6 +161,8 @@ Insurance Renewal Cybersecurity Documentation
 - Generic, non-customized materials
 - Lack of future training plans
 
+For a deeper look at the specific records and formats insurers expect, read [What Insurers Expect: Cybersecurity Training Records](/posts/what-insurers-expect-cybersecurity-training-records/).
+
 ## 🎯 **Common Insurance Renewal Questions**
 
 ### **"What percentage of employees need training?"**
