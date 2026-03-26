@@ -1,6 +1,6 @@
 ---
 title: "What Insurers Expect to See in Cybersecurity Training Records"
-description: "What cyber insurers expect in training records. The 5 specific documents you need for your audit and how to prepare them."
+description: "What cyber insurers expect in training records for policy renewals. The 5 specific documents you need for your audit and how to prepare them."
 date: 2026-02-27
 tags: ["cyber insurance", "compliance"]
 ogImage: "/images/smbcyberhub-logo.webp"

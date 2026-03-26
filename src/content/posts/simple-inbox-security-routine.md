@@ -1,6 +1,6 @@
 ---
 title: "A Simple Daily Inbox Security Routine for Small Teams"
-description: "A practical, 5-minute inbox-security routine for small teams to reduce phishing, invoice fraud, and account takeover risks."
+description: "A practical, 5-minute daily inbox security routine for small teams. Reduce phishing, invoice fraud, and account takeover risks with checks anyone can follow."
 date: 2025-11-14
 tags: ["phishing"]
 excerpt: "A simple 5-minute inbox routine any employee can follow to block phishing, invoice fraud, and accidental data exposure."
