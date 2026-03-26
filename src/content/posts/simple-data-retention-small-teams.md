@@ -1,8 +1,8 @@
 ---
-title: "Simple Data Retention for Small Teams (No Jargon)"
+title: "Simple Data Retention for Small Teams"
 description: "Plain-English data retention for small teams: what to keep, what to delete, and how to build a simple policy that stays compliant without extra admin."
 date: 2026-01-26
-dateModified: 2026-02-27
+dateModified: 2026-03-26
 tags: ["gdpr"]
 ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "A practical, non-technical guide to data retention for small teams: what to keep, what to delete, and how to build a simple policy you can actually follow."

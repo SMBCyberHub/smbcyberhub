@@ -105,6 +105,15 @@
 
 ## Recent Completed Work (26 Mar 2026)
 
+### SERP Title & Meta Description Optimization (GSC-driven)
+- Analyzed GSC performance data: top pages by impressions vs clicks, identified CTR bottleneck
+- **Shortened 25 blog post titles** to ≤60 chars (including " | SMBCyberHub" suffix) — previously 64-94 chars, all truncated in SERPs
+- **Fixed compliance pillar page title** from 62→57 chars; also changed "SMB" to "Small Business" to match search intent
+- **Fixed 2 over-limit meta descriptions**: cyber-insurance-renewal-checklist (165→142), 2026-compliance-checklist (161→145)
+- **Fixed 1 under-limit meta description**: quarterly-access-reviews (128→133, added "GDPR-")
+- Updated dateModified to 2026-03-26 on all 25 changed posts
+- Build: 66 pages, 0 errors, exit code 0
+
 ### GSC Indexing Analysis & Internal Linking Overhaul
 - Analyzed Google Search Console data: 24 indexed vs 64 not-indexed pages, 13 clicks over 3 months
 - Diagnosed primary issue as site authority (zero backlinks), not technical SEO

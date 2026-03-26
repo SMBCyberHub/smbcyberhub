@@ -1,5 +1,5 @@
 ---
-title: "7 Cybersecurity Myths That Put Small Teams at Risk"
+title: "7 Cybersecurity Myths Small Teams Believe"
 description: "Think you're too small to be targeted? Think again. We bust common security myths that leave small businesses exposed — and how to fix them."
 date: 2025-07-29
 tags: ["compliance"]
@@ -7,7 +7,7 @@ ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Think you're too small to be targeted? Think again. We bust common cybersecurity myths that leave small teams vulnerable — and how to fix them."
 featured: false
 canonical: "https://smbcyberhub.com/posts/cybersecurity-myths-small-teams/"
-dateModified: 2026-02-27
+dateModified: 2026-03-26
 ---
 
 Cybersecurity isn't just for big companies. In fact, small teams are often *easier* targets — and attackers know it. Yet too many founders and teams fall into false beliefs that create real risk.

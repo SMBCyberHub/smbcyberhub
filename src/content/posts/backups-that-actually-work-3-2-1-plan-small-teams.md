@@ -1,5 +1,5 @@
 ---
-title: "Backups That Actually Work: The 3-2-1 Plan for Small Teams (No Jargon)"
+title: "3-2-1 Backup Plan for Small Teams"
 description: "Plain-English guide to 3-2-1 backups for small teams. What to back up, how often, and how to test restores so you recover fast from ransomware."
 date: 2025-09-09
 tags: ["backups"]
@@ -7,7 +7,7 @@ ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "A simple, reliable backup plan you can set up this week—without extra software or jargon."
 featured: false
 canonical: "https://smbcyberhub.com/posts/backups-that-actually-work-3-2-1-plan-small-teams/"
-dateModified: 2026-02-27
+dateModified: 2026-03-26
 ---
 
 If a laptop dies, a file is deleted by mistake, or ransomware hits, a good backup is the difference between a small hiccup and a very bad week. This plain-English guide shows small teams how to set up **3-2-1 backups** that actually restore when you need them.

@@ -1,5 +1,5 @@
 ---
-title: "Stop Payment Fraud: Callback Verification Playbook"
+title: "Stop Payment Fraud: Callback Playbook"
 description: "Stop payment fraud with callback verification procedures. Real-world examples, red flags to watch for, and dual-control processes for small teams."
 date: 2025-09-21
 tags: ["phishing"]
@@ -7,7 +7,7 @@ ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Before you change where money goes, call back on a known number. Here's a 10-minute playbook that stops invoice and bank-detail scams with comprehensive verification procedures."
 featured: false
 canonical: "https://smbcyberhub.com/posts/stop-payment-fraud-callback-playbook/"
-dateModified: 2026-02-27
+dateModified: 2026-03-26
 ---
 
 When money is about to move—especially after an email asking you to **update bank details** or **pay a new account**—you have one job: slow down and **verify using a callback you control**. This simple playbook turns a risky moment into a safe one.
