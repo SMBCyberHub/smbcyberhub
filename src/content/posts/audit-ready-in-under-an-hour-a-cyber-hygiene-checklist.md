@@ -1,5 +1,5 @@
 ---
-title: "1-Hour Cyber Hygiene Checklist: Pass Any Security Audit"
+title: "1-Hour Cyber Hygiene Audit Checklist"
 description: "Need to pass a security audit or GDPR compliance check? This one-time checklist gets small business teams audit-ready in under 60 minutes."
 date: 2025-07-06
 tags: ["compliance", "backups"]
@@ -7,7 +7,7 @@ ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Need to pass a client or GDPR audit? This checklist gets your team’s cyber hygiene in shape — fast."
 featured: false
 canonical: "https://smbcyberhub.com/posts/audit-ready-in-under-an-hour-a-cyber-hygiene-checklist/"
-dateModified: 2026-02-27
+dateModified: 2026-03-26
 ---
 
 Client asking for proof of training? [GDPR review coming up](/what-is-smb-cybersecurity-compliance/)? This fast checklist helps small teams get cyber hygiene in order — without a consultant.

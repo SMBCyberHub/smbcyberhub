@@ -1,5 +1,5 @@
 ---
-title: "Stop Fake Emails: Spoofing vs Lookalike Domains (Complete Guide for Small Teams)"
+title: "Stop Fake Emails: Spoofing vs Lookalikes"
 description: "How to prevent email spoofing and lookalike domain attacks. Technical controls, process safeguards, and actionable strategies for small businesses."
 date: 2025-10-28
 tags: ["phishing"]
@@ -7,7 +7,7 @@ ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Learn the difference between spoofed and lookalike emails—and follow a 7-step playbook to block invoice fraud and fake sender tricks with comprehensive protection strategies."
 featured: false
 canonical: "https://smbcyberhub.com/posts/stop-fake-emails-spoofing-lookalikes/"
-dateModified: 2026-02-27
+dateModified: 2026-03-26
 ---
 
 Fake invoices. "CEO" wire requests. Supplier bank-detail changes. Most start with a fake sender. Here's a simple guide to the two most common tricks—and a small-team playbook to block them fast.

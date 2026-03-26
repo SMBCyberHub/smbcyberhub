@@ -1,12 +1,12 @@
 ---
-title: "A Simple Daily Inbox Security Routine for Small Teams"
+title: "Daily Inbox Security Routine"
 description: "A practical, 5-minute daily inbox security routine for small teams. Reduce phishing, invoice fraud, and account takeover risks with checks anyone can follow."
 date: 2025-11-14
 tags: ["phishing"]
 excerpt: "A simple 5-minute inbox routine any employee can follow to block phishing, invoice fraud, and accidental data exposure."
 ogImage: "/images/smbcyberhub-logo.webp"
 canonical: "https://smbcyberhub.com/posts/simple-inbox-security-routine/"
-dateModified: 2026-02-27
+dateModified: 2026-03-26
 ---
 
 Small teams don’t need enterprise tools to spot most email threats.  

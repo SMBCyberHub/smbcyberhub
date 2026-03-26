@@ -1,5 +1,5 @@
 ---
-title: "How Phishing Actually Works: A Simple Breakdown for Small Teams"
+title: "How Phishing Works: Simple Breakdown"
 description: "Phishing causes most small business data breaches. A plain-English breakdown of how phishing works, with real examples and practical prevention strategies."
 date: 2025-03-16
 tags: ["phishing"]
@@ -7,7 +7,7 @@ ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Phishing isn't just spam — it's a leading cause of data breaches. Here's a plain-English breakdown for non-technical teams with real examples and prevention strategies."
 featured: true
 canonical: "https://smbcyberhub.com/posts/how-phishing-actually-works-a-simple-breakdown-for-small-teams/"
-dateModified: 2026-02-27
+dateModified: 2026-03-26
 ---
 
 <div class="bg-gradient-to-r from-blue-50 to-emerald-50 border-l-4 border-blue-500 p-6 mb-8 rounded-lg">

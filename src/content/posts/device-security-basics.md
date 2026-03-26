@@ -1,5 +1,5 @@
 ---
-title: "Device Security Basics for Remote Work: What Every Small Team Should Know"
+title: "Device Security Basics for Remote Work"
 description: "Learn how to secure your laptops, phones, and remote work habits with these practical, GDPR-aligned tips tailored for small business teams."
 date: 2025-07-20
 tags: ["remote work", "gdpr", "mfa", "password"]
@@ -7,7 +7,7 @@ ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "From public Wi-Fi to unattended laptops, small security gaps can lead to big breaches. Here’s how to keep your work devices and data safe wherever you are."
 featured: false
 canonical: "https://smbcyberhub.com/posts/device-security-basics/"
-dateModified: 2026-02-27
+dateModified: 2026-03-26
 ---
 
 Working remotely is here to stay — but without strong device security, your data is more exposed than ever. Whether you're logging in from a café or stepping away from your desk, a few simple habits can prevent major risks.

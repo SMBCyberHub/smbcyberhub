@@ -1,5 +1,5 @@
 ---
-title: "Acceptable Use Policy Template for Small Business: GDPR Compliant 2026"
+title: "Acceptable Use Policy Template 2026"
 description: "Free acceptable use policy template for small business teams. GDPR compliant, covers devices, software, internet, and data usage rules."
 date: 2026-02-22
 tags: ["gdpr", "compliance"]
@@ -7,7 +7,7 @@ ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Complete acceptable use policy template designed for small businesses. GDPR compliant, ready to customize, and covers all essential usage requirements."
 featured: false
 canonical: "https://smbcyberhub.com/posts/acceptable-use-policy-template-small-business/"
-dateModified: 2026-02-27
+dateModified: 2026-03-26
 ---
 
 ## Acceptable Use Policy Template for Small Business

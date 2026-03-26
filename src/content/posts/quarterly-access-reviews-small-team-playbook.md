@@ -1,13 +1,13 @@
 ---
-title: "Quarterly Access Reviews in 20 Minutes: A Small-Team Playbook"
-description: "A simple, non-technical process to review and right-size user access each quarter so your small team stays compliant and secure."
+title: "Quarterly Access Reviews in 20 Minutes"
+description: "A simple, non-technical process to review and right-size user access each quarter so your small team stays GDPR-compliant and secure."
 date: 2025-10-16
 tags: ["access control", "offboarding"]
 ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Run a quick, consistent quarterly access review that catches permission creep without slowing your team down."
 featured: false
 canonical: "https://smbcyberhub.com/posts/quarterly-access-reviews-small-team-playbook/"
-dateModified: 2026-02-27
+dateModified: 2026-03-26
 ---
 
 Permission creep is real: people change roles, vendors get added “just for a week,” and test accounts linger. A lightweight quarterly review keeps access lean, reduces audit headaches, and prevents avoidable incidents — without new tools or jargon.
