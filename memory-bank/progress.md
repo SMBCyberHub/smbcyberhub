@@ -114,6 +114,15 @@
 - Updated dateModified to 2026-03-26 on all 25 changed posts
 - Build: 66 pages, 0 errors, exit code 0
 
+### GSC Query-Driven Keyword Optimization
+- Analyzed GSC query data (impressions, clicks, average position) to find content gaps
+- **Insurance checklist page**: Added "coverage" keyword (H2, intro, FAQ, CTA) — "cyber insurance coverage checklist" = 77 impressions at position 86, word "coverage" was entirely absent
+- **2026 compliance checklist**: Added "deadlines" keyword (intro, body, schema FAQ) — "smb regulatory compliance deadlines 2026" = 65 impressions at position 4.8, word "deadlines" was entirely absent
+- **Compliance pillar page**: Added "compliance training" phrase to H3 heading and body text — "compliance training smb" at position 12.8, phrase was absent (used "security awareness training" instead)
+- **Free training page**: Changed H1 from "Small Teams" to "Small Business" to match GSC query and meta description
+- **Kits page**: Added standalone "cybersecurity kit" to intro paragraph for broader keyword match
+- Build: 66 pages, 0 errors, exit code 0
+
 ### GSC Indexing Analysis & Internal Linking Overhaul
 - Analyzed Google Search Console data: 24 indexed vs 64 not-indexed pages, 13 clicks over 3 months
 - Diagnosed primary issue as site authority (zero backlinks), not technical SEO
