@@ -88,7 +88,7 @@ Not always. Many teams start with built-in exports/versioning + a reliable cloud
 Not by themselves. Keep a second, different-type copy (e.g., local image) and one off-site/offline/immutable copy to cover ransomware and account lockouts.
 
 **How long should we keep backups?**  
-Common: 30–90 days for everyday work; 7 years for finance/tax (follow your local rules and contracts).
+Common: 30–90 days for everyday work; 7 years for finance/tax (follow your local rules and contracts). For help setting retention periods that match your business needs, see our guide to [simple data retention for small teams](/posts/simple-data-retention-small-teams/).
 
 ---
 

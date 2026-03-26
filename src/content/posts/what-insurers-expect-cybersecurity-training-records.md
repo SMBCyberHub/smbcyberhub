@@ -30,7 +30,7 @@ featured: true
 
 ## The Insurance Audit Reality Check
 
-When your cyber insurance policy comes up for renewal, the insurer will ask for proof of cybersecurity training. They're not just checking a box — they're verifying that your team actually understands security basics.
+When your cyber insurance policy comes up for renewal, the insurer will ask for proof of cybersecurity training. They're not just checking a box — they're verifying that your team actually understands security basics. For a broader overview of what insurers require beyond training records, see our [complete guide to cyber insurance requirements for small businesses](/posts/cyber-insurance-requirements-small-business-complete-guide/).
 
 **What happens if you can't provide proper records:**
 - Claims may be denied for "failure to implement reasonable security measures"
@@ -51,7 +51,7 @@ When your cyber insurance policy comes up for renewal, the insurer will ask for 
 - Trainer/facilitator signature
 - Training method (in-person, online, hybrid)
 
-**Why it matters:** Proves you actually trained your team, not just bought a course.
+**Why it matters:** Proves you actually trained your team, not just bought a course. For more on what counts as adequate proof, see our guide on [how to provide proof of cybersecurity training for insurance renewals](/posts/how-to-provide-proof-of-cybersecurity-training-for-insurance-renewals/).
 
 ### 2. Training Content Outline
 
@@ -120,6 +120,8 @@ When your cyber insurance policy comes up for renewal, the insurer will ask for 
 **Solution:** Use our annual refresher schedule template.
 
 ## How to Prepare for Your Insurance Audit
+
+Proper documentation is the key to a smooth audit. For a complete overview of all documentation insurers expect, see our guide on [cybersecurity documentation for insurance renewals](/posts/cybersecurity-documentation-for-insurance-renewals/).
 
 ### 30 Days Before Audit
 1. **Gather all training records** from the past 12 months
@@ -213,6 +215,6 @@ A: Yes. Once you purchase the kit, you own the templates forever and can reuse t
 
 ---
 
-**Remember:** Proper training documentation isn't just about compliance — it's about protecting your business from cyber threats and ensuring your insurance coverage when you need it most.
+**Remember:** Proper training documentation isn't just about [compliance](/what-is-smb-cybersecurity-compliance/) — it's about protecting your business from cyber threats and ensuring your insurance coverage when you need it most.
 
 Get started today with our free sample to see the quality and completeness of our training documentation templates.

@@ -66,6 +66,8 @@ Daily checks should include:
 - replies sent that you didn’t write,  
 - messages marked as read that the team doesn’t recognize.
 
+Hidden forwarding rules are a particularly dangerous sign — learn how to detect and remove them in our guide to [stopping silent email forwarding leaks](/posts/stop-silent-leaks-email-forwarding-rules/).
+
 ### 5. Report anything odd immediately
 Make it easy for staff to escalate suspicious messages.
 

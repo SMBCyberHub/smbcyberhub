@@ -12,7 +12,7 @@ dateModified: 2026-02-27
 
 Someone on your team clicked a phishing email. Now what?
 
-Here's what actually happens behind the scenes — and what to do next to limit damage.
+Here's what actually happens behind the scenes — and what to do next to limit damage. If you want to understand the tactics attackers use before the click, start with our guide on [how phishing actually works](/posts/how-phishing-actually-works-a-simple-breakdown-for-small-teams/).
 
 ## 🐛 Step 1: Malware or Credential Theft Begins
 
@@ -170,6 +170,8 @@ The first few minutes are crucial for limiting damage.
 - **Engage legal counsel**: Get advice on compliance obligations
 - **Prepare for notifications**: Plan customer and regulator communications
 
+For a comprehensive overview of compliance requirements, see our [SMB cybersecurity compliance guide](/what-is-smb-cybersecurity-compliance/).
+
 ---
 
 ## 🚨 Incident Response Timeline
@@ -276,13 +278,15 @@ Regular training reduces the likelihood of successful phishing attacks.
 - **Knowledge assessments**: Test understanding and retention
 
 ### **Technical Prevention Measures**
-Implement technical controls to reduce phishing success rates.
+Implement technical controls to reduce phishing success rates. A [simple inbox security routine](/posts/simple-inbox-security-routine/) can also go a long way toward preventing attacks.
 
 #### **Email Security:**
 - **Advanced filtering**: Block suspicious emails and attachments
 - **Link scanning**: Analyze links for malicious content
 - **Sender verification**: Verify email sender authenticity
 - **Attachment scanning**: Scan all attachments for malware
+
+For specific guidance on protecting against spoofed and lookalike emails, see our guide to [stopping fake emails and spoofing](/posts/stop-fake-emails-spoofing-lookalikes/).
 
 #### **Authentication Security:**
 - **Multi-factor authentication**: Require MFA on all accounts

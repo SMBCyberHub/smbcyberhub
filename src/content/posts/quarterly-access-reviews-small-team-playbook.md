@@ -2,7 +2,7 @@
 title: "Quarterly Access Reviews in 20 Minutes: A Small-Team Playbook"
 description: "A simple, non-technical process to review and right-size user access each quarter so your small team stays compliant and secure."
 date: 2025-10-16
-tags: ["access control"]
+tags: ["access control", "offboarding"]
 ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Run a quick, consistent quarterly access review that catches permission creep without slowing your team down."
 featured: false
@@ -82,12 +82,14 @@ Log the date, who reviewed, the systems checked, changes made, and any follow-up
 - **Client folders:** verify only the current project team has access  
 - **Finance apps:** confirm vendor accounts and bookkeepers still required
 
+If your team uses shared devices or shared accounts, our guide on [securing shared devices without killing productivity](/posts/securing-shared-devices-without-killing-productivity/) covers the access controls that matter most.
+
 ---
 
 ## 🙋 Common Questions
 
 **How often is “enough” for small teams?**  
-Quarterly works well. If you’re adding staff/contractors frequently, do a **monthly light pass**.
+Quarterly works well. If you’re adding staff/contractors frequently, do a **monthly light pass** and make sure each new hire follows a [secure onboarding plan](/posts/first-week-secure-onboarding-plan/).
 
 **Should we delete or suspend leavers?**  
 **Suspend first** to preserve files and audit trails, then delete when retention obligations are met.

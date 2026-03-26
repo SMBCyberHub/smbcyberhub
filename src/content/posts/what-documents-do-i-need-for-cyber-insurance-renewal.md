@@ -44,7 +44,7 @@ This comprehensive checklist covers exactly what documents you need for cyber in
 - Document phishing test results with success rates
 
 ### Pro Tip
-Start training 30 days before renewal. Insurers like to see recent training (within the last 12 months).
+Start training 30 days before renewal. Insurers like to see recent training (within the last 12 months). For a detailed breakdown of the training documentation insurers scrutinise most closely, see [What Insurers Expect: Cybersecurity Training Records](/posts/what-insurers-expect-cybersecurity-training-records/).
 
 ---
 

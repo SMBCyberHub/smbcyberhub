@@ -76,9 +76,9 @@
 ## Medium Priority Items (Planned)
 
 ### Content Enhancements
-- 🔄 Differentiated sitemap lastmod per blog post (serialize callback removed; no lastmod currently emitted)
+- ✅ Sitemap lastmod per blog post (already working via dateModified frontmatter — verified 26 Mar 2026)
+- ✅ Pillar/cluster internal linking strategy (hub-and-spoke) — completed 26 Mar 2026
 - 🔄 Distinct OG images per page type (blog, products, tools)
-- 🔄 Pillar/cluster internal linking strategy (hub-and-spoke)
 - 🔄 Downloadable PDF resources for lead capture
 - 🔄 Dynamic Related Posts improvements
 
@@ -102,6 +102,46 @@
 - 📋 Advanced search functionality
 - 📋 User account system (optional)
 - 📋 Kit customization wizard
+
+## Recent Completed Work (26 Mar 2026)
+
+### GSC Indexing Analysis & Internal Linking Overhaul
+- Analyzed Google Search Console data: 24 indexed vs 64 not-indexed pages, 13 clicks over 3 months
+- Diagnosed primary issue as site authority (zero backlinks), not technical SEO
+- Rich results healthy: 45 review snippets, 9 FAQ, 7 product snippets, 7 breadcrumbs
+
+### Sitemap Lastmod
+- Verified already correctly implemented in `astro.config.mjs` — reads `dateModified` from frontmatter at build time (lines 7-17, 52-64). No changes needed.
+
+### Comprehensive Internal Cross-Linking (~50 new links added)
+- Audited all 34 blog posts and 16 static pages for internal link coverage
+- Added contextual internal links across 21 blog posts targeting under-linked and orphan pages
+- Key targets: `what-happens-after-a-phishing-click`, `what-insurers-expect`, `how-to-spot-social-engineering`, `the-true-cost-of-a-breach` (previously had fewest inbound links)
+- Files modified with new internal links: the-true-cost-of-a-breach, what-happens-after-a-phishing-click, what-insurers-expect, how-to-spot-social-engineering, device-security-basics, when-someone-leaves, quarterly-access-reviews, ftc-safeguards-rule, cyber-essentials-2026, us-cyber-insurance-requirements, simple-inbox-security-routine, how-phishing-actually-works, cybersecurity-myths-small-teams, audit-ready-in-under-an-hour, acceptable-use-policy-template, remote-work-security-habits, safe-client-file-sharing, stop-silent-leaks-email-forwarding-rules, what-documents-do-i-need, cyber-insurance-requirements-complete-guide, backups-that-actually-work, how-to-provide-proof-of-training
+
+### Pillar Page → Cluster Linking
+- Strengthened `/what-is-smb-cybersecurity-compliance/` hub page with 14 contextual links to cluster posts
+- Added links in body content sections: training → phishing/password/training-proof posts, policies → AUP/data-retention/remote-work templates, technical → backups/device-security, incident response → true-cost-of-a-breach
+- Added quarterly access reviews link to Ongoing Maintenance section
+- Expanded Related Resources section from 7 to 13 cards (added audit-ready, onboarding, offboarding, social-engineering, remote-work-habits)
+- Fixed broken link to non-existent `/posts/password-playbook-for-small-teams/` → corrected to `/posts/top-5-password-mistakes-small-businesses-still-make-in-2025/`
+
+### Static Page → Blog Post Links
+- **Law firms page**: Added 3 new resource cards (payment fraud playbook, social engineering, AUP template)
+- **2026 compliance checklist**: Added "Step-by-Step Guides" section with 6 blog post cards (AUP, remote work, data retention, onboarding, phishing, audit checklist)
+
+### Thin Tag Page Consolidation
+- Identified 4 tags with only 1 post each (noindex but wasting crawl budget)
+- Added relevant secondary tags to posts that discuss those topics:
+  - `device-security-basics.md`: added `"mfa"`, `"password"` tags
+  - `audit-ready-in-under-an-hour.md`: added `"backups"` tag
+  - `quarterly-access-reviews.md`: added `"offboarding"` tag
+  - `remote-work-security-habits.md`: added `"mfa"` tag
+- All 4 thin tags now have 2+ posts → no longer noindexed
+
+### Build Verification
+- Build: 66 pages, 0 errors, exit code 0
+- All duplicate ID warnings are pre-existing (Astro content collection known issue)
 
 ## Recent Completed Work (24 Mar 2026)
 
@@ -254,11 +294,10 @@
 
 ## Next Sprint Priorities
 
-1. **Sitemap lastmod differentiation** - Implement per-post lastmod using dateModified frontmatter (serialize callback was removed; no lastmod emitted currently)
+1. **Backlink outreach** - Site authority (zero backlinks) is the #1 indexing bottleneck; technical SEO and internal linking are now solid
 2. **Distinct OG images** - Create 2-3 OG images for different page types
-3. **Pillar/cluster linking** - Formalize hub-and-spoke content structure
-4. **Lead generation** - Create downloadable PDF resources for link bait
-5. **Google Search Console** - Add verification meta tag and monitor indexing
+3. **Lead generation** - Create downloadable PDF resources for link bait
+4. **Google Search Console** - Submit updated URLs for re-indexing after internal linking changes
 
 ## Technical Debt
 

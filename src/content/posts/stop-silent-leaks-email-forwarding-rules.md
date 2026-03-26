@@ -247,6 +247,8 @@ Our [cybersecurity compliance kits](/kits/) include email security policies, inb
 - [ ] **Regular security reviews** and assessments
 - [ ] **Train staff** on email security awareness
 
+Pairing these checks with a [simple inbox security routine](/posts/simple-inbox-security-routine/) helps you catch forwarding issues and other red flags during everyday email use.
+
 ### **Success Metrics**
 - **Zero unauthorized** forwarding rules
 - **All high-risk mailboxes** reviewed monthly

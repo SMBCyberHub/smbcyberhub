@@ -2,7 +2,7 @@
 title: "Device Security Basics for Remote Work: What Every Small Team Should Know"
 description: "Learn how to secure your laptops, phones, and remote work habits with these practical, GDPR-aligned tips tailored for small business teams."
 date: 2025-07-20
-tags: ["remote work", "gdpr"]
+tags: ["remote work", "gdpr", "mfa", "password"]
 ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "From public Wi-Fi to unattended laptops, small security gaps can lead to big breaches. Here’s how to keep your work devices and data safe wherever you are."
 featured: false
@@ -40,12 +40,14 @@ Public and home Wi-Fi can expose your traffic to snoopers:
 - Don’t sync work files to personal cloud drives
 - Only use work-approved devices and accounts
 
+For more on building daily habits that protect company data, see our guide to [remote work security habits that stop data leaks before they start](/posts/remote-work-security-habits-that-stop-data-leaks-before-they-start/).
+
 ## 🚫 What NOT to Do (Yes, We’ve Seen These)
 
 - Don’t leave laptops unattended in cars
-- Don’t let family members use your work device
+- Don’t let family members use your work device — if your team shares workstations, see our tips on [securing shared devices without killing productivity](/posts/securing-shared-devices-without-killing-productivity/)
 - Don’t share login details via email or chat
-- Don’t use USB drives you didn’t purchase yourself
+- Don’t use USB drives you didn’t purchase yourself — learn [why free USB drives are a security threat and what to use instead](/posts/why-free-usb-drives-are-a-threat-safe-file-transfer-alternatives/)
 
 ## 🧳 If Your Device Is Lost or Stolen…
 

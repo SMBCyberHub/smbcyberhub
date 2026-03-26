@@ -144,7 +144,7 @@ For UK and Irish small businesses, a solid security posture typically involves:
 | **Staff Training** | Human layer of defence | Phishing awareness, password hygiene, incident reporting |
 | **Policies & Documentation** | Written procedures and audit trails | ISP, AUP, incident response plan, backup procedures |
 
-Cyber Essentials handles the first layer. The rest requires policies, training, and documentation — which is where frameworks like GDPR and insurer requirements come in.
+Cyber Essentials handles the first layer. The rest requires policies, training, and documentation — which is where frameworks like GDPR and insurer requirements come in. US-based readers may find the [NIST Cybersecurity Framework](/posts/nist-cybersecurity-framework-small-business-guide/) a useful point of comparison for mapping controls across international standards.
 
 ---
 
