@@ -7,7 +7,7 @@ ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Attackers love silent auto-forwarding. This comprehensive guide finds and fixes risky inbox rules in Gmail and Microsoft 365 with detailed implementation strategies."
 featured: false
 canonical: "https://smbcyberhub.com/posts/stop-silent-leaks-email-forwarding-rules/"
-dateModified: 2026-03-26
+dateModified: 2026-03-27
 ---
 
 Email auto-forwarding is a favourite trick in invoice fraud and account takeovers. One sneaky rule can copy quotes, invoices, and client emails to an attacker for weeks—without anyone noticing. Good news: a **10-minute** check closes most gaps.
@@ -18,6 +18,10 @@ Email auto-forwarding is a favourite trick in invoice fraud and account takeover
 
 ### **The Silent Leak Problem**
 Email forwarding is one of the most dangerous and overlooked security vulnerabilities in small businesses.
+
+### How would I know if someone set up a forwarding rule on my email?
+
+You probably would not — that is exactly what makes this attack so dangerous. Forwarding rules run silently in the background, copying every email to an external address without any visible sign. The only reliable way to detect them is to manually audit your inbox rules or set up admin alerts. If you have not checked recently, an attacker could be reading your emails right now.
 
 #### **How Attackers Use Forwarding:**
 - **Business Email Compromise (BEC)**: Attackers gain access to email accounts
@@ -113,6 +117,10 @@ Email forwarding is one of the most dangerous and overlooked security vulnerabil
 - **Documentation** of all alerts and responses
 
 ### **Step 4: Disable Legacy Access**
+
+### Why does disabling legacy email access improve forwarding security?
+
+Legacy protocols like POP and IMAP do not support modern security features such as MFA. Attackers can exploit these older access methods to set up forwarding rules without triggering your security alerts. Disabling legacy access forces everyone onto modern authentication, which is significantly harder to compromise.
 
 #### **Legacy Access Risks:**
 - **POP/IMAP**: Older email protocols with weaker security

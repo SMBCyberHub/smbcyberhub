@@ -6,7 +6,7 @@ tags: ["phishing"]
 excerpt: "A simple 5-minute inbox routine any employee can follow to block phishing, invoice fraud, and accidental data exposure."
 ogImage: "/images/smbcyberhub-logo.webp"
 canonical: "https://smbcyberhub.com/posts/simple-inbox-security-routine/"
-dateModified: 2026-03-26
+dateModified: 2026-03-27
 ---
 
 Small teams don’t need enterprise tools to spot most email threats.  
@@ -30,6 +30,10 @@ If you’ve already read our posts on
 ---
 
 ## The 5-Minute Inbox Security Routine
+
+### How do I spot a fake email that looks like it is from a real vendor?
+
+Check the actual email address, not just the display name — attackers often use addresses like "vendorname.co" or "vendor-narne.com" that look right at a glance. Hover over the sender name to reveal the full address. If it does not match the vendor's real domain exactly, treat it as suspicious and call the vendor using a number from your own records.
 
 ### 1. Check the sender domain (not just the name)
 Attackers rely on display-name deception.
@@ -94,6 +98,12 @@ Turn this on for better visual checks.
 
 ### Enforce a call-back verification for any money movement
 Email alone must never be enough to approve a payment.
+
+---
+
+## What if we do not have time for a daily inbox security routine?
+
+Start with just two steps: check the sender domain and pause on urgency. These alone catch the majority of phishing attempts in under two minutes. Add the other steps as your team builds the habit. A partial routine that actually happens every day beats a perfect routine that nobody follows.
 
 ---
 

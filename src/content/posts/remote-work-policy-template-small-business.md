@@ -7,7 +7,7 @@ ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Complete remote work policy template designed for small businesses. GDPR compliant, ready to customize, and includes all essential security requirements."
 featured: false
 canonical: "https://smbcyberhub.com/posts/remote-work-policy-template-small-business/"
-dateModified: 2026-03-26
+dateModified: 2026-03-27
 ---
 
 ## Remote Work Policy Template for Small Business
@@ -35,6 +35,10 @@ This policy establishes security requirements for employees working remotely fro
 - **No public Wi-Fi**: Prohibited for handling company data
 - **VPN required**: Mandatory for all remote connections to company systems
 - **Router security**: Change default router passwords, enable firewall
+
+## Do remote employees really need a VPN?
+
+Yes. A VPN encrypts all traffic between the employee's device and your company systems, preventing anyone on the same network from intercepting passwords, emails, or client data. Even on a secure home Wi-Fi network, a VPN adds a critical layer of protection — and most insurers now expect it as a standard control for remote workers.
 
 ### **3. Device Management**
 
@@ -64,6 +68,10 @@ This policy establishes security requirements for employees working remotely fro
 - **Access controls**: Implement role-based access to sensitive information
 - **Data retention**: Follow company data retention policies
 - **Breach reporting**: Report any suspected data breaches within 24 hours
+
+## Should remote workers store files locally or in the cloud?
+
+Cloud storage is generally safer for remote work because it is encrypted, automatically backed up, and can be remotely wiped if a device is lost or stolen. Local storage on a laptop means the data goes wherever the device goes — including into the wrong hands. The rule for remote workers should be simple: store sensitive data only on approved cloud platforms, not on the device itself.
 
 ### **5. Communication Security**
 

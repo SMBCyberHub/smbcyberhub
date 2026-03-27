@@ -2,7 +2,7 @@
 title: "Simple Data Retention for Small Teams"
 description: "Plain-English data retention for small teams: what to keep, what to delete, and how to build a simple policy that stays compliant without extra admin."
 date: 2026-01-26
-dateModified: 2026-03-26
+dateModified: 2026-03-27
 tags: ["gdpr"]
 ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "A practical, non-technical guide to data retention for small teams: what to keep, what to delete, and how to build a simple policy you can actually follow."
@@ -83,6 +83,10 @@ The law doesn’t give you exact numbers for everything. Instead, you:
 - Keep data long enough for legal and contractual reasons  
 - Then delete or anonymise it when it genuinely isn’t needed  
 
+### How long should we actually keep client data?
+
+GDPR says “not longer than necessary” — which means you decide based on your business need. A practical starting point: keep operational data while the client relationship is active plus 1–2 years after it ends, retain legal and financial records for 5–6 years (check your local tax rules), and delete everything else. Document your reasoning and you are compliant.
+
 ### Group data into a few “buckets”
 
 For each system, put data into these simple buckets:
@@ -157,6 +161,10 @@ Why it matters: when someone asks you to erase their data, or you want to reduce
 
 Retention also needs to consider where copies of your data end up.
 
+### Do deleted files really disappear from our backups?
+
+Not immediately. Deleted items remain in backups until old backup copies are rotated out, which can take months or years depending on your schedule. You do not need to surgically remove individual records from every historical backup — just let them age out naturally. This approach is realistic and still satisfies data minimisation requirements.
+
 ### Keep backups separate from everyday clutter
 
 Backups exist so you can recover from accidents or ransomware, not as a secondary filing cabinet.
@@ -216,7 +224,7 @@ Why it matters: the more your retention policy is treated as a living, everyday 
 ## Common Questions (Quick Answers)
 
 **Do we really have to delete old data if storage is cheap?**  
-Yes. GDPR expects you to minimise personal data and not keep it “just in case”. Cheap storage doesn’t reduce the impact if an old inbox or drive full of outdated records is breached.
+Yes. GDPR expects you to minimise personal data and not keep it “just in case”. Cheap storage doesn’t reduce the impact if an old inbox or drive full of outdated records is breached. If a data breach does occur, our [GDPR breach notification procedures guide](/posts/gdpr-breach-notification-procedures-small-business/) walks you through the 72-hour timeline.
 
 **Can we keep client data forever if they might come back?**  
 No. You can keep enough information to identify returning clients and honour contractual or legal obligations, but not entire histories forever. Decide a reasonable period after last contact (for example, a few years) and document it.

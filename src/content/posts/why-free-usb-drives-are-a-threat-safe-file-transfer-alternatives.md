@@ -7,7 +7,7 @@ ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "That free USB at the conference? It might be a trap. Here's why physical media can carry digital threats — and what to use instead with comprehensive security guidance."
 featured: false
 canonical: "https://smbcyberhub.com/posts/why-free-usb-drives-are-a-threat-safe-file-transfer-alternatives/"
-dateModified: 2026-03-26
+dateModified: 2026-03-27
 ---
 
 Free USB drives might seem like harmless swag — but they can be serious security threats. For small teams, the risk is even greater.
@@ -38,6 +38,12 @@ USB drives are one of the most common and dangerous physical attack vectors for 
 - **Autorun vulnerabilities**: Automatic execution of malicious code
 - **Driver exploits**: Vulnerabilities in USB device drivers
 - **Port manipulation**: Manipulating USB ports for attacks
+
+---
+
+## Can a USB drive really infect a computer just by plugging it in?
+
+Yes. Some USB devices contain malware in their firmware or disguise themselves as keyboards to execute commands automatically the moment they are connected. You do not need to open any files — simply plugging in the drive can trigger an infection. This is why "never plug in unknown USB drives" is a hard rule, not a suggestion.
 
 ---
 
@@ -165,6 +171,10 @@ Implement technical controls to prevent USB-based attacks.
 
 ### **Policy and Process Controls**
 Implement policies and procedures for USB security.
+
+### How do we enforce a no-unknown-USB policy without seeming paranoid?
+
+Keep it simple: only registered, company-approved USB devices are permitted, and staff should use cloud storage or secure transfer services for file sharing instead. Make sure everyone knows that plugging in an unregistered USB could trigger an incident investigation. Frame it the same way you would frame not opening suspicious packages — it is common-sense caution, not paranoia.
 
 #### **USB Security Policy:**
 - **Prohibited devices**: Ban unknown USB devices

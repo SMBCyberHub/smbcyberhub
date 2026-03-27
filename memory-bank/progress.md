@@ -34,7 +34,7 @@
 - ✅ dateModified in frontmatter for all 31 blog posts
 
 ### Content
-- ✅ 35 blog posts covering cybersecurity topics (31 original + 3 US market expansion + 1 Cyber Essentials v3.3)
+- ✅ 37 blog posts covering cybersecurity topics (31 original + 3 US market expansion + 1 Cyber Essentials v3.3 + 2 incident response/breach notification)
 - ✅ Posts tagged with 10 core tags (phishing, compliance, gdpr, cyber insurance, mfa, password, access control, offboarding, remote work, backups)
 - ✅ Contextual CTAs based on post tags
 - ✅ Related posts component
@@ -69,7 +69,7 @@
 - ✅ No Google Analytics or third-party tracking
 
 ### Compliance Features
-- ✅ "30-Minute Audit-Ready Framework" branding
+- ✅ "60-Minute Audit-Ready Framework" branding
 - ✅ GDPR-aligned messaging
 - ✅ Privacy-first emphasis throughout site
 
@@ -102,6 +102,40 @@
 - 📋 Advanced search functionality
 - 📋 User account system (optional)
 - 📋 Kit customization wizard
+
+## Recent Completed Work (27 Mar 2026)
+
+### AEO Question-as-Heading Sections (19 posts updated)
+- Added 2 question-as-heading sections to each of 19 blog posts that lacked this AEO pattern
+- Pattern: natural question as H2/H3 → direct 1-2 sentence answer → brief elaboration
+- Updated dateModified to 2026-03-27 on all 19 posts
+- Posts updated: audit-ready, cybersecurity-myths, first-week-onboarding, true-cost-of-breach, top-5-passwords, phishing-click, when-someone-leaves, remote-work-habits, shared-devices, data-retention, inbox-security, payment-fraud, email-forwarding, usb-drives, us-cyber-insurance, acceptable-use-policy, remote-work-policy, safe-client-file-sharing, 5-person-company
+- Purpose: AI engines (ChatGPT, Perplexity, Claude) extract question+answer pairs for citations
+
+### New Blog Posts (2 posts)
+- **`incident-response-plan-template-small-business.md`** (~2,400 words, tags: compliance)
+  - Practical IRP template with 4 phases: preparation, containment, investigation, recovery
+  - Includes copy-and-customise template sections, GDPR 72-hour timeline, role assignments
+  - Quick-reference sections for ransomware, phishing, lost device, account takeover
+  - 5+ outbound internal links, 3 inbound links added from existing posts
+- **`gdpr-breach-notification-procedures-small-business.md`** (~2,500 words, tags: gdpr + compliance)
+  - GDPR Articles 33-34 explained in plain English
+  - Decision flowchart: when to notify vs when not to
+  - Template wording for supervisory authority and individual notifications
+  - Breach register template, insurance notification guidance
+  - 5+ outbound internal links, 3 inbound links added from existing posts
+- Both posts have trailing-slash redirects in _redirects
+- Both posts cross-link to each other
+
+### Internal Cross-Linking (6 new inbound links)
+- 3 inbound links to incident response plan template (from audit-ready checklist, cybersecurity-documentation, what-documents-do-i-need)
+- 3 inbound links to GDPR breach notification guide (from simple-data-retention, true-cost-of-breach, phishing-click)
+
+### productContext.md Housekeeping
+- Updated "30-Minute Audit-Ready Framework" references to "60-Minute" (3 occurrences)
+
+### Build Verification
+- Build: 68 pages, 0 errors, exit code 0
 
 ## Recent Completed Work (26 Mar 2026)
 

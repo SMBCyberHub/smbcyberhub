@@ -7,12 +7,16 @@ ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "A practical, non-technical onboarding plan for the first 7 days — covering accounts, devices, passwords, MFA, and basic training."
 featured: false
 canonical: "https://smbcyberhub.com/posts/first-week-secure-onboarding-plan/"
-dateModified: 2026-03-26
+dateModified: 2026-03-27
 ---
 
 Hiring someone new? Great. The first week is when good security habits stick (or don’t). This simple plan gets a new starter set up safely **without** turning day one into an IT saga.
 
 > **Goal:** Create the right accounts, set the right permissions, and build 3 essential habits: strong passwords, MFA, and quick reporting.
+
+## How much time does secure onboarding actually take?
+
+The full 5-day plan adds roughly 2–3 hours of security setup spread across the first week — about 30 minutes per day on top of normal onboarding. Most of it happens naturally while setting up email, devices, and access, so it rarely feels like extra work.
 
 ---
 
@@ -76,6 +80,10 @@ Outcome: Least privilege from week one — and fewer surprises later.
 - **Two-minute drill:** Ask them to “report a suspicious email” using your agreed path.
 - **Mini-scenario:** “If you lose your laptop/phone, what’s step one?” (Answer: tell us immediately; we’ll remote-lock/wipe.)
 - **Wrap-up:** Remind them that mistakes are reported, not hidden — speed matters, not blame.
+
+## What is the biggest security mistake during new hire onboarding?
+
+Giving new employees too much access too quickly. Most teams grant broad or admin-level access to speed things up, then forget to scale it back. Start with the minimum permissions the role requires — you can always add more. This least-privilege approach is also what compliance standards and insurance policies expect.
 
 ---
 

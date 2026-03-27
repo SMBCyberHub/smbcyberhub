@@ -7,7 +7,7 @@ ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Sometimes staff share laptops or desktops. Here's how to stay secure without slowing down your team's work with practical policies and user-friendly security measures."
 featured: false
 canonical: "https://smbcyberhub.com/posts/securing-shared-devices-without-killing-productivity/"
-dateModified: 2026-03-26
+dateModified: 2026-03-27
 ---
 
 Not every small team can afford one device per person — but sharing devices shouldn't mean sharing security risks. Here's how to strike the balance between security and productivity.
@@ -86,6 +86,10 @@ Modern browsers make it easy to keep work and personal data separate.
 4. **Disable sync** for shared devices
 5. **Test login/logout** procedures
 
+### What is the fastest way to lock down a shared workstation?
+
+Start with three quick wins: disable USB ports (except keyboard and mouse), set all users as standard (non-admin) accounts, and enable audit logging. These take under 30 minutes to implement and block the majority of common shared-device risks without slowing down daily work.
+
 ### **Implement Session Cleanup Procedures**
 End-of-session cleanup prevents data leakage between users.
 
@@ -149,6 +153,10 @@ Workstation Security Setup:
 
 ### **Acceptable Use Policy for Shared Devices**
 Create clear guidelines that everyone can understand and follow.
+
+### Do we really need a written policy for shared devices?
+
+Yes. A written policy protects you legally, sets clear expectations, and gives you something concrete to point to when enforcing security rules. Without one, you are relying on assumptions — and when a breach happens, regulators and insurers will ask where your policy is. Something imperfect is far better than nothing at all.
 
 #### **Key Policy Elements:**
 - **Device access hours** and usage restrictions

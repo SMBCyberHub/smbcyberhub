@@ -65,6 +65,8 @@ dateModified: 2026-02-27
 - Communication protocols for breaches
 - Post-incident review templates
 
+For a ready-to-use template, see our [incident response plan template for small businesses](/posts/incident-response-plan-template-small-business/).
+
 ### **5. "Do you use multi-factor authentication?"**
 **✅ YES - With Our Documentation:**
 - MFA implementation policy

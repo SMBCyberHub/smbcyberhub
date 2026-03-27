@@ -7,7 +7,7 @@ ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "A practical, plain-English guide to sharing client files safely with email and cloud links — without turning your small team into IT admins."
 featured: false
 canonical: "https://smbcyberhub.com/posts/safe-client-file-sharing-simple-rules/"
-dateModified: 2026-03-26
+dateModified: 2026-03-27
 ---
 
 Most small teams send sensitive information every day: invoices, payroll, ID documents, contracts, and reports. Most of it moves via email attachments and cloud links that nobody has really configured.
@@ -58,6 +58,10 @@ Use this four-level scale:
    - If you’d lose sleep over it leaking, it sits here.
 
 Once you know the level, you can stop treating everything like a casual attachment.
+
+## What is the real risk of sending a file to the wrong person?
+
+A single misdirected email containing client data can trigger GDPR breach notification requirements, damage your reputation, and cost thousands in remediation. For small teams, the impact goes beyond fines — it is the time spent explaining the mistake to clients, insurers, and potentially regulators. Classifying files before sending is the simplest way to prevent this.
 
 ---
 
@@ -130,6 +134,10 @@ Where your platform supports it:
 - Shorten it (e.g. 7 days) for especially sensitive content.
 
 This keeps old links from hanging around forever in inboxes and chats.
+
+## Why should I use link expiry instead of permanent sharing?
+
+Link expiry prevents old shared links from staying active indefinitely in email threads and chat histories. If someone forwards a link six months later, it simply will not work — protecting your data from accidental re-sharing. For most client files, a 30-day expiry is sensible. For highly sensitive content, set it to 7 days.
 
 ---
 

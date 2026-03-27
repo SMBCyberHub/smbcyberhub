@@ -7,7 +7,7 @@ ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Small teams are mobile — and that means new risks. These everyday habits can prevent major device-related security incidents with practical guidance for remote work."
 featured: false
 canonical: "https://smbcyberhub.com/posts/remote-work-security-habits-that-stop-data-leaks-before-they-start/"
-dateModified: 2026-03-26
+dateModified: 2026-03-27
 ---
 
 Working remotely is here to stay. But without the right habits, remote work can expose sensitive data — from lost devices to unsafe networks.
@@ -141,6 +141,10 @@ Encryption protects data if device is lost or stolen.
 ### **1. Avoid Public Wi-Fi Without Protection**
 Public networks are often insecure and can be monitored.
 
+### How do I know if my internet connection is actually secure?
+
+Check for the padlock icon in your browser and confirm the URL starts with HTTPS. If you are on public Wi-Fi, use a VPN to encrypt your traffic — without one, anyone on the same network can potentially intercept your passwords and data. When in doubt, use your phone's mobile hotspot instead of public Wi-Fi.
+
 #### **Public Wi-Fi Risks:**
 - **Man-in-the-middle attacks**: Attackers intercept traffic
 - **Evil twin attacks**: Fake Wi-Fi hotspots
@@ -218,6 +222,10 @@ Phones often contain sensitive business information and need protection.
 
 ### **BYOD (Bring Your Own Device) Security**
 If employees use personal devices for work, implement proper security.
+
+### Can a personal phone be as secure as a company device?
+
+Yes, if you apply the same rules: strong passcode, MFA enabled, automatic updates, and encryption turned on. The difference is not the hardware — it is whether consistent security practices are enforced. Many small teams successfully use personal devices for work when a clear BYOD policy is in place.
 
 #### **BYOD Requirements:**
 - **Security policies**: Clear BYOD policies and procedures
