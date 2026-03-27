@@ -7,7 +7,7 @@ ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Complete acceptable use policy template designed for small businesses. GDPR compliant, ready to customize, and covers all essential usage requirements."
 featured: false
 canonical: "https://smbcyberhub.com/posts/acceptable-use-policy-template-small-business/"
-dateModified: 2026-03-26
+dateModified: 2026-03-27
 ---
 
 ## Acceptable Use Policy Template for Small Business
@@ -37,6 +37,10 @@ This policy defines acceptable use of company equipment, software, networks, and
 - **Lost devices**: Immediate reporting required (within 1 hour)
 - **Remote wipe**: Company reserves right to wipe lost/stolen devices
 - **Personal devices**: Personal use of company phones allowed with restrictions
+
+## What personal use is actually allowed on company devices?
+
+Most small businesses allow brief personal use during breaks — checking personal email, quick social media, or short tasks that do not affect work. The key is that company devices are company property and all activity may be monitored. Your policy should clearly define what "limited" means so there is no confusion when you need to enforce the rules.
 
 ### **3. Internet and Network Usage**
 
@@ -89,6 +93,10 @@ This policy defines acceptable use of company equipment, software, networks, and
 - **Personal accounts**: No personal cloud accounts for business data
 - **Access control**: Report any unauthorized access immediately
 - **Data sharing**: Follow data classification guidelines
+
+## Why can employees not install their own software?
+
+Unapproved software can introduce security vulnerabilities, licence violations, and compliance issues. A single piece of malware disguised as a free tool can compromise your entire network and put you at risk during audits or insurance claims. Requiring approval for all installations keeps your devices secure, properly licensed, and audit-ready.
 
 ---
 

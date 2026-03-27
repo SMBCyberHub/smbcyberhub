@@ -90,6 +90,7 @@ Start training 30 days before renewal. Insurers like to see recent training (wit
 - Test the plan annually and document results
 - Keep contact information updated
 - Include regulator notification procedures
+- Need a starting point? Download our [incident response plan template for small businesses](/posts/incident-response-plan-template-small-business/)
 
 ---
 

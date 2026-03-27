@@ -7,7 +7,7 @@ ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Weak or reused passwords are still common in small teams. These are the top mistakes — and how to fix them fast, aligned with NCSC and Cyber Essentials guidance."
 featured: false
 canonical: "https://smbcyberhub.com/posts/top-5-password-mistakes-small-businesses-still-make-in-2025/"
-dateModified: 2026-03-24
+dateModified: 2026-03-27
 ---
 
 <div class="bg-gradient-to-r from-blue-50 to-emerald-50 border-l-4 border-blue-500 p-6 mb-8 rounded-lg">
@@ -21,6 +21,10 @@ dateModified: 2026-03-24
 Strong passwords are one of the simplest, most effective defenses in cybersecurity. And yet, password hygiene is still a major weak point for small teams.
 
 Here are the top 5 mistakes — and what to do instead.
+
+## Why are password mistakes still so common in small businesses?
+
+Because convenience wins over security in the moment. Reusing passwords is easier than remembering 20 unique ones, and sharing logins saves money on extra licences. The problem is that these shortcuts create compounding risk — one compromised password can unlock your entire business. A free password manager like Bitwarden removes the friction and makes good habits the easy default.
 
 ## ❌ Mistake #1: Reusing Passwords Across Tools
 
@@ -156,6 +160,10 @@ Notepad files, email drafts, sticky notes, or shared documents are not secure. A
 - **Regular backups**: Export and securely store encrypted backups
 - **Access controls**: Limit who can access shared vaults
 - **Regular updates**: Keep password manager updated
+
+## How do I know if my passwords have already been compromised?
+
+Check haveibeenpwned.com — enter your email address to see if it appears in known data breaches. If it does, change that password immediately on every account where you used it. Most password managers also include built-in breach monitoring that alerts you automatically when stored credentials appear in new leaks.
 
 ---
 

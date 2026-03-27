@@ -7,10 +7,14 @@ ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Step-by-step offboarding checklist to remove access, protect data, and stay audit-ready when someone leaves your small business with comprehensive security procedures."
 featured: false
 canonical: "https://smbcyberhub.com/posts/when-someone-leaves/"
-dateModified: 2026-03-26
+dateModified: 2026-03-27
 ---
 
 When someone leaves—whether it's a resignation, contract end, or dismissal—there's a short window to cleanly remove access and protect your files. This simple checklist keeps it calm, fast, and audit-ready for small teams.
+
+## How quickly should you revoke access when an employee leaves?
+
+Disable all accounts and remote access before the employee's last day ends — ideally within the final hour. Delayed revocation is one of the most common compliance gaps auditors flag. Former employees with active credentials are a leading cause of insider-related data breaches in small businesses.
 
 ## Understanding Offboarding Security Risks
 
@@ -142,6 +146,10 @@ Retrieve and secure all company-owned devices.
 - **Device state**: Record device condition and status
 - **Wipe logs**: Keep records of all wipe operations
 - **Return receipts**: Document device return receipts
+
+## What is the most commonly forgotten step in employee offboarding?
+
+Revoking access to shared accounts and third-party tools (Slack, Trello, cloud storage, CRM). Most teams remember to disable the main email account but forget the dozens of SaaS tools where the departing employee still has active sessions or saved passwords. A written checklist is the only reliable way to catch everything.
 
 ### Step 5: Rotate Shared Credentials and API Keys
 Change all shared credentials and access keys.

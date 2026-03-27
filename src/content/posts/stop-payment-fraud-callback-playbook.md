@@ -7,7 +7,7 @@ ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Before you change where money goes, call back on a known number. Here's a 10-minute playbook that stops invoice and bank-detail scams with comprehensive verification procedures."
 featured: false
 canonical: "https://smbcyberhub.com/posts/stop-payment-fraud-callback-playbook/"
-dateModified: 2026-03-26
+dateModified: 2026-03-27
 ---
 
 When money is about to move—especially after an email asking you to **update bank details** or **pay a new account**—you have one job: slow down and **verify using a callback you control**. This simple playbook turns a risky moment into a safe one.
@@ -60,6 +60,10 @@ Before touching your finance system, take immediate action to preserve evidence.
 
 ### Step 2: Find the Known Contact Information
 Use trusted sources for contact information, not the potentially compromised email.
+
+### What if the vendor's contact number is in the email we are verifying?
+
+Never use a phone number from the suspicious email itself — it could be fake. Instead, use a number from a previous invoice, your CRM, the vendor's official website, or a business card from a past meeting. The single most important rule in callback verification is: always verify using information you already trust, not information from the message you are checking.
 
 #### Reliable Sources:
 - **Vendor contracts**: Official agreements with contact details
@@ -241,6 +245,10 @@ Check if the sender domain is legitimate.
 ---
 
 ## Incident Response for Payment Fraud
+
+### What do I do if we already sent money to a fraudster?
+
+Contact your bank immediately — within the first hour if possible. Banks can sometimes freeze or recall transfers before they clear. Also report to local police and your cyber insurance provider. Document everything (emails, screenshots, timestamps) because your bank and insurer will need evidence for the investigation. Speed is the single biggest factor in recovery.
 
 ### Immediate Actions (First 5 Minutes)
 1. **Stop the payment**: Do not process the payment
