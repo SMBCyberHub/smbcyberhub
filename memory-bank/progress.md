@@ -34,7 +34,7 @@
 - ✅ dateModified in frontmatter for all 31 blog posts
 
 ### Content
-- ✅ 37 blog posts covering cybersecurity topics (31 original + 3 US market expansion + 1 Cyber Essentials v3.3 + 2 incident response/breach notification)
+- ✅ 39 blog posts covering cybersecurity topics (31 original + 3 US market expansion + 1 Cyber Essentials v3.3 + 2 incident response/breach notification + 2 GSC query-targeted)
 - ✅ Posts tagged with 10 core tags (phishing, compliance, gdpr, cyber insurance, mfa, password, access control, offboarding, remote work, backups)
 - ✅ Contextual CTAs based on post tags
 - ✅ Related posts component
@@ -102,6 +102,40 @@
 - 📋 Advanced search functionality
 - 📋 User account system (optional)
 - 📋 Kit customization wizard
+
+## Recent Completed Work (28 Mar 2026)
+
+### GSC Performance Analysis & CTR Optimization
+- Analyzed 28-day GSC data: ~3 clicks, ~320 impressions, near-zero CTR
+- Identified key issues: page 1 rankings with 0 clicks, content gaps for proven-demand queries, low authority positions
+- **2026-compliance-checklist.astro**: Rewrote title from "2026 SMB Cybersecurity Compliance Checklist" → "2026 SMB Compliance Deadlines & Checklist" (adds "deadlines" keyword — query at position 4.8 with 65 impressions, 0 clicks). Updated H1 and schema dateModified.
+- **cyber-insurance-renewal-checklist.astro**: Rewrote title from "Cyber Insurance Renewal Checklist 2026" → "Cyber Insurance Coverage Checklist 2026" (matches "cyber insurance coverage checklist" — 77 impressions, 0 clicks). Updated H1 and meta description.
+- **what-is-smb-cybersecurity-compliance.astro**: Rewrote meta description to be more click-worthy — added "30-day plan, policy templates, and costs breakdown" instead of listing frameworks
+- Updated sitemap lastmod dates in astro.config.mjs for all 3 pages
+
+### New Blog Posts (2 posts)
+- **`gdpr-policy-template-small-business.md`** (~3,140 words, tags: gdpr + compliance, featured: true)
+  - Targets "small business gdpr policy template" (1 click / 18 impressions — only click-generating query)
+  - Complete GDPR data protection policy template with copy-and-customise blockquote sections
+  - Covers: data protection principles (Art 5), lawful basis (Art 6), subject rights (Arts 15-22), ROPA (Art 30)
+  - Privacy notice template, breach procedures, staff responsibilities
+  - 2 AEO question headings, 7 outbound internal links
+  - 3 inbound links added from existing posts
+- **`smb-cybersecurity-assessment-guide.md`** (~2,350 words, tags: compliance)
+  - Targets "smb cybersecurity assessment" (22 impressions, 0 clicks — content gap)
+  - DIY self-assessment checklist covering 6 domains: policies, training, access control, data protection, incident readiness, device security
+  - RAG/traffic-light scoring system with tables
+  - Honest about when to get professional help (pen testing not DIY)
+  - 2 AEO question headings, 10+ outbound internal links
+  - 3 inbound links added from existing posts
+
+### Internal Cross-Linking (6 new inbound links)
+- 3 inbound links to GDPR policy template (from simple-data-retention, gdpr-breach-notification, what-documents-for-insurance + pillar page)
+- 3 inbound links to assessment guide (from audit-ready-checklist, cybersecurity-myths, cyber-insurance-requirements-guide)
+
+### Redirects & Build
+- Both new posts have trailing-slash redirects in _redirects
+- Build: 70 pages, 0 errors, exit code 0
 
 ## Recent Completed Work (27 Mar 2026)
 

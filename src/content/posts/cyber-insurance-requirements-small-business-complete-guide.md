@@ -245,7 +245,7 @@ Your cybersecurity measures significantly impact insurance costs.
 Complete these steps before applying for cyber insurance.
 
 #### **Security Assessment:**
-- [ ] **Risk Assessment**: Complete comprehensive cybersecurity risk assessment
+- [ ] **Risk Assessment**: Complete comprehensive cybersecurity risk assessment — see our [SMB cybersecurity assessment guide](/posts/smb-cybersecurity-assessment-guide/) for a step-by-step DIY approach
 - [ ] **Vulnerability Scanning**: Regular vulnerability scans and penetration testing
 - [ ] **Security Policies**: Documented security policies and procedures
 - [ ] **Incident Response Plan**: Tested incident response and recovery procedures

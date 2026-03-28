@@ -64,7 +64,7 @@ Start training 30 days before renewal. Insurers like to see recent training (wit
 - Password and authentication requirements
 
 ### How to Create
-- Download our [Basic Kit](/kits/) for policy templates
+- Start with our [GDPR policy template for small business](/posts/gdpr-policy-template-small-business/) or download the [Basic Kit](/kits/) for the complete set
 - Customize for your business operations
 - Have management sign and date the policy
 - Review and update annually

@@ -288,6 +288,7 @@ Our compliance kits include everything you need for breach notification readines
 ## 📚 Related Resources
 
 ### Internal Links
+- **[GDPR Policy Template for Small Business](/posts/gdpr-policy-template-small-business/)** — Data protection policy, privacy notice, and ROPA templates
 - **[Incident Response Plan Template for Small Business](/posts/incident-response-plan-template-small-business/)** — Complete incident response plan with roles and procedures
 - **[The True Cost of a Breach for SMBs](/posts/the-true-cost-of-a-breach-for-smbs-and-how-to-avoid-one/)** — Financial impact of breaches and prevention strategies
 - **[Simple Data Retention for Small Teams](/posts/simple-data-retention-small-teams/)** — Data retention policies that support breach management
