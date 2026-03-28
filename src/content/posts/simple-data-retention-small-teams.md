@@ -245,7 +245,8 @@ Need a ready-to-use checklist and easy training resources to help your team buil
 
 ---
 
-**Related post:**  
+**Related posts:**  
 
-Read **[Audit-Ready in Under an Hour: A Cyber Hygiene Checklist](/posts/audit-ready-in-under-an-hour-a-cyber-hygiene-checklist/)** next.
+- **[GDPR Policy Template for Small Business](/posts/gdpr-policy-template-small-business/)** — a complete data protection policy template to pair with your retention schedule.
+- **[Audit-Ready in Under an Hour: A Cyber Hygiene Checklist](/posts/audit-ready-in-under-an-hour-a-cyber-hygiene-checklist/)** — the fast-track checklist for compliance readiness.
 

@@ -75,6 +75,7 @@ The SMBCyberHub kit includes a training log and audit checklist — perfect for 
 ## 📚 Related Resources
 
 ### **Internal Links:**
+- **[SMB Cybersecurity Assessment: DIY Guide](/posts/smb-cybersecurity-assessment-guide/)** - Full self-assessment with scoring and gap analysis
 - **[SMB Cybersecurity Compliance Guide 2026](/what-is-smb-cybersecurity-compliance/)** - Complete guide to GDPR and ISO27001 compliance
 - **[When Someone Leaves: Complete Employee Offboarding Checklist](/posts/when-someone-leaves/)** - Secure offboarding procedures
 - **[Quarterly Access Reviews: Small Team Playbook](/posts/quarterly-access-reviews-small-team-playbook/)** - Ongoing compliance maintenance
