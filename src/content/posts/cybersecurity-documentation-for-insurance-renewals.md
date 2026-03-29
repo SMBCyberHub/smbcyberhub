@@ -202,22 +202,9 @@ Get all necessary templates and documentation in one download:
 - Best practice documentation
 - Regular update procedures
 
-## 📊 **Insurance Renewal Success Stories**
+## 📊 **How Proper Documentation Helps with Insurance Renewals**
 
-### **"Passed Insurance Audit with Flying Colors"**
-*"Our insurance broker gave us a 15-page security questionnaire. I downloaded the SMBCyberHub kit, customized the policies, conducted the training, and submitted everything. The broker called back to say our documentation was the most complete they'd ever seen from a small business!"*
-
-**— Mark T., Manufacturing Company, 12 employees**
-
-### **"Insurance Premiums Reduced by 20%"**
-*"We were facing a 25% insurance premium increase due to 'inadequate security documentation.' After implementing the SMBCyberHub kit, our insurer not only approved our renewal but reduced our premiums by 20% because of our comprehensive approach."*
-
-**— Lisa R., Consulting Firm, 8 employees**
-
-### **"Renewal Process Was Painless"**
-*"I dreaded our insurance renewal this year. The security questionnaire looked overwhelming. But the SMBCyberHub kit literally had answers for every single question. I just filled in our company details and submitted. Easiest renewal ever."*
-
-**— James K., Marketing Agency, 6 employees**
+Small businesses that maintain organized, audit-ready cybersecurity documentation are better positioned during insurance renewals. Having clear answers to every question on a security questionnaire — backed by training records, signed policies, and incident response plans — demonstrates to underwriters that your business takes security seriously. This level of preparedness can lead to smoother renewals, fewer follow-up requests, and in many cases, more favorable premium pricing.
 
 ## 🚀 **Get Complete Insurance Documentation Kit**
 
@@ -264,7 +251,7 @@ Get all necessary templates and documentation in one download:
 <div class="bg-gray-50 border-l-4 border-gray-300 p-4 mb-6 mt-8">
   <p class="text-sm text-gray-700">
     <strong>Written by the SMBCyberHub Team</strong><br>
-    Cybersecurity compliance specialists with 20+ years experience helping small businesses achieve audit-ready security. Our expertise spans NIST CSF 2.0, GDPR compliance, and cyber insurance requirements across 100+ small businesses.
+    Cybersecurity compliance specialists with 20+ years experience helping small businesses achieve audit-ready security. Our expertise spans NIST CSF 2.0, GDPR compliance, and cyber insurance requirements.
   </p>
 </div>
 

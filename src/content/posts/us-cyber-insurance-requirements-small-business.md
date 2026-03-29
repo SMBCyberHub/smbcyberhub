@@ -290,7 +290,7 @@ If you handle any customer data, accept payments online, store client informatio
 <div class="bg-gray-50 border-l-4 border-gray-300 p-4 mb-6 mt-8">
   <p class="text-sm text-gray-700">
     <strong>Written by the SMBCyberHub Team</strong><br>
-    Cybersecurity compliance specialists helping US small businesses meet insurer requirements with practical, no-jargon documentation. Our kits are used by 100+ small businesses across all 50 states.
+    Cybersecurity compliance specialists helping US small businesses meet insurer requirements with practical, no-jargon documentation.
   </p>
 </div>
 

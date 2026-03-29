@@ -223,22 +223,9 @@ Yes — for teams of 1–20 people, a well-designed kit covers every document in
 - Update insurance documentation
 - Verify all requirements are met
 
-## 🏆 **Success Stories: Companies That Made the Switch**
+## 🏆 **The Case for Switching from SaaS to One-Time Purchase**
 
-### **"Saved $24,000 in 2 Years"**
-*"We were paying $1,000/month for a cybersecurity platform designed for enterprises. After switching to the one-time kit, we achieved the same compliance level and saved $24,000 in just 2 years."*
-
-**— Sarah K., 8-person design agency**
-
-### **"Actually Better Compliance"**
-*"The SaaS platform was so complex we never used half the features. The one-time kit was simpler, we implemented everything, and our insurance broker said our documentation was more complete than ever."*
-
-**— Mike R., 5-person consulting firm**
-
-### **"No More Software Headaches"**
-*"I was spending 5 hours per month managing our cybersecurity subscription. Now I spend 2 hours per year updating policies. The ROI is incredible."*
-
-**— Lisa T., 6-person accounting firm**
+The numbers speak for themselves: a small team paying $200/month for a cybersecurity SaaS platform spends $12,000 over five years — most of it on enterprise features they never touch. A one-time compliance kit covers the same documentation requirements (policies, training records, incident response plans, and audit checklists) at a fraction of the cost. For businesses with 1–20 employees, the practical result is the same level of insurance compliance, simpler implementation, and thousands of dollars back in the budget. The key difference isn't the tool — it's whether the documentation is complete, organized, and audit-ready.
 
 ## 🚀 **Ready to Stop Wasting Money?**
 

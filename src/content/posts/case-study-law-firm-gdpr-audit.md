@@ -1,6 +1,6 @@
 ---
 title: "Case Study: Law Firm Passes GDPR Audit"
-description: "How a 6-person law firm passed its first GDPR audit and secured cyber insurance renewal using offline compliance documentation. Real timeline and results."
+description: "How a 6-person law firm could pass its first GDPR audit and secure cyber insurance renewal using offline compliance documentation. Illustrative scenario with realistic timeline."
 date: 2026-03-29
 tags: ["compliance", "gdpr"]
 ogImage: "/images/smbcyberhub-logo.webp"
@@ -239,7 +239,7 @@ For detailed guidance on law firm-specific compliance, see our [cybersecurity co
 <div class="bg-gray-50 border-l-4 border-gray-300 p-4 mb-6 mt-8">
   <p class="text-sm text-gray-700">
     <strong>About this case study</strong><br>
-    Based on a real customer experience. Details have been generalised to protect client and practice confidentiality. The timeline and outcomes reflect typical results for small law firms using the SMBCyberHub Pro Kit. GDPR compliance involves many elements beyond staff training and documentation — consult a qualified data protection professional for a complete assessment of your firm's obligations.
+    This is an illustrative scenario showing how a typical small law firm could approach GDPR audit preparation. The characters, firm details, and quotes are fictional, but the compliance requirements, timeline, and process reflect real-world obligations for small legal practices. GDPR compliance involves many elements beyond staff training and documentation — consult a qualified data protection professional for a complete assessment of your firm's obligations.
   </p>
 </div>
 
@@ -248,7 +248,7 @@ For detailed guidance on law firm-specific compliance, see our [cybersecurity co
 **Estimated Reading Time**: 10 minutes
 **Aligned With**: GDPR Articles 5, 24, 30, 32, 33-34, 39.1(b), ISO 27001 Clause 7.2.2, Cyber Insurance Documentation Requirements
 **Target Audience**: Small law firms, solicitors' practices, legal service providers (1-20 staff)
-**Learning Objectives**: Understand GDPR obligations for law firms, see a real audit preparation timeline, compare compliance approaches by cost and confidentiality
+**Learning Objectives**: Understand GDPR obligations for law firms, see a realistic audit preparation timeline, compare compliance approaches by cost and confidentiality
 
 ---
 
