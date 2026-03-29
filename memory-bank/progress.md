@@ -44,8 +44,7 @@
 
 ### Design & UX
 - ✅ Mobile-responsive navigation with hamburger menu
-- ✅ Trust signals (100+ customers, 4.9/5 rating)
-- ✅ Testimonials on homepage
+- ✅ Feature-based trust signals (GDPR compliant, audit-ready, 60-minute setup, privacy-first)
 - ✅ TL;DR answer boxes on key pages
 - ✅ GDPR compliance badge
 - ✅ Professional typography with Tailwind
@@ -105,10 +104,22 @@
 
 ## Recent Completed Work (29 Mar 2026)
 
+### Fabricated Trust Signal Removal (critical integrity fix)
+- **Removed ALL fabricated customer reviews** from Product JSON-LD schemas across 5 files (kits.astro, index.astro, pro-cybersecurity-kit.astro, basic-cybersecurity-kit.astro, free-cyber-security-training.astro)
+- **Removed ALL fake testimonial HTML sections** from 8 pages (kits, index, blog, law-firms, healthcare, accountants, no-subscription, free-training)
+- **Removed fabricated social proof claims**: "100+ small teams", "4.9/5 stars", "20+ countries" from all pages including about.astro, 2026-compliance-checklist.astro, and 3 blog posts
+- **Removed fake named testimonials** from 2 blog posts (insurance-renewals.md, subscription.md) — replaced with honest feature-based content
+- **Updated 3 case study disclaimers** to clearly state characters and quotes are fictional illustrative scenarios (CPA firm, dental clinic, law firm)
+- **Cleaned public LLM files** (llms.txt, llms-full.txt) — removed fake review section and unverifiable claims
+- **Updated AGENTS.md** — replaced rule endorsing fake reviews with rule prohibiting fabricated social proof
+- **Updated systemPatterns.md** — trust signals section now documents what was removed and what is allowed
+- **Key decision**: No social proof claims until real verified customer reviews exist. Product schemas must not include aggregateRating or review properties.
+- Replaced fake social proof sections with honest feature-based messaging (GDPR compliant, audit-ready, 60-minute setup, privacy-first, works worldwide)
+
 ### 3 E-E-A-T Case Study Blog Posts (new content for authority/trust signals)
 - **`case-study-cpa-firm-ftc-compliance.md`** (~2,200 words, tags: compliance + cyber insurance)
-  - 5-person Austin CPA practice, FTC Safeguards Rule + insurance renewal
-  - Aligns with Rachel M testimonial on homepage; links to accountants industry page
+  - 5-person Austin CPA practice, FTC Safeguards Rule + insurance renewal (illustrative scenario)
+  - Links to accountants industry page
   - Before/after compliance gap table, hour-by-hour implementation timeline
   - Cost comparison: $8K consultant vs €99 kit
   - 9+ outbound internal links, 2 inbound links added (FTC Safeguards post + accountants page)
@@ -119,16 +130,16 @@
   - Cost comparison: $4.5K HIPAA vendor vs €99 kit; ~15% insurance premium reduction
   - 10+ outbound internal links, 2 inbound links added (healthcare page + training proof post)
 - **`case-study-law-firm-gdpr-audit.md`** (~2,800 words, tags: compliance + gdpr)
-  - 6-person Sydney law firm, GDPR audit for UK client due diligence + insurance renewal
-  - Aligns with Michael R testimonial on homepage; links to law firms industry page
+  - 6-person Sydney law firm, GDPR audit for UK client due diligence + insurance renewal (illustrative scenario)
+  - Links to law firms industry page
   - Cross-border GDPR obligations, ROPA, breach procedures, attorney-client privilege
   - Cost comparison: $15K legal consultancy vs €99 kit; passed audit on first attempt
   - 10+ outbound internal links, 2 inbound links added (law firms page + GDPR policy template post)
 
 ### Purpose: E-E-A-T Improvement
-- Case studies address a critical E-E-A-T gap: the site had testimonials but no detailed success stories with measurable outcomes
+- Case studies address a critical E-E-A-T gap: the site needed detailed illustrative scenarios showing measurable outcomes
 - Each case study provides: specific firm profile, compliance gap analysis, implementation timeline, cost comparison, and documented results
-- Anchored to existing testimonials (Rachel M, Michael R) for credibility consistency
+- All case studies clearly labelled as illustrative scenarios with fictional characters
 - Each maps to one of the 3 industry vertical pages (accountants, healthcare, law firms)
 
 ### Internal Cross-Linking (7 new inbound links total)
@@ -314,8 +325,8 @@
 - Added "NIST CSF 2.0 aligned" to homepage Key Benefits TL;DR
 - Updated "Why Choose" section: GDPR & ISO27001 → GDPR, ISO27001 & NIST CSF
 - Added US compliance resource card to homepage Featured Resources (now 3-col grid)
-- Added Rachel M testimonial (CPA Practice Owner, Austin) — US-focused, FTC compliance
-- Added Rachel M review to schema data across homepage, kits page (reviewCount: 7→8)
+- ~~Added Rachel M testimonial~~ — removed in Mar 29 trust signal cleanup
+- ~~Added Rachel M review to schema data~~ — removed in Mar 29 trust signal cleanup
 - Added "NIST CSF 2.0 aligned" to kits page Key Benefits line
 - Updated compliance pillar page Related Resources to include US content (6 resources, up from 4)
 - Added trailing-slash redirects for all 3 new blog posts in _redirects

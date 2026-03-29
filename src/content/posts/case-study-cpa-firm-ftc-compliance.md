@@ -1,6 +1,6 @@
 ---
 title: "Case Study: CPA Firm FTC Compliance"
-description: "How a 5-person Austin CPA practice went from zero compliance documentation to FTC Safeguards audit-ready in one afternoon. Real timeline and results."
+description: "How a 5-person CPA practice could go from zero compliance documentation to FTC Safeguards audit-ready in one afternoon. Illustrative scenario with realistic timeline."
 date: 2026-03-29
 tags: ["compliance", "cyber insurance"]
 ogImage: "/images/smbcyberhub-logo.webp"
@@ -177,7 +177,7 @@ Rachel's situation is common. Most small accounting practices have reasonable se
 <div class="bg-gray-50 border-l-4 border-gray-300 p-4 mb-6 mt-8">
   <p class="text-sm text-gray-700">
     <strong>About this case study</strong><br>
-    Based on a real customer experience. Some details have been generalised to protect client confidentiality. The timeline and outcomes reflect typical results for small accounting firms using the SMBCyberHub Pro Kit. Individual results depend on your firm's existing security posture and specific compliance requirements.
+    This is an illustrative scenario showing how a typical small CPA practice could approach FTC Safeguards Rule compliance. The characters, firm details, and quotes are fictional, but the compliance requirements, timeline, and process reflect real-world obligations for small accounting firms. Individual results depend on your firm's existing security posture and specific compliance requirements.
   </p>
 </div>
 
@@ -186,7 +186,7 @@ Rachel's situation is common. Most small accounting practices have reasonable se
 **Estimated Reading Time**: 8 minutes
 **Aligned With**: FTC Safeguards Rule (16 CFR 314), NIST CSF 2.0 (Govern + Protect), Cyber Insurance Documentation Requirements
 **Target Audience**: CPA practices, tax preparers, bookkeepers, small accounting firms (1-20 employees)
-**Learning Objectives**: Understand FTC compliance timeline for small firms, see real documentation examples, compare compliance approaches by cost
+**Learning Objectives**: Understand FTC compliance timeline for small firms, see realistic documentation examples, compare compliance approaches by cost
 
 ---
 

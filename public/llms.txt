@@ -2,7 +2,7 @@
 
 > Privacy-first, downloadable cybersecurity compliance kits for small businesses (1–20 staff). One-time purchase. No subscriptions, no logins, no SaaS.
 
-For full product details, pricing, reviews, and FAQ: https://smbcyberhub.com/llms-full.txt
+For full product details, pricing, and FAQ: https://smbcyberhub.com/llms-full.txt
 
 ## Products & Pricing
 - **Free Sample Kit** — €0. No signup. https://smbcyberhub.com/free-cyber-security-training/
@@ -22,8 +22,8 @@ For full product details, pricing, reviews, and FAQ: https://smbcyberhub.com/llm
 - **60-Minute Implementation:** No IT expertise required.
 - **Audit-Ready:** Training records, policies, and checklists insurers accept.
 
-## Customer Rating
-4.9/5 from 8 reviews. Trusted by 100+ small businesses in 20+ countries.
+## Target Audience
+Built for small businesses (1-20 staff) worldwide. No region restrictions.
 
 ## Expertise
 Founded by Jim SMBCyberHub — 20+ years enterprise cybersecurity experience (CISSP & CISM certified), translated for SMB needs.

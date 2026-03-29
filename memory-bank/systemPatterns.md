@@ -310,7 +310,7 @@ Each page type uses specific JSON-LD schemas:
 | **Homepage** | Product (×2, with sameAs), WebSite, BreadcrumbList, FAQPage | `@graph` array + separate FAQPage, `set:html` in body |
 | **Blog listing** | CollectionPage+ItemList, BreadcrumbList | `set:html` in body |
 | **Blog posts** | BlogPosting+SpeakableSpecification, BreadcrumbList | `set:html` in body (some also have inline HowTo in markdown) |
-| **Product pages** | Product (with AggregateRating, Offers, sameAs), BreadcrumbList | `set:html` in body |
+| **Product pages** | Product (with Offers, sameAs), BreadcrumbList | `set:html` in body |
 | **Kits comparison** | Product (×3), FAQPage | `<Fragment slot="schema">` in `<head>` via Layout slot |
 | **2026 checklist** | HowTo+HowToStep, FAQPage | `set:html` in body |
 | **Insurance checklist** | HowTo+HowToStep, FAQPage | `set:html` in body |
@@ -391,20 +391,30 @@ External purchase links go to Gumroad:
 
 ---
 
-## 9. Trust Signals — Consistent Values
+## 9. Trust Signals — Rules
 
-These values MUST be identical across all pages where they appear:
+**No fabricated social proof.** All trust signals must be verifiable. The following were removed in March 2026 and must NOT be re-added:
 
-| Signal | Value | Pages |
+- ~~Customer count ("100+ teams/businesses")~~ — removed, was fictional
+- ~~Star rating ("4.9/5")~~ — removed, was fictional
+- ~~Review count ("7 reviews" / "8 reviews")~~ — removed, all reviews were fabricated
+- ~~Countries ("20+ countries")~~ — removed, was fictional
+- ~~Named testimonials (Emma P, Niall C, Anna F, Michael R, Sarah L, David K, etc.)~~ — removed, all were fabricated personas
+
+**What IS allowed:**
+
+| Signal | Value | Notes |
 |---|---|---|
-| Customer count | **100+** small teams/businesses | Homepage, blog, kits, free training, about |
-| Star rating | **4.9/5** | Homepage, blog, about |
-| Review count | **7 reviews** (display) / **3 reviews** (schema) | Blog (display), schema (Product) |
-| Countries | **20+** | Homepage, free training |
-| Framework name | **SMBCyberHub 30-Minute Audit-Ready Framework** | Homepage, kits, blog CTA, checklists |
+| Framework name | **SMBCyberHub 60-Minute Audit-Ready Framework** | Product feature, not social proof |
 | Author name | **Jim SMBCyberHub** | Blog schema, philosophy schema, org schema (founder) |
 | Author title | **Cybersecurity Compliance Specialist** | Same locations |
 | Email | **info@smbcyberhub.com** | Contact page, org schema |
+| Feature claims | "Built for small teams", "Works worldwide", "60-minute setup" | Honest product descriptions |
+
+**Rules for future reviews/testimonials:**
+- Product schemas must NOT include `aggregateRating` or `review` until real verified reviews exist
+- Only use testimonials from actual customers with verifiable purchases
+- Case study blog posts must clearly state they are illustrative scenarios with fictional characters
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Case Study: Dental Clinic HIPAA Training"
-description: "How an 8-person dental clinic achieved HIPAA training compliance and cut insurance costs using offline documentation. Real timeline and results."
+description: "How an 8-person dental clinic could achieve HIPAA training compliance and cut insurance costs using offline documentation. Illustrative scenario with realistic timeline."
 date: 2026-03-29
 tags: ["compliance"]
 ogImage: "/images/smbcyberhub-logo.webp"
@@ -195,7 +195,7 @@ For detailed guidance on healthcare-specific compliance, see our [cybersecurity 
 <div class="bg-gray-50 border-l-4 border-gray-300 p-4 mb-6 mt-8">
   <p class="text-sm text-gray-700">
     <strong>About this case study</strong><br>
-    Based on a real customer experience. Details have been generalised to protect patient and practice confidentiality. The timeline and outcomes reflect typical results for small healthcare practices using the SMBCyberHub Pro Kit. HIPAA compliance involves many elements beyond staff training — consult a qualified HIPAA compliance professional for a complete assessment of your practice's obligations.
+    This is an illustrative scenario showing how a typical small dental practice could approach HIPAA training compliance. The characters, practice details, and quotes are fictional, but the compliance requirements, timeline, and process reflect real-world obligations for small healthcare practices. HIPAA compliance involves many elements beyond staff training — consult a qualified HIPAA compliance professional for a complete assessment of your practice's obligations.
   </p>
 </div>
 
@@ -204,7 +204,7 @@ For detailed guidance on healthcare-specific compliance, see our [cybersecurity 
 **Estimated Reading Time**: 9 minutes
 **Aligned With**: HIPAA Security Rule 45 CFR 164.308(a)(5), NIST CSF 2.0 (Protect + Respond), Cyber Insurance Documentation Requirements
 **Target Audience**: Dental practices, GP clinics, physiotherapy practices, small healthcare providers (1-20 staff)
-**Learning Objectives**: Understand HIPAA training requirements for small practices, see a real implementation timeline, compare compliance approaches by cost and privacy
+**Learning Objectives**: Understand HIPAA training requirements for small practices, see a realistic implementation timeline, compare compliance approaches by cost and privacy
 
 ---
 
