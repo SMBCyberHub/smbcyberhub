@@ -32,64 +32,6 @@ const faqSchema = {
   ]
 }
 
-const personSchema = {
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Jim SMBCyberHub",
-  "jobTitle": "Cybersecurity Compliance Specialist",
-  "url": "https://smbcyberhub.com/about/",
-  "worksFor": {
-    "@type": "Organization",
-    "name": "SMBCyberHub",
-    "url": "https://smbcyberhub.com/"
-  },
-  "sameAs": [
-    "https://www.linkedin.com/in/smb-cyberhub-67567b374/",
-    "https://x.com/SMBCyberHub"
-  ],
-  "hasCredential": [
-    {
-      "@type": "EducationalOccupationalCredential",
-      "name": "M.Sc. in Cloud Computing",
-      "credentialCategory": "degree",
-      "educationalLevel": "Master's Degree",
-      "recognizedBy": {
-        "@type": "CollegeOrUniversity",
-        "name": "Munster Technological University",
-        "address": { "@type": "PostalAddress", "addressLocality": "Cork", "addressCountry": "IE" }
-      }
-    },
-    {
-      "@type": "EducationalOccupationalCredential",
-      "name": "CISSP — Certified Information Systems Security Professional",
-      "credentialCategory": "certification",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "ISC2",
-        "url": "https://www.isc2.org/"
-      }
-    },
-    {
-      "@type": "EducationalOccupationalCredential",
-      "name": "CISM — Certified Information Security Manager",
-      "credentialCategory": "certification",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "ISACA",
-        "url": "https://www.isaca.org/"
-      }
-    }
-  ],
-  "knowsAbout": [
-    "Cybersecurity Compliance",
-    "NIST Cybersecurity Framework",
-    "GDPR Compliance",
-    "ISO/IEC 27001",
-    "Cloud Security",
-    "Small Business Security"
-  ]
-};
-
 const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
@@ -105,7 +47,6 @@ const breadcrumbSchema = {
   description="About SMBCyberHub — our mission, team, and how we help small businesses achieve cybersecurity compliance with downloadable, audit-ready kits."
 >
   <script type="application/ld+json" set:html={JSON.stringify(faqSchema)}></script>
-  <script type="application/ld+json" set:html={JSON.stringify(personSchema)}></script>
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)}></script>
   <section class="max-w-4xl mx-auto px-4 py-10">
     <h1 class="text-4xl font-bold mb-6">About SMBCyberHub</h1>
