@@ -154,7 +154,7 @@ The FTC isn't just issuing guidelines and hoping for the best. They're actively 
 
 ### **Recent enforcement examples:**
 
-The FTC has taken action against auto dealerships, tax preparation companies, and financial services firms that failed to protect customer data. In several cases, the FTC didn't wait for a breach — they took action simply because the businesses lacked adequate security programs.
+The FTC has taken action against auto dealerships, tax preparation companies, and financial services firms that failed to protect customer data. In several cases, the FTC didn't wait for a breach — they took action simply because the businesses lacked adequate security programs. Our [case study of a CPA firm's FTC Safeguards compliance](/posts/case-study-cpa-firm-ftc-compliance/) shows how a 5-person accounting practice went from zero documentation to audit-ready in one afternoon.
 
 In 2024 alone, the FTC sent warning letters to over 100 businesses about Safeguards Rule deficiencies. These letters often precede formal enforcement actions.
 

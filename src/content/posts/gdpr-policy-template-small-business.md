@@ -144,7 +144,7 @@ GDPR Article 5(2) establishes the accountability principle: you must not only co
 
 The ICO has been clear that small organisations are expected to have appropriate policies in place. The depth and complexity should be proportionate to what you do — a five-person consultancy does not need the same documentation as a hospital — but having nothing at all is not acceptable.
 
-There are also practical reasons beyond legal compliance. Cyber insurance providers increasingly ask whether you have a data protection policy when you apply or renew. Clients in regulated sectors may require evidence of GDPR compliance before they will work with you. And if a breach does occur, having a documented policy and evidence that staff were trained on it makes a material difference to how regulators assess your response.
+There are also practical reasons beyond legal compliance. Cyber insurance providers increasingly ask whether you have a data protection policy when you apply or renew. Clients in regulated sectors may require evidence of GDPR compliance before they will work with you. And if a breach does occur, having a documented policy and evidence that staff were trained on it makes a material difference to how regulators assess your response. Our [law firm case study](/posts/case-study-law-firm-gdpr-audit/) shows how proper GDPR documentation led to a first-attempt audit pass.
 
 For a broader overview of what [SMB cybersecurity compliance](/what-is-smb-cybersecurity-compliance/) involves and why it matters, our introductory guide covers the key frameworks and expectations.
 

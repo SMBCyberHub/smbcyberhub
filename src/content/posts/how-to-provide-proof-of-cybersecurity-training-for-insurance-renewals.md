@@ -154,6 +154,8 @@ Insurance Renewal Cybersecurity Documentation
 - **Metrics and measurements** showing effectiveness
 - **Management involvement** in training program
 
+**Real-world example:** Our [dental clinic case study](/posts/case-study-dental-clinic-hipaa-training/) demonstrates how a healthcare practice compiled training documentation that satisfied both HIPAA auditors and cyber insurance underwriters during renewal.
+
 ### **Red Flags to Avoid:**
 - Missing or incomplete documentation
 - Inconsistent training dates

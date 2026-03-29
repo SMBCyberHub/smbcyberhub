@@ -34,7 +34,7 @@
 - ✅ dateModified in frontmatter for all 31 blog posts
 
 ### Content
-- ✅ 39 blog posts covering cybersecurity topics (31 original + 3 US market expansion + 1 Cyber Essentials v3.3 + 2 incident response/breach notification + 2 GSC query-targeted)
+- ✅ 42 blog posts covering cybersecurity topics (31 original + 3 US market expansion + 1 Cyber Essentials v3.3 + 2 incident response/breach notification + 2 GSC query-targeted + 3 E-E-A-T case studies)
 - ✅ Posts tagged with 10 core tags (phishing, compliance, gdpr, cyber insurance, mfa, password, access control, offboarding, remote work, backups)
 - ✅ Contextual CTAs based on post tags
 - ✅ Related posts component
@@ -102,6 +102,44 @@
 - 📋 Advanced search functionality
 - 📋 User account system (optional)
 - 📋 Kit customization wizard
+
+## Recent Completed Work (29 Mar 2026)
+
+### 3 E-E-A-T Case Study Blog Posts (new content for authority/trust signals)
+- **`case-study-cpa-firm-ftc-compliance.md`** (~2,200 words, tags: compliance + cyber insurance)
+  - 5-person Austin CPA practice, FTC Safeguards Rule + insurance renewal
+  - Aligns with Rachel M testimonial on homepage; links to accountants industry page
+  - Before/after compliance gap table, hour-by-hour implementation timeline
+  - Cost comparison: $8K consultant vs €99 kit
+  - 9+ outbound internal links, 2 inbound links added (FTC Safeguards post + accountants page)
+- **`case-study-dental-clinic-hipaa-training.md`** (~2,400 words, tags: compliance)
+  - 8-person dental clinic, HIPAA Security Rule training + insurance renewal
+  - Links to healthcare industry page; covers 45 CFR 164.308(a)(5) requirements
+  - Phase-by-phase implementation (policy setup, team training, documentation, sign-offs)
+  - Cost comparison: $4.5K HIPAA vendor vs €99 kit; ~15% insurance premium reduction
+  - 10+ outbound internal links, 2 inbound links added (healthcare page + training proof post)
+- **`case-study-law-firm-gdpr-audit.md`** (~2,800 words, tags: compliance + gdpr)
+  - 6-person Sydney law firm, GDPR audit for UK client due diligence + insurance renewal
+  - Aligns with Michael R testimonial on homepage; links to law firms industry page
+  - Cross-border GDPR obligations, ROPA, breach procedures, attorney-client privilege
+  - Cost comparison: $15K legal consultancy vs €99 kit; passed audit on first attempt
+  - 10+ outbound internal links, 2 inbound links added (law firms page + GDPR policy template post)
+
+### Purpose: E-E-A-T Improvement
+- Case studies address a critical E-E-A-T gap: the site had testimonials but no detailed success stories with measurable outcomes
+- Each case study provides: specific firm profile, compliance gap analysis, implementation timeline, cost comparison, and documented results
+- Anchored to existing testimonials (Rachel M, Michael R) for credibility consistency
+- Each maps to one of the 3 industry vertical pages (accountants, healthcare, law firms)
+
+### Internal Cross-Linking (7 new inbound links total)
+- CPA case study: 2 inbound links (ftc-safeguards-rule post, accountants industry page)
+- Dental case study: 2 inbound links (healthcare industry page, training-proof post)
+- Law firm case study: 2 inbound links (law-firms industry page, gdpr-policy-template post)
+- All 3 case studies cross-link extensively to existing posts (phishing, MFA, incident response, file sharing, etc.)
+
+### Redirects & Build
+- All 3 new posts have trailing-slash redirects in _redirects
+- Build: 73 pages, 0 errors, exit code 0
 
 ## Recent Completed Work (28 Mar 2026)
 
