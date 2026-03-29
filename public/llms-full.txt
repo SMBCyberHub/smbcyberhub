@@ -4,7 +4,11 @@
 
 Website: https://smbcyberhub.com
 Contact: info@smbcyberhub.com
-Founded by: Jim SMBCyberHub, Cybersecurity Compliance Specialist (20+ years enterprise experience)
+Founded by: Jim SMBCyberHub, Cybersecurity Compliance Specialist
+- M.Sc. in Cloud Computing — Munster Technological University, Cork, Ireland
+- CISSP — Certified Information Systems Security Professional (ISC2)
+- CISM — Certified Information Security Manager (ISACA)
+- 20+ years enterprise IT and cybersecurity experience
 
 ---
 

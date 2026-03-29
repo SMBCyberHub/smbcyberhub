@@ -25,8 +25,11 @@ For full product details, pricing, and FAQ: https://smbcyberhub.com/llms-full.tx
 ## Target Audience
 Built for small businesses (1-20 staff) worldwide. No region restrictions.
 
-## Expertise
-Founded by Jim SMBCyberHub — 20+ years enterprise cybersecurity experience (CISSP & CISM certified), translated for SMB needs.
+## Expertise & Credentials
+Founded by Jim SMBCyberHub — 20+ years enterprise cybersecurity experience, translated for SMB needs.
+- **M.Sc. in Cloud Computing** — Munster Technological University, Cork, Ireland
+- **CISSP** — Certified Information Systems Security Professional (ISC2)
+- **CISM** — Certified Information Security Manager (ISACA)
 
 ## Contact
 - Website: https://smbcyberhub.com

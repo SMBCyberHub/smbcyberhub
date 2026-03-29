@@ -102,7 +102,17 @@ Pages that define their own `canonical` prop (product pages, blog posts) pass it
   "logo": "https://smbcyberhub.com/images/smbcyberhub-logo.webp",
   "knowsAbout": ["Cybersecurity Compliance", "NIST Cybersecurity Framework", "GDPR Compliance", ...],
   "contactPoint": { "email": "info@smbcyberhub.com" },
-  "founder": { "@type": "Person", "name": "Jim SMBCyberHub", "jobTitle": "Cybersecurity Compliance Specialist" },
+  "founder": {
+    "@type": "Person",
+    "name": "Jim SMBCyberHub",
+    "jobTitle": "Cybersecurity Compliance Specialist",
+    "url": "https://smbcyberhub.com/about/",
+    "hasCredential": [
+      { "@type": "EducationalOccupationalCredential", "name": "M.Sc. in Cloud Computing", "credentialCategory": "degree", "recognizedBy": { "name": "Munster Technological University" } },
+      { "@type": "EducationalOccupationalCredential", "name": "CISSP", "credentialCategory": "certification", "recognizedBy": { "name": "ISC2" } },
+      { "@type": "EducationalOccupationalCredential", "name": "CISM", "credentialCategory": "certification", "recognizedBy": { "name": "ISACA" } }
+    ]
+  },
   "sameAs": ["https://www.linkedin.com/in/smb-cyberhub-67567b374/", "https://x.com/SMBCyberHub"]
 }
 ```
@@ -234,7 +244,8 @@ Two schemas are generated per blog post:
     name: 'Jim SMBCyberHub',
     jobTitle: 'Cybersecurity Compliance Specialist',
     url: 'https://smbcyberhub.com/about/',
-    sameAs: [LinkedIn, X]
+    sameAs: [LinkedIn, X],
+    hasCredential: [M.Sc. Cloud Computing (MTU), CISSP (ISC2), CISM (ISACA)]
   },
   publisher: {
     '@type': 'Organization',
@@ -315,7 +326,7 @@ Each page type uses specific JSON-LD schemas:
 | **2026 checklist** | HowTo+HowToStep, FAQPage | `set:html` in body |
 | **Insurance checklist** | HowTo+HowToStep, FAQPage | `set:html` in body |
 | **FAQ page** | FAQPage | Inline in `<head>` |
-| **About page** | FAQPage | `set:html` in body |
+| **About page** | FAQPage, Person (with hasCredential), BreadcrumbList | `set:html` in body |
 | **Philosophy page** | Article (author: Person), BreadcrumbList | `set:html` in body |
 | **SaaS vs Downloadable** | Article+SpeakableSpecification, BreadcrumbList | `set:html` in body |
 | **What is Compliance** | WebPage+SpeakableSpecification, FAQPage, BreadcrumbList | `set:html` in body |
@@ -408,6 +419,7 @@ External purchase links go to Gumroad:
 | Framework name | **SMBCyberHub 60-Minute Audit-Ready Framework** | Product feature, not social proof |
 | Author name | **Jim SMBCyberHub** | Blog schema, philosophy schema, org schema (founder) |
 | Author title | **Cybersecurity Compliance Specialist** | Same locations |
+| Author credentials | **M.Sc. Cloud Computing (MTU), CISSP (ISC2), CISM (ISACA)** | hasCredential schema on founder/author Person objects, about page, LLM files |
 | Email | **info@smbcyberhub.com** | Contact page, org schema |
 | Feature claims | "Built for small teams", "Works worldwide", "60-minute setup" | Honest product descriptions |
 

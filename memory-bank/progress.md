@@ -104,6 +104,16 @@
 
 ## Recent Completed Work (29 Mar 2026)
 
+### Author Credential Enhancement (E-E-A-T verifiable trust signals)
+- **Added `hasCredential` schema** to Organization founder in `Layout.astro` — M.Sc. Cloud Computing (Munster Technological University), CISSP (ISC2), CISM (ISACA) using EducationalOccupationalCredential type
+- **Added `hasCredential` schema** to BlogPosting author in `[slug].astro` — same 3 credentials appear on every blog post
+- **Added Person schema** to `about.astro` with full `hasCredential` array, `knowsAbout`, and `worksFor` properties
+- **Updated about page HTML** — replaced vague "20+ year veteran" with prominent credentials grid (M.Sc., CISSP, CISM cards with issuing body links), updated Trust & Compliance section
+- **Updated `llms.txt`** — expanded Expertise section with itemized credentials
+- **Updated `llms-full.txt`** — expanded founder info with itemized credentials
+- **Updated `systemPatterns.md`** — Organization schema docs, BlogPosting schema docs, trust signals table, about page schema table
+- **Key decision**: All author Person schema objects must include `hasCredential` with the 3 verified credentials (M.Sc. Cloud Computing/MTU, CISSP/ISC2, CISM/ISACA)
+
 ### Fabricated Trust Signal Removal (critical integrity fix)
 - **Removed ALL fabricated customer reviews** from Product JSON-LD schemas across 5 files (kits.astro, index.astro, pro-cybersecurity-kit.astro, basic-cybersecurity-kit.astro, free-cyber-security-training.astro)
 - **Removed ALL fake testimonial HTML sections** from 8 pages (kits, index, blog, law-firms, healthcare, accountants, no-subscription, free-training)

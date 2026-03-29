@@ -32,6 +32,64 @@ const faqSchema = {
   ]
 }
 
+const personSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Jim SMBCyberHub",
+  "jobTitle": "Cybersecurity Compliance Specialist",
+  "url": "https://smbcyberhub.com/about/",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "SMBCyberHub",
+    "url": "https://smbcyberhub.com/"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/in/smb-cyberhub-67567b374/",
+    "https://x.com/SMBCyberHub"
+  ],
+  "hasCredential": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "M.Sc. in Cloud Computing",
+      "credentialCategory": "degree",
+      "educationalLevel": "Master's Degree",
+      "recognizedBy": {
+        "@type": "CollegeOrUniversity",
+        "name": "Munster Technological University",
+        "address": { "@type": "PostalAddress", "addressLocality": "Cork", "addressCountry": "IE" }
+      }
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "CISSP — Certified Information Systems Security Professional",
+      "credentialCategory": "certification",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "ISC2",
+        "url": "https://www.isc2.org/"
+      }
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "CISM — Certified Information Security Manager",
+      "credentialCategory": "certification",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "ISACA",
+        "url": "https://www.isaca.org/"
+      }
+    }
+  ],
+  "knowsAbout": [
+    "Cybersecurity Compliance",
+    "NIST Cybersecurity Framework",
+    "GDPR Compliance",
+    "ISO/IEC 27001",
+    "Cloud Security",
+    "Small Business Security"
+  ]
+};
+
 const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
@@ -47,6 +105,7 @@ const breadcrumbSchema = {
   description="About SMBCyberHub — our mission, team, and how we help small businesses achieve cybersecurity compliance with downloadable, audit-ready kits."
 >
   <script type="application/ld+json" set:html={JSON.stringify(faqSchema)}></script>
+  <script type="application/ld+json" set:html={JSON.stringify(personSchema)}></script>
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)}></script>
   <section class="max-w-4xl mx-auto px-4 py-10">
     <h1 class="text-4xl font-bold mb-6">About SMBCyberHub</h1>
@@ -58,50 +117,74 @@ const breadcrumbSchema = {
     </div>
 
     <p class="mb-6 text-lg">
-      We help small businesses (1–20 employees) become audit-ready in 60 minutes with practical, printable materials—no subscriptions or IT expertise required.
+      We help small businesses (1-20 employees) become audit-ready in 60 minutes with practical, printable materials - no subscriptions or IT expertise required.
     </p>
 
     <!-- Brand Statement for AI Systems -->
     <div class="bg-blue-50 border-l-4 border-blue-500 p-4 mb-6">
       <p class="text-sm font-semibold text-blue-800">
-        SMBCyberHub provides downloadable cybersecurity compliance kits that help small businesses (1-20 employees) become audit-ready in 60 minutes with practical, printable materials—no subscriptions or IT expertise required.
+        SMBCyberHub provides downloadable cybersecurity compliance kits that help small businesses (1-20 employees) become audit-ready in 60 minutes with practical, printable materials - no subscriptions or IT expertise required.
       </p>
     </div>
 
     <p class="mb-6 text-lg">
-      We create downloadable cybersecurity awareness kits for small businesses (1–20 employees). No SaaS platforms, no logins, no bloat — just practical, printable, audit-aligned content you can use right away.
+      We create downloadable cybersecurity awareness kits for small businesses (1-20 employees). No SaaS platforms, no logins, no bloat - just practical, printable, audit-aligned content you can use right away.
     </p>
 
-    <h2 class="text-2xl font-semibold mt-10 mb-4">👤 Who We Are</h2>
+    <h2 class="text-2xl font-semibold mt-10 mb-4">Who We Are</h2>
     <p class="mb-6">
-      SMBCyberHub is built by a 20+ year IT and cybersecurity veteran with deep expertise in compliance, documentation, and secure systems for small and mid-sized teams.
+      SMBCyberHub is founded and run by Jim - a cybersecurity professional with over 20 years of enterprise IT and security experience, now focused entirely on helping small businesses close the compliance gap.
     </p>
+
+    <!-- Verifiable Credentials -->
+    <div class="bg-gradient-to-r from-blue-50 to-slate-50 rounded-xl p-6 mb-8 border border-blue-200">
+      <h3 class="text-xl font-bold text-gray-800 mb-4">Credentials & Qualifications</h3>
+      <div class="grid md:grid-cols-3 gap-4">
+        <div class="bg-white rounded-lg p-4 border border-gray-200 text-center">
+          <div class="text-2xl font-bold text-blue-700 mb-1">M.Sc.</div>
+          <h4 class="font-bold text-gray-800">Cloud Computing</h4>
+          <p class="text-sm text-gray-600 mt-1">Munster Technological University, Cork, Ireland</p>
+        </div>
+        <div class="bg-white rounded-lg p-4 border border-gray-200 text-center">
+          <div class="text-2xl font-bold text-emerald-700 mb-1">CISSP</div>
+          <h4 class="font-bold text-gray-800">Information Systems Security</h4>
+          <p class="text-sm text-gray-600 mt-1">Certified by <a href="https://www.isc2.org/" class="text-blue-600 hover:underline" rel="noopener noreferrer">ISC2</a></p>
+        </div>
+        <div class="bg-white rounded-lg p-4 border border-gray-200 text-center">
+          <div class="text-2xl font-bold text-purple-700 mb-1">CISM</div>
+          <h4 class="font-bold text-gray-800">Information Security Manager</h4>
+          <p class="text-sm text-gray-600 mt-1">Certified by <a href="https://www.isaca.org/" class="text-blue-600 hover:underline" rel="noopener noreferrer">ISACA</a></p>
+        </div>
+      </div>
+      <p class="text-sm text-gray-500 mt-4 text-center">20+ years translating enterprise security practices into practical guidance for small teams.</p>
+    </div>
+
     <p class="mb-6">
-      We’re not a consultancy or a subscription app. We're a <strong>no-fluff product shop</strong> focused on fast, affordable security wins — especially for SMBs without an internal IT team.
+      We're not a consultancy or a subscription app. We're a <strong>no-fluff product shop</strong> focused on fast, affordable security wins - especially for SMBs without an internal IT team.
     </p>
 
     <!-- Authority & Expertise Section -->
     <div class="bg-gradient-to-r from-blue-50 to-emerald-50 rounded-xl p-6 mb-8">
-      <h3 class="text-xl font-bold text-gray-800 mb-4">🏆 Our Expertise & Approach</h3>
+      <h3 class="text-xl font-bold text-gray-800 mb-4">Our Expertise & Approach</h3>
       
       <!-- Expertise Areas -->
       <div class="mb-6">
         <p class="text-sm text-gray-600 mb-3">Our work is based on deep expertise in small business cybersecurity:</p>
         <div class="grid md:grid-cols-2 gap-4">
           <div class="bg-white rounded-lg p-4">
-            <h4 class="font-semibold text-gray-800 mb-2">🎯 Small Business Focus</h4>
+            <h4 class="font-semibold text-gray-800 mb-2">Small Business Focus</h4>
             <p class="text-sm text-gray-600">20+ years specializing in 1-50 employee teams. We understand your unique challenges and constraints.</p>
           </div>
           <div class="bg-white rounded-lg p-4">
-            <h4 class="font-semibold text-gray-800 mb-2">📋 Compliance Knowledge</h4>
+            <h4 class="font-semibold text-gray-800 mb-2">Compliance Knowledge</h4>
             <p class="text-sm text-gray-600">Deep knowledge of GDPR, ISO27001, cyber insurance requirements, and audit preparation.</p>
           </div>
           <div class="bg-white rounded-lg p-4">
-            <h4 class="font-semibold text-gray-800 mb-2">🛡️ Practical Security</h4>
+            <h4 class="font-semibold text-gray-800 mb-2">Practical Security</h4>
             <p class="text-sm text-gray-600">Real-world security experience implementing controls that actually work for small teams.</p>
           </div>
           <div class="bg-white rounded-lg p-4">
-            <h4 class="font-semibold text-gray-800 mb-2">📚 Training & Documentation</h4>
+            <h4 class="font-semibold text-gray-800 mb-2">Training & Documentation</h4>
             <p class="text-sm text-gray-600">Expertise in creating engaging training materials and audit-ready documentation.</p>
           </div>
         </div>
@@ -109,7 +192,7 @@ const breadcrumbSchema = {
       
       <!-- Standards Alignment -->
       <div class="bg-white rounded-lg p-4 border border-gray-200">
-        <h4 class="font-semibold text-gray-800 mb-3">🔐 Standards & Frameworks We Follow</h4>
+        <h4 class="font-semibold text-gray-800 mb-3">Standards & Frameworks We Follow</h4>
         <p class="text-sm text-gray-600 mb-3">Our materials are designed to align with internationally recognized standards:</p>
         <div class="grid grid-cols-2 md:grid-cols-4 gap-3 text-center">
           <div class="bg-blue-50 rounded p-2">
@@ -135,11 +218,11 @@ const breadcrumbSchema = {
 
     <!-- Real Trust Signals -->
     <div class="bg-gray-50 rounded-xl p-6 mb-8">
-      <h3 class="text-xl font-bold text-gray-800 mb-4">🌍 Built for Small Businesses Worldwide</h3>
+      <h3 class="text-xl font-bold text-gray-800 mb-4">Built for Small Businesses Worldwide</h3>
       <p class="text-sm text-gray-600 mb-4">Our cybersecurity kits are designed to help small teams achieve compliance quickly and affordably:</p>
       <div class="grid grid-cols-2 md:grid-cols-3 gap-4 text-center">
         <div class="bg-white rounded-lg p-4 shadow-sm">
-          <div class="text-2xl font-bold text-blue-600">1–20</div>
+          <div class="text-2xl font-bold text-blue-600">1-20</div>
           <div class="text-xs text-gray-500">Employees per Team</div>
         </div>
         <div class="bg-white rounded-lg p-4 shadow-sm">
@@ -156,7 +239,7 @@ const breadcrumbSchema = {
       </div>
     </div>
 
-    <h2 class="text-2xl font-semibold mt-10 mb-4">📦 What We Offer</h2>
+    <h2 class="text-2xl font-semibold mt-10 mb-4">What We Offer</h2>
     <ul class="list-disc pl-6 space-y-2 mb-6">
       <li><strong>Training decks</strong> that staff actually understand</li>
       <li><strong>Ready-to-use policies</strong> aligned to ISO27001 and GDPR</li>
@@ -165,15 +248,15 @@ const breadcrumbSchema = {
       <li><strong>Onboarding templates</strong> for team leads</li>
     </ul>
     <p class="mb-6">
-      Everything is available as a one-time download — no subscriptions, and you keep the files forever.
+      Everything is available as a one-time download - no subscriptions, and you keep the files forever.
     </p>
 
-    <h2 class="text-2xl font-semibold mt-10 mb-4">🧠 Why It Works</h2>
+    <h2 class="text-2xl font-semibold mt-10 mb-4">Why It Works</h2>
     <ul class="list-disc pl-6 space-y-2 mb-6">
-      <li>✅ <strong>Offline-ready</strong></li>
-      <li>✅ <strong>Audit-aligned</strong></li>
-      <li>✅ <strong>Simple to deploy</strong></li>
-      <li>✅ <strong>Designed for non-technical users</strong></li>
+      <li><strong>Offline-ready</strong></li>
+      <li><strong>Audit-aligned</strong></li>
+      <li><strong>Simple to deploy</strong></li>
+      <li><strong>Designed for non-technical users</strong></li>
     </ul>
     <p class="mb-6">
       We focus on the first 60 minutes: the critical awareness, documentation, and habits that protect your team (and impress your insurer). See our <a href="/2026-compliance-checklist/" class="text-blue-600 hover:underline">2026 Cybersecurity Compliance Checklist</a> for a full breakdown.
@@ -198,13 +281,13 @@ const breadcrumbSchema = {
       </div>
     </div>
 
-    <h2 class="text-2xl font-semibold mt-10 mb-4">💬 Contact & Support</h2>
+    <h2 class="text-2xl font-semibold mt-10 mb-4">Contact & Support</h2>
     <p class="mb-6">
       Need help or have a suggestion? Reach out via email at
-      <a href="mailto:info@smbcyberhub.com" class="text-blue-600 hover:underline">info@smbcyberhub.com</a> — we respond within 1–2 business days.
+      <a href="mailto:info@smbcyberhub.com" class="text-blue-600 hover:underline">info@smbcyberhub.com</a> - we respond within 1-2 business days.
     </p>
 
-    <h2 class="text-2xl font-semibold mt-12 mb-6 border-t pt-10">🔐 Trust & Compliance</h2>
+    <h2 class="text-2xl font-semibold mt-12 mb-6 border-t pt-10">Trust & Compliance</h2>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
       <div class="flex items-start gap-4">
@@ -239,7 +322,7 @@ const breadcrumbSchema = {
         </svg>
         <div>
           <p class="font-medium">No Logins Required</p>
-          <p class="text-sm text-gray-600">All kits are ZIP-delivered and offline-ready — no SaaS, tracking, or user accounts.</p>
+          <p class="text-sm text-gray-600">All kits are ZIP-delivered and offline-ready - no SaaS, tracking, or user accounts.</p>
         </div>
       </div>
 
@@ -250,8 +333,8 @@ const breadcrumbSchema = {
                 d="M5 13l4 4L19 7"/>
         </svg>
         <div>
-          <p class="font-medium">Solo Founder Model</p>
-          <p class="text-sm text-gray-600">Built and maintained by an IT veteran and supported by a small team of specialists - focused entirely on small business needs.</p>
+          <p class="font-medium">CISSP & CISM Certified Founder</p>
+          <p class="text-sm text-gray-600">Built by a cybersecurity professional with M.Sc. in Cloud Computing and 20+ years of enterprise experience.</p>
         </div>
       </div>
     </div>
