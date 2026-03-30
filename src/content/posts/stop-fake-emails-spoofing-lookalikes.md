@@ -1,290 +1,114 @@
 ---
 title: "Stop Fake Emails: Spoofing vs Lookalikes"
-description: "How to prevent email spoofing and lookalike domain attacks. Technical controls, process safeguards, and actionable strategies for small businesses."
+description: "How email spoofing and lookalike domain attacks work, and a practical playbook to block both. SPF, DKIM, DMARC explained for small business teams."
 date: 2025-10-28
 tags: ["phishing"]
 ogImage: "/images/smbcyberhub-logo.webp"
-excerpt: "Learn the difference between spoofed and lookalike emails—and follow a 7-step playbook to block invoice fraud and fake sender tricks with comprehensive protection strategies."
+excerpt: "Fake invoices and CEO wire requests start with a forged sender. Learn the difference between spoofed and lookalike emails, and follow a practical playbook to block both."
 featured: false
 canonical: "https://smbcyberhub.com/posts/stop-fake-emails-spoofing-lookalikes/"
-dateModified: 2026-03-26
+dateModified: 2026-03-30
 ---
 
-Fake invoices. "CEO" wire requests. Supplier bank-detail changes. Most start with a fake sender. Here's a simple guide to the two most common tricks—and a small-team playbook to block them fast.
+Fake invoices. "CEO" wire requests. Supplier bank-detail changes. Almost all of these start with a forged sender address — and they work because most small teams have no way to tell a real email from a convincing fake. There are two distinct tricks attackers use, and each requires a different defence.
 
-## 🔍 Understanding Email Forgery Techniques
+## Spoofing vs lookalike domains: what is the difference?
 
-### **What's the difference?**
+These two techniques look similar in your inbox but work completely differently, which is why you need to understand both.
 
-#### **Email Spoofing (Your Domain is Forged)**
-Attackers send mail that pretends to be `you@yourcompany.com`. This is the most common and dangerous type of email forgery.
+**Email spoofing** means an attacker sends an email that claims to be from your exact domain — `you@yourcompany.com` — without ever having access to your email account. This is possible because the original email protocol (SMTP) was designed in the 1980s with no built-in sender verification. Anyone can put any address in the "From" field, the same way anyone can write any return address on a paper envelope. The email arrives looking exactly like it came from inside your organisation.
 
-#### **How Spoofing Works:**
-- **SMTP protocol** allows any sender to specify any "From" address
-- **No built-in verification** in basic email protocols
-- **Easy to implement** with simple email clients
-- **Hard to detect** without proper email authentication
+**Lookalike domains** (also called cousin domains) are different. The attacker registers a domain that looks almost identical to yours — `yourcornpany.com` (with an "rn" instead of "m"), `yourcompany.co` (different TLD), or `your-company.com` (added hyphen). They then send email from this real, registered domain. Because it is a legitimate domain, your email authentication cannot block it — the attacker's own SPF and DKIM records will pass just fine.
 
-#### **Protection Methods:**
-- **SPF (Sender Policy Framework)**: Lists authorized email servers
-- **DKIM (DomainKeys Identified Mail)**: Digital signatures for emails
-- **DMARC (Domain-based Message Authentication)**: Policy for handling unauthenticated emails
+The critical distinction: spoofing can be almost entirely prevented with email authentication (SPF, DKIM, DMARC). Lookalike domains cannot — they require human vigilance and process controls.
 
-#### **Lookalike Domains (Cousin Domains)**
-Attackers register `yourcornpany.com` or `your-company.co` and email from there. Your domain settings can't block this directly.
+## How do I stop someone spoofing my domain?
 
-#### **How Lookalikes Work:**
-- **Domain registration**: Attackers register similar-looking domains
-- **Visual deception**: Users may not notice the slight differences
-- **Technical legitimacy**: These are real domains, not forged
-- **Hard to block**: Requires different protection strategies
+Set up SPF, DKIM, and DMARC on your domain. Together, these three standards tell receiving email servers how to verify that a message genuinely came from an authorised sender — and what to do if it did not. Once properly configured with a DMARC reject policy, spoofed emails using your domain will be blocked before they reach anyone's inbox.
 
-#### **Common Lookalike Variations:**
-- **Typosquatting**: `gogle.com` instead of `google.com`
-- **Character substitution**: `micr0soft.com` instead of `microsoft.com`
-- **TLD changes**: `company.co` instead of `company.com`
-- **Hyphen variations**: `your-company.com` vs `yourcompany.com`
+### SPF: which servers can send as you
 
----
+SPF (Sender Policy Framework) is a DNS record that lists every server authorised to send email on behalf of your domain. When a receiving server gets an email claiming to be from `yourcompany.com`, it checks your SPF record. If the sending server is not on the list, the email fails SPF.
 
-## 🛡️ Technical Protection Strategies
+A typical SPF record for a small business using Google Workspace looks like this:
 
-### **Step 1: Implement SPF, DKIM, and DMARC**
+`v=spf1 include:_spf.google.com ~all`
 
-#### **SPF (Sender Policy Framework)**
-- **Purpose**: Lists authorized email servers for your domain
-- **Implementation**: Create TXT record in DNS
-- **Syntax**: `v=spf1 include:_spf.google.com ~all`
-- **Monitoring**: Review SPF results regularly
+The `include` directive authorises Google's servers. The `~all` means "soft fail anything else" — in practice, you want to move to `-all` (hard fail) once you are confident you have listed every legitimate sender. Common senders to include: your email provider, your website's contact form, any marketing email service, and any invoicing software that sends email on your behalf.
 
-#### **DKIM (DomainKeys Identified Mail)**
-- **Purpose**: Digital signatures to verify email authenticity
-- **Implementation**: Generate keys, publish public key in DNS
-- **Configuration**: Enable in email service providers
-- **Rotation**: Rotate keys periodically for security
+### DKIM: a digital signature on every email
 
-#### **DMARC (Domain-based Message Authentication)**
-- **Purpose**: Policy for handling unauthenticated emails
-- **Implementation**: Create TXT record in DNS
-- **Policy levels**: `none`, `quarantine`, `reject`
-- **Reporting**: Aggregate and forensic reports
+DKIM (DomainKeys Identified Mail) adds a cryptographic signature to every outgoing email. The receiving server checks this signature against a public key published in your DNS. If the signature matches, the email has not been tampered with and genuinely came from an authorised sender.
 
-#### **Implementation Process:**
-1. **Inventory email services**: List all services sending email
-2. **Configure SPF**: Add all authorized senders to SPF record
-3. **Enable DKIM**: Set up DKIM signing in each service
-4. **Publish DMARC**: Start with `p=quarantine`, monitor results
-5. **Monitor reports**: Review DMARC aggregate and forensic reports
-6. **Adjust policy**: Move to `p=reject` once aligned
+Your email provider handles the signing automatically — you just need to publish the public key as a DNS record. Google Workspace, Microsoft 365, and most business email providers have step-by-step guides for this in their admin console.
 
-### **Step 2: Lock Down Domain and DNS**
+### DMARC: the enforcement policy
 
-#### **Domain Registrar Security:**
-- **Registrar lock**: Prevent unauthorized domain transfers
-- **Multi-factor authentication**: Enable MFA on registrar account
-- **Access control**: Limit who can make DNS changes
-- **Monitoring**: Monitor for unauthorized changes
+DMARC (Domain-based Message Authentication, Reporting, and Conformance) ties SPF and DKIM together and tells receiving servers what to do when an email fails both checks. Without DMARC, a server might still deliver a spoofed email even though it failed SPF — DMARC makes the policy explicit.
 
-#### **DNS Security:**
-- **DNSSEC**: Enable DNS Security Extensions
-- **Access logging**: Log all DNS changes
-- **Documentation**: Document DNS configuration
-- **Backup**: Keep secure backups of DNS records
+DMARC has three enforcement levels:
+- `p=none` — monitor only; no emails blocked (use this to start, so you can see what is happening)
+- `p=quarantine` — failed emails go to spam
+- `p=reject` — failed emails are blocked entirely
 
-#### **Email Provider Security:**
-- **Admin access**: Limit admin access to email systems
-- **API keys**: Secure all API keys and credentials
-- **Service accounts**: Secure service account credentials
-- **Integration security**: Secure third-party integrations
+Start with `p=none` and enable DMARC reporting. The reports will show you every server that is sending email using your domain — including legitimate services you may have forgotten to add to SPF. Once the reports are clean, move to `p=quarantine`, then `p=reject`. This gradual approach avoids accidentally blocking your own legitimate emails.
 
----
+### Implementation in practice
 
-## 👥 People and Process Controls
+For a small business, the whole process takes an afternoon:
 
-### **Step 3: Make Real Addresses Visible**
+1. **List every service that sends email as your domain** — your email provider, website contact form, invoicing software, marketing tools, CRM.
+2. **Create your SPF record** in DNS with all authorised senders.
+3. **Enable DKIM signing** in your email provider's admin console and publish the public key in DNS.
+4. **Publish a DMARC record** starting with `p=none` and an email address for reports.
+5. **Monitor DMARC reports** for 2–4 weeks to catch any legitimate senders you missed.
+6. **Tighten the policy** to `p=quarantine` then `p=reject` once reports are clean.
 
-#### **Email Client Configuration:**
-- **Full sender address**: Display complete email address
-- **External sender warnings**: Banner for external emails
-- **Domain highlighting**: Highlight unfamiliar domains
-- **Sender verification**: Show authentication status
+Once you reach `p=reject`, spoofing of your domain is effectively blocked. This protects your clients and suppliers from receiving fake emails that appear to come from you.
 
-#### **Visual Security Indicators:**
-- **Trust seals**: Visual indicators for authenticated emails
-- **Warning banners**: Alerts for suspicious emails
-- **Color coding**: Different colors for internal vs external
-- **Authentication status**: Show SPF/DKIM/DMARC results
+## Defending against lookalike domains
 
-#### **User Education:**
-- **Training programs**: Regular security awareness training
-- **Phishing simulations**: Test user recognition skills
-- **Security newsletters**: Regular security updates
-- **Incident reporting**: Clear reporting procedures
+SPF, DKIM, and DMARC cannot help you here. A lookalike domain is a real, separately registered domain — the attacker controls it and can set up their own perfectly valid email authentication. The defence has to be human and procedural.
 
-### **Step 4: Reduce Lookalike Confusion**
+### Register obvious variants of your domain
 
-#### **Domain Protection Strategy:**
-- **Register variants**: Buy obvious typo domains
-- **Redirect domains**: Redirect variants to main domain
-- **Monitoring**: Monitor for new domain registrations
-- **Legal action**: Take action against infringing domains
+Buy the common typos and alternative TLDs for your primary domain — `.co`, `.net`, the hyphenated version, common misspellings. Redirect them all to your main site. This is cheap (a few euros per year per domain) and removes the easiest targets. You will not catch every possible variation, but you can cover the most obvious ones.
 
-#### **Lookalike Detection:**
-- **Visual similarity**: Tools to detect similar domains
-- **Brand monitoring**: Monitor for brand abuse
-- **Threat intelligence**: Monitor for new threats
-- **Automated alerts**: Alert on suspicious domains
+### Train your team to check the actual sender address
 
-#### **Process Controls:**
-- **Verification procedures**: Call-back verification for sensitive requests
-- **Approval workflows**: Multi-level approval for financial transactions
-- **Documentation**: Keep records of all verifications
-- **Regular reviews**: Periodic security assessments
+Most email clients display only the sender's name by default, not the full email address. An email from "Sarah Johnson - Accounts" could be from `sarah@yourcompany.com` or `sarah@yourcornpany.com` — and the display name looks identical. Train your team to hover over or click on the sender name to reveal the full address, especially for any email that involves money, credentials, or sensitive data.
 
----
+Configure your email system to display external sender warnings — both Google Workspace and Microsoft 365 can add a banner to emails from outside your organisation. This simple visual cue catches a surprising number of lookalike attempts.
 
-## 📋 Complete Implementation Checklist
+### Verify financial requests through a separate channel
 
-### **Technical Controls**
-- [ ] **Publish SPF record** for all email services
-- [ ] **Enable DKIM signing** in all email services
-- [ ] **Publish DMARC policy** with monitoring
-- [ ] **Enable domain registrar lock** and MFA
-- [ ] **Configure DNSSEC** for domain security
-- [ ] **Set up email security** monitoring
-- [ ] **Implement external sender** warnings
-- [ ] **Configure email client** security settings
+The most important process control is a [callback verification procedure](/posts/stop-payment-fraud-callback-playbook/) for any email that requests a payment, changes bank details, or asks for sensitive information. Call the person on a known phone number (not one from the suspicious email) and confirm the request verbally. This single control prevents the vast majority of invoice fraud and CEO impersonation attacks, regardless of how convincing the fake email looks.
 
-### **Process Controls**
-- [ ] **Establish verification procedures** for sensitive requests
-- [ ] **Create approval workflows** for financial transactions
-- [ ] **Implement callback verification** for payment changes
-- [ ] **Document all security** procedures
-- [ ] **Regular security training** for all staff
-- [ ] **Incident response** procedures for email security
-- [ ] **Regular security reviews** and assessments
+### Lock down your own domain and DNS
 
-### **Domain Protection**
-- [ ] **Register obvious typo** domains
-- [ ] **Set up redirects** for variant domains
-- [ ] **Monitor for new** domain registrations
-- [ ] **Legal action** against infringing domains
-- [ ] **Brand monitoring** for abuse
-- [ ] **Threat intelligence** monitoring
-- [ ] **Automated alerts** for suspicious domains
+Protect your domain registrar account with MFA and enable registrar lock to prevent unauthorised transfers. Limit who can make DNS changes. If an attacker gains control of your domain, they bypass all your email authentication — this is rare but catastrophic when it happens.
 
----
+## What to do if you receive a spoofed or lookalike email
 
-## 🚨 Advanced Protection Strategies
+1. **Do not reply, click links, or open attachments.** Forward the email to whoever manages your IT or security.
+2. **Check the full sender address** — is it your exact domain (spoofing) or a lookalike?
+3. **If it is a spoofed email from your domain**, check whether your DMARC policy is set to reject. If not, this is your sign to implement it.
+4. **If it is a lookalike domain**, report it to the domain registrar as abuse. Most registrars have an abuse reporting process.
+5. **Warn your team and clients** if the fake email was sent to multiple people or to your customers pretending to be you.
+6. **If anyone acted on the email** (clicked a link, sent money, entered credentials), follow your [incident response plan](/posts/incident-response-plan-template-small-business/) immediately. For phishing clicks specifically, see [what to do after a phishing click](/posts/what-happens-after-a-phishing-click-and-what-you-should-do/).
 
-### **Email Security Gateway**
-Implement advanced email filtering and protection.
+## GDPR and compliance obligations
 
-#### **Features:**
-- **Advanced filtering**: Block suspicious emails
-- **URL analysis**: Check links for malicious content
-- **Attachment scanning**: Scan for malware
-- **Sandboxing**: Test suspicious emails in isolation
-- **Machine learning**: AI-powered threat detection
+Email forgery is not just a security issue — it is a data protection issue. Under GDPR Article 32, organisations must implement "appropriate technical and organisational measures" to protect personal data. If a spoofed email leads to a data breach because you had no email authentication in place, demonstrating that your measures were "appropriate" becomes very difficult.
 
-#### **Implementation:**
-- **Cloud-based solutions**: Microsoft Defender, Mimecast
-- **On-premises solutions**: Barracuda, Proofpoint
-- **Hybrid solutions**: Combination of cloud and on-premises
-- **Custom rules**: Tailored to business requirements
+SPF, DKIM, and DMARC are free to implement and considered standard practice. Not having them is increasingly seen as negligent by regulators, insurers, and auditors. For UK businesses pursuing Cyber Essentials certification, email security falls under the "secure configuration" control — our [Cyber Essentials v3.3 guide](/posts/cyber-essentials-2026-changes-danzell-update-v3-3/) covers the requirements.
 
-### **Brand Protection Services**
-Professional services to protect your brand online.
+## Key takeaways
 
-#### **Services:**
-- **Domain monitoring**: Monitor for brand abuse
-- **Takedown services**: Remove infringing content
-- **Legal support**: Legal action against infringers
-- **Intelligence feeds**: Threat intelligence data
-- **Reporting**: Regular brand protection reports
+- **Spoofing** (forged sender using your domain) is blocked by SPF + DKIM + DMARC. Implement all three and enforce with `p=reject`.
+- **Lookalike domains** (similar but different domain) cannot be blocked technically — defend with sender address checks, external email banners, and callback verification for financial requests.
+- SPF, DKIM, and DMARC are free, take an afternoon to set up, and protect your clients and suppliers from fake emails bearing your name.
+- A [callback verification procedure](/posts/stop-payment-fraud-callback-playbook/) for payment requests is the single most effective control against both attack types.
+- Train staff to check the full sender address, not just the display name — especially for emails involving money or sensitive data.
 
-#### **Implementation:**
-- **Brand protection platforms**: MarkMonitor, BrandShield
-- **Legal services**: Intellectual property law firms
-- **Security consultants**: Cybersecurity consulting firms
-- **Managed services**: Ongoing protection services
-
----
-
-## 🎯 Key Takeaways
-
-### **Remember These Rules**
-1. **Email spoofing** can be blocked with SPF, DKIM, DMARC
-2. **Lookalike domains** require different protection strategies
-3. **Technical controls** are essential but not sufficient
-4. **People and processes** are critical for protection
-5. **Regular monitoring** and updates are necessary
-
-### **Your Action Plan**
-
-Our [cybersecurity compliance kits](/kits/) include email security policies, phishing awareness training, and audit-ready checklists to protect your team from spoofing attacks.
-
-- [ ] **Implement SPF, DKIM, DMARC** for all email services
-- [ ] **Lock down domain** and DNS security
-- [ ] **Configure email clients** for security
-- [ ] **Register typo domains** and set up redirects
-- [ ] **Establish verification procedures** for sensitive requests
-- [ ] **Train staff** on email security awareness
-- [ ] **Monitor and review** security regularly
-
-### **Success Metrics**
-- **Zero successful** email spoofing attacks
-- **Reduced lookalike** domain incidents
-- **Staff recognition** of suspicious emails
-- **Proper verification** of sensitive requests
-- **Compliance with** email security standards
-- **Reduced financial** losses from email fraud
-
----
-
-## 🔐 Compliance and Legal Considerations
-
-### **GDPR Article 32(4)**
-- **Security of processing**: Implement appropriate technical measures
-- **Data protection by design**: Use strong authentication methods
-- **Access control**: Limit access to authorized personnel
-
-### **ISO27001 Clause 7.2.2**
-- **Information security awareness**: Train staff on security procedures
-- **Incident response**: Document and test response procedures
-- **Business continuity**: Ensure operations during security incidents
-
-### **Industry Regulations**
-- **HIPAA**: Email security for healthcare data
-- **PCI DSS**: Email security for payment data
-- **SOX**: Internal controls for financial reporting
-- **NYDFS**: Cybersecurity requirements for financial services
-
----
-
-## 📚 Download Your Free Cyber Security Training Kit
-
-Need ready-to-use checklists and a quick staff refresher?  
-👉 [Download the Free Cyber Security Training Kit](https://smbcyberhub.com/free-cyber-security-training/?utm_source=blog&utm_medium=cta&utm_campaign=anti-spoofing_post)
-
----
-
-## 📚 Related Resources
-
-### **Internal Links:**
-- **[How Phishing Actually Works: A Simple Breakdown for Small Teams](/posts/how-phishing-actually-works-a-simple-breakdown-for-small-teams/)**
-- **[Stop Payment Fraud: A Simple Callback Playbook for Invoice & Bank-Detail Changes](/posts/stop-payment-fraud-callback-playbook/)**
-- **[What Happens After a Phishing Click?](/posts/what-happens-after-a-phishing-click-and-what-you-should-do/)**
-
-### **External Resources:**
-- **DMARC.org**: DMARC overview and implementation guide
-- **SPF Project**: SPF documentation and tools
-- **DKIM.org**: DKIM implementation guide
-- **National Cyber Security Centre**: Email security guidance
-
----
-
-**🕒 Estimated Reading Time**: 18 minutes  
-**🔐 Aligned With**: GDPR Article 32(4), ISO27001 Clause 7.2.2  
-**📊 Target Audience**: Small business owners, IT administrators, security managers  
-**🎯 Learning Objectives**: Understand email forgery, implement email authentication, protect against spoofing and lookalikes
+Our [cybersecurity compliance kits](/kits/) include email security policies, phishing awareness training modules, and verification procedure templates to protect your team from spoofing and impersonation attacks.

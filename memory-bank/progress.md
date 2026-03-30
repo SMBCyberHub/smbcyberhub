@@ -102,6 +102,38 @@
 - 📋 User account system (optional)
 - 📋 Kit customization wizard
 
+## Recent Completed Work (30 Mar 2026)
+
+### 3 Thin Content Rewrites (GSC "Crawled - not indexed" fixes)
+- **Root cause for all 3**: Content quality — posts were almost entirely bullet-point padding with heavy repetition, generic lists, and no substantive prose. Google crawled but declined to index.
+
+#### 1. USB Drives Post (`why-free-usb-drives-are-a-threat-safe-file-transfer-alternatives.md`)
+- Full rewrite (~1,945 words): narrative prose explaining BadUSB, Rubber Ducky, traditional malware; cost breakdown (€20K–€50K per incident); 3 risk scenarios with fixes; technical controls; incident response steps; GDPR Article 32 obligations
+- 13+ outbound internal links woven into content (up from 3 in a footer); added `"remote work"` tag; 2 AEO question headings retained
+
+#### 2. Cyber Insurance Requirements Guide (`cyber-insurance-requirements-small-business-complete-guide.md`)
+- Was 660 lines of wall-to-wall bullet lists with circular definitions ("HIPAA: Must demonstrate HIPAA compliance"), fictional comparison matrices, fabricated cost precision
+- Full rewrite (~2,025 words): explains first-party vs third-party coverage in prose, 5 non-negotiable insurer controls with real reasoning, premium factors honestly explained, application process guidance, Cyber Essentials and insurance section (retained from original — was already good), common claim scenarios with realistic cost ranges
+- 15+ outbound internal links woven naturally into content
+
+#### 3. Email Spoofing & Lookalikes Post (`stop-fake-emails-spoofing-lookalikes.md`)
+- Was almost entirely bullet lists with no real explanations, generic "Brand Protection Services" filler, copy-paste compliance footer
+- Full rewrite (~1,643 words): explains spoofing vs lookalikes distinction clearly, SPF/DKIM/DMARC explained with real examples (including sample SPF record), step-by-step implementation process, lookalike domain defences (domain registration, sender address training, callback verification), incident response steps, GDPR obligations
+- 6+ outbound internal links woven into content
+
+#### All 3 rewrites:
+- **dateModified**: Updated to 2026-03-30
+- **Meta descriptions**: All within 130-160 chars
+- **Build**: 73 pages, 0 errors
+
+### Content Quality Audit (full site)
+- Audited all 41 blog posts for thin content / bullet-point padding
+- **Key decision**: Subagent assessments flagged 7 posts as "needs rewrite" but manual review confirmed only 3 actually needed it. Added AGENTS.md rule requiring manual verification before acting on subagent recommendations.
+- The 2 policy template posts (AUP, remote work) and training proof post were false positives — they serve valid purposes as template previews and step-by-step guides
+
+### AGENTS.md Update
+- Added "Subagent / Automated Assessment Rule" — requires reading files yourself before implementing large changes based on subagent recommendations
+
 ## Recent Completed Work (29 Mar 2026)
 
 ### Author Credential Enhancement (E-E-A-T verifiable trust signals)

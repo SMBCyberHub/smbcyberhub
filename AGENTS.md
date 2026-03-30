@@ -78,6 +78,13 @@ After any content change, before committing:
 - **All internal links must use trailing slashes.**
 - **New blog posts need a trailing-slash redirect** added to `public/_redirects`.
 
+## Subagent / Automated Assessment Rule
+
+- **Never trust subagent assessments at face value for destructive or large-scale changes.** Subagents are useful for initial triage and exploration, but their quality judgements can be overly harsh or inaccurate.
+- **Before rewriting, deleting, or substantially changing any content based on a subagent's recommendation, read the actual file yourself** and form your own assessment.
+- This applies to content quality audits, code refactors, and any bulk change where a subagent flags multiple files for modification.
+- Use subagents for discovery and shortlisting; use your own judgement for the final call.
+
 ## Build & Verification
 
 - Build command: `npx astro build`
