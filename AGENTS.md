@@ -119,3 +119,46 @@ After any content change, before committing:
 - **No fabricated customer counts, star ratings, or geographic claims.** Do not add "100+ customers", "4.9/5 stars", "20+ countries" or similar unverifiable claims.
 - Case study blog posts must include a clear disclaimer identifying them as illustrative scenarios with fictional characters.
 - **No machine hostnames, server names, or agent identities may appear in any site file or commit metadata.**
+
+## Priority
+- **Tier:** P3 -- DORMANT
+- **Justification:** SMB cybersecurity hub; no recent activity
+- **Escalation trigger:** New cybersecurity requirement or training update
+
+## Blockers
+
+| ID | Blocked Since | Waiting On | Description | Upstream Ref |
+|----|--------------|------------|-------------|-------------|
+| None | | | | |
+
+## Known Issues
+
+| ID | Severity | Summary | Affected Component | Discovered | Session | Workaround |
+|----|----------|---------|-------------------|------------|---------|------------|
+| None | | | | | | |
+
+### Resolved
+
+| ID | Summary | Resolved | Resolution Session | Resolution |
+|----|---------|----------|--------------------|------------|
+| (none yet) | | | | |
+
+## Rollback Procedures
+
+### Quick Rollback (last commit)
+- `cd /root/CascadeProjects/smbcyberhub && git log --oneline -5`
+- `git revert HEAD`
+
+### Full Restore (from backup)
+- Backups: `lcvt1067:/root/project_backups/smbcyberhub/`
+- Restore: `rsync -av lcvt1067:/root/project_backups/smbcyberhub/ /root/CascadeProjects/smbcyberhub/`
+
+### Process Recovery
+- N/A (documentation/training project; no long-running processes)
+
+### Array State Recovery
+- N/A (no array interaction)
+
+## Device Path Rule -- MANDATORY
+
+**All device I/O MUST use the pseudo device (multipath aggregator), never the underlying physical paths.** Use `/dev/mapper/mpathXX` (DM-MPIO), `/dev/emcpowerX` (PowerPath Linux), `/dev/hdiskpowerN` (PowerPath AIX), or `/dev/nvmeXnY` (NVMe native multipath). Never use `/dev/sdX`, `/dev/dm-N`, `/dev/hdiskN`, or per-controller NVMe paths for read/write operations. See OrchestrationScript `AGENTS.md` "Device Path Rule" for full details and discovery commands.
