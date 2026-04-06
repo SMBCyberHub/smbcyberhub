@@ -159,6 +159,28 @@ After any content change, before committing:
 ### Array State Recovery
 - N/A (no array interaction)
 
+## Credential Lookup Rule -- MANDATORY
+
+**Never guess, hardcode, or hallucinate credentials.** Before connecting to any host, vCenter, ESXi, array, SRM appliance, or service, the agent MUST search the project memory-bank files and `AGENTS.md` files across `/root/CascadeProjects/` for stored credential information.
+
+### Lookup order
+
+1. **Current project's `AGENTS.md`** -- check Critical Lessons, Environment, and Orchestration sections for passwords, usernames, SSH keys, or credential references.
+2. **Current project's `.windsurf/` files** -- `activeContext.md`, `progress.md`, `decisionLog.md`, `systemPatterns.md` may contain credential discoveries logged during previous sessions.
+3. **Cross-project `AGENTS.md` files** -- credentials for shared infrastructure (vCenters, SE hosts, arrays) are often documented in the project that first set them up. Key references:
+   - vCenter credentials: `Metro_with_SRM/AGENTS.md` (Critical Lessons #34)
+   - SE host SSH: typically passwordless (RSA keys)
+   - Host-specific passwords: check the relevant project's `AGENTS.md` Environment section
+4. **OrchestrationScript `config/projects.json`** -- contains `ssh_password_env` references and host mappings.
+
+### Rules
+
+1. **Search before connecting.** Run `grep -ri 'password\|credential\|Password' /root/CascadeProjects/<relevant_project>/` if unsure where credentials are stored.
+2. **Never attempt authentication with guessed passwords.** Failed login attempts can lock accounts (especially ESXi root, vCenter admin, SRM appliances).
+3. **Never hardcode credentials in committed code.** Use environment variables, config files excluded from version control, or credential references in memory-bank files.
+4. **Log new credential discoveries.** When a credential is discovered or provided by the user, record it in the appropriate project's `AGENTS.md` (Critical Lessons or Environment section) so it is available for future sessions.
+5. **Ask the user if not found.** If credentials cannot be located in any memory-bank file after a thorough search, ask the user rather than guessing.
+
 ## Device Path Rule -- MANDATORY
 
 **All device I/O MUST use the pseudo device (multipath aggregator), never the underlying physical paths.** Use `/dev/mapper/mpathXX` (DM-MPIO), `/dev/emcpowerX` (PowerPath Linux), `/dev/hdiskpowerN` (PowerPath AIX), or `/dev/nvmeXnY` (NVMe native multipath). Never use `/dev/sdX`, `/dev/dm-N`, `/dev/hdiskN`, or per-controller NVMe paths for read/write operations. See OrchestrationScript `AGENTS.md` "Device Path Rule" for full details and discovery commands.
