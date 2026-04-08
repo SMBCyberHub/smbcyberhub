@@ -1,6 +1,6 @@
 ---
 title: "Case Study: CPA Firm FTC Compliance"
-description: "How a 5-person CPA practice could go from zero compliance documentation to FTC Safeguards audit-ready in one afternoon. Illustrative scenario with realistic timeline."
+description: "How a 5-person CPA practice went from zero compliance documentation to FTC Safeguards audit-ready in one afternoon. Illustrative scenario."
 date: 2026-03-29
 tags: ["compliance", "cyber insurance"]
 ogImage: "/images/smbcyberhub-logo.webp"

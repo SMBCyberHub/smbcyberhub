@@ -40,7 +40,7 @@ The days of answering a short questionnaire and getting approved are over. Insur
 
 Every insurer we have seen asks about these five areas. If you cannot demonstrate all five, expect problems at application or renewal.
 
-**1. Multi-factor authentication.** MFA on email, cloud storage, remote access, and admin accounts is now a hard requirement — not a suggestion. Insurers have seen so many credential-based breaches that many will decline coverage outright if MFA is not in place. Our [guide to MFA for small businesses](/posts/why-every-small-business-needs-mfa-now/) covers implementation.
+**1. Multi-factor authentication.** MFA on email, cloud storage, remote access, and admin accounts is now a hard requirement — not a suggestion. Insurers have seen so many credential-based breaches that many will decline coverage outright if MFA is not in place. Our [guide to MFA for small businesses](/posts/mfa-myths-busted-what-multi-factor-authentication-really-does/) covers implementation.
 
 **2. Regular backups with offsite copies.** Insurers want to know that you can recover from ransomware without paying the ransom. That means documented backup procedures, regular testing, and at least one offsite or cloud copy. The [3-2-1 backup plan](/posts/backups-that-actually-work-3-2-1-plan-small-teams/) is the standard they expect.
 

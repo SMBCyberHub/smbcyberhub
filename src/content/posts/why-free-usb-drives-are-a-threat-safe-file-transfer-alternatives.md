@@ -34,10 +34,10 @@ The financial impact goes well beyond the cost of cleaning up malware. A USB-del
 
 - **Immediate downtime**: 3–5 days of lost productivity while systems are rebuilt. For a team billing €500 per person per day, that is €7,500–€25,000 in lost revenue alone.
 - **Incident response**: Even a basic forensic investigation runs €2,000–€5,000. If personal data was exposed, you also need legal advice on [GDPR breach notification obligations](/posts/gdpr-breach-notification-procedures-small-business/).
-- **Insurance complications**: Many cyber insurance policies exclude incidents caused by removable media if the business had no USB policy in place. Check what your [insurer actually expects](/posts/what-documents-do-i-need-for-a-cyber-insurance-claim/) before renewal.
+- **Insurance complications**: Many cyber insurance policies exclude incidents caused by removable media if the business had no USB policy in place. Check what your [insurer actually expects](/posts/what-documents-do-i-need-for-cyber-insurance-renewal/) before renewal.
 - **Reputation damage**: If client data was on the compromised machine, you face an uncomfortable disclosure conversation. For regulated sectors like [law firms handling cross-border GDPR data](/posts/case-study-law-firm-gdpr-audit/) or [healthcare practices under HIPAA](/posts/case-study-dental-clinic-hipaa-training/), the consequences are even steeper.
 
-The total cost of a single USB incident for a small team can easily reach €20,000–€50,000 when you add everything up — close to the figures we break down in our [true cost of a data breach guide](/posts/the-true-cost-of-a-data-breach-for-a-small-business/).
+The total cost of a single USB incident for a small team can easily reach €20,000–€50,000 when you add everything up — close to the figures we break down in our [true cost of a data breach guide](/posts/the-true-cost-of-a-breach-for-smbs-and-how-to-avoid-one/).
 
 ## The three scenarios that catch small teams
 
@@ -73,7 +73,7 @@ The good news is that every legitimate use case for USB drives has a better, saf
 
 Business-grade cloud storage (Google Workspace, Microsoft 365, Dropbox Business) gives you encryption in transit and at rest, granular sharing permissions, version history, and a complete audit trail of who accessed what and when. For GDPR purposes, the audit trail alone makes cloud storage vastly superior to USB drives — you can demonstrate exactly who had access to personal data, which is nearly impossible with physical media.
 
-Set up a shared team drive with folder-level permissions, enforce [multi-factor authentication](/posts/why-every-small-business-needs-mfa-now/) on all accounts, and make it the default way your team moves files.
+Set up a shared team drive with folder-level permissions, enforce [multi-factor authentication](/posts/mfa-myths-busted-what-multi-factor-authentication-really-does/) on all accounts, and make it the default way your team moves files.
 
 ### Secure file transfer for external sharing
 

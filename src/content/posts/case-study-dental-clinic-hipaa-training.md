@@ -1,6 +1,6 @@
 ---
 title: "Case Study: Dental Clinic HIPAA Training"
-description: "How an 8-person dental clinic could achieve HIPAA training compliance and cut insurance costs using offline documentation. Illustrative scenario with realistic timeline."
+description: "How an 8-person dental clinic achieved HIPAA training compliance and cut insurance costs using offline documentation. Illustrative scenario."
 date: 2026-03-29
 tags: ["compliance"]
 ogImage: "/images/smbcyberhub-logo.webp"

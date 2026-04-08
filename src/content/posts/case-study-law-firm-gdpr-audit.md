@@ -1,6 +1,6 @@
 ---
 title: "Case Study: Law Firm Passes GDPR Audit"
-description: "How a 6-person law firm could pass its first GDPR audit and secure cyber insurance renewal using offline compliance documentation. Illustrative scenario with realistic timeline."
+description: "How a 6-person law firm passed its first GDPR audit and secured cyber insurance renewal with offline compliance documentation."
 date: 2026-03-29
 tags: ["compliance", "gdpr"]
 ogImage: "/images/smbcyberhub-logo.webp"
