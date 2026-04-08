@@ -1,5 +1,8 @@
 # --- remove the global rule; only keep explicit normalizations ---
 
+# Sitemap alias (bots may try /sitemap.xml by convention)
+/sitemap.xml  /sitemap-index.xml  301
+
 # Specific normalizations (no force)
 /privacy      /privacy/      301
 /terms        /terms/        301
@@ -36,10 +39,316 @@
 /posts/gdpr-checklist-small-business/  /what-is-smb-cybersecurity-compliance/  301
 
 # Consolidated tag redirects (85+ tags → 10 core tags)
+# Each old tag maps to the closest surviving core tag.
+# Both %20 and + encoded variants included for multi-word tags.
+
+# device security → remote work (already existed)
 /tags/device%20security   /tags/remote%20work/  301
 /tags/device%20security/  /tags/remote%20work/  301
 /tags/device+security     /tags/remote%20work/  301
 /tags/device+security/    /tags/remote%20work/  301
+
+# documentation → compliance
+/tags/documentation   /tags/compliance/  301
+/tags/documentation/  /tags/compliance/  301
+
+# acceptable use policy → compliance
+/tags/acceptable%20use%20policy   /tags/compliance/  301
+/tags/acceptable%20use%20policy/  /tags/compliance/  301
+/tags/acceptable+use+policy       /tags/compliance/  301
+/tags/acceptable+use+policy/      /tags/compliance/  301
+
+# audit / audit readiness / checklist → compliance
+/tags/audit    /tags/compliance/  301
+/tags/audit/   /tags/compliance/  301
+/tags/audit%20readiness   /tags/compliance/  301
+/tags/audit%20readiness/  /tags/compliance/  301
+/tags/audit+readiness     /tags/compliance/  301
+/tags/audit+readiness/    /tags/compliance/  301
+/tags/checklist   /tags/compliance/  301
+/tags/checklist/  /tags/compliance/  301
+
+# cybersecurity / cyber hygiene / cybersecurity compliance / security compliance → compliance
+/tags/cybersecurity    /tags/compliance/  301
+/tags/cybersecurity/   /tags/compliance/  301
+/tags/cyber%20hygiene   /tags/compliance/  301
+/tags/cyber%20hygiene/  /tags/compliance/  301
+/tags/cyber+hygiene     /tags/compliance/  301
+/tags/cyber+hygiene/    /tags/compliance/  301
+/tags/cybersecurity%20compliance   /tags/compliance/  301
+/tags/cybersecurity%20compliance/  /tags/compliance/  301
+/tags/cybersecurity+compliance     /tags/compliance/  301
+/tags/cybersecurity+compliance/    /tags/compliance/  301
+/tags/security%20compliance   /tags/compliance/  301
+/tags/security%20compliance/  /tags/compliance/  301
+/tags/security+compliance     /tags/compliance/  301
+/tags/security+compliance/    /tags/compliance/  301
+
+# cybersecurity training / training / training records → compliance
+/tags/cybersecurity%20training   /tags/compliance/  301
+/tags/cybersecurity%20training/  /tags/compliance/  301
+/tags/cybersecurity+training     /tags/compliance/  301
+/tags/cybersecurity+training/    /tags/compliance/  301
+/tags/training    /tags/compliance/  301
+/tags/training/   /tags/compliance/  301
+/tags/training%20records   /tags/compliance/  301
+/tags/training%20records/  /tags/compliance/  301
+/tags/training+records     /tags/compliance/  301
+/tags/training+records/    /tags/compliance/  301
+
+# small business / small business security / small teams / SMB cybersecurity / smb security → compliance
+/tags/small%20business   /tags/compliance/  301
+/tags/small%20business/  /tags/compliance/  301
+/tags/small+business     /tags/compliance/  301
+/tags/small+business/    /tags/compliance/  301
+/tags/small%20business%20security   /tags/compliance/  301
+/tags/small%20business%20security/  /tags/compliance/  301
+/tags/small+business+security       /tags/compliance/  301
+/tags/small+business+security/      /tags/compliance/  301
+/tags/small%20teams   /tags/compliance/  301
+/tags/small%20teams/  /tags/compliance/  301
+/tags/small+teams     /tags/compliance/  301
+/tags/small+teams/    /tags/compliance/  301
+/tags/SMB%20cybersecurity   /tags/compliance/  301
+/tags/SMB%20cybersecurity/  /tags/compliance/  301
+/tags/SMB+cybersecurity     /tags/compliance/  301
+/tags/SMB+cybersecurity/    /tags/compliance/  301
+/tags/smb%20security   /tags/compliance/  301
+/tags/smb%20security/  /tags/compliance/  301
+/tags/smb+security     /tags/compliance/  301
+/tags/smb+security/    /tags/compliance/  301
+
+# template → compliance
+/tags/template    /tags/compliance/  301
+/tags/template/   /tags/compliance/  301
+
+# cybersecurity costs / cost-effective security / SaaS alternatives / no subscription → compliance
+/tags/cybersecurity%20costs   /tags/compliance/  301
+/tags/cybersecurity%20costs/  /tags/compliance/  301
+/tags/cybersecurity+costs     /tags/compliance/  301
+/tags/cybersecurity+costs/    /tags/compliance/  301
+/tags/cost-effective%20security   /tags/compliance/  301
+/tags/cost-effective%20security/  /tags/compliance/  301
+/tags/cost-effective+security     /tags/compliance/  301
+/tags/cost-effective+security/    /tags/compliance/  301
+/tags/SaaS%20alternatives   /tags/compliance/  301
+/tags/SaaS%20alternatives/  /tags/compliance/  301
+/tags/SaaS+alternatives     /tags/compliance/  301
+/tags/SaaS+alternatives/    /tags/compliance/  301
+/tags/no%20subscription%20cybersecurity   /tags/compliance/  301
+/tags/no%20subscription%20cybersecurity/  /tags/compliance/  301
+/tags/no+subscription+cybersecurity       /tags/compliance/  301
+/tags/no+subscription+cybersecurity/      /tags/compliance/  301
+
+# GDPR compliance / data protection / data retention → gdpr
+/tags/GDPR%20compliance   /tags/gdpr/  301
+/tags/GDPR%20compliance/  /tags/gdpr/  301
+/tags/GDPR+compliance     /tags/gdpr/  301
+/tags/GDPR+compliance/    /tags/gdpr/  301
+/tags/data%20protection   /tags/gdpr/  301
+/tags/data%20protection/  /tags/gdpr/  301
+/tags/data+protection     /tags/gdpr/  301
+/tags/data+protection/    /tags/gdpr/  301
+/tags/data%20retention   /tags/gdpr/  301
+/tags/data%20retention/  /tags/gdpr/  301
+/tags/data+retention     /tags/gdpr/  301
+/tags/data+retention/    /tags/gdpr/  301
+/tags/GDPR    /tags/gdpr/  301
+/tags/GDPR/   /tags/gdpr/  301
+
+# cyber insurance documentation / insurance / insurance documentation / insurance renewal etc → cyber insurance
+/tags/cyber%20insurance%20documentation   /tags/cyber%20insurance/  301
+/tags/cyber%20insurance%20documentation/  /tags/cyber%20insurance/  301
+/tags/cyber+insurance+documentation       /tags/cyber%20insurance/  301
+/tags/cyber+insurance+documentation/      /tags/cyber%20insurance/  301
+/tags/insurance    /tags/cyber%20insurance/  301
+/tags/insurance/   /tags/cyber%20insurance/  301
+/tags/insurance%20documentation   /tags/cyber%20insurance/  301
+/tags/insurance%20documentation/  /tags/cyber%20insurance/  301
+/tags/insurance+documentation     /tags/cyber%20insurance/  301
+/tags/insurance+documentation/    /tags/cyber%20insurance/  301
+/tags/insurance%20renewal   /tags/cyber%20insurance/  301
+/tags/insurance%20renewal/  /tags/cyber%20insurance/  301
+/tags/insurance+renewal     /tags/cyber%20insurance/  301
+/tags/insurance+renewal/    /tags/cyber%20insurance/  301
+/tags/insurance%20security%20questionnaire   /tags/cyber%20insurance/  301
+/tags/insurance%20security%20questionnaire/  /tags/cyber%20insurance/  301
+/tags/insurance+security+questionnaire       /tags/cyber%20insurance/  301
+/tags/insurance+security+questionnaire/      /tags/cyber%20insurance/  301
+/tags/cyber%20insurance%20renewal   /tags/cyber%20insurance/  301
+/tags/cyber%20insurance%20renewal/  /tags/cyber%20insurance/  301
+/tags/cyber+insurance+renewal       /tags/cyber%20insurance/  301
+/tags/cyber+insurance+renewal/      /tags/cyber%20insurance/  301
+/tags/cybersecurity%20training%20proof   /tags/cyber%20insurance/  301
+/tags/cybersecurity%20training%20proof/  /tags/cyber%20insurance/  301
+/tags/cybersecurity+training+proof       /tags/cyber%20insurance/  301
+/tags/cybersecurity+training+proof/      /tags/cyber%20insurance/  301
+/tags/cost%20of%20inaction   /tags/cyber%20insurance/  301
+/tags/cost%20of%20inaction/  /tags/cyber%20insurance/  301
+/tags/cost+of+inaction       /tags/cyber%20insurance/  301
+/tags/cost+of+inaction/      /tags/cyber%20insurance/  301
+/tags/risk%20management   /tags/cyber%20insurance/  301
+/tags/risk%20management/  /tags/cyber%20insurance/  301
+/tags/risk+management     /tags/cyber%20insurance/  301
+/tags/risk+management/    /tags/cyber%20insurance/  301
+
+# phishing-related: BEC, email security, email threats, etc → phishing
+/tags/BEC    /tags/phishing/  301
+/tags/BEC/   /tags/phishing/  301
+/tags/email%20security   /tags/phishing/  301
+/tags/email%20security/  /tags/phishing/  301
+/tags/email+security     /tags/phishing/  301
+/tags/email+security/    /tags/phishing/  301
+/tags/email%20threats   /tags/phishing/  301
+/tags/email%20threats/  /tags/phishing/  301
+/tags/email+threats     /tags/phishing/  301
+/tags/email+threats/    /tags/phishing/  301
+/tags/email%20forwarding   /tags/phishing/  301
+/tags/email%20forwarding/  /tags/phishing/  301
+/tags/email+forwarding     /tags/phishing/  301
+/tags/email+forwarding/    /tags/phishing/  301
+/tags/email%20authentication   /tags/phishing/  301
+/tags/email+authentication     /tags/phishing/  301
+/tags/email%20authentication/  /tags/phishing/  301
+/tags/email+authentication/    /tags/phishing/  301
+/tags/inbox%20rules   /tags/phishing/  301
+/tags/inbox%20rules/  /tags/phishing/  301
+/tags/inbox+rules     /tags/phishing/  301
+/tags/inbox+rules/    /tags/phishing/  301
+/tags/dmarc    /tags/phishing/  301
+/tags/dmarc/   /tags/phishing/  301
+/tags/domain%20security   /tags/phishing/  301
+/tags/domain%20security/  /tags/phishing/  301
+/tags/domain+security     /tags/phishing/  301
+/tags/domain+security/    /tags/phishing/  301
+/tags/fraud%20prevention   /tags/phishing/  301
+/tags/fraud%20prevention/  /tags/phishing/  301
+/tags/fraud+prevention     /tags/phishing/  301
+/tags/fraud+prevention/    /tags/phishing/  301
+/tags/payment%20fraud   /tags/phishing/  301
+/tags/payment%20fraud/  /tags/phishing/  301
+/tags/payment+fraud     /tags/phishing/  301
+/tags/payment+fraud/    /tags/phishing/  301
+/tags/financial%20security   /tags/phishing/  301
+/tags/financial%20security/  /tags/phishing/  301
+/tags/financial+security     /tags/phishing/  301
+/tags/financial+security/    /tags/phishing/  301
+/tags/invoices    /tags/phishing/  301
+/tags/invoices/   /tags/phishing/  301
+/tags/social%20engineering   /tags/phishing/  301
+/tags/social%20engineering/  /tags/phishing/  301
+/tags/social+engineering     /tags/phishing/  301
+/tags/social+engineering/    /tags/phishing/  301
+/tags/human%20risk   /tags/phishing/  301
+/tags/human%20risk/  /tags/phishing/  301
+/tags/human+risk     /tags/phishing/  301
+/tags/human+risk/    /tags/phishing/  301
+/tags/cybersecurity%20awareness   /tags/phishing/  301
+/tags/cybersecurity%20awareness/  /tags/phishing/  301
+/tags/cybersecurity+awareness     /tags/phishing/  301
+/tags/cybersecurity+awareness/    /tags/phishing/  301
+/tags/awareness    /tags/phishing/  301
+/tags/awareness/   /tags/phishing/  301
+/tags/security%20incident   /tags/phishing/  301
+/tags/security%20incident/  /tags/phishing/  301
+/tags/security+incident     /tags/phishing/  301
+/tags/security+incident/    /tags/phishing/  301
+/tags/incident%20response   /tags/phishing/  301
+/tags/incident%20response/  /tags/phishing/  301
+/tags/incident+response     /tags/phishing/  301
+/tags/incident+response/    /tags/phishing/  301
+/tags/Gmail    /tags/phishing/  301
+/tags/Gmail/   /tags/phishing/  301
+/tags/Microsoft%20365   /tags/phishing/  301
+/tags/Microsoft%20365/  /tags/phishing/  301
+/tags/Microsoft+365     /tags/phishing/  301
+/tags/Microsoft+365/    /tags/phishing/  301
+
+# authentication / multi-factor authentication / authentication security → mfa
+/tags/authentication    /tags/mfa/  301
+/tags/authentication/   /tags/mfa/  301
+/tags/authentication%20security   /tags/mfa/  301
+/tags/authentication%20security/  /tags/mfa/  301
+/tags/authentication+security     /tags/mfa/  301
+/tags/authentication+security/    /tags/mfa/  301
+/tags/multi-factor%20authentication   /tags/mfa/  301
+/tags/multi-factor%20authentication/  /tags/mfa/  301
+/tags/multi-factor+authentication     /tags/mfa/  301
+/tags/multi-factor+authentication/    /tags/mfa/  301
+
+# passwords / credential hygiene → password
+/tags/passwords    /tags/password/  301
+/tags/passwords/   /tags/password/  301
+/tags/credential%20hygiene   /tags/password/  301
+/tags/credential%20hygiene/  /tags/password/  301
+/tags/credential+hygiene     /tags/password/  301
+/tags/credential+hygiene/    /tags/password/  301
+
+# onboarding / least privilege → access control
+/tags/onboarding    /tags/access%20control/  301
+/tags/onboarding/   /tags/access%20control/  301
+/tags/least%20privilege   /tags/access%20control/  301
+/tags/least%20privilege/  /tags/access%20control/  301
+/tags/least+privilege     /tags/access%20control/  301
+/tags/least+privilege/    /tags/access%20control/  301
+
+# employee offboarding → offboarding
+/tags/employee%20offboarding   /tags/offboarding/  301
+/tags/employee%20offboarding/  /tags/offboarding/  301
+/tags/employee+offboarding     /tags/offboarding/  301
+/tags/employee+offboarding/    /tags/offboarding/  301
+
+# remote work policy / mobile workforce / BYOD / shared devices / device policy / productivity → remote work
+/tags/remote%20work%20policy   /tags/remote%20work/  301
+/tags/remote%20work%20policy/  /tags/remote%20work/  301
+/tags/remote+work+policy       /tags/remote%20work/  301
+/tags/remote+work+policy/      /tags/remote%20work/  301
+/tags/mobile%20workforce   /tags/remote%20work/  301
+/tags/mobile%20workforce/  /tags/remote%20work/  301
+/tags/mobile+workforce     /tags/remote%20work/  301
+/tags/mobile+workforce/    /tags/remote%20work/  301
+/tags/BYOD%20security   /tags/remote%20work/  301
+/tags/BYOD%20security/  /tags/remote%20work/  301
+/tags/BYOD+security     /tags/remote%20work/  301
+/tags/BYOD+security/    /tags/remote%20work/  301
+/tags/shared%20devices   /tags/remote%20work/  301
+/tags/shared%20devices/  /tags/remote%20work/  301
+/tags/shared+devices     /tags/remote%20work/  301
+/tags/shared+devices/    /tags/remote%20work/  301
+/tags/device%20policy   /tags/remote%20work/  301
+/tags/device%20policy/  /tags/remote%20work/  301
+/tags/device+policy     /tags/remote%20work/  301
+/tags/device+policy/    /tags/remote%20work/  301
+/tags/productivity    /tags/remote%20work/  301
+/tags/productivity/   /tags/remote%20work/  301
+
+# ransomware / business continuity / breach → backups
+/tags/ransomware    /tags/backups/  301
+/tags/ransomware/   /tags/backups/  301
+/tags/business%20continuity   /tags/backups/  301
+/tags/business%20continuity/  /tags/backups/  301
+/tags/business+continuity     /tags/backups/  301
+/tags/business+continuity/    /tags/backups/  301
+/tags/breach    /tags/backups/  301
+/tags/breach/   /tags/backups/  301
+
+# misc: file sharing / file transfer / malware / usb / business security → compliance
+/tags/file%20sharing   /tags/compliance/  301
+/tags/file%20sharing/  /tags/compliance/  301
+/tags/file+sharing     /tags/compliance/  301
+/tags/file+sharing/    /tags/compliance/  301
+/tags/file%20transfer   /tags/compliance/  301
+/tags/file%20transfer/  /tags/compliance/  301
+/tags/file+transfer     /tags/compliance/  301
+/tags/file+transfer/    /tags/compliance/  301
+/tags/malware    /tags/compliance/  301
+/tags/malware/   /tags/compliance/  301
+/tags/usb    /tags/compliance/  301
+/tags/usb/   /tags/compliance/  301
+/tags/business%20security   /tags/compliance/  301
+/tags/business%20security/  /tags/compliance/  301
+/tags/business+security     /tags/compliance/  301
+/tags/business+security/    /tags/compliance/  301
 
 # Blog post consolidation — content merged into pillar page
 /posts/smb-cybersecurity-compliance-guide-2026   /what-is-smb-cybersecurity-compliance/  301

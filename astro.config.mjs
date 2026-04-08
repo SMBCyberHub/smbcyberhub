@@ -45,7 +45,7 @@ export default defineConfig({
   integrations: [
     tailwind(),
     sitemap({
-        filter: (page) => !['/terms/', '/privacy/', '/licensing/'].some(p => page.includes(p)),
+        filter: (page) => !['/terms/', '/privacy/', '/licensing/', '/tags/'].some(p => page.includes(p)),
         serialize: (item) => {
           const urlPath = new URL(item.url).pathname;
 
