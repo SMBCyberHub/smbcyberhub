@@ -150,7 +150,7 @@ After any content change, before committing:
 - `git revert HEAD`
 
 ### Full Restore (from backup)
-- Backups: `lcvt1067:/root/project_backups/smbcyberhub/`
+- Backups: `lcvt1067:/root/project_backups/smbcyberhub/` (primary) or `lcvt2018:/root/project_backups/smbcyberhub/` (secondary)
 - Restore: `rsync -av lcvt1067:/root/project_backups/smbcyberhub/ /root/CascadeProjects/smbcyberhub/`
 
 ### Process Recovery
