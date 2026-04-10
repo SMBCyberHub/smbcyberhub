@@ -159,6 +159,10 @@ After any content change, before committing:
 ### Array State Recovery
 - N/A (no array interaction)
 
+## Live Data Verification Rule -- MANDATORY
+
+**Every factual claim written to audit trail files, status reports, or user-facing output MUST be verified against live data in real time.** Never write PIDs, process states, test counts, project counts, timing estimates, or any factual claim based on memory, conversation history, or previous log file contents. Always run the appropriate live query (`ps -p`, `pytest`, config file parsing, state file reads, `git log`, etc.) immediately before writing. After writing, re-read and spot-check at least PIDs and counts against one more live query. If a live query is not possible, mark the claim `[UNVERIFIED]`. See OrchestrationScript `AGENTS.md` "Live Data Verification Rule" for the full reference table and rationale.
+
 ## Credential Lookup Rule -- MANDATORY
 
 **Never guess, hardcode, or hallucinate credentials.** Before connecting to any host, vCenter, ESXi, array, SRM appliance, or service, the agent MUST search the project memory-bank files and `AGENTS.md` files across `/root/CascadeProjects/` for stored credential information.
