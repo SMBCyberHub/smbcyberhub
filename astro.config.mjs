@@ -24,7 +24,7 @@ const staticDates = {
   '/pro-cybersecurity-kit/':              '2026-03-17',
   '/free-cyber-security-training/':       '2026-03-26',
   '/2026-compliance-checklist/':          '2026-03-28',
-  '/cyber-insurance-renewal-checklist/':  '2026-03-28',
+  '/cyber-insurance-renewal-checklist/':  '2026-05-25',
   '/what-is-smb-cybersecurity-compliance/': '2026-03-28',
   '/faq/':                                '2026-03-17',
   '/about/':                              '2026-02-28',

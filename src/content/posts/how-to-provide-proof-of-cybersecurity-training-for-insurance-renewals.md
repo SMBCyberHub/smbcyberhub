@@ -7,7 +7,7 @@ ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Step-by-step guide to providing proof of cybersecurity training for insurance renewals. Includes templates, examples, and audit-ready documentation."
 featured: true
 canonical: "https://smbcyberhub.com/posts/how-to-provide-proof-of-cybersecurity-training-for-insurance-renewals/"
-dateModified: 2026-02-27
+dateModified: 2026-05-25
 ---
 
 ## How to Provide Proof of Cybersecurity Training for Insurance Renewals: Complete Guide 2026
@@ -203,6 +203,7 @@ For a deeper look at the specific records and formats insurers expect, read [Wha
 ## 📚 **Related Resources**
 
 ### **Internal Links:**
+- **[Cyber Insurance Coverage Checklist](/cyber-insurance-renewal-checklist/)** - Complete renewal preparation timeline with all required documents
 - **[2026 SMB Cybersecurity Compliance Checklist](/2026-compliance-checklist/)** - Every document your insurer expects, step by step
 - **[Cyber Insurance Requirements Guide](/posts/cyber-insurance-requirements-small-business-complete-guide/)** - Complete insurance requirements
 - **[Audit-Ready in Under an Hour](/posts/audit-ready-in-under-an-hour-a-cyber-hygiene-checklist/)** - Quick compliance checklist

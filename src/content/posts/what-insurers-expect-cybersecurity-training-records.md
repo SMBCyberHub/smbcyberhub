@@ -6,7 +6,7 @@ tags: ["cyber insurance", "compliance"]
 ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "What cyber insurers expect in training records. The 5 specific documents you need for your audit and how to prepare them."
 canonical: "https://smbcyberhub.com/posts/what-insurers-expect-cybersecurity-training-records/"
-dateModified: 2026-03-26
+dateModified: 2026-05-25
 featured: true
 ---
 
@@ -121,7 +121,7 @@ When your cyber insurance policy comes up for renewal, the insurer will ask for 
 
 ## How to Prepare for Your Insurance Audit
 
-Proper documentation is the key to a smooth audit. For a complete overview of all documentation insurers expect, see our guide on [cybersecurity documentation for insurance renewals](/posts/cybersecurity-documentation-for-insurance-renewals/).
+Proper documentation is the key to a smooth audit. For a complete overview of all documentation insurers expect, see our guide on [cybersecurity documentation for insurance renewals](/posts/cybersecurity-documentation-for-insurance-renewals/). For a step-by-step renewal timeline covering all five document categories, use our [cyber insurance coverage checklist](/cyber-insurance-renewal-checklist/).
 
 ### 30 Days Before Audit
 1. **Gather all training records** from the past 12 months
