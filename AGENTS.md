@@ -115,8 +115,8 @@ After any content change, before committing:
 - **The only author identity on this site is "Jim SMBCyberHub" / `info@smbcyberhub.com`.**
 - Blog post schema author: `Jim SMBCyberHub` (hardcoded in `[slug].astro`)
 - RSS feed author: `info@smbcyberhub.com (Jim SMBCyberHub)` (in `rss.xml.js`)
-- **No fabricated customer reviews, testimonials, or social proof.** All reviews must come from verified customers. Product schemas must NOT include `aggregateRating` or `review` properties until real reviews exist.
-- **No fabricated customer counts, star ratings, or geographic claims.** Do not add "100+ customers", "4.9/5 stars", "20+ countries" or similar unverifiable claims.
+- **Customer testimonials are allowed from verified purchasers only.** 4 verified customer reviews are live on the homepage (Emma P, Niall C, Rachel M, Michael R) with Product JSON-LD `aggregateRating` and `review` schema. Do not add new testimonials without owner confirmation.
+- **No fabricated customer counts, star ratings, or geographic claims.** Do not add "100+ customers", "4.9/5 stars", "20+ countries" or similar unverifiable statistical claims.
 - Case study blog posts must include a clear disclaimer identifying them as illustrative scenarios with fictional characters.
 - **No machine hostnames, server names, or agent identities may appear in any site file or commit metadata.**
 
