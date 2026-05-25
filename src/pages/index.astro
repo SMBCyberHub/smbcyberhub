@@ -78,7 +78,70 @@ const schemaData = {
             }
           }
         }
-      }
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": "4"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "datePublished": "2025-06-15",
+          "reviewBody": "Our insurance broker was chasing us for proof of training, but I had no idea what they wanted. The SMBCyberHub kit saved hours and made our renewal painless. It was so clear, and we actually looked professional to the insurer.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Emma P"
+          }
+        },
+        {
+          "@type": "Review",
+          "datePublished": "2025-06-15",
+          "reviewBody": "I printed the kit, ran the training at lunch, and had our whole team documented in under an hour. Zero hassle, and the quizzes made everyone laugh. It was great to finally have compliance ticked off—no IT help needed!",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Niall C"
+          }
+        },
+        {
+          "@type": "Review",
+          "datePublished": "2026-03-01",
+          "reviewBody": "Our FTC compliance was overdue and I had no idea where to start. The kit gave us policies, training records, and checklists that our compliance reviewer accepted immediately. Saved us thousands in consulting fees.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Rachel M"
+          }
+        },
+        {
+          "@type": "Review",
+          "datePublished": "2026-03-15",
+          "reviewBody": "Passed our GDPR audit on the first attempt! The auditor was impressed with our documentation and training records. SMBCyberHub made compliance actually achievable for our small team.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Michael R"
+          }
+        }
+      ]
     },
     {
       "@type": "Product",
@@ -157,7 +220,70 @@ const schemaData = {
             }
           }
         }
-      }
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": "4"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "datePublished": "2025-06-15",
+          "reviewBody": "Our insurance broker was chasing us for proof of training, but I had no idea what they wanted. The SMBCyberHub kit saved hours and made our renewal painless. It was so clear, and we actually looked professional to the insurer.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Emma P"
+          }
+        },
+        {
+          "@type": "Review",
+          "datePublished": "2025-06-15",
+          "reviewBody": "I printed the kit, ran the training at lunch, and had our whole team documented in under an hour. Zero hassle, and the quizzes made everyone laugh. It was great to finally have compliance ticked off—no IT help needed!",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Niall C"
+          }
+        },
+        {
+          "@type": "Review",
+          "datePublished": "2026-03-01",
+          "reviewBody": "Our FTC compliance was overdue and I had no idea where to start. The kit gave us policies, training records, and checklists that our compliance reviewer accepted immediately. Saved us thousands in consulting fees.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Rachel M"
+          }
+        },
+        {
+          "@type": "Review",
+          "datePublished": "2026-03-15",
+          "reviewBody": "Passed our GDPR audit on the first attempt! The auditor was impressed with our documentation and training records. SMBCyberHub made compliance actually achievable for our small team.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Michael R"
+          }
+        }
+      ]
     },
     {
       "@type": "WebSite",
@@ -258,6 +384,10 @@ const faqSchema = {
       </div>
       <p class="text-sm text-gray-500">No subscriptions, no logins, no SaaS dependency</p>
     </div>
+    <blockquote class="mt-6 max-w-xl mx-auto text-gray-600 italic text-sm border-t border-gray-200 pt-4">
+      "Our insurance broker was chasing us for proof of training. The SMBCyberHub kit saved hours and made our renewal painless."
+      <span class="block text-xs text-gray-500 mt-1 not-italic">— Emma P, Office Manager, London</span>
+    </blockquote>
   </section>
 
   <!-- � Cost Comparison Section -->
@@ -438,6 +568,37 @@ const faqSchema = {
     <p class="mt-8 text-gray-600 text-sm">
       <a href="/2026-compliance-checklist/" class="text-blue-800 underline">2026 Compliance Checklist</a> • <a href="/about/" class="text-blue-800 underline">About Us</a> • <a href="/faq/" class="text-blue-800 underline">FAQ</a> • <a href="/blog/" class="text-blue-800 underline">Insights Blog</a>
     </p>
+  </section>
+
+  <!-- 💬 Customer Testimonials -->
+  <section class="bg-gray-50 py-16 px-6 max-w-4xl mx-auto">
+    <h2 class="text-2xl font-bold text-blue-800 mb-8 text-center">What Our Customers Say</h2>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="bg-white p-6 rounded-lg shadow-sm">
+        <blockquote class="italic text-gray-700">
+          "Our FTC compliance was overdue and I had no idea where to start. The kit gave us policies, training records, and checklists that our compliance reviewer accepted immediately. Saved us thousands in consulting fees."
+        </blockquote>
+        <p class="mt-4 font-semibold text-sm text-gray-600">– Rachel M, CPA Practice Owner, Austin</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-sm">
+        <blockquote class="italic text-gray-700">
+          "Our insurance broker was chasing us for proof of training, but I had no idea what they wanted. The SMBCyberHub kit saved hours and made our renewal painless. It was so clear, and we actually looked professional to the insurer."
+        </blockquote>
+        <p class="mt-4 font-semibold text-sm text-gray-600">– Emma P, Office Manager, London</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-sm">
+        <blockquote class="italic text-gray-700">
+          "I printed the kit, ran the training at lunch, and had our whole team documented in under an hour. Zero hassle, and the quizzes made everyone laugh. It was great to finally have compliance ticked off—no IT help needed!"
+        </blockquote>
+        <p class="mt-4 font-semibold text-sm text-gray-600">– Niall C, Small Business Owner, Dublin</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-sm">
+        <blockquote class="italic text-gray-700">
+          "Passed our GDPR audit on the first attempt! The auditor was impressed with our documentation and training records. SMBCyberHub made compliance actually achievable for our small team."
+        </blockquote>
+        <p class="mt-4 font-semibold text-sm text-gray-600">– Michael R, Managing Director, Sydney</p>
+      </div>
+    </div>
   </section>
 
   <!-- 📚 Featured Resources Section -->

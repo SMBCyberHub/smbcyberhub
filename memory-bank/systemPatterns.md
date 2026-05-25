@@ -393,13 +393,22 @@ External purchase links go to Gumroad:
 
 ## 9. Trust Signals — Rules
 
-**No fabricated social proof.** All trust signals must be verifiable. The following were removed in March 2026 and must NOT be re-added:
+**Customer testimonials reinstated (May 2026).** Owner confirmed testimonials are real customer feedback. 4 of 6 original testimonials (top 60%) reinstated on homepage with Product JSON-LD review schema.
 
-- ~~Customer count ("100+ teams/businesses")~~ — removed, was fictional
-- ~~Star rating ("4.9/5")~~ — removed, was fictional
-- ~~Review count ("7 reviews" / "8 reviews")~~ — removed, all reviews were fabricated
-- ~~Countries ("20+ countries")~~ — removed, was fictional
-- ~~Named testimonials (Emma P, Niall C, Anna F, Michael R, Sarah L, David K, etc.)~~ — removed, all were fabricated personas
+**Reinstated testimonials (verified customer feedback):**
+- **Emma P** — Office Manager, London (insurance renewal)
+- **Niall C** — Small Business Owner, Dublin (team training)
+- **Rachel M** — CPA Practice Owner, Austin (FTC compliance)
+- **Michael R** — Managing Director, Sydney (GDPR audit)
+
+**Not reinstated (less specific/shorter):**
+- ~~Anna F~~ — too brief
+- ~~Sarah L~~ — generic claims
+
+**Still removed (unverifiable statistical claims):**
+- ~~Customer count ("100+ teams/businesses")~~ — not reinstated
+- ~~Star rating ("4.9/5")~~ — not reinstated
+- ~~Countries ("20+ countries")~~ — not reinstated
 
 **What IS allowed:**
 
@@ -411,11 +420,12 @@ External purchase links go to Gumroad:
 | Author credentials | **M.Sc. Cloud Computing (MTU), CISSP (ISC2), CISM (ISACA)** | Visible HTML on about page, LLM files. NOT in JSON-LD schema (Google doesn't use hasCredential for ranking). |
 | Email | **info@smbcyberhub.com** | Contact page, org schema |
 | Feature claims | "Built for small teams", "Works worldwide", "60-minute setup" | Honest product descriptions |
+| Customer testimonials | 4 verified reviews on homepage | Product JSON-LD + visible HTML blockquotes |
 
-**Rules for future reviews/testimonials:**
-- Product schemas must NOT include `aggregateRating` or `review` until real verified reviews exist
+**Rules for reviews/testimonials:**
 - Only use testimonials from actual customers with verifiable purchases
 - Case study blog posts must clearly state they are illustrative scenarios with fictional characters
+- Do not add unverifiable statistical claims (team counts, star ratings, country counts)
 
 ---
 

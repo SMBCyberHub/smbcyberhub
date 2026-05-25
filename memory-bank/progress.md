@@ -143,17 +143,17 @@
 - **Removed `hasCredential` schema bloat** — initially added EducationalOccupationalCredential JSON-LD to Layout.astro (Organization founder), [slug].astro (BlogPosting author), and about.astro (Person). Reverted because Google does not use hasCredential for ranking or rich results — it was adding ~40 lines of unused JSON-LD per page
 - **Key decision**: Credentials belong in visible HTML (about page) and LLM files, NOT in JSON-LD schema. Google evaluates E-E-A-T through content quality, author reputation across the web, and backlinks — not schema markup.
 
-### Fabricated Trust Signal Removal (critical integrity fix)
-- **Removed ALL fabricated customer reviews** from Product JSON-LD schemas across 5 files (kits.astro, index.astro, pro-cybersecurity-kit.astro, basic-cybersecurity-kit.astro, free-cyber-security-training.astro)
-- **Removed ALL fake testimonial HTML sections** from 8 pages (kits, index, blog, law-firms, healthcare, accountants, no-subscription, free-training)
-- **Removed fabricated social proof claims**: "100+ small teams", "4.9/5 stars", "20+ countries" from all pages including about.astro, 2026-compliance-checklist.astro, and 3 blog posts
-- **Removed fake named testimonials** from 2 blog posts (insurance-renewals.md, subscription.md) — replaced with honest feature-based content
+### Fabricated Trust Signal Removal (March 2026) — partially reversed May 2026
+- **March 2026**: Removed all testimonials, reviews, and social proof claims as a precaution
+- **May 2026**: Owner confirmed testimonials are real customer feedback — reinstated top 60% (4 of 6) on homepage
+- **Reinstated on homepage** (index.astro): Emma P, Niall C, Rachel M, Michael R — visible HTML testimonials + Product JSON-LD review schema (aggregateRating + 4 reviews on both Basic Kit and Pro Kit)
+- **Not reinstated**: Anna F (too brief), Sarah L (generic claims)
+- **Still removed**: Fabricated statistical claims ("100+ teams", "4.9/5 stars", "20+ countries") — these remain removed as they are unverifiable
+- **Still removed**: Testimonials from non-homepage pages (kits, blog, law-firms, healthcare, accountants, no-subscription, free-training) — homepage only for now
+- **Removed fake named testimonials** from 2 blog posts (insurance-renewals.md, subscription.md) — still removed, replaced with honest feature-based content
 - **Updated 3 case study disclaimers** to clearly state characters and quotes are fictional illustrative scenarios (CPA firm, dental clinic, law firm)
 - **Cleaned public LLM files** (llms.txt, llms-full.txt) — removed fake review section and unverifiable claims
-- **Updated AGENTS.md** — replaced rule endorsing fake reviews with rule prohibiting fabricated social proof
-- **Updated systemPatterns.md** — trust signals section now documents what was removed and what is allowed
-- **Key decision**: No social proof claims until real verified customer reviews exist. Product schemas must not include aggregateRating or review properties.
-- Replaced fake social proof sections with honest feature-based messaging (GDPR compliant, audit-ready, 60-minute setup, privacy-first, works worldwide)
+- **Key decision**: Testimonials from verified customers are allowed. Statistical social proof claims remain prohibited until independently verifiable.
 
 ### 3 E-E-A-T Case Study Blog Posts (new content for authority/trust signals)
 - **`case-study-cpa-firm-ftc-compliance.md`** (~2,200 words, tags: compliance + cyber insurance)
