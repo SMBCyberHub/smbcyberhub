@@ -350,6 +350,12 @@
 /tags/business+security     /tags/compliance/  301
 /tags/business+security/    /tags/compliance/  301
 
+# Deleted comparison pages — redirect to closest equivalent
+/best-cybersecurity-training-small-business   /free-cyber-security-training/  301
+/best-cybersecurity-training-small-business/  /free-cyber-security-training/  301
+/knowbe4-alternative-small-business           /cybersecurity-training-no-subscription/  301
+/knowbe4-alternative-small-business/          /cybersecurity-training-no-subscription/  301
+
 # Blog post consolidation — content merged into pillar page
 /posts/smb-cybersecurity-compliance-guide-2026   /what-is-smb-cybersecurity-compliance/  301
 /posts/smb-cybersecurity-compliance-guide-2026/  /what-is-smb-cybersecurity-compliance/  301
@@ -378,7 +384,6 @@
 /posts/quarterly-access-reviews-small-team-playbook  /posts/quarterly-access-reviews-small-team-playbook/  301
 /posts/remote-work-policy-template-small-business  /posts/remote-work-policy-template-small-business/  301
 /posts/safe-client-file-sharing-simple-rules  /posts/safe-client-file-sharing-simple-rules/  301
-/posts/securing-shared-devices-without-killing-productivity  /posts/securing-shared-devices-without-killing-productivity/  301
 /posts/simple-data-retention-small-teams  /posts/simple-data-retention-small-teams/  301
 /posts/simple-inbox-security-routine  /posts/simple-inbox-security-routine/  301
 /posts/stop-fake-emails-spoofing-lookalikes  /posts/stop-fake-emails-spoofing-lookalikes/  301

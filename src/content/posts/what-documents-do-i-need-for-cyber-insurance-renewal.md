@@ -8,7 +8,7 @@ ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Step-by-step guide to cyber insurance compliance for small businesses in 2026. Includes GDPR compliance, training records, policies, and audit-ready templates."
 featured: false
 canonical: "https://smbcyberhub.com/posts/what-documents-do-i-need-for-cyber-insurance-renewal/"
-dateModified: 2026-02-27
+dateModified: 2026-05-25
 ---
 
 ## Cyber Insurance Renewal Checklist 2026: Essential Documents for SMBs
@@ -264,13 +264,14 @@ Everything is downloadable, PDF-based, and audit-ready. No subscriptions, no log
 
 ## Next Steps
 
-1. **Use the [2026 SMB Cybersecurity Compliance Checklist](/2026-compliance-checklist/)** to see every requirement at a glance
-2. **Download our Free Sample** to preview the quality
-3. **Assess your current documentation** against this checklist
-4. **Consider [Cyber Essentials certification](/posts/cyber-essentials-2026-changes-danzell-update-v3-3/)** if your insurer offers CE-related discounts
-5. **Get the Pro Kit** if you need complete templates
-6. **Implement the missing documents** using our templates
-7. **Schedule your renewal preparation** 30 days in advance
+1. **Use the [Cyber Insurance Coverage Checklist](/cyber-insurance-renewal-checklist/)** to prepare before your renewal date
+2. **Review the [2026 SMB Cybersecurity Compliance Checklist](/2026-compliance-checklist/)** to see every requirement at a glance
+3. **Download our Free Sample** to preview the quality
+4. **Assess your current documentation** against this checklist
+5. **Consider [Cyber Essentials certification](/posts/cyber-essentials-2026-changes-danzell-update-v3-3/)** if your insurer offers CE-related discounts
+6. **Get the Pro Kit** if you need complete templates
+7. **Implement the missing documents** using our templates
+8. **Schedule your renewal preparation** 30 days in advance
 
 ---
 

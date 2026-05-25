@@ -7,7 +7,7 @@ ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Complete guide to providing cybersecurity documentation for insurance renewals. Answer 'Yes' to all insurance security questions with our ready-to-use kits."
 featured: true
 canonical: "https://smbcyberhub.com/posts/cybersecurity-documentation-for-insurance-renewals/"
-dateModified: 2026-02-27
+dateModified: 2026-05-25
 ---
 
 ## Cybersecurity Documentation for Insurance Renewals: Complete 2026 Guide
@@ -230,6 +230,7 @@ Small businesses that maintain organized, audit-ready cybersecurity documentatio
 ## 📚 **Related Resources**
 
 ### **Internal Links:**
+- **[Cyber Insurance Coverage Checklist](/cyber-insurance-renewal-checklist/)** - Step-by-step renewal preparation with 30/14/7-day timeline
 - **[2026 SMB Cybersecurity Compliance Checklist](/2026-compliance-checklist/)** - Every document your insurer expects, step by step
 - **[How to Provide Proof of Cybersecurity Training for Insurance Renewals](/posts/how-to-provide-proof-of-cybersecurity-training-for-insurance-renewals/)** - Step-by-step training documentation guide
 - **[Cyber Insurance Requirements Guide](/posts/cyber-insurance-requirements-small-business-complete-guide/)** - Complete insurance requirements
