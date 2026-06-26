@@ -85,6 +85,13 @@ After any content change, before committing:
 - This applies to content quality audits, code refactors, and any bulk change where a subagent flags multiple files for modification.
 - Use subagents for discovery and shortlisting; use your own judgement for the final call.
 
+## Orchestration (monitored by OrchestrationScript on lcvt1029)
+- **Adapter type**: null (Astro.js website project)
+- **Hosts**: lcvt1029
+- **Arrays**: N/A
+- **Cross-project**: None
+- **Backup**: rsync'd to lcvt1067 (primary) and lcvt2018 (secondary) at /root/project_backups/smbcyberhub/ every 6h
+
 ## Build & Verification
 
 - Build command: `npx astro build`
