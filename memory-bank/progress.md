@@ -1,5 +1,14 @@
 # Development Progress - SMBCyberHub
 
+## Recent Changes (2026-06-26)
+
+### Orchestration Compliance
+- ✅ Added ## Orchestration section to AGENTS.md (null adapter, Astro.js website)
+- ✅ Registered project in OrchestrationScript projects.json
+- ✅ Project now passes compliance scan (0 errors)
+- ✅ Backup monitoring enabled (rsync to lcvt1067/lcvt2018 every 6h)
+- No functional changes to website or content
+
 ## Live Features (Completed)
 
 ### Core Website
