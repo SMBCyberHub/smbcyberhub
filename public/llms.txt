@@ -31,6 +31,25 @@ Founded by Jim SMBCyberHub — 20+ years enterprise cybersecurity experience, tr
 - **CISSP** — Certified Information Systems Security Professional (ISC2)
 - **CISM** — Certified Information Security Manager (ISACA)
 
+## Blog: Cybersecurity Guides for Small Business
+- Incident Response Plan Template: https://smbcyberhub.com/posts/incident-response-plan-template-small-business/
+- Acceptable Use Policy Template: https://smbcyberhub.com/posts/acceptable-use-policy-template-small-business/
+- GDPR Breach Notification Procedures: https://smbcyberhub.com/posts/gdpr-breach-notification-procedures-small-business/
+- GDPR Policy Template: https://smbcyberhub.com/posts/gdpr-policy-template-small-business/
+- NIST CSF Small Business Guide: https://smbcyberhub.com/posts/nist-cybersecurity-framework-small-business-guide/
+- FTC Safeguards Rule Compliance: https://smbcyberhub.com/posts/ftc-safeguards-rule-small-business-compliance/
+- Cyber Insurance Requirements Guide: https://smbcyberhub.com/posts/cyber-insurance-requirements-small-business-complete-guide/
+- Proof of Cybersecurity Training for Insurance: https://smbcyberhub.com/posts/how-to-provide-proof-of-cybersecurity-training-for-insurance-renewals/
+- Remote Work Security Habits: https://smbcyberhub.com/posts/remote-work-security-habits-that-stop-data-leaks-before-they-start/
+- SMB Cybersecurity Assessment Guide: https://smbcyberhub.com/posts/smb-cybersecurity-assessment-guide/
+- Stop Payment Fraud Callback Playbook: https://smbcyberhub.com/posts/stop-payment-fraud-callback-playbook/
+- How Phishing Actually Works: https://smbcyberhub.com/posts/how-phishing-actually-works-a-simple-breakdown-for-small-teams/
+
+## Industry Compliance Guides
+- For Accountants: https://smbcyberhub.com/cybersecurity-compliance-accountants/
+- For Law Firms: https://smbcyberhub.com/cybersecurity-compliance-law-firms/
+- For Healthcare: https://smbcyberhub.com/cybersecurity-compliance-healthcare/
+
 ## Contact
 - Website: https://smbcyberhub.com
 - Support: info@smbcyberhub.com

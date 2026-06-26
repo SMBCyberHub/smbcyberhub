@@ -7,8 +7,55 @@ ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "Complete acceptable use policy template designed for small businesses. GDPR compliant, ready to customize, and covers all essential usage requirements."
 featured: false
 canonical: "https://smbcyberhub.com/posts/acceptable-use-policy-template-small-business/"
-dateModified: 2026-03-27
+dateModified: 2026-06-26
 ---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Create an Acceptable Use Policy for a Small Business",
+  "description": "Step-by-step guide to creating a GDPR-compliant acceptable use policy for small businesses. Covers devices, software, internet, data usage, and enforcement.",
+  "totalTime": "PT45M",
+  "estimatedCost": {
+    "@type": "MonetaryAmount",
+    "currency": "EUR",
+    "value": "0"
+  },
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Define scope and purpose",
+      "text": "State that the policy covers all employees, contractors, and interns with access to company resources. Define what counts as company equipment — computers, phones, networks, software, and data."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Set device and equipment rules",
+      "text": "Establish rules for company devices: business use only, no unauthorized software installation, passcode/biometric protection required on mobile devices, immediate reporting of loss or theft within 1 hour."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Define internet and network usage",
+      "text": "Allow limited personal use during breaks. Prohibit illegal content, unauthorized downloads, and personal cloud storage for company data. State that all activity may be monitored."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Set data handling and security requirements",
+      "text": "Require encryption for sensitive data, prohibit sharing credentials, mandate strong passwords following NCSC guidance (three random words, 12+ characters), and require MFA where available."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "Add enforcement and acknowledgement",
+      "text": "Include a clear disciplinary process for violations. Add a signature block for staff acknowledgement. Review the policy annually and after any security incident."
+    }
+  ]
+}
+</script>
 
 ## Acceptable Use Policy Template for Small Business
 

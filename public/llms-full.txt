@@ -135,3 +135,110 @@ A: Most free templates are generic, outdated, or overly technical. SMBCyberHub k
 ## Comparison Pages
 
 - No-Subscription Training: https://smbcyberhub.com/cybersecurity-training-no-subscription/
+
+---
+
+## Blog: Complete Guide Index
+
+All guides are written by Jim SMBCyberHub (CISSP, CISM, M.Sc.). Designed for small businesses with no IT staff.
+
+### Policy & Template Guides
+- Incident Response Plan Template: https://smbcyberhub.com/posts/incident-response-plan-template-small-business/
+  Step-by-step incident response plan for small teams. Covers preparation, containment, investigation, and recovery. Insurance and GDPR ready.
+- Acceptable Use Policy Template: https://smbcyberhub.com/posts/acceptable-use-policy-template-small-business/
+  GDPR-compliant acceptable use policy covering devices, software, internet, and data usage rules. Ready to customise.
+- GDPR Policy Template: https://smbcyberhub.com/posts/gdpr-policy-template-small-business/
+  Complete GDPR policy template for small businesses covering data processing, retention, subject access requests, and breach procedures.
+- Remote Work Policy Template: https://smbcyberhub.com/posts/remote-work-policy-template-small-business/
+  Security policy for remote and hybrid teams covering VPN, device rules, and data handling.
+
+### Compliance Guides
+- NIST CSF Small Business Guide: https://smbcyberhub.com/posts/nist-cybersecurity-framework-small-business-guide/
+  NIST Cybersecurity Framework 2.0 explained in plain English for US small businesses.
+- FTC Safeguards Rule Compliance: https://smbcyberhub.com/posts/ftc-safeguards-rule-small-business-compliance/
+  FTC Safeguards Rule requirements for accountants, tax preparers, and financial services firms.
+- GDPR Breach Notification Procedures: https://smbcyberhub.com/posts/gdpr-breach-notification-procedures-small-business/
+  Step-by-step GDPR breach notification process including 72-hour timeline and supervisory authority reporting.
+- Cyber Essentials v3.3 Changes: https://smbcyberhub.com/posts/cyber-essentials-2026-changes-danzell-update-v3-3/
+  Six key changes in the Danzell update to NCSC Cyber Essentials v3.3 for UK businesses.
+- SMB Cybersecurity Assessment Guide: https://smbcyberhub.com/posts/smb-cybersecurity-assessment-guide/
+  Self-assessment checklist for small business cybersecurity posture.
+- 2026 Compliance Checklist: https://smbcyberhub.com/2026-compliance-checklist/
+  Complete step-by-step compliance checklist for cyber insurance renewal.
+
+### Cyber Insurance Guides
+- Cyber Insurance Requirements Complete Guide: https://smbcyberhub.com/posts/cyber-insurance-requirements-small-business-complete-guide/
+  Every document and control insurers expect for small business cyber insurance.
+- US Cyber Insurance Requirements: https://smbcyberhub.com/posts/us-cyber-insurance-requirements-small-business/
+  US-specific cyber insurance documentation requirements for small businesses.
+- Proof of Cybersecurity Training for Insurance: https://smbcyberhub.com/posts/how-to-provide-proof-of-cybersecurity-training-for-insurance-renewals/
+  How to document and provide proof of staff cybersecurity training for insurance renewal.
+- What Documents for Cyber Insurance Renewal: https://smbcyberhub.com/posts/what-documents-do-i-need-for-cyber-insurance-renewal/
+  Checklist of documents needed for cyber insurance renewal applications.
+- What Insurers Expect from Training Records: https://smbcyberhub.com/posts/what-insurers-expect-cybersecurity-training-records/
+  What format, frequency, and content cyber insurers expect in training documentation.
+- Cyber Insurance Renewal Checklist: https://smbcyberhub.com/cyber-insurance-renewal-checklist/
+  Step-by-step renewal preparation checklist with documentation requirements.
+
+### Security Awareness & Threats
+- How Phishing Actually Works: https://smbcyberhub.com/posts/how-phishing-actually-works-a-simple-breakdown-for-small-teams/
+  Plain-English breakdown of phishing attacks and how to train staff to spot them.
+- What Happens After a Phishing Click: https://smbcyberhub.com/posts/what-happens-after-a-phishing-click-and-what-you-should-do/
+  Immediate steps to take after someone clicks a phishing link.
+- Stop Fake Emails and Spoofing: https://smbcyberhub.com/posts/stop-fake-emails-spoofing-lookalikes/
+  How to identify and prevent email spoofing and lookalike domain attacks.
+- Stop Payment Fraud Callback Playbook: https://smbcyberhub.com/posts/stop-payment-fraud-callback-playbook/
+  Verification procedures to prevent business email compromise and payment fraud.
+- Stop Silent Leaks via Email Forwarding: https://smbcyberhub.com/posts/stop-silent-leaks-email-forwarding-rules/
+  How to detect and prevent malicious email forwarding rules.
+- How to Spot Social Engineering: https://smbcyberhub.com/posts/how-to-spot-social-engineering-in-messages-and-meetings/
+  Recognising social engineering tactics in messages, calls, and meetings.
+- MFA Myths Busted: https://smbcyberhub.com/posts/mfa-myths-busted-what-multi-factor-authentication-really-does/
+  Common misconceptions about multi-factor authentication and what it actually protects.
+- The True Cost of a Breach for SMBs: https://smbcyberhub.com/posts/the-true-cost-of-a-breach-for-smbs-and-how-to-avoid-one/
+  Real numbers on breach costs for small businesses and practical prevention strategies.
+- Cybersecurity Myths for Small Teams: https://smbcyberhub.com/posts/cybersecurity-myths-small-teams/
+  Common cybersecurity myths that leave small businesses vulnerable.
+
+### Team Management & Operations
+- Remote Work Security Habits: https://smbcyberhub.com/posts/remote-work-security-habits-that-stop-data-leaks-before-they-start/
+  Daily security habits for remote and hybrid teams to prevent data leaks.
+- First Week Secure Onboarding Plan: https://smbcyberhub.com/posts/first-week-secure-onboarding-plan/
+  Security-focused onboarding checklist for new employees in their first week.
+- When Someone Leaves (Offboarding): https://smbcyberhub.com/posts/when-someone-leaves/
+  Secure offboarding procedures for revoking access when staff leave.
+- Quarterly Access Reviews: https://smbcyberhub.com/posts/quarterly-access-reviews-small-team-playbook/
+  How to run quarterly access reviews for small teams.
+- Simple Inbox Security Routine: https://smbcyberhub.com/posts/simple-inbox-security-routine/
+  Daily email security habits for small team members.
+- Password Mistakes Small Businesses Make: https://smbcyberhub.com/posts/top-5-password-mistakes-small-businesses-still-make-in-2025/
+  Five password mistakes small businesses still make and NCSC-aligned alternatives.
+
+### Data & Device Security
+- Simple Data Retention for Small Teams: https://smbcyberhub.com/posts/simple-data-retention-small-teams/
+  Practical data retention policy guidance for GDPR compliance.
+- Device Security Basics: https://smbcyberhub.com/posts/device-security-basics/
+  Essential device security practices for laptops, phones, and tablets.
+- Safe Client File Sharing: https://smbcyberhub.com/posts/safe-client-file-sharing-simple-rules/
+  Secure file sharing practices for client-facing small businesses.
+- Securing Shared Devices: https://smbcyberhub.com/posts/securing-shared-devices-without-killing-productivity/
+  How to secure shared devices without impacting team productivity.
+- USB Drives as a Threat: https://smbcyberhub.com/posts/why-free-usb-drives-are-a-threat-safe-file-transfer-alternatives/
+  Why USB drives are a security risk and safer alternatives for file transfer.
+- Backups That Actually Work (3-2-1 Plan): https://smbcyberhub.com/posts/backups-that-actually-work-3-2-1-plan-small-teams/
+  The 3-2-1 backup strategy explained for small teams.
+- Cybersecurity Documentation for Insurance: https://smbcyberhub.com/posts/cybersecurity-documentation-for-insurance-renewals/
+  How to organise cybersecurity documentation for insurance applications.
+- Audit-Ready Cyber Hygiene Checklist: https://smbcyberhub.com/posts/audit-ready-in-under-an-hour-a-cyber-hygiene-checklist/
+  Quick cyber hygiene checklist to become audit-ready in under an hour.
+
+### Case Studies (Illustrative Scenarios)
+- Case Study: CPA Firm FTC Compliance: https://smbcyberhub.com/posts/case-study-cpa-firm-ftc-compliance/
+- Case Study: Dental Clinic HIPAA Training: https://smbcyberhub.com/posts/case-study-dental-clinic-hipaa-training/
+- Case Study: Law Firm GDPR Audit: https://smbcyberhub.com/posts/case-study-law-firm-gdpr-audit/
+
+Note: Case studies use fictional characters to illustrate real compliance scenarios.
+
+### General
+- Why Small Companies Don't Need Expensive Subscriptions: https://smbcyberhub.com/posts/why-your-5-person-company-doesnt-need-a-200-month-cybersecurity-subscription/
+  Why small teams are better served by downloadable kits than SaaS platforms.

@@ -19,7 +19,7 @@
 - ✅ BreadcrumbList schemas on all key pages
 - ✅ FAQPage schemas on indexed pages (removed from noindex pages)
 - ✅ CollectionPage schema on blog listing page
-- ✅ HowTo schemas on checklist pages (replaced invalid Checklist type)
+- ✅ HowTo schemas on checklist pages (replaced invalid Checklist type) + template blog posts (incident-response, acceptable-use)
 - ✅ Article schemas on philosophy + SaaS vs downloadable pages
 - ✅ WebPage + FAQPage on compliance definition page
 - ✅ WebSite schema on homepage
@@ -371,6 +371,17 @@
 - Added trailing-slash redirects for all 3 new blog posts in _redirects
 - Updated homepage and compliance page meta descriptions to include NIST/FTC
 - Build: 61 pages, 0 errors, 0 warnings
+
+## Recent Completed Work (26 Jun 2026)
+
+### LLM Visibility & Engagement Improvements (SESSION-001)
+- Updated llms.txt with 12 top blog post URLs + industry guides section
+- Updated llms-full.txt with complete blog index (42 posts, organized by category with descriptions)
+- Added HowTo JSON-LD schema to incident-response-plan-template (4-step process)
+- Added HowTo JSON-LD schema to acceptable-use-policy-template (5-step process)
+- Homepage hero: added 4-card above-the-fold value summary (Training Slides, Policy Templates, Staff Quizzes, Audit Checklists)
+- Free training page: added kit contents checklist with checkmarks before download CTA
+- Build: 73 pages, 0 errors
 
 ## Recent Completed Work (14 Mar 2026)
 

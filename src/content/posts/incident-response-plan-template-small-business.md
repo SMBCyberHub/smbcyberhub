@@ -7,8 +7,49 @@ ogImage: "/images/smbcyberhub-logo.webp"
 excerpt: "A practical incident response plan template designed for small teams. Covers roles, timelines, containment steps, and GDPR notification — ready for audits and insurers."
 featured: false
 canonical: "https://smbcyberhub.com/posts/incident-response-plan-template-small-business/"
-dateModified: 2026-03-27
+dateModified: 2026-06-26
 ---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Create an Incident Response Plan for a Small Business",
+  "description": "Step-by-step guide to creating an incident response plan for small businesses. Covers preparation, containment, investigation, and recovery — audit and insurance ready.",
+  "totalTime": "PT60M",
+  "estimatedCost": {
+    "@type": "MonetaryAmount",
+    "currency": "EUR",
+    "value": "0"
+  },
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Preparation — assign roles and gather contacts",
+      "text": "Assign three roles: Incident Lead (coordinates response), Technical Contact (isolates systems), and Communications Lead (handles notifications). Document emergency contacts, insurer details, and supervisory authority information before an incident happens."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Containment — isolate affected systems",
+      "text": "Disconnect compromised devices from the network. Change passwords for affected accounts. Preserve evidence by not wiping or rebooting systems. Document the time and actions taken."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Investigation — determine scope and cause",
+      "text": "Identify which systems, accounts, and data were affected. Determine the attack vector (phishing, malware, credential theft). Check logs for timeline of unauthorized access. Assess whether personal data was exposed (triggers GDPR notification)."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Recovery — restore and notify",
+      "text": "Restore systems from clean backups. Notify your supervisory authority within 72 hours if personal data was breached (GDPR requirement). Notify affected individuals if there is a high risk to their rights. Contact your cyber insurer. Document lessons learned and update the plan."
+    }
+  ]
+}
+</script>
 
 <div class="bg-gradient-to-r from-blue-50 to-emerald-50 border-l-4 border-blue-500 p-6 mb-8 rounded-lg">
 
