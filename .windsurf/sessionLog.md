@@ -1,5 +1,26 @@
 # Session Log
 
+## SESSION-002 -- GDPR breach notification post: content refresh for indexing
+- **Date:** 2026-07-20
+- **Agent/User:** Agent (Devin)
+- **Objective:** Fix "Crawled - currently not indexed" status for `/posts/gdpr-breach-notification-procedures-small-business/` reported in Google Search Console (validation failed 11 Jul 2026)
+- **Work performed:**
+  - Audited page technical SEO: robots meta, canonical, sitemap, schema, redirects, internal links — all clean
+  - Diagnosed root cause: stale content (dateModified unchanged since Mar 2026), no FAQPage schema, generic SMB angle in competitive GDPR SERP
+  - Researched 2025-2026 DPC/ICO enforcement actions for real fine examples
+  - Added enforcement section with 6 real fines/reprimands (PTSB €277.5K, UL €98K, CDETB €125K, HSE €300K, South Staffs Water £963.9K, Staines GP reprimand)
+  - Added practical small-team scenario (12-person recruitment firm misdirected email)
+  - Added FAQPage JSON-LD schema (7 Q&A pairs matching existing question headings)
+  - Strengthened common mistakes section with enforcement cross-references and new subsection
+  - Rewrote Related Resources with contextual descriptions differentiating from adjacent posts
+  - Added DPC 2025 Annual Report to external resources
+  - Updated dateModified to 2026-07-20, description, excerpt, reading time, team size
+  - Word count increased from ~2,520 to ~3,950
+  - Build verified: 73 pages, 0 errors
+- **Rule compliance:** SEO/AEO Quality Gate applied — verified frontmatter, schema, canonical, sitemap, redirects, internal links. Recall skill invoked at session start. Content rules followed (no CE pass claims, NCSC-aligned password refs).
+- **Outcome:** Post refreshed with real enforcement data, FAQPage schema, stronger SMB angle. Committed. Ready for deploy and GSC re-indexing request.
+- **Open items:** Push to deploy via Netlify; submit URL to GSC for re-indexing; monitor indexing status over next 2-4 weeks
+
 ## SESSION-001 -- LLM Visibility & Engagement Improvements (P3+P4)
 - **Date:** 2026-06-26
 - **Agent/User:** Devin
