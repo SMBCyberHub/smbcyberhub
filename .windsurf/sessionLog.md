@@ -19,7 +19,8 @@
   - Build verified: 73 pages, 0 errors
 - **Rule compliance:** SEO/AEO Quality Gate applied — verified frontmatter, schema, canonical, sitemap, redirects, internal links. Recall skill invoked at session start. Content rules followed (no CE pass claims, NCSC-aligned password refs).
 - **Outcome:** Post refreshed with real enforcement data, FAQPage schema, stronger SMB angle. Committed. Ready for deploy and GSC re-indexing request.
-- **Open items:** Push to deploy via Netlify; submit URL to GSC for re-indexing; monitor indexing status over next 2-4 weeks
+- **Additional work:** Investigated GSC "Page with redirect" alert (Jul 3). Found 270 obsolete tag consolidation 301 redirects from Feb 2026 inflating the not-indexed count. Removed all 270 tag redirects, reducing _redirects from 345→75 rules. Remaining redirects are structural (trailing-slash, deleted-page, sitemap alias).
+- **Open items:** Push to deploy via Netlify; submit GDPR breach notification URL to GSC for re-indexing; monitor "Page with redirect" count reduction over next crawl cycle
 
 ## SESSION-001 -- LLM Visibility & Engagement Improvements (P3+P4)
 - **Date:** 2026-06-26

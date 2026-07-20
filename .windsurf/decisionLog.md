@@ -45,3 +45,18 @@
 - **Files created/modified:** `src/content/posts/gdpr-breach-notification-procedures-small-business.md`
 - **Testing:** `npx astro build` — 73 pages, 0 errors. Verified FAQPage schema in built HTML. Verified sitemap lastmod updated to 2026-07-20. Word count confirmed ~3,950 (up from ~2,520).
 - **Notes:** Key additions: FAQPage schema (7 Q&A), enforcement section (6 real DPC/ICO fines), practical 12-person firm scenario, strengthened Related Resources with contextual descriptions, DPC 2025 Annual Report link. Submit URL to GSC after deploy.
+
+### DECISION -- Remove obsolete tag consolidation redirects
+- **Date:** 2026-07-20
+- **Context:** GSC flagged "Page with redirect" as a new not-indexed reason (Jul 3, 2026). Investigation found 270 old tag→core tag 301 redirects from the Feb 2026 tag consolidation were the primary source. After 5 months, Google had fully processed the 301 signal, but was still discovering and crawling the old tag URLs, inflating the not-indexed count.
+- **Options considered:** (A) Remove tag redirects, (B) Block via robots.txt Disallow, (C) Both, (D) Leave as-is
+- **Chosen:** (A) Remove tag redirects
+- **Rationale:** After 5 months of 301 signaling, the consolidation is fully processed. Old tag URLs aren't linked from the site or sitemap. Removing them immediately stops Google from crawling them. robots.txt Disallow would be slower to take effect and doesn't remove the redirect processing overhead on Netlify.
+- **Trade-offs:** If someone bookmarked an old tag URL like /tags/ransomware/ they'll get a 404 instead of a redirect. Acceptable risk — tag pages have no external link value and were noindex to begin with.
+
+### DONE -- Remove 270 tag redirects from _redirects (SESSION-002)
+- **Date:** 2026-07-20
+- **Summary:** Removed all 270 tag consolidation 301 redirects. Redirect count reduced from 345 to 75.
+- **Files created/modified:** `public/_redirects`
+- **Testing:** `npx astro build` — 73 pages, 0 errors. Verified remaining redirects (trailing-slash, deleted-page, sitemap alias) intact.
+- **Notes:** Remaining 75 redirects serve active structural purposes and should be kept.
