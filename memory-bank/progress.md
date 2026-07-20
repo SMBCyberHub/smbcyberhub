@@ -1,5 +1,26 @@
 # Development Progress - SMBCyberHub
 
+## Recent Changes (2026-07-20)
+
+### GSC Indexing Fixes (SESSION-002)
+
+#### GDPR Breach Notification Post -- "Crawled - not indexed" fix
+- ✅ Added FAQPage JSON-LD schema (7 Q&A pairs matching question headings)
+- ✅ Added 2025-2026 enforcement section (6 real DPC/ICO fines: PTSB €277.5K, UL €98K, CDETB €125K, HSE €300K, South Staffs Water £963.9K, Staines GP reprimand)
+- ✅ Added practical small-team scenario (12-person recruitment firm misdirected email)
+- ✅ Strengthened common mistakes section with enforcement cross-references + new subsection
+- ✅ Rewrote Related Resources with contextual descriptions differentiating from adjacent posts
+- ✅ Updated dateModified to 2026-07-20, description, excerpt, reading time
+- ✅ Word count: ~2,520 → ~3,950
+- ✅ Build verified: 73 pages, 0 errors
+
+#### "Page with redirect" GSC alert fix
+- ✅ Removed 270 obsolete tag consolidation 301 redirects from `_redirects`
+- ✅ Redirect count reduced from 345 to 75 rules
+- ✅ Old tags from Feb 2026 consolidation no longer needed after 5 months of 301 signaling
+- ✅ Remaining 75 redirects: trailing-slash normalization, deleted-page redirects, sitemap alias
+- ✅ Build verified: 73 pages, 0 errors
+
 ## Recent Changes (2026-06-26)
 
 ### Orchestration Compliance
