@@ -1,10 +1,10 @@
 # Active Context
 
 ## Resume Brief
-- **State:** COMMITTED -- all changes built and committed, not yet pushed/deployed
+- **State:** DEPLOYED -- all changes pushed to origin, Netlify auto-deploy triggered
 - **Last session:** SESSION-002 (2026-07-20)
 - **Last agent:** Devin
-- **Immediate next action:** Push to deploy via Netlify; submit GDPR breach notification URL to GSC for re-indexing; monitor "Page with redirect" count reduction
+- **Immediate next action:** Submit GDPR breach notification URL to GSC for re-indexing; monitor "Page with redirect" count reduction over next crawl cycle
 - **Active blockers:** None
 - **Running processes:** None
 
@@ -23,3 +23,4 @@
 ## What Changed (SESSION-002)
 - `src/content/posts/gdpr-breach-notification-procedures-small-business.md` -- FAQPage schema, enforcement section, practical scenario, refreshed internal links, dateModified 2026-07-20
 - `public/_redirects` -- Removed 270 tag consolidation redirects (345→75 rules)
+- Git history (279 commits) -- Rewrote 8 commits from personal/machine email to `SMBCyberHub <info@smbcyberhub.com>`. Force-pushed.

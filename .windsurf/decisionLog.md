@@ -60,3 +60,10 @@
 - **Files created/modified:** `public/_redirects`
 - **Testing:** `npx astro build` — 73 pages, 0 errors. Verified remaining redirects (trailing-slash, deleted-page, sitemap alias) intact.
 - **Notes:** Remaining 75 redirects serve active structural purposes and should be kept.
+
+### DONE -- Purge personal email and machine hostname from git history (SESSION-002)
+- **Date:** 2026-07-20
+- **Summary:** Rewrote entire git history (279 commits) to replace 8 commits authored by `owen.crowley@dell.com` (6) and `root@lcvt1029.hop.lab.emc.com` (2) with `SMBCyberHub <info@smbcyberhub.com>`. Used `git filter-repo --mailmap` for a clean rewrite. No files contained the personal email — issue was purely in commit metadata.
+- **Files created/modified:** Git history rewritten (all 279 commits now authored by `SMBCyberHub <info@smbcyberhub.com>`)
+- **Testing:** Verified: `git log --all --format='%ae' | sort -u` returns only `info@smbcyberhub.com`. Zero matches for `owen`, `dell.com`, or `lcvt1029` in any commit field.
+- **Notes:** Force-pushed to origin. Netlify auto-deploy triggered. This was a mandatory identity cleanup per AGENTS.md Author & Identity Rules.

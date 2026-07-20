@@ -19,8 +19,12 @@
   - Build verified: 73 pages, 0 errors
 - **Rule compliance:** SEO/AEO Quality Gate applied — verified frontmatter, schema, canonical, sitemap, redirects, internal links. Recall skill invoked at session start. Content rules followed (no CE pass claims, NCSC-aligned password refs).
 - **Outcome:** Post refreshed with real enforcement data, FAQPage schema, stronger SMB angle. Committed. Ready for deploy and GSC re-indexing request.
-- **Additional work:** Investigated GSC "Page with redirect" alert (Jul 3). Found 270 obsolete tag consolidation 301 redirects from Feb 2026 inflating the not-indexed count. Removed all 270 tag redirects, reducing _redirects from 345→75 rules. Remaining redirects are structural (trailing-slash, deleted-page, sitemap alias).
-- **Open items:** Push to deploy via Netlify; submit GDPR breach notification URL to GSC for re-indexing; monitor "Page with redirect" count reduction over next crawl cycle
+- **Additional work:**
+  - Investigated GSC "Page with redirect" alert (Jul 3). Found 270 obsolete tag consolidation 301 redirects from Feb 2026 inflating the not-indexed count. Removed all 270 tag redirects, reducing _redirects from 345→75 rules. Remaining redirects are structural (trailing-slash, deleted-page, sitemap alias).
+  - Rewrote entire git history (279 commits) to purge personal email (`owen.crowley@dell.com`, 6 commits) and machine hostname (`root@lcvt1029.hop.lab.emc.com`, 2 commits). All commits now authored by `SMBCyberHub <info@smbcyberhub.com>`. Used `git filter-repo --mailmap`. Force-pushed to origin.
+- **Rule compliance:** Author & Identity Rules enforced -- all 279 commits verified as `info@smbcyberhub.com`. Live Data Verification Rule applied -- all SEO quality gate checks verified against built output, not memory.
+- **Outcome:** All changes deployed via Netlify. Git history sanitized. GSC indexing fixes and identity cleanup complete.
+- **Open items:** Submit GDPR breach notification URL to GSC for re-indexing; monitor "Page with redirect" count reduction over next crawl cycle
 
 ## SESSION-001 -- LLM Visibility & Engagement Improvements (P3+P4)
 - **Date:** 2026-06-26
