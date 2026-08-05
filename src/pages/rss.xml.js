@@ -22,7 +22,7 @@ export async function GET(context) {
       }),
       link: `/posts/${post.slug}/`,
       categories: post.data.tags || [],
-      author: 'info@smbcyberhub.com (Jim SMBCyberHub)',
+      author: 'info@smbcyberhub.com (SMBCyberHub)',
     })),
     customData: '<language>en</language><lastBuildDate>' + new Date().toUTCString() + '</lastBuildDate>',
     trailingSlash: true,

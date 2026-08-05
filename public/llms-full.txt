@@ -4,8 +4,8 @@
 
 Website: https://smbcyberhub.com
 Contact: info@smbcyberhub.com
-Founded by: Jim SMBCyberHub, Cybersecurity Compliance Specialist
-- M.Sc. in Cloud Computing — Munster Technological University, Cork, Ireland
+Developed by a CISSP/CISM-certified cybersecurity practitioner.
+- M.Sc. in Cloud Computing — Munster Technological University
 - CISSP — Certified Information Systems Security Professional (ISC2)
 - CISM — Certified Information Security Manager (ISACA)
 - 20+ years enterprise IT and cybersecurity experience
@@ -80,7 +80,7 @@ All kits are delivered as downloadable ZIP files containing printable PDFs. No s
 - No per-user fees. No recurring costs. No vendor lock-in.
 - No logins, no accounts, no data uploaded to any cloud service.
 - All materials work offline — print and deploy.
-- 60-minute implementation — no IT expertise required.
+- Designed for fast deployment — no IT expertise required.
 
 ---
 
@@ -140,7 +140,7 @@ A: Most free templates are generic, outdated, or overly technical. SMBCyberHub k
 
 ## Blog: Complete Guide Index
 
-All guides are written by Jim SMBCyberHub (CISSP, CISM, M.Sc.). Designed for small businesses with no IT staff.
+All guides are written by the SMBCyberHub team (CISSP, CISM, M.Sc.). Designed for small businesses with no IT staff.
 
 ### Policy & Template Guides
 - Incident Response Plan Template: https://smbcyberhub.com/posts/incident-response-plan-template-small-business/

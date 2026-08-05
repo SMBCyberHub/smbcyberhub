@@ -6,7 +6,7 @@ SMBCyberHub provides privacy-first, downloadable cybersecurity compliance kits f
 
 - **One-time download** - No subscriptions or recurring fees
 - **No logins required** - Privacy-focused, no account creation
-- **Audit-ready in 60 minutes** - Quick implementation framework
+- **Designed for fast deployment** - Single-session implementation
 - **Offline-first** - Kits work without internet access
 - **No SaaS dependency** - Complete control over your data
 
@@ -15,7 +15,7 @@ SMBCyberHub provides privacy-first, downloadable cybersecurity compliance kits f
 ### Free Sample Kit
 - Preview training materials
 - No signup required
-- Introduction to the 60-Minute Audit-Ready Framework
+- Introduction to the compliance framework
 
 ### Basic Cybersecurity Kit
 - Essential compliance documentation
@@ -42,7 +42,7 @@ SMBCyberHub provides privacy-first, downloadable cybersecurity compliance kits f
 
 1. **Privacy Protection**: No SaaS means your business data stays private
 2. **Cost Efficiency**: One-time payment vs. recurring subscriptions
-3. **Speed**: Audit-ready documentation in 60 minutes
+3. **Speed**: Designed for fast deployment in a single session
 4. **Simplicity**: No IT expertise required
 5. **Compliance**: GDPR-aligned, NIST CSF-aligned, and insurance-ready
 6. **Cyber Essentials awareness**: Positions kits as complementary to CE certification (policies/training/docs layer) — does NOT claim to help pass CE
@@ -62,7 +62,7 @@ SMBCyberHub provides privacy-first, downloadable cybersecurity compliance kits f
 - Offline capability
 - Small business focused
 - European GDPR compliance expertise
-- Direct founder expertise (Jim SMBCyberHub)
+- CISSP/CISM-certified practitioner expertise
 
 ## Customer Pain Points Solved
 

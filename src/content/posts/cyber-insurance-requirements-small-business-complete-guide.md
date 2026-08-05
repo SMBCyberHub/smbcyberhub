@@ -150,4 +150,4 @@ Understanding what claims actually look like helps you assess whether your cover
 - Be honest on applications. Misrepresentation can void your entire policy when you need it most.
 - Review your policy annually and keep documentation current for smooth renewals.
 
-Use our [cyber insurance coverage checklist](/cyber-insurance-renewal-checklist/) to prepare all required documentation before your renewal date. Our [cybersecurity compliance kits](/kits/) include every policy template, training module, and documentation checklist your insurer expects — giving you a compliance foundation in 60 minutes.
+Use our [cyber insurance coverage checklist](/cyber-insurance-renewal-checklist/) to prepare all required documentation before your renewal date. Our [cybersecurity compliance kits](/kits/) include every policy template, training module, and documentation checklist your insurer expects — giving you a compliance foundation quickly.

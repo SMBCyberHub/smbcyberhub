@@ -122,15 +122,15 @@ These are ballpark figures for low-to-moderate risk industries. Healthcare, fina
 
 ### What Drives Your Premium Up
 
-- **No MFA** — automatic 20–30% surcharge at most carriers
-- **No documented training** — 15–25% premium increase
+- **No MFA** — significant surcharge at most carriers; some may decline coverage entirely
+- **No documented training** — notable premium increase
 - **Prior claims history** — can double your premium
 - **High-risk industry** — healthcare and finance pay 30–60% more
 - **Outdated systems** — running unsupported software is a red flag
 
 ### How Documentation Cuts Costs
 
-US businesses with complete security documentation typically pay **20–30% less** than those without. Insurers reward proof. If you can hand over an organized packet — policies, training records, MFA evidence, incident response plan — you look like a lower risk. That translates directly to lower premiums.
+Industry surveys suggest that US businesses with complete security documentation often receive more competitive rates than those without. Insurers reward proof. If you can hand over an organized packet — policies, training records, MFA evidence, incident response plan — you look like a lower risk. That translates directly to more favourable premium terms.
 
 Our [compliance kits](/kits/) are designed to produce exactly the documentation insurers want to see. Most teams complete everything in under an hour.
 

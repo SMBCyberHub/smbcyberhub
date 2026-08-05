@@ -318,7 +318,7 @@ For teams with higher security requirements or compliance needs.
 
 ---
 
-Need ready-made shared device policies, training slides, and checklists? Our [cybersecurity compliance kits](/kits/) cover device security and more — audit-ready in 60 minutes.
+Need ready-made shared device policies, training slides, and checklists? Our [cybersecurity compliance kits](/kits/) cover device security and more — designed for fast deployment.
 
 ## 🎯 Key Takeaways
 

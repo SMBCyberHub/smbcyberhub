@@ -102,7 +102,7 @@ Pages that define their own `canonical` prop (product pages, blog posts) pass it
   "logo": "https://smbcyberhub.com/images/smbcyberhub-logo.webp",
   "knowsAbout": ["Cybersecurity Compliance", "NIST Cybersecurity Framework", "GDPR Compliance", ...],
   "contactPoint": { "email": "info@smbcyberhub.com" },
-  "founder": { "@type": "Person", "name": "Jim SMBCyberHub", "jobTitle": "Cybersecurity Compliance Specialist", "url": "https://smbcyberhub.com/about/" },
+  "founder": { "@type": "Person", "name": "SMBCyberHub", "jobTitle": "CISSP/CISM-certified Cybersecurity Practitioner", "url": "https://smbcyberhub.com/about/" },
   "sameAs": ["https://www.linkedin.com/in/smb-cyberhub-67567b374/", "https://x.com/SMBCyberHub"]
 }
 ```
@@ -231,8 +231,8 @@ Two schemas are generated per blog post:
   url: canonicalUrl,
   author: {
     '@type': 'Person',
-    name: 'Jim SMBCyberHub',
-    jobTitle: 'Cybersecurity Compliance Specialist',
+    name: 'SMBCyberHub',
+    jobTitle: 'CISSP/CISM-certified Cybersecurity Practitioner',
     url: 'https://smbcyberhub.com/about/',
     sameAs: [LinkedIn, X]
   },
@@ -279,7 +279,7 @@ Relative paths are prepended with the site URL. Missing `ogImage` falls back to 
 2. `<h1>` with post title
 3. Date formatted as `en-GB` locale (`DD Mon YYYY`)
 4. `<div class="prose prose-lg">` wrapping `<Content />` (Tailwind Typography)
-5. Hardcoded CTA section: "The 30-Minute Audit-Ready Framework" with links to `/free-cyber-security-training/` and `/kits/`
+5. Contextual CTA section based on post tags with links to `/free-cyber-security-training/` and `/kits/`
 
 ### Layout props passed by blog posts
 
@@ -414,12 +414,11 @@ External purchase links go to Gumroad:
 
 | Signal | Value | Notes |
 |---|---|---|
-| Framework name | **SMBCyberHub 60-Minute Audit-Ready Framework** | Product feature, not social proof |
-| Author name | **Jim SMBCyberHub** | Blog schema, philosophy schema, org schema (founder) |
-| Author title | **Cybersecurity Compliance Specialist** | Same locations |
+| Brand name | **SMBCyberHub** | Blog schema, philosophy schema, org schema (founder), RSS feed |
+| Author title | **CISSP/CISM-certified Cybersecurity Practitioner** | Org schema founder jobTitle, blog author |
 | Author credentials | **M.Sc. Cloud Computing (MTU), CISSP (ISC2), CISM (ISACA)** | Visible HTML on about page, LLM files. NOT in JSON-LD schema (Google doesn't use hasCredential for ranking). |
 | Email | **info@smbcyberhub.com** | Contact page, org schema |
-| Feature claims | "Built for small teams", "Works worldwide", "60-minute setup" | Honest product descriptions |
+| Feature claims | "Built for small teams", "Works worldwide", "Designed for fast deployment" | Honest product descriptions — no specific time guarantees |
 | Customer testimonials | 4 verified reviews on homepage | Product JSON-LD + visible HTML blockquotes |
 
 **Rules for reviews/testimonials:**

@@ -187,7 +187,7 @@ Your team is your first line of defense against cyber threats. Understanding [ho
 - **Policy acknowledgment**: Document understanding and compliance
 - **Incident response**: What to do when something goes wrong
 
-Our [cybersecurity compliance kits](/kits/) include the exact training materials, policy templates, and checklists needed to implement these controls — audit-ready in 60 minutes.
+Our [cybersecurity compliance kits](/kits/) include the exact training materials, policy templates, and checklists needed to implement these controls — designed for fast deployment.
 
 #### **Process Documentation:**
 - **Acceptable use policies**: Clear guidelines for technology use

@@ -43,8 +43,8 @@ const articleSchema = {
   url: canonicalUrl,                   // optional but nice to have
   author: {
     '@type': 'Person',
-    name: 'Jim SMBCyberHub',
-    jobTitle: 'Cybersecurity Compliance Specialist',
+    name: 'SMBCyberHub',
+    jobTitle: 'CISSP/CISM-certified Cybersecurity Practitioner',
     url: `${SITE}/about/`,
     sameAs: [
       'https://www.linkedin.com/in/smb-cyberhub-67567b374/',
@@ -116,7 +116,7 @@ const breadcrumbSchema = {
     <!-- Contextual CTA based on tags -->
     {(() => {
       const tags = data.tags || [];
-      let ctaTitle = "📋 The 60-Minute Audit-Ready Framework";
+      let ctaTitle = "📋 SMBCyberHub Compliance Kits";
       let ctaDescription = "Download SMBCyberHub's compliance kits — GDPR-aligned training, policies, and checklists. No subscriptions, no logins, instant access.";
       let primaryCTA = "📥 Try Free Sample";
       
@@ -126,7 +126,7 @@ const breadcrumbSchema = {
         primaryCTA = "📥 Get Phishing Training Kit";
       } else if (tags.includes('gdpr') || tags.includes('compliance')) {
         ctaTitle = "📋 GDPR Compliance Documentation Kit";
-        ctaDescription = "Download GDPR-aligned policy templates, staff training records, and audit checklists. Pass your compliance audit with confidence.";
+        ctaDescription = "Download GDPR-aligned policy templates, staff training records, and audit checklists. Prepare for your compliance review.";
         primaryCTA = "📥 Get GDPR Compliance Kit";
       } else if (tags.includes('cyber insurance')) {
         ctaTitle = "🛡️ Cyber Insurance Documentation Kit";

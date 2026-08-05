@@ -39,7 +39,7 @@
 - `og:locale` must be `en_IE` with `en_US` alternate (handled by Layout)
 
 ### Content Quality / E-E-A-T
-- All posts must have proper author attribution (hardcoded in template as Jim SMBCyberHub)
+- All posts must have proper author attribution (hardcoded in template as SMBCyberHub)
 - `datePublished` and `dateModified` must both be present and accurate in frontmatter
 - No thin content — blog posts should exceed 1,500 words with clear H2/H3 hierarchy
 - No duplicate content between posts — cross-link instead of repeating
@@ -119,13 +119,23 @@ After any content change, before committing:
 
 ## Author & Identity Rules
 
-- **The only author identity on this site is "Jim SMBCyberHub" / `info@smbcyberhub.com`.**
-- Blog post schema author: `Jim SMBCyberHub` (hardcoded in `[slug].astro`)
-- RSS feed author: `info@smbcyberhub.com (Jim SMBCyberHub)` (in `rss.xml.js`)
+- **The only author identity on this site is "SMBCyberHub" / `info@smbcyberhub.com`.** No personal names (e.g. "Jim") should appear anywhere on the site. The brand identity is credential-led ("CISSP/CISM-certified practitioner") rather than name-led.
+- Blog post schema author: `SMBCyberHub` (hardcoded in `[slug].astro`)
+- Organization schema founder: `SMBCyberHub` with jobTitle `CISSP/CISM-certified Cybersecurity Practitioner` (in `Layout.astro`)
+- RSS feed author: `info@smbcyberhub.com (SMBCyberHub)` (in `rss.xml.js`)
 - **Customer testimonials are allowed from verified purchasers only.** 4 verified customer reviews are live on the homepage (Emma P, Niall C, Rachel M, Michael R) with Product JSON-LD `aggregateRating` and `review` schema. Do not add new testimonials without owner confirmation.
 - **No fabricated customer counts, star ratings, or geographic claims.** Do not add "100+ customers", "4.9/5 stars", "20+ countries" or similar unverifiable statistical claims.
 - Case study blog posts must include a clear disclaimer identifying them as illustrative scenarios with fictional characters.
 - **No machine hostnames, server names, or agent identities may appear in any site file or commit metadata.**
+
+## Credibility & Claims Rules
+
+- **Never use "GDPR Article 39.1(b) compliant" as a bare assertion.** Use "aligned with", "designed to support", or "mapped to" instead. The kits support compliance but cannot certify it.
+- **Never claim "pass audits on first attempt"** or similar audit-outcome guarantees. Use "supports audit preparation" or "includes documentation auditors typically look for".
+- **Never cite specific insurance premium reduction percentages** (e.g. "20-30% lower premiums") without a named, verifiable source. Use "industry surveys suggest documented compliance may contribute to more favourable terms".
+- **Never use "audit-ready in 60 minutes" as a guarantee.** Use "designed for fast deployment" or "deploy in a single session" instead. Descriptive use of timeframes in context (e.g. "30-60 minute refresher sessions") is fine.
+- **Never use "MOST POPULAR" without sales data to back it.** Use "BEST VALUE" or factual comparisons instead.
+- **The GDPR badge should be described as an "alignment badge", not a "compliance certification badge"** in alt text.
 
 ## Priority
 - **Tier:** P3 -- DORMANT

@@ -26,7 +26,7 @@ dateModified: 2026-05-25
 6. **Backup Verification Logs** - Regular testing records
 7. **Breach Notification Template** - Pre-written response letter
 
-**Our Compliance Kit helps you get started on these requirements in 60 minutes** — with training modules, policy templates, checklists, and audit-ready documentation. Buy once, use forever.
+**Our Compliance Kit helps you get started on these requirements quickly** — with training modules, policy templates, checklists, and audit-ready documentation. Buy once, use forever.
 
 </div>
 
@@ -34,7 +34,7 @@ dateModified: 2026-05-25
 
 ## What are the 10 most common insurance cybersecurity questions in 2026?
 
-**Insurance providers consistently ask these 10 questions during renewal.** Answering "Yes" to all requires proper documentation - our kit helps you build that foundation in 60 minutes.
+**Insurance providers consistently ask these 10 questions during renewal.** Answering "Yes" to all requires proper documentation - our kit helps you build that foundation in a single session.
 
 ### **1. "Do you provide regular security awareness training to all employees?"**
 **✅ YES - With Our Documentation:**
@@ -125,9 +125,9 @@ For a ready-to-use template, see our [incident response plan template for small 
 | Data Encryption | Encryption policy, records | ✅ Pro Kit |
 | Compliance Documentation | Complete documentation package | ✅ Pro Kit |
 
-## How can I complete my insurance cybersecurity questionnaire in 60 minutes?
+## How can I complete my insurance cybersecurity questionnaire quickly?
 
-**The 60-Minute Compliance Framework** makes it simple: Download → Review → Train → Document. Our kit gives you the training modules, policy templates, and checklists to build your compliance foundation fast.
+**The Rapid Compliance Framework** makes it simple: Download → Review → Train → Document. Our kit gives you the training modules, policy templates, and checklists to build your compliance foundation fast.
 
 ### **Step 1: Download the Complete Kit**
 Get all necessary templates and documentation in one download:

@@ -1,5 +1,39 @@
 # Development Progress - SMBCyberHub
 
+## Recent Changes (Phase 1 Credibility Cleanup)
+
+### E-E-A-T Credibility Cleanup (30 files, 0 build errors)
+Site-wide cleanup of overclaiming, unsourced statistics, and identity issues to improve E-E-A-T trust signals.
+
+#### Claims Fixed
+- **"GDPR Article 39.1(b) compliant"** → "aligned with" / "designed to support" (all instances across pages, schemas, FAQs, LLM files)
+- **"Pass audits on first attempt"** → "includes documentation auditors typically look for" (kits.astro)
+- **"20-30% insurance premium reduction"** → qualified language ("industry surveys suggest...") — 7 instances in 3 files
+- **"GDPR Compliant" bare heading** → "GDPR Aligned" (kits.astro trust signals)
+- **"Audit-ready in 60 minutes"** → "designed for fast deployment" / "deploy in a single session" — 36+ instances across 14+ files (descriptive uses in blog posts left intact)
+- **"You're covered!" guarantee** → factual language about training evidence
+- **"Most businesses choose Pro" / "MOST POPULAR"** → "Pro Kit offers the most complete coverage" / "BEST VALUE"
+
+#### Identity Anonymisation
+- **"Jim SMBCyberHub"** → "SMBCyberHub" everywhere: Organization schema founder, BlogPosting author, 6 page author blocks, RSS feed, LLM files
+- **jobTitle** → "CISSP/CISM-certified Cybersecurity Practitioner" (from "Cybersecurity Compliance Specialist")
+- **Geographic identifier** "Cork, Ireland" removed from MTU credential listing
+- Credentials (CISSP, CISM, M.Sc.) retained throughout
+
+#### Files Changed (30)
+- Layout.astro, index.astro, kits.astro, [slug].astro, about.astro, free-cyber-security-training.astro
+- philosophy.astro, 2026-compliance-checklist.astro, cyber-insurance-renewal-checklist.astro
+- basic-cybersecurity-kit.astro, saas-vs-downloadable.astro, rss.xml.js
+- cybersecurity-compliance-accountants/healthcare/law-firms.astro, cybersecurity-training-no-subscription.astro
+- what-is-smb-cybersecurity-compliance.astro
+- llms.txt, llms-full.txt, AGENTS.md
+- 8 blog posts (insurance claims, 60-min CTAs)
+
+#### AGENTS.md Updates
+- Updated Author & Identity Rules (SMBCyberHub, not Jim)
+- Added new "Credibility & Claims Rules" section with 6 rules to prevent regression
+- Build: 73 pages, 0 errors
+
 ## Recent Changes (2026-07-20)
 
 ### GSC Indexing Fixes (SESSION-002)
@@ -74,7 +108,7 @@
 
 ### Design & UX
 - ✅ Mobile-responsive navigation with hamburger menu
-- ✅ Feature-based trust signals (GDPR compliant, audit-ready, 60-minute setup, privacy-first)
+- ✅ Feature-based trust signals (GDPR aligned, quick setup, privacy-first)
 - ✅ TL;DR answer boxes on key pages
 - ✅ GDPR compliance badge
 - ✅ Professional typography with Tailwind
@@ -98,7 +132,7 @@
 - ✅ No Google Analytics or third-party tracking
 
 ### Compliance Features
-- ✅ "60-Minute Audit-Ready Framework" branding
+- ✅ Credibility-first messaging (qualified claims, no overclaiming)
 - ✅ GDPR-aligned messaging
 - ✅ Privacy-first emphasis throughout site
 

@@ -132,4 +132,4 @@ Document your USB policy, train your staff, and keep records of both. If you are
 - Replace all USB file transfer with cloud storage and secure sharing links.
 - Document your USB policy and train staff as part of your [cyber hygiene checklist](/posts/audit-ready-in-under-an-hour-a-cyber-hygiene-checklist/).
 
-Our [cybersecurity compliance kits](/kits/) include a device security policy, acceptable use template, and staff training materials covering USB threats, safe file transfer, and removable media controls — audit-ready in 60 minutes.
+Our [cybersecurity compliance kits](/kits/) include a device security policy, acceptable use template, and staff training materials covering USB threats, safe file transfer, and removable media controls — designed for fast deployment.

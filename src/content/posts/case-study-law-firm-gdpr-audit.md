@@ -181,7 +181,7 @@ Michael passed the audit without any corrective actions required.
 
 ### Insurance renewal: approved without issues
 
-Michael submitted the compliance documentation alongside his insurance renewal application. The insurer renewed the policy at the same premium — a relief, given that small professional services firms without documentation were facing 20-30% increases.
+Michael submitted the compliance documentation alongside his insurance renewal application. The insurer renewed the policy at the same premium — a relief, given that small professional services firms without documentation were reportedly facing significant premium increases.
 
 For details on what insurers now require, see our [guide to cybersecurity documentation for insurance renewals](/posts/cybersecurity-documentation-for-insurance-renewals/).
 
