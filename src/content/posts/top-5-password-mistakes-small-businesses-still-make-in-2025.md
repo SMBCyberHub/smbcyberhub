@@ -425,7 +425,7 @@ For businesses with higher security requirements or compliance needs.
 - **Data protection by design**: Use strong authentication methods
 - **Access control**: Limit access to authorized personnel
 
-### **ISO27001 Clause 9.4.3**
+### **ISO/IEC 27001:2022 (A.5.17)**
 - **User identification and authentication**: Implement robust authentication
 - **Password management**: Strong password policies and procedures
 - **Access control**: Role-based access to systems and data
@@ -443,6 +443,6 @@ For businesses with higher security requirements or compliance needs.
 ---
 
 **🕒 Estimated Reading Time**: 12 minutes  
-**🔐 Aligned With**: NCSC Cyber Essentials v3.3, GDPR Article 32(4), GDPR Article 39.1(b), ISO27001 Clause 9.4.3  
+**🔐 Aligned With**: NCSC Cyber Essentials v3.3, GDPR Article 32(4), GDPR Article 39.1(b), ISO/IEC 27001:2022 (A.5.17)  
 **📊 Target Audience**: Small business owners, office managers, IT administrators  
 **🎯 Learning Objectives**: Implement strong password security, prevent credential-based attacks, maintain compliance

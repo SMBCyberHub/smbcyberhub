@@ -331,7 +331,7 @@ One critical step: check for [hidden email forwarding rules attackers may have c
 ---
 
 **🕒 Estimated Reading Time**: 12 minutes  
-**🔐 Aligned With**: GDPR Article 39.1(b), ISO27001 Clause 7.2.2  
+**🔐 Aligned With**: GDPR Article 39.1(b), ISO/IEC 27001:2022 (7.2, 7.3, A.6.3)  
 **📊 Target Audience**: Small business owners, office managers, team leads  
 **🎯 Learning Objectives**: Recognize phishing, respond appropriately, prevent attacks
 

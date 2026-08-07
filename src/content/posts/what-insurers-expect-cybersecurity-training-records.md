@@ -166,16 +166,18 @@ Our **Pro Kit** includes everything you need for perfect insurance audit prepara
 
 ## Real-World Results
 
-**Case Study: 8-Person Accounting Firm**
+**Illustrative Example: 8-Person Accounting Firm**
+*Fictional scenario based on common insurer interactions.*
 - **Problem:** Insurer requested training documentation during renewal
 - **Solution:** Used SMBCyberHub templates to organize existing training records
 - **Result:** Premium increase avoided, coverage maintained
 - **Time invested:** 2 hours using our templates
 
-**Case Study: 15-Person Marketing Agency**
-- **Problem:** No formal training records, insurer threatening 40% premium increase
+**Illustrative Example: 15-Person Marketing Agency**
+*Fictional scenario based on common insurer interactions.*
+- **Problem:** No formal training records, insurer threatening significant premium increase
 - **Solution:** Implemented SMBCyberHub training program with full documentation
-- **Result:** Premium increase reduced to 10%, $3,000 annual savings
+- **Result:** Premium increase substantially reduced
 - **Time invested:** 4 hours for initial setup, 1 hour annually
 
 ## Don't Wait for Your Audit
@@ -187,7 +189,7 @@ Insurance companies are getting stricter about cybersecurity training requiremen
 <div class="bg-emerald-50 border border-emerald-200 p-6 rounded-lg mb-6">
   <h3 class="text-lg font-bold text-emerald-800 mb-3">🚀 Insurance Audit Ready Kit</h3>
   <p class="text-gray-700 mb-4">
-    Everything insurers expect to see in one downloadable kit. Training materials, documentation templates, and audit preparation guide.
+    Key documentation insurers typically look for, in one downloadable kit. Training materials, documentation templates, and audit preparation guide.
   </p>
   <div class="flex flex-col sm:flex-row gap-4">
     <a href="/free-cyber-security-training/" class="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-6 py-3 rounded-lg shadow transition">

@@ -300,7 +300,7 @@ This plan is reviewed annually and after every incident. Last review date: [Date
 
 This template gives you the structure. Our compliance kits give you the complete, print-ready documentation including:
 
-✅ **Incident response plan** — fully formatted, customisable template
+✅ **Incident response plan** — fully formatted, ready-to-use template
 ✅ **Contact list template** — pre-built for all required roles
 ✅ **Incident log template** — structured evidence recording
 ✅ **Staff training slides** — 30-minute session covering incident reporting
@@ -327,6 +327,6 @@ This template gives you the structure. Our compliance kits give you the complete
 ---
 
 **🕒 Estimated Reading Time**: 12 minutes
-**🔐 Aligned With**: GDPR Articles 33–34, NIST CSF 2.0 (Respond + Recover), ISO27001 Clause A.16
+**🔐 Aligned With**: GDPR Articles 33–34, NIST CSF 2.0 (Respond + Recover), ISO/IEC 27001:2022 (A.5.24–5.28)
 **👥 Team Size**: Optimised for 1–20 employees
 **🎯 Target Audience**: Small business owners, office managers, and anyone responsible for incident response planning

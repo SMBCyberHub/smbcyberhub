@@ -347,6 +347,6 @@ Need ready-made shared device policies, training slides, and checklists? Our [cy
 ---
 
 **🕒 Estimated Reading Time**: 12 minutes  
-**🔐 Aligned With**: GDPR Article 39.1(b), ISO27001 Clause 7.2.2  
+**🔐 Aligned With**: GDPR Article 39.1(b), ISO/IEC 27001:2022 (7.2, 7.3, A.6.3)  
 **📊 Target Audience**: Small business owners, office managers, IT administrators  
 **🎯 Learning Objectives**: Secure shared devices, maintain productivity, implement practical policies

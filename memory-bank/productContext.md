@@ -26,7 +26,7 @@ SMBCyberHub provides privacy-first, downloadable cybersecurity compliance kits f
 ### Pro Cybersecurity Kit (€99)
 - Complete compliance documentation suite
 - Advanced training materials
-- Customizable templates
+- Print-ready reference templates
 - Priority support updates
 - GDPR-aligned resources
 

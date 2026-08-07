@@ -1,5 +1,26 @@
 # Session Log
 
+## SESSION-003 -- Site-wide accuracy and compliance audit remediation
+- **Date:** 2026-08-07
+- **Agent/User:** Agent (Devin)
+- **Objective:** Remediate findings from external LLM audit: fix material misrepresentations (PDF/editable contradiction, competitor pricing), update outdated standards references (ISO 27001 Clause 7.2.2 → 2022), standardize analytics/privacy language, fix NIST function count, clean up GDPR bare-compliance phrasing, and resolve P2 consistency issues (CISSP attribution, case study disclaimers, stale blog update claim, Buttondown reference, insurer guarantee language).
+- **Work performed:**
+  - P0: Removed PDF/editable template contradiction — changed "Customizable"→"Print-Ready", "Word template"→"PDF template", "edit and customize"→"print, reference, and adapt" across kits.astro, licensing.astro, terms.astro, faq.astro, productContext.md, and 6 blog posts
+  - P0: Removed all named competitor pricing (KnowBe4, Wizer, Proofpoint) — replaced pricing comparison tables with structural SaaS-vs-one-time comparisons on index.astro, kits.astro, cybersecurity-training-no-subscription.astro, free-cyber-security-training.astro, llms-full.txt
+  - P1: Updated ISO 27001 Clause 7.2.2 → ISO/IEC 27001:2022 (7.2, 7.3, A.6.3) across 22+ files; also updated Clause 9.4.3→(A.5.17) and Clause A.16→(A.5.24–5.28)
+  - P1: Standardized analytics/tracking language — removed "no behavioral analytics" and "no trackers" from Privacy/Terms; changed Layout footer "No tracking" → "Cookie-free analytics"; removed Buttondown reference from Privacy
+  - P1: Fixed NIST CSF 2.0 "five core functions" → "six" on cybersecurity-training-no-subscription.astro
+  - P1: Changed 6 instances of GDPR "compliance" → "alignment" across 4 files
+  - P2: Removed "Updated monthly" from blog.astro
+  - P2: Softened "Everything your insurer requires" → "Key documentation insurers typically request"
+  - P2: Standardized CISSP/CISM to singular "practitioner" on about.astro, philosophy.astro, Layout.astro
+  - P2: Added fictional disclaimers to 3 blog posts with unlabeled case studies
+  - Added 3 new prevention rules to AGENTS.md
+  - Updated all audit trail files (decisionLog, changeManifest, activeContext)
+- **Rule compliance:** Credibility & Claims Rules applied throughout (no bare GDPR compliance assertions, no audit guarantees, no unverifiable competitor pricing). Case study disclaimer rule enforced. Subagent assessment rule followed — all subagent recommendations verified against actual file content before editing.
+- **Outcome:** 42 files modified, build successful (72 pages, 0 errors), all identified misrepresentations resolved
+- **Open items:** None — all P0/P1/P2 items from the audit remediation are complete
+
 ## SESSION-002 -- GDPR breach notification post: content refresh for indexing
 - **Date:** 2026-07-20
 - **Agent/User:** Agent (Devin)

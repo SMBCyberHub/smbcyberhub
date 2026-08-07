@@ -138,7 +138,7 @@ Get all necessary templates and documentation in one download:
 - **Compliance checklists** (audit-ready)
 
 ### **Step 2: Customize with Your Company Info**
-- Fill in your company name and details
+- Reference the templates to add your company name and details
 - Add employee names to training records
 - Customize policies for your specific needs
 - Set up your risk assessment parameters
@@ -197,7 +197,7 @@ Get all necessary templates and documentation in one download:
 - Easy-to-understand formats
 
 ### **Compliance Alignment:**
-- GDPR Article 39 compliance
+- GDPR Article 39 alignment
 - Industry standard frameworks
 - Best practice documentation
 - Regular update procedures

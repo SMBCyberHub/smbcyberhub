@@ -12,7 +12,7 @@ For full product details, pricing, and FAQ: https://smbcyberhub.com/llms-full.tx
 ## Compliance Mapping
 - NIST Cybersecurity Framework (CSF) 2.0
 - GDPR Article 39.1(b) (Staff Training)
-- ISO/IEC 27001 Clause 7.2.2
+- ISO/IEC 27001:2022 (Clauses 7.2, 7.3, Annex A 6.3)
 - FTC Safeguards Rule (US)
 - Cyber Insurance Documentation Requirements
 

@@ -181,7 +181,7 @@ What you need:
 - Incident response plan
 - Access control procedures
 
-Our [Compliance Kits](/kits/) include ready-to-use templates for all of these. You fill in your company details, deliver the training, and you've got audit-ready documentation. The training modules, quizzes, and policy templates map directly to FTC Safeguards requirements.
+Our [Compliance Kits](/kits/) include ready-to-use templates for all of these. You reference the templates for your company details, deliver the training, and you've got audit-ready documentation. The training modules, quizzes, and policy templates map directly to FTC Safeguards requirements.
 
 ### **Step 2: Implement technical controls**
 

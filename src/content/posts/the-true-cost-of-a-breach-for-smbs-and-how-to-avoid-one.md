@@ -49,7 +49,8 @@ When a breach occurs, you're suddenly facing unexpected bills that can quickly a
 #### **Total Immediate Costs:**
 Even a "minor" breach can run **€5,000-€15,000** in immediate expenses. Major breaches can exceed **€50,000-€100,000**.
 
-### **Case Study: Small Business Breach**
+### **Illustrative Example: Small Business Breach**
+*This is an illustrative scenario based on typical breach costs reported by industry sources. The firm details are fictional.*
 ```
 Company: 15-person consulting firm
 Breach: Ransomware attack on shared drive
@@ -370,6 +371,6 @@ Having a plan can reduce breach costs by 50% or more.
 ---
 
 **🕒 Estimated Reading Time**: 15 minutes  
-**🔐 Aligned With**: GDPR Article 39.1(b), ISO27001 Clause 7.2.2  
+**🔐 Aligned With**: GDPR Article 39.1(b), ISO/IEC 27001:2022 (7.2, 7.3, A.6.3)  
 **📊 Target Audience**: Small business owners, office managers, IT administrators  
 **🎯 Learning Objectives**: Understand breach costs, implement prevention strategies, reduce business risk

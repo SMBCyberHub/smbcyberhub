@@ -1,5 +1,45 @@
 # Change Manifest
 
+### 2026-08-07 -- SESSION-003: Site-wide accuracy and compliance audit remediation
+
+| Action | File | Reason |
+|--------|------|--------|
+| MODIFIED | `src/pages/kits.astro` | Removed "Customizable" badges → "Print-Ready"; removed competitor pricing table; updated ISO refs; updated FAQ question |
+| MODIFIED | `src/pages/index.astro` | Removed competitor pricing table → structural comparison; updated ISO schema refs |
+| MODIFIED | `src/pages/cybersecurity-training-no-subscription.astro` | Removed competitor pricing; fixed NIST "five" → "six" functions; updated ISO ref |
+| MODIFIED | `src/pages/free-cyber-security-training.astro` | Removed competitor names from comparison; fixed "Insurer-compliant" → aligned language; updated ISO refs |
+| MODIFIED | `src/pages/about.astro` | Updated ISO refs to 2022; fixed CISSP plural → singular |
+| MODIFIED | `src/pages/privacy.astro` | Removed Buttondown reference; standardized analytics language; removed "behavioral analytics" claim |
+| MODIFIED | `src/pages/terms.astro` | Changed "no trackers" → "cookie-free analytics only"; "edited" → "referenced" |
+| MODIFIED | `src/pages/blog.astro` | Removed "Updated monthly" claim |
+| MODIFIED | `src/pages/licensing.astro` | Changed "edit and customize" → "print, reference, and adapt" |
+| MODIFIED | `src/pages/faq.astro` | Updated ISO refs to 2022 |
+| MODIFIED | `src/pages/philosophy.astro` | Fixed CISSP plural; changed GDPR "compliance" → "alignment" |
+| MODIFIED | `src/pages/2026-compliance-checklist.astro` | Updated ISO refs; fixed GDPR bare "compliance" |
+| MODIFIED | `src/pages/cyber-insurance-renewal-checklist.astro` | Softened "Everything your insurer requires"; fixed GDPR bare "compliance"; updated ISO ref |
+| MODIFIED | `src/pages/pro-cybersecurity-kit.astro` | Updated ISO ref |
+| MODIFIED | `src/pages/tags/[tag].astro` | Fixed GDPR "compliance resources" → "alignment resources" |
+| MODIFIED | `src/pages/posts/[slug].astro` | Softened insurer CTA language |
+| MODIFIED | `src/pages/contact.astro` | No change needed (analytics wording already correct) |
+| MODIFIED | `src/layouts/Layout.astro` | Fixed CISSP plural → singular; changed "No tracking" → "Cookie-free analytics" in footer |
+| MODIFIED | `public/llms.txt` | Updated ISO ref to 2022 |
+| MODIFIED | `public/llms-full.txt` | Updated ISO ref; removed competitor pricing sections |
+| MODIFIED | `memory-bank/productContext.md` | Changed "Customizable templates" → "Print-ready reference templates" |
+| MODIFIED | `src/content/posts/acceptable-use-policy-template-small-business.md` | Removed "Customizable Word template" claim; updated ISO ref |
+| MODIFIED | `src/content/posts/remote-work-policy-template-small-business.md` | Removed "Customizable Word template" claim; updated ISO ref |
+| MODIFIED | `src/content/posts/incident-response-plan-template-small-business.md` | Changed "customisable" → "ready-to-use"; updated ISO ref |
+| MODIFIED | `src/content/posts/what-documents-do-i-need-for-cyber-insurance-renewal.md` | Changed "customizable" → "print-ready" |
+| MODIFIED | `src/content/posts/cybersecurity-documentation-for-insurance-renewals.md` | Fixed "fill in" → "reference"; fixed GDPR "compliance" → "alignment" |
+| MODIFIED | `src/content/posts/ftc-safeguards-rule-small-business-compliance.md` | Fixed "fill in" → "reference" |
+| MODIFIED | `src/content/posts/what-insurers-expect-cybersecurity-training-records.md` | Softened insurer claims; added fictional disclaimers to case studies |
+| MODIFIED | `src/content/posts/the-true-cost-of-a-breach-for-smbs-and-how-to-avoid-one.md` | Added fictional disclaimer to case study; updated ISO ref |
+| MODIFIED | `src/content/posts/why-your-5-person-company-doesnt-need-a-200-month-cybersecurity-subscription.md` | Renamed "Case Study" → "Illustrative Example"; added fictional disclaimer |
+| MODIFIED | 10 blog posts | Bulk ISO 27001 Clause 7.2.2 → ISO/IEC 27001:2022 (7.2, 7.3, A.6.3) |
+| MODIFIED | `.windsurf/sessionLog.md` | Added SESSION-003 entry |
+| MODIFIED | `.windsurf/decisionLog.md` | Added DECISION + 4 FIX entries |
+| MODIFIED | `.windsurf/changeManifest.md` | This file |
+| MODIFIED | `.windsurf/activeContext.md` | Updated current state |
+
 ### 2026-06-26 -- SESSION-001: LLM Visibility & Engagement Improvements
 
 | Action | File | Reason |

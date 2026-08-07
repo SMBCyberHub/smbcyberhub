@@ -1,5 +1,45 @@
 # Decision Log
 
+### DECISION -- Site-wide accuracy remediation following external audit
+- **Date:** 2026-08-07
+- **Context:** An external LLM-based audit identified material misrepresentations, outdated standards references, and internal contradictions across the site. Key issues: PDF-only kits described as "customizable Word templates", competitor pricing ($18/user KnowBe4) that appeared inflated vs current rates, ISO 27001 Clause 7.2.2 referencing outdated standard structure, Privacy/Terms contradicting each other on analytics, and NIST CSF 2.0 described as having 5 functions instead of 6.
+- **Options considered:** (1) Fix only P0 items, (2) Full remediation across all priority tiers, (3) Ignore and continue publishing
+- **Chosen:** Full remediation — 42 files changed across P0/P1/P2 categories
+- **Rationale:** For a cybersecurity compliance site, accuracy IS credibility. Fixing incrementally would leave contradictions visible to compliance-conscious buyers. Better to do a single comprehensive pass.
+- **Trade-offs:** Large changeset increases deployment risk; competitor pricing removal reduces a persuasive marketing element. However, inaccurate claims on a compliance site are far more damaging than the marketing value of those claims.
+
+### FIX -- PDF/editable template contradiction (P0)
+- **Date:** 2026-08-07
+- **Symptom:** kits.astro displayed "Customizable" badges and "just fill in your company details" language; two blog posts claimed "Customizable Word template with fill-in-the-blank sections"; licensing/terms said "edit and customize". But kits are PDF-only.
+- **Root cause:** Marketing copy written aspirationally before product format was finalized. FAQ on kits.astro honestly said "delivered as PDF documents" — but badges and other pages contradicted this.
+- **Resolution:** Changed all "Customizable" → "Print-Ready", "fill in" → "reference the templates", "edit and customize" → "print, reference, and adapt", "Customizable Word template" → "Professional PDF template ready to reference and implement". Updated productContext.md, licensing.astro, terms.astro, kits.astro, and 6 blog posts.
+- **Files affected:** kits.astro, licensing.astro, terms.astro, faq.astro, productContext.md, acceptable-use-policy-template-small-business.md, remote-work-policy-template-small-business.md, incident-response-plan-template-small-business.md, what-documents-do-i-need-for-cyber-insurance-renewal.md, cybersecurity-documentation-for-insurance-renewals.md, ftc-safeguards-rule-small-business-compliance.md
+- **Prevention:** Add AGENTS.md rule: never describe kits as "editable" or "customizable" unless .docx files are actually included.
+
+### FIX -- Competitor pricing removed (P0)
+- **Date:** 2026-08-07
+- **Symptom:** Homepage, kits page, no-subscription page, and llms-full.txt cited KnowBe4 at $18/user/month and Wizer at $3/user/month. These figures appeared inflated vs current published rates.
+- **Root cause:** Pricing was sourced at initial site build and never re-verified.
+- **Resolution:** Replaced all named-competitor pricing tables with structural comparisons (one-time vs recurring SaaS) without specific dollar amounts. Removed KnowBe4, Wizer, and Proofpoint SAT names entirely.
+- **Files affected:** index.astro, kits.astro, cybersecurity-training-no-subscription.astro, free-cyber-security-training.astro, llms-full.txt
+- **Prevention:** Never cite specific competitor dollar amounts. Use structural differentiators instead.
+
+### FIX -- ISO 27001 references updated to 2022 standard (P1)
+- **Date:** 2026-08-07
+- **Symptom:** 74 occurrences across 26 files referenced "ISO27001 Clause 7.2.2" — a clause number from the older ISO 27001 structure.
+- **Root cause:** References written against pre-2022 standard and never updated.
+- **Resolution:** Mapped all clause references to ISO/IEC 27001:2022: Clause 7.2.2 → (7.2, 7.3, A.6.3), Clause 9.4.3 → (A.5.17), Clause A.16 → (A.5.24–5.28). Updated blog posts, static pages, schemas, llms.txt, and llms-full.txt.
+- **Files affected:** 10 blog posts, about.astro, faq.astro, kits.astro, index.astro, free-cyber-security-training.astro, cybersecurity-training-no-subscription.astro, 2026-compliance-checklist.astro, cyber-insurance-renewal-checklist.astro, pro-cybersecurity-kit.astro, llms.txt, llms-full.txt
+- **Prevention:** Review standards references annually or when a new edition is published.
+
+### FIX -- NIST CSF 2.0 function count corrected (P1)
+- **Date:** 2026-08-07
+- **Symptom:** cybersecurity-training-no-subscription.astro said "five core functions" but NIST CSF 2.0 has six (Govern was added in 2.0).
+- **Root cause:** Copy written against CSF 1.1 (5 functions) not updated for CSF 2.0.
+- **Resolution:** Changed "five" → "six" and added "Govern" to the function list.
+- **Files affected:** cybersecurity-training-no-subscription.astro
+- **Prevention:** Verify framework version details against primary sources when referencing.
+
 ### DECISION -- Add blog content URLs to LLM files
 - **Date:** 2026-06-26
 - **Context:** llms.txt and llms-full.txt only listed products and key pages. LLM referrals (ChatGPT, Perplexity, Copilot) were already the most promising traffic source, but LLMs had no structured way to discover our blog content.

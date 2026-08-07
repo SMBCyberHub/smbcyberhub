@@ -136,6 +136,9 @@ After any content change, before committing:
 - **Never use "audit-ready in 60 minutes" as a guarantee.** Use "designed for fast deployment" or "deploy in a single session" instead. Descriptive use of timeframes in context (e.g. "30-60 minute refresher sessions") is fine.
 - **Never use "MOST POPULAR" without sales data to back it.** Use "BEST VALUE" or factual comparisons instead.
 - **The GDPR badge should be described as an "alignment badge", not a "compliance certification badge"** in alt text.
+- **Never describe kits as "editable", "customizable", or "Word template"** unless .docx files are actually included. Kits are PDF-only. Use "print-ready", "ready-to-use", or "reference templates" instead. (Added SESSION-003, 2026-08-07)
+- **Never cite specific competitor dollar amounts** (e.g. "$18/user/month for KnowBe4"). Use structural differentiators (one-time vs recurring, offline vs SaaS) instead. Competitor pricing changes frequently and unverifiable figures undermine credibility. (Added SESSION-003, 2026-08-07)
+- **ISO 27001 references must use the 2022 standard.** Use "ISO/IEC 27001:2022" with current clause numbers (7.2, 7.3, A.6.3 for awareness/competence). Do not reference pre-2022 clause numbers like "Clause 7.2.2". (Added SESSION-003, 2026-08-07)
 
 ## Priority
 - **Tier:** P3 -- DORMANT

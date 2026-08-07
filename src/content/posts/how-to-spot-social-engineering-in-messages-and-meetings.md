@@ -354,7 +354,7 @@ SMBCyberHub's kits include comprehensive social engineering protection:
 - **Data protection by design**: Use strong authentication methods
 - **Access control**: Limit access to authorized personnel
 
-### **ISO27001 Clause 7.2.2**
+### **ISO/IEC 27001:2022 (7.2, 7.3, A.6.3)**
 - **Information security awareness**: Train staff on security procedures
 - **Incident response**: Document and test response procedures
 - **Business continuity**: Ensure operations during security incidents
@@ -371,6 +371,6 @@ SMBCyberHub's kits include comprehensive social engineering protection:
 ---
 
 **🕒 Estimated Reading Time**: 15 minutes  
-**🔐 Aligned With**: GDPR Article 32(4), ISO27001 Clause 7.2.2  
+**🔐 Aligned With**: GDPR Article 32(4), ISO/IEC 27001:2022 (7.2, 7.3, A.6.3)  
 **📊 Target Audience**: Small business owners, office managers, IT administrators  
 **🎯 Learning Objectives**: Identify social engineering attacks, implement verification procedures, build human firewall

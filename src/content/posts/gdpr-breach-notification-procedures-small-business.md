@@ -415,7 +415,7 @@ This guide covers breach notification — the reactive side. These companion gui
 ---
 
 **🕒 Estimated Reading Time**: 18 minutes
-**🔐 Aligned With**: GDPR Articles 33–34, NIST CSF 2.0 (Respond), ISO27001 Clause A.16
+**🔐 Aligned With**: GDPR Articles 33–34, NIST CSF 2.0 (Respond), ISO/IEC 27001:2022 (A.5.24–5.28)
 **📅 Last Updated**: July 2026 (includes DPC/ICO enforcement actions through June 2026)
 **👥 Team Size**: Optimised for 1–50 employees
 **🎯 Target Audience**: Small business owners, DPOs, office managers, and compliance leads responsible for GDPR breach reporting

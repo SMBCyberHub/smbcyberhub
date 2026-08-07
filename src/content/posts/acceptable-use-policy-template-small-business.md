@@ -193,7 +193,7 @@ Unapproved software can introduce security vulnerabilities, licence violations, 
 
 ### **Ready-to-Use Documents:**
 - **Printable PDF format** for immediate distribution
-- **Customizable Word template** with fill-in-the-blank sections
+- **Professional PDF template** ready to reference and implement
 - **Employee acknowledgment form** for legal compliance
 - **Violation reporting form** for documentation
 - **Implementation checklist** for smooth rollout
@@ -208,7 +208,7 @@ Unapproved software can introduce security vulnerabilities, licence violations, 
 
 ## 📦 **Download Complete Acceptable Use Policy Template**
 
-**Get the complete, customizable acceptable use policy template plus 9 other essential policies in our [Small Business Security Policy Kit](/kits/)**
+**Get the complete, ready-to-use acceptable use policy template plus 9 other essential policies in our [Small Business Security Policy Kit](/kits/)**
 
 ⚡ **Buy once, use forever - no monthly fees**
 ⚡ **Ready to use in minutes, not days**
@@ -232,7 +232,7 @@ Unapproved software can introduce security vulnerabilities, licence violations, 
 ---
 
 **🕒 Estimated Reading Time**: 10 minutes  
-**🔐 Aligned With**: GDPR Articles 5, 25, 32, 33, 35, ISO27001 Annex A.6  
+**🔐 Aligned With**: GDPR Articles 5, 25, 32, 33, 35, ISO/IEC 27001:2022 Annex A.6  
 **👥 Team Size**: Optimized for 1-20 employees
 
 ---

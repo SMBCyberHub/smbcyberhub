@@ -86,9 +86,11 @@ A 5-person company needs the same fundamentals as any business — staff trainin
 - **Employee acknowledgment** (signed forms)
 - **Annual review** (update policies as needed)
 
-## 💼 **Real Small Business Examples**
+## 💼 **Illustrative Small Business Examples**
 
-### **Case Study: 5-Person Consulting Firm**
+*These are fictional scenarios illustrating typical cost comparisons. Firm details and quotes are illustrative.*
+
+### **Example: 5-Person Consulting Firm**
 **SaaS Approach:**
 - Paying $250/month for "enterprise cybersecurity"
 - Features: AI threat detection, 24/7 monitoring, advanced analytics
@@ -103,7 +105,7 @@ A 5-person company needs the same fundamentals as any business — staff trainin
 
 **Result: Same compliance, $2,901 annual savings**
 
-### **Case Study: 4-Person Marketing Agency**
+### **Example: 4-Person Marketing Agency**
 **SaaS Approach:**
 - $180/month "small business security platform"
 - Features: Complex dashboard, weekly reports, threat intelligence

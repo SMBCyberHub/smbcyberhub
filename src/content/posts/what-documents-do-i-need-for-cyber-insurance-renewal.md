@@ -281,7 +281,7 @@ Everything is downloadable, PDF-based, and audit-ready. No subscriptions, no log
 Review annually or when there are significant changes to your systems, regulations, or business operations.
 
 ### Can I use templates instead of creating documents from scratch?
-Yes. Our kits provide professional, customizable templates that meet insurer requirements.
+Yes. Our kits provide professional, print-ready templates aligned with common insurer requirements.
 
 ### Do I need a consultant for cyber insurance compliance?
 No. Small businesses can achieve compliance using our downloadable kits and templates, designed for non-technical users.

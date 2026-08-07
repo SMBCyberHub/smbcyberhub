@@ -58,7 +58,7 @@ All kits are delivered as downloadable ZIP files containing printable PDFs. No s
 
 - GDPR Article 39.1(b) — Staff security awareness training
 - NIST Cybersecurity Framework (CSF) 2.0
-- ISO/IEC 27001 Clause 7.2.2
+- ISO/IEC 27001:2022 (Clauses 7.2, 7.3, Annex A 6.3)
 - FTC Safeguards Rule (US — covers accountants, tax preparers, financial services)
 - Cyber insurance documentation requirements
 
@@ -66,15 +66,10 @@ All kits are delivered as downloadable ZIP files containing printable PDFs. No s
 
 ## How It Compares to Alternatives
 
-### SMBCyberHub vs KnowBe4
-- KnowBe4: ~$18/user/month, SaaS platform, active phishing simulation, designed for enterprises
+### SMBCyberHub vs Traditional SaaS Platforms
+- SaaS platforms: per-user, per-month pricing with annual renewals; costs scale with headcount
 - SMBCyberHub: €99 one-time, downloadable, offline-ready, designed for small teams without IT staff
-- 3-year cost for 10 users: KnowBe4 ~$6,480 vs SMBCyberHub €99
-
-### SMBCyberHub vs Wizer
-- Wizer: $3/user/month, freemium SaaS, video-based training, requires signup
-- SMBCyberHub: €99 one-time, no signup, printable PDFs, offline-ready
-- 3-year cost for 10 users: Wizer ~$1,080 vs SMBCyberHub €99
+- SaaS requires logins, accounts, and data on vendor servers; SMBCyberHub works entirely offline
 
 ### Key Differentiators
 - No per-user fees. No recurring costs. No vendor lock-in.

@@ -246,7 +246,7 @@ For detailed guidance on law firm-specific compliance, see our [cybersecurity co
 ---
 
 **Estimated Reading Time**: 10 minutes
-**Aligned With**: GDPR Articles 5, 24, 30, 32, 33-34, 39.1(b), ISO 27001 Clause 7.2.2, Cyber Insurance Documentation Requirements
+**Aligned With**: GDPR Articles 5, 24, 30, 32, 33-34, 39.1(b), ISO/IEC 27001:2022 (7.2, 7.3, A.6.3), Cyber Insurance Documentation Requirements
 **Target Audience**: Small law firms, solicitors' practices, legal service providers (1-20 staff)
 **Learning Objectives**: Understand GDPR obligations for law firms, see a realistic audit preparation timeline, compare compliance approaches by cost and confidentiality
 

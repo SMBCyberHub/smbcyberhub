@@ -390,7 +390,7 @@ Our [cybersecurity compliance kits](/kits/) include MFA policy templates and sta
 - **Data protection by design**: Use strong authentication methods
 - **Access control**: Limit access to authorized personnel
 
-### **ISO27001 Clause 9.4.3**
+### **ISO/IEC 27001:2022 (A.5.17)**
 - **User identification and authentication**: Implement robust authentication
 - **Password management**: Strong password policies and procedures
 - **Access control**: Role-based access to systems and data
@@ -426,6 +426,6 @@ Need ready-to-use checklists and simple team training?
 ---
 
 **🕒 Estimated Reading Time**: 15 minutes  
-**🔐 Aligned With**: GDPR Article 32(4), ISO27001 Clause 9.4.3  
+**🔐 Aligned With**: GDPR Article 32(4), ISO/IEC 27001:2022 (A.5.17)  
 **📊 Target Audience**: Small business owners, IT administrators, security managers  
 **🎯 Learning Objectives**: Understand MFA benefits, implement MFA effectively, protect business accounts

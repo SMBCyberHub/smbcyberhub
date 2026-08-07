@@ -82,9 +82,9 @@ The SMBCyberHub kit includes a training log and audit checklist — perfect for 
 
 ### **External Resources:**
 - **GDPR Article 39.1(b)**: Official EU documentation on security training requirements
-- **ISO27001 Clause 7.2.2**: Information security awareness, education and training requirements
+- **ISO/IEC 27001:2022 (7.2, 7.3, A.6.3)**: Information security awareness, education and training requirements
 
 ---
 
 **🕒 Estimated Reading Time**: 4 minutes  
-**🔐 Aligned With**: GDPR Article 39.1(b), ISO27001 Clause 7.2.2
+**🔐 Aligned With**: GDPR Article 39.1(b), ISO/IEC 27001:2022 (7.2, 7.3, A.6.3)

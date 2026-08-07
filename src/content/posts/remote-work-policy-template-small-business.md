@@ -133,7 +133,7 @@ Cloud storage is generally safer for remote work because it is encrypted, automa
 
 ### **Ready-to-Use Documents:**
 - **Printable PDF format** for immediate distribution
-- **Customizable Word template** with fill-in-the-blank sections
+- **Professional PDF template** ready to reference and implement
 - **Employee acknowledgment form** for legal compliance
 - **Home office security checklist** for employee setup
 - **Incident report template** for proper documentation
@@ -148,7 +148,7 @@ Cloud storage is generally safer for remote work because it is encrypted, automa
 
 ## 📦 **Download Complete Remote Work Policy Template**
 
-**Get the complete, customizable remote work policy template plus 9 other essential policies in our [Small Business Security Policy Kit](/kits/)**
+**Get the complete, ready-to-use remote work policy template plus 9 other essential policies in our [Small Business Security Policy Kit](/kits/)**
 
 ⚡ **Buy once, use forever - no monthly fees**
 ⚡ **Ready to use in minutes, not days**
@@ -172,7 +172,7 @@ Cloud storage is generally safer for remote work because it is encrypted, automa
 ---
 
 **🕒 Estimated Reading Time**: 8 minutes  
-**🔐 Aligned With**: GDPR Article 32, ISO27001 Annex A.6, NIST Cybersecurity Framework  
+**🔐 Aligned With**: GDPR Article 32, ISO/IEC 27001:2022 Annex A.6, NIST Cybersecurity Framework  
 **👥 Team Size**: Optimized for 1-20 employees
 
 ---
