@@ -20,8 +20,9 @@
 - **sharp** - Image optimization (production dependency)
 
 ### Analytics & Tracking
-- **Umami Analytics** - Privacy-focused analytics (self-hosted)
-- No Google Analytics or third-party tracking
+- **Umami Analytics** - Cookie-free, privacy-friendly aggregate analytics (cloud-hosted, no personal data collected)
+- No Google Analytics, no advertising trackers, no cross-site profiling
+- Umami uses ~27 tracked event attributes for anonymised engagement metrics (button clicks, scroll depth, CTA interactions)
 
 ## Development Setup
 
@@ -163,13 +164,13 @@ src/
   - Pro Kit: https://smbcyberhub.gumroad.com/l/prokit
 
 ### Analytics
-- **Umami** - Self-hosted, privacy-focused
-- No third-party cookies or tracking
+- **Umami** - Cloud-hosted, cookie-free, privacy-friendly aggregate analytics
+- No advertising trackers, no cross-site profiling, no personal data collection
 
 ## Security Considerations
 
 - No server-side processing
 - Static site security benefits
-- No user data collection
+- No personal data collection (Umami collects anonymous aggregate page views only)
 - HTTPS enforcement via Netlify
 - No external script dependencies (except analytics)

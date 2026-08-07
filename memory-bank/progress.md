@@ -1,5 +1,33 @@
 # Development Progress - SMBCyberHub
 
+## Recent Changes (2026-08-07)
+
+### Site-Wide Accuracy Remediation (SESSION-003)
+External LLM audit identified material misrepresentations, outdated standards references, and internal contradictions. All remediated in a single comprehensive pass across 46 files.
+
+#### P0 (Critical Misrepresentations)
+- **PDF/editable contradiction**: Removed all "Customizable", "Word template", "fill in your details", "edit and customize" claims. Kits are PDF-only. Changed to "Print-Ready", "reference templates", "print, reference, and adapt". 11 files.
+- **Competitor pricing**: Removed all named competitor pricing (KnowBe4, Wizer, Proofpoint dollar amounts). Replaced with structural SaaS-vs-one-time comparisons. 5 files + llms-full.txt.
+
+#### P1 (Standards & Compliance Accuracy)
+- **ISO 27001**: Updated all references to 2022 standard. Clause 7.2.2 → (7.2, 7.3, A.6.3), Clause 9.4.3 → (A.5.17), Clause A.16 → (A.5.24–5.28). 22+ files.
+- **Analytics/tracking**: Standardized across Privacy, Terms, Layout footer. "No trackers" → "cookie-free analytics". Removed Buttondown reference from Privacy.
+- **NIST CSF 2.0**: Fixed "five core functions" → "six" (Govern added in 2.0).
+- **GDPR alignment**: Changed 6 bare "compliance" assertions to "alignment" across 4 files.
+
+#### P2 (Consistency & Polish)
+- Removed stale "Updated monthly" from blog page
+- Softened insurer guarantee language ("Everything your insurer requires" → "Key documentation insurers typically request")
+- Standardized CISSP/CISM to singular "practitioner"
+- Added fictional disclaimers to 3 blog posts with unlabeled case studies
+
+#### Prevention Rules Added to AGENTS.md
+- Never describe kits as "editable" or "customizable" (PDF-only)
+- Never cite specific competitor dollar amounts
+- ISO 27001 references must use 2022 standard
+
+#### Build: 72 pages, 0 errors
+
 ## Recent Changes (Phase 1 Credibility Cleanup)
 
 ### E-E-A-T Credibility Cleanup (30 files, 0 build errors)
@@ -128,8 +156,9 @@ Site-wide cleanup of overclaiming, unsourced statistics, and identity issues to 
 - ✅ Free sample kit access
 
 ### Analytics
-- ✅ Umami analytics integration (privacy-focused)
-- ✅ No Google Analytics or third-party tracking
+- ✅ Umami analytics integration (cookie-free, privacy-friendly, cloud-hosted)
+- ✅ No Google Analytics, no advertising trackers, no cross-site profiling
+- ✅ ~27 tracked event attributes for anonymised engagement metrics
 
 ### Compliance Features
 - ✅ Credibility-first messaging (qualified claims, no overclaiming)
@@ -164,7 +193,7 @@ Site-wide cleanup of overclaiming, unsourced statistics, and identity issues to 
 - 📋 Multi-language support
 - 📋 Advanced search functionality
 - 📋 User account system (optional)
-- 📋 Kit customization wizard
+- ~~📋 Kit customization wizard~~ (kits are PDF-only; customization not planned)
 
 ## Recent Completed Work (30 Mar 2026)
 
@@ -426,7 +455,7 @@ Site-wide cleanup of overclaiming, unsourced statistics, and identity issues to 
 - Added FTC Safeguards Rule and HIPAA to frameworks comparison table
 - Updated compliance pillar page FAQ schema with US-specific question
 - Added "NIST CSF 2.0 aligned" to homepage Key Benefits TL;DR
-- Updated "Why Choose" section: GDPR & ISO27001 → GDPR, ISO27001 & NIST CSF
+- Updated "Why Choose" section: GDPR & ISO27001 → GDPR, ISO 27001 & NIST CSF (note: ISO refs later updated to ISO/IEC 27001:2022 in SESSION-003)
 - Added US compliance resource card to homepage Featured Resources (now 3-col grid)
 - ~~Added Rachel M testimonial~~ — removed in Mar 29 trust signal cleanup
 - ~~Added Rachel M review to schema data~~ — removed in Mar 29 trust signal cleanup
@@ -566,4 +595,4 @@ Site-wide cleanup of overclaiming, unsourced statistics, and identity issues to 
 - No known vulnerabilities
 - Regular dependency updates
 - HTTPS enforced
-- No user data collection (privacy by design)
+- No personal data collection (Umami collects anonymous aggregate page views only)

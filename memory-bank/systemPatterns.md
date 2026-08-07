@@ -478,10 +478,11 @@ The site has minimal error handling by design (static site):
 <script defer src="https://cloud.umami.is/script.js" data-website-id="fa515cb9-555e-45c1-92d5-7dee474ca120"></script>
 ```
 
-- No cookies
-- No tracking pixels
+- Cookie-free (no cookies set)
+- No advertising trackers or cross-site profiling
 - No Google Analytics
-- GDPR compliant by design
+- GDPR-friendly by design (anonymous aggregate data only)
+- ~27 tracked event attributes for anonymised engagement metrics (button clicks, CTA interactions, scroll depth)
 
 ---
 
