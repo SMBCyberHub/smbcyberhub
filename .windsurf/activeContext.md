@@ -1,14 +1,23 @@
 # Active Context
 
 ## Resume Brief
-- **State:** READY TO COMMIT -- all changes applied and built successfully, pending git commit
-- **Last session:** SESSION-003 (2026-08-07)
+- **State:** DEPLOYED -- all SESSION-003 + 003b changes committed and pushed to master, Netlify auto-deploy triggered
+- **Last session:** SESSION-003b (2026-08-07)
 - **Last agent:** Devin
-- **Immediate next action:** Commit all changes, push to master for Netlify deploy
+- **Immediate next action:** None — remediation complete. Auditor's strategic recommendations (nav simplification, content consolidation, interactive readiness assessment, founder credentials near CTAs) are pending owner review.
 - **Active blockers:** None
 - **Running processes:** None
 
 ## Recent Work
+
+### SESSION-003b (2026-08-07) -- Second-pass fixes from fresh live-site re-audit
+- **GDPR Article 39.1(b) framing:** Corrected across 7 pages + llms-full.txt. Article 39 is about DPO tasks, not a universal training mandate. All "requires/mandates" → "includes obligations around staff awareness".
+- **Recycled statistics:** Removed "60% close within 6 months", "43% target SMBs", "95% human error" from 6 files. No verifiable primary sources. Replaced with qualitative Verizon DBIR-aligned language.
+- **Industry pages:** Law firms "privilege-preservation requirement" → "supports ethical obligations"; "satisfy SRA/Law Society" → "support documentation expectations". Healthcare "zero patient data exposure" → "no patient data uploaded to external servers". Accountants categorical GDPR claims softened.
+- **Insurer absolutes:** "everything your insurer expects" → "documentation insurers commonly request" (2 pages).
+- **Blog meta:** Removed "audit-ready in under 60 minutes" from audit-checklist description.
+- **AGENTS.md:** Added 2 new rules (GDPR 39.1(b) framing, recycled statistics).
+- **Build:** 73 pages, 0 errors. 16 files changed.
 
 ### SESSION-003 (2026-08-07) -- Site-wide accuracy and compliance audit remediation
 - **P0 (PDF/editable contradiction):** Removed all "Customizable", "Word template", "fill in", "edit and customize" claims. Kits are PDF-only. Changed to "Print-Ready", "reference templates", "print, reference, and adapt". 11 files affected.
@@ -22,16 +31,13 @@
 - **Build:** 72 pages, 0 errors
 
 ### SESSION-002 (2026-07-20) -- GSC Indexing Fixes
-- **REQ-005 (Crawled - not indexed):** Refreshed GDPR breach notification post with 2025-2026 DPC/ICO enforcement examples, FAQPage schema (7 Q&A), practical SMB scenario, strengthened internal links. Word count ~2,520 → ~3,950. dateModified bumped to 2026-07-20.
-- **REQ-006 (Page with redirect):** Removed 270 obsolete tag consolidation 301 redirects from _redirects (345→75 rules). Old tags from Feb 2026 consolidation no longer needed after 5 months of 301 signaling.
-- **Build:** 73 pages, 0 errors
+- Refreshed GDPR breach notification post. Removed 270 obsolete tag redirects. Build: 73 pages.
 
 ### SESSION-001 (2026-06-26) -- LLM Visibility & Engagement
-- **P3 (LLM Visibility):** Updated llms.txt (+12 blog URLs, industry guides) and llms-full.txt (full blog index, 42 posts with descriptions). Added HowTo schema to 2 template posts.
-- **P4 (Engagement):** Homepage hero now shows 4-card value summary above CTA. Free training page shows kit contents checklist before download button.
-- **Build:** 73 pages, 0 errors
+- Updated llms.txt/llms-full.txt. Added HowTo schemas. Homepage 4-card hero. Build: 73 pages.
 
-## What Changed (SESSION-003)
-- 42 files modified across P0/P1/P2 categories (see .windsurf/changeManifest.md for full list)
-- Key categories: PDF/editable contradiction removal, competitor pricing removal, ISO 27001:2022 updates, analytics/tracking standardization, NIST CSF 2.0 fix, GDPR alignment wording, case study disclaimers, insurer language softening
-- AGENTS.md updated with 3 new prevention rules
+## What Changed (SESSION-003 + 003b combined)
+- ~55 files modified across P0/P1/P2 + second-pass categories
+- Key categories: PDF/editable contradiction, competitor pricing, ISO 27001:2022, analytics/tracking, NIST CSF 2.0, GDPR framing (bare compliance + Article 39.1(b) overstatement), recycled statistics, industry page absolutes, insurer guarantee language, case study disclaimers
+- AGENTS.md updated with 5 new prevention rules total
+- memory-bank files (progress.md, techContext.md, systemPatterns.md) updated

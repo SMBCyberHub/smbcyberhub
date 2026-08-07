@@ -1,5 +1,32 @@
 # Change Manifest
 
+### 2026-08-07 -- SESSION-003b: Second-pass fixes from fresh live-site re-audit
+
+| Action | File | Reason |
+|--------|------|--------|
+| MODIFIED | `src/pages/2026-compliance-checklist.astro` | Fixed GDPR 39.1(b) framing: "meet requirements" → "support obligations"; "requirement" → "supports obligations"; expanded DPO context |
+| MODIFIED | `src/pages/what-is-smb-cybersecurity-compliance.astro` | Fixed GDPR 39.1(b) "mandates" → "includes obligations"; replaced 3 recycled statistics with defensible language; fixed FAQ schema |
+| MODIFIED | `src/pages/cybersecurity-compliance-accountants.astro` | Softened 5 GDPR Article 39 claims; "require" → "include obligations"; expanded DPO context |
+| MODIFIED | `src/pages/cybersecurity-compliance-law-firms.astro` | "privilege-preservation requirement" → "supports ethical obligations"; "satisfy" → "support documentation expectations" |
+| MODIFIED | `src/pages/cybersecurity-compliance-healthcare.astro` | "zero patient data exposure" → "no patient data uploaded to external servers" |
+| MODIFIED | `src/pages/kits.astro` | "Aligned with GDPR Article 39.1(b)" → "Supports GDPR staff-training obligations" (2 instances) |
+| MODIFIED | `src/pages/free-cyber-security-training.astro` | "GDPR Article 39.1(b) and ISO 27001 training requirements" → "GDPR staff-training obligations and ISO 27001:2022 awareness requirements" |
+| MODIFIED | `src/pages/cyber-insurance-renewal-checklist.astro` | "everything your insurer expects" → "key documentation insurers typically request" |
+| MODIFIED | `src/pages/index.astro` | "every document your insurer expects" → "documentation insurers commonly request" |
+| MODIFIED | `src/content/posts/the-true-cost-of-a-breach-for-smbs-and-how-to-avoid-one.md` | Removed "60% close" (2x) and "95% human error" (2x) recycled stats |
+| MODIFIED | `src/content/posts/how-to-provide-proof-of-cybersecurity-training-for-insurance-renewals.md` | Removed "95% of cyber attacks" recycled stat |
+| MODIFIED | `src/content/posts/mfa-myths-busted-what-multi-factor-authentication-really-does.md` | Removed "43% target" and "60% close" recycled stats (3 edits) |
+| MODIFIED | `src/content/posts/cyber-insurance-requirements-small-business-complete-guide.md` | Removed "95% of breaches involve human error" recycled stat |
+| MODIFIED | `src/content/posts/top-5-password-mistakes-small-businesses-still-make-in-2025.md` | Removed "60% of SMBs still don't use MFA" recycled stat |
+| MODIFIED | `src/content/posts/audit-ready-in-under-an-hour-a-cyber-hygiene-checklist.md` | Fixed meta description "audit-ready in under 60 minutes"; fixed GDPR link text |
+| MODIFIED | `public/llms-full.txt` | Fixed GDPR FAQ: "compliant" → "aligned"; "training requirements" → "staff-training obligations" |
+| MODIFIED | `AGENTS.md` | Added 2 new rules: GDPR 39.1(b) framing, recycled statistics |
+| MODIFIED | `.windsurf/sessionLog.md` | Added SESSION-003b addendum |
+| MODIFIED | `.windsurf/decisionLog.md` | Added DECISION + 2 AHA + 3 FIX entries for SESSION-003b |
+| MODIFIED | `.windsurf/changeManifest.md` | This file |
+| MODIFIED | `.windsurf/activeContext.md` | Updated to DEPLOYED state with SESSION-003b summary |
+| MODIFIED | `memory-bank/progress.md` | Added SESSION-003b section |
+
 ### 2026-08-07 -- SESSION-003: Site-wide accuracy and compliance audit remediation
 
 | Action | File | Reason |

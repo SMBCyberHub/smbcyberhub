@@ -28,6 +28,34 @@ External LLM audit identified material misrepresentations, outdated standards re
 
 #### Build: 72 pages, 0 errors
 
+### Second-Pass Fixes from Live-Site Re-Audit (SESSION-003b)
+Fresh crawl of the deployed site revealed additional issues missed in the first pass. 16 files changed.
+
+#### GDPR Article 39.1(b) Framing (Corrected)
+- Article 39 is about DPO tasks. 39.1(b) references awareness-raising and training as part of the DPO's monitoring role. It does NOT establish a universal "every SMB must train staff" requirement.
+- Changed "requires/mandates training" → "includes obligations around staff awareness" across 2026-checklist, accountants, compliance-guide, kits, free-training.
+
+#### Recycled Statistics Removed
+- "60% of small businesses close within 6 months" — no verifiable primary study
+- "43% of cyber attacks target small businesses" — commonly recycled without current DBIR citation
+- "95% of cyber attacks are caused by human error" — commonly attributed to IBM but lacks primary source
+- All replaced with qualitative Verizon DBIR-aligned language across 6 files.
+
+#### Industry Page Claims Softened
+- Law firms: "privilege-preservation requirement" → "supports ethical obligations around client confidentiality"; "satisfy SRA/Law Society requirements" → "support documentation expectations"
+- Healthcare: "zero patient data exposure" → "no patient data uploaded to external servers"
+- Accountants: all categorical GDPR Article 39 claims softened
+
+#### Additional Fixes
+- Remaining insurer absolutes: "everything your insurer expects" → "documentation insurers commonly request"
+- Blog meta: removed "audit-ready in under 60 minutes" from audit-checklist description
+
+#### Prevention Rules Added to AGENTS.md (SESSION-003b)
+- Never frame GDPR Article 39.1(b) as a universal training requirement
+- Never use recycled cybersecurity statistics without a verifiable primary source
+
+#### Build: 73 pages, 0 errors
+
 ## Recent Changes (Phase 1 Credibility Cleanup)
 
 ### E-E-A-T Credibility Cleanup (30 files, 0 build errors)

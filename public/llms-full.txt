@@ -99,8 +99,8 @@ A: Yes. The Free Sample Kit requires no signup — download instantly at https:/
 Q: Will this satisfy my cyber insurer?
 A: Yes. The kits include the training records, policies, and checklists that insurers typically require for renewal.
 
-Q: Is the training GDPR compliant?
-A: Yes. Materials are aligned with GDPR Article 39.1(b) training requirements.
+Q: Is the training GDPR aligned?
+A: Yes. Materials are designed to support GDPR staff-training obligations, including the awareness and training responsibilities referenced in Article 39.1(b).
 
 Q: Can I use the Pro Kit for multiple offices?
 A: Yes. The Pro Kit includes an unlimited internal use license.

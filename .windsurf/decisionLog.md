@@ -8,6 +8,50 @@
 - **Rationale:** For a cybersecurity compliance site, accuracy IS credibility. Fixing incrementally would leave contradictions visible to compliance-conscious buyers. Better to do a single comprehensive pass.
 - **Trade-offs:** Large changeset increases deployment risk; competitor pricing removal reduces a persuasive marketing element. However, inaccurate claims on a compliance site are far more damaging than the marketing value of those claims.
 
+### DECISION -- Second-pass remediation after fresh live-site re-audit
+- **Date:** 2026-08-07
+- **Context:** Fresh crawl of deployed site on 2026-08-07 revealed issues missed in SESSION-003 first pass: (1) GDPR Article 39.1(b) framed as a universal training requirement when it's actually about DPO monitoring tasks, (2) recycled cybersecurity statistics with no verifiable primary source ("60% close", "43% target", "95% human error"), (3) categorical claims on industry pages (law firms, healthcare, accountants), (4) remaining insurer absolutes.
+- **Options considered:** (1) Defer to a future session, (2) Fix immediately in same session
+- **Chosen:** Fix immediately as SESSION-003b addendum — 16 additional files changed
+- **Rationale:** The auditor correctly identified that Article 39 is about DPO tasks, not a standalone training mandate. This is a legally meaningful distinction on a compliance site. Folklore statistics undermine source credibility. Both require immediate correction.
+- **Trade-offs:** Removing dramatic statistics reduces emotional impact of marketing copy. But for a compliance-credentials site, accuracy matters more than dramatic effect.
+
+### AHA -- GDPR Article 39.1(b) is NOT a universal training requirement
+- **Date:** 2026-08-07
+- **Insight:** Article 39 defines the tasks of the Data Protection Officer. 39.1(b) references "monitoring compliance with this Regulation... including... awareness-raising and training of staff." It does NOT establish a standalone requirement that every SMB must conduct annual training. The site had been framing it as "GDPR Article 39.1(b) requires documented security awareness training for all staff" which overstates what the article actually mandates.
+- **Context:** Identified by external auditor during live-site re-crawl. The site had ~15 instances of this overstatement across pages, schemas, and LLM files.
+- **Impact:** All GDPR training references should use "GDPR staff-training obligations" or "GDPR security-awareness obligations" as general framing. Article 39.1(b) can be cited as a reference point but not as a direct mandate. Added AGENTS.md rule.
+
+### AHA -- Recycled cybersecurity statistics have no primary sources
+- **Date:** 2026-08-07
+- **Insight:** The commonly cited "60% of small businesses close within 6 months of a cyber attack" has no confirmed primary study — it's cybersecurity marketing folklore that has been repeatedly fact-checked and found lacking. Similarly, "43% of cyber attacks target small businesses" and "95% are caused by human error" are commonly recycled without current source citations.
+- **Context:** External auditor flagged these during the re-audit. For a site selling trustworthy compliance material, using unverifiable statistics undermines the credibility proposition.
+- **Impact:** All replaced with qualitative language. Added AGENTS.md rule requiring verifiable primary sources for statistics.
+
+### FIX -- GDPR Article 39.1(b) overstatement across site
+- **Date:** 2026-08-07
+- **Symptom:** Multiple pages stated "GDPR Article 39.1(b) requires/mandates documented security awareness training for all staff" — framing it as a direct universal training requirement.
+- **Root cause:** Misinterpretation of Article 39 scope. Article 39 defines DPO tasks; 39.1(b) references awareness and training as part of DPO monitoring, not as a standalone mandate for all organisations.
+- **Resolution:** Changed all "requires/mandates" → "includes obligations around staff awareness" / "references awareness-raising and training as part of the DPO's monitoring role". Updated 7 pages + llms-full.txt.
+- **Files affected:** 2026-compliance-checklist.astro (3 edits), what-is-smb-cybersecurity-compliance.astro (3 edits), cybersecurity-compliance-accountants.astro (5 edits), kits.astro (2 edits), free-cyber-security-training.astro (1 edit), audit-ready-checklist blog post (1 edit), llms-full.txt (1 edit)
+- **Prevention:** AGENTS.md rule added: "Never frame GDPR Article 39.1(b) as a universal training requirement."
+
+### FIX -- Recycled statistics removed from 6 files
+- **Date:** 2026-08-07
+- **Symptom:** Site cited "60% of small businesses close within 6 months", "43% of cyber attacks target small businesses", "95% of cyber attacks are caused by human error" with attributions (NCSA, Verizon DBIR, IBM) but no verifiable primary study links.
+- **Root cause:** Common cybersecurity marketing statistics copied during initial content creation without verifying primary sources.
+- **Resolution:** All three statistics removed and replaced with qualitative, defensible language (e.g., "Verizon DBIR consistently finds that the majority of breaches involve a human element"). Subagent also found and fixed bonus instances in cyber-insurance-requirements and password-mistakes posts.
+- **Files affected:** what-is-smb-cybersecurity-compliance.astro, the-true-cost-of-a-breach-for-smbs-and-how-to-avoid-one.md, how-to-provide-proof-of-cybersecurity-training-for-insurance-renewals.md, mfa-myths-busted-what-multi-factor-authentication-really-does.md, cyber-insurance-requirements-small-business-complete-guide.md, top-5-password-mistakes-small-businesses-still-make-in-2025.md
+- **Prevention:** AGENTS.md rule added: "Never use recycled cybersecurity statistics without a verifiable primary source."
+
+### FIX -- Industry page categorical claims softened
+- **Date:** 2026-08-07
+- **Symptom:** Accountants page: "Article 39.1(b) specifically requires documented security awareness training for all staff." Law firms: "privilege-preservation requirement" (framed as legal obligation), "satisfy SRA, Law Society, and cyber insurance requirements" (categorical). Healthcare: "zero patient data exposure" (absolutist).
+- **Root cause:** Marketing copy overstated the product's compliance guarantees on industry-specific pages.
+- **Resolution:** Accountants: all GDPR claims softened to "obligations around staff security awareness". Law firms: "privilege-preservation requirement" → "supports ethical obligations around client confidentiality"; "satisfy" → "support documentation expectations". Healthcare: "zero patient data exposure" → "no patient data uploaded to external servers" (factually demonstrable).
+- **Files affected:** cybersecurity-compliance-accountants.astro, cybersecurity-compliance-law-firms.astro, cybersecurity-compliance-healthcare.astro
+- **Prevention:** Existing AGENTS.md rules cover this pattern (no bare compliance assertions, no audit guarantees).
+
 ### FIX -- PDF/editable template contradiction (P0)
 - **Date:** 2026-08-07
 - **Symptom:** kits.astro displayed "Customizable" badges and "just fill in your company details" language; two blog posts claimed "Customizable Word template with fill-in-the-blank sections"; licensing/terms said "edit and customize". But kits are PDF-only.
