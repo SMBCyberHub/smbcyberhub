@@ -181,7 +181,7 @@ MFA (Multi-Factor Authentication) blocks over 99% of automated attacks — but t
 ### **The Reality of Password-Only Security:**
 - **81% of hacking-related breaches** involve weak or stolen passwords
 - **99% of automated attacks** are blocked by MFA
-- **60% of SMBs** still don't use MFA
+- Many SMBs still do not use MFA on critical accounts
 - **Average breach cost**: €50,000-€100,000 for SMBs
 
 For a deeper dive into how MFA works and why it's essential, see our [complete MFA guide](/posts/mfa-myths-busted-what-multi-factor-authentication-really-does/).

@@ -131,11 +131,13 @@ After any content change, before committing:
 ## Credibility & Claims Rules
 
 - **Never use "GDPR Article 39.1(b) compliant" as a bare assertion.** Use "aligned with", "designed to support", or "mapped to" instead. The kits support compliance but cannot certify it.
+- **Never frame GDPR Article 39.1(b) as a universal training requirement.** Article 39 defines DPO tasks; 39.1(b) references awareness-raising and training as part of the DPO's monitoring role. It does NOT establish a standalone "every SMB must conduct training" requirement. Use "GDPR staff-training obligations" or "GDPR security-awareness obligations" as the general framing. (Added SESSION-003b, 2026-08-07)
 - **Never claim "pass audits on first attempt"** or similar audit-outcome guarantees. Use "supports audit preparation" or "includes documentation auditors typically look for".
 - **Never cite specific insurance premium reduction percentages** (e.g. "20-30% lower premiums") without a named, verifiable source. Use "industry surveys suggest documented compliance may contribute to more favourable terms".
 - **Never use "audit-ready in 60 minutes" as a guarantee.** Use "designed for fast deployment" or "deploy in a single session" instead. Descriptive use of timeframes in context (e.g. "30-60 minute refresher sessions") is fine.
 - **Never use "MOST POPULAR" without sales data to back it.** Use "BEST VALUE" or factual comparisons instead.
 - **The GDPR badge should be described as an "alignment badge", not a "compliance certification badge"** in alt text.
+- **Never use recycled cybersecurity statistics without a verifiable primary source.** The "60% of small businesses close within 6 months" statistic has no confirmed primary study. Prefer Verizon DBIR for breach patterns (cite the specific year's report) or ENISA/NCSC for threat landscape data. If no primary source exists, use qualitative framing instead. (Added SESSION-003b, 2026-08-07)
 - **Never describe kits as "editable", "customizable", or "Word template"** unless .docx files are actually included. Kits are PDF-only. Use "print-ready", "ready-to-use", or "reference templates" instead. (Added SESSION-003, 2026-08-07)
 - **Never cite specific competitor dollar amounts** (e.g. "$18/user/month for KnowBe4"). Use structural differentiators (one-time vs recurring, offline vs SaaS) instead. Competitor pricing changes frequently and unverifiable figures undermine credibility. (Added SESSION-003, 2026-08-07)
 - **ISO 27001 references must use the 2022 standard.** Use "ISO/IEC 27001:2022" with current clause numbers (7.2, 7.3, A.6.3 for awareness/competence). Do not reference pre-2022 clause numbers like "Clause 7.2.2". (Added SESSION-003, 2026-08-07)

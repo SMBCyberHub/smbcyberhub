@@ -1,6 +1,6 @@
 ---
 title: "1-Hour Cyber Hygiene Audit Checklist"
-description: "Need to pass a security audit or GDPR compliance check? This one-time checklist gets small business teams audit-ready in under 60 minutes."
+description: "Need to prepare for a security audit or GDPR compliance review? This one-time checklist helps small business teams organise their audit documentation fast."
 date: 2025-07-06
 tags: ["compliance", "backups"]
 ogImage: "/images/smbcyberhub-logo.webp"
@@ -81,7 +81,7 @@ The SMBCyberHub kit includes a training log and audit checklist — perfect for 
 - **[Quarterly Access Reviews: Small Team Playbook](/posts/quarterly-access-reviews-small-team-playbook/)** - Ongoing compliance maintenance
 
 ### **External Resources:**
-- **GDPR Article 39.1(b)**: Official EU documentation on security training requirements
+- **GDPR Article 39.1(b)**: EU regulation referencing staff awareness and training obligations
 - **ISO/IEC 27001:2022 (7.2, 7.3, A.6.3)**: Information security awareness, education and training requirements
 
 ---

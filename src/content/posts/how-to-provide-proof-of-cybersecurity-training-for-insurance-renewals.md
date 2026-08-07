@@ -17,7 +17,7 @@ dateModified: 2026-05-25
 ## 🚨 **Why Insurance Companies Need Training Proof**
 
 Insurance companies are cracking down on cybersecurity requirements because:
-- **95% of cyber attacks** are caused by human error
+- The majority of cyber attacks involve a human element — phishing, credential misuse, or misconfiguration (Verizon DBIR)
 - **Businesses with training** have 70% fewer security incidents
 - **Training documentation** shows you're managing risk proactively
 - **Premium discounts** often available for documented training programs

@@ -138,7 +138,7 @@ Small businesses are actually more vulnerable and need MFA more.
 
 #### **Small Business Vulnerabilities:**
 - **Limited IT resources**: Fewer security professionals
-- **Higher risk**: 60% of SMBs go out of business after cyber attacks
+- **Higher risk**: SMBs often lack the resources to recover from a serious breach
 - **Target-rich environment**: Attackers target smaller businesses
 - **Compliance requirements**: GDPR and other regulations apply to all sizes
 
@@ -149,8 +149,8 @@ Small businesses are actually more vulnerable and need MFA more.
 - **Customer confidence**: Demonstrate security commitment
 
 #### **Industry Statistics:**
-- **43% of cyber attacks** target small businesses
-- **60% of SMBs** go out of business within 6 months of attack
+- Small businesses are frequently targeted by automated cyber attacks
+- A significant breach can threaten the survival of a small business
 - **99% of attacks** are blocked by MFA
 - **Average breach cost**: €50,000-€100,000 for SMBs
 

@@ -14,7 +14,7 @@ dateModified: 2026-03-27
 
 ### 📋 TL;DR Summary
 
-**A data breach costs the average SMB €50,000–€100,000** when you add up forensics, downtime, legal fees, and lost clients. **60% of small businesses** close within 6 months of a cyber attack. The good news: prevention costs roughly **10x less** than a breach — MFA, staff training, and documented policies are your best defences.
+**A data breach costs the average SMB €50,000–€100,000** when you add up forensics, downtime, legal fees, and lost clients. Many small businesses struggle to recover from a significant breach. The good news: prevention costs roughly **10x less** than a breach — MFA, staff training, and documented policies are your best defences.
 
 </div>
 
@@ -22,7 +22,7 @@ A breach doesn't just hit your inbox — it hits your bank account, reputation, 
 
 ## How much does a data breach actually cost a small business?
 
-The average SMB breach costs €50,000–€100,000 when you add up forensics, downtime, legal fees, and lost clients. Even a "minor" ransomware incident on a 10-person team typically runs €15,000–€30,000. These are averages, not worst cases — and 60% of small businesses that suffer a major breach close within six months.
+The average SMB breach costs €50,000–€100,000 when you add up forensics, downtime, legal fees, and lost clients. Even a "minor" ransomware incident on a 10-person team typically runs €15,000–€30,000. These are averages, not worst cases — and a significant breach can threaten the survival of a small business.
 
 ## 💸 Direct Financial Costs
 
@@ -264,7 +264,7 @@ Identify and prioritize your most vulnerable areas.
 #### **Common Vulnerabilities:**
 - **Weak or reused passwords**: 80% of breaches involve compromised credentials
 - **Lack of MFA**: 99% of automated attacks blocked by MFA
-- **No employee training**: Human error causes 95% of breaches
+- **No employee training**: The majority of breaches involve a human element
 - **No backups**: Ransomware attacks are devastating without backups
 
 #### **Industry-Specific Risks:**
@@ -345,9 +345,9 @@ Having a plan can reduce breach costs by 50% or more.
 ## 💡 Key Takeaways
 
 ### **Remember These Facts**
-1. **60% of SMBs** go out of business within 6 months of a cyber attack
+1. A significant breach can **threaten the survival** of a small business
 2. **Average breach cost** for SMBs is €50,000-€100,000
-3. **95% of breaches** are caused by human error
+3. The **majority of breaches** involve a human element — phishing, credential misuse, or misconfiguration
 4. **99% of attacks** are blocked by MFA
 5. **Prevention costs** are typically 10x less than breach costs
 
