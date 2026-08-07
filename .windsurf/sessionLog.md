@@ -21,6 +21,15 @@
 - **Outcome:** 42 files modified, build successful (72 pages, 0 errors), all identified misrepresentations resolved
 - **Open items:** None — all P0/P1/P2 items from the audit remediation are complete
 
+### SESSION-003b addendum (2026-08-07) — Second-pass fixes from fresh live-site re-audit
+- **GDPR Article 39.1(b) framing:** Corrected across 2026-checklist, accountants, compliance-guide, kits, free-training. Article 39 is about DPO tasks, not a universal training mandate. Changed "requires/mandates" → "includes obligations around staff awareness".
+- **Recycled statistics:** Removed "60% close within 6 months", "43% target SMBs", "95% human error" from 6 files. No verifiable primary sources. Replaced with qualitative Verizon DBIR-aligned language.
+- **Industry pages:** Softened law firms "privilege-preservation requirement" and "satisfy SRA/Law Society", healthcare "zero patient data exposure", accountants categorical GDPR claims.
+- **Remaining insurer absolutes:** "everything your insurer expects/requires" → "documentation insurers commonly request".
+- **Blog meta:** Removed "audit-ready in under 60 minutes" from audit-checklist description.
+- **AGENTS.md:** Added 2 new rules (GDPR 39.1(b) framing, recycled statistics).
+- **Build:** 73 pages, 0 errors. 16 files changed.
+
 ## SESSION-002 -- GDPR breach notification post: content refresh for indexing
 - **Date:** 2026-07-20
 - **Agent/User:** Agent (Devin)
