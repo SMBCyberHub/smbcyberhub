@@ -1,5 +1,136 @@
 # Development Progress - SMBCyberHub
 
+## Recent Changes (2026-08-12)
+
+### Strategic Review & Red Team Analysis (SESSION-004)
+Comprehensive Red Team business strategy review conducted using 6-month GSC data (Feb–Aug 2026), AI feature impressions, and full product/pricing analysis. Two independent LLM assessments performed. No code or content changes — strategy-only session.
+
+#### Executive Verdict: Run a Limited Validation Test
+- Current data too thin (~35 organic clicks over 6 months) to justify significant further investment without demand validation
+- The asset exists, the hypothesis is reasonable, but zero evidence of willingness-to-pay has been demonstrated
+- Do NOT build a $169 flagship product based on impression data alone
+
+#### Key Findings — GSC Data (6 months: Feb 11 – Aug 10, 2026)
+
+**Normal Search Performance:**
+- Homepage: 5,727 impressions, 4 clicks, position 37.8
+- Cyber Insurance Renewal Checklist: 3,517 impressions, 5 clicks, position 30.2
+- Acceptable Use Policy Template: 2,849 impressions, 10 clicks, position 28.0
+- SMB Compliance Guide: 2,494 impressions, 1 click, position 26.0
+- 2026 Compliance Checklist: 1,739 impressions, 0 clicks, position 8.6 (title/content mismatch suspected)
+- Training Proof for Insurance: 231 impressions, 4 clicks, CTR 1.7%, position 5.7 (strongest high-intent page)
+- Remote Work Policy Template: 155 impressions, 2 clicks, CTR 1.3%, position 11.1
+
+**AI Feature Impressions (3 months, ~795 total):**
+- Acceptable Use Policy Template: 376 (47% of all AI visibility)
+- SMB Compliance: 126, Remote Work Security: 107, Cyber Insurance Checklist: 62
+- US: 284, India: 97, UK: 76, Australia: 61, Canada: 38
+
+**Geographic (Normal Search, 6 months):**
+- US: 12,816 impressions, 10 clicks
+- UK: 1,325 impressions, 2 clicks
+- Canada: 1,007 impressions, 6 clicks
+- Ireland: 26 impressions, 4 clicks (CTR 15.4%, position 11.1)
+
+**Query Theme Grouping (approximate):**
+- Generic SMB cybersecurity: ~37%
+- Cyber insurance: ~23%
+- Policy/templates: ~13%
+- Compliance/audit: ~13%
+
+#### Red Team Critique — Top Weaknesses Identified
+
+1. **Statistical insignificance**: ~35 clicks over 6 months cannot validate any product thesis
+2. **Impressions are not demand**: Impressions at position 30+ are largely meaningless — Google tested the page and users didn't click
+3. **AI commoditisation contradiction**: Strategy correctly identifies AI can produce policies/templates, then proposes selling policies/templates
+4. **Missing revenue data**: No actual Gumroad sales figures presented — this is the most important missing data point
+5. **$169 pricing untested**: Price derived from revenue math, not willingness-to-pay evidence. Comparable marketplace packs sell for $15–$49
+6. **Domain authority is the actual bottleneck**: Most commercial queries rank at 20–50+. Content tweaks won't overcome authority deficit
+7. **"Ranking problem before conversion problem" may be wrong**: Could equally be "nobody wants to buy this"
+8. **Passive income + cybersecurity = tension**: Regulatory maintenance requirements make this inherently non-passive
+9. **US targeting based on population math**: US has most impressions because it has most English speakers — doesn't prove US SMBs will buy from an unknown .com with no US compliance credentials
+10. **Revenue math gap**: ~7 sales/month needed at $169 requires ~1,000x current traffic through organic search alone
+
+#### Strategic Decisions Made
+
+**Proposed flagship product ("Policy & Evidence Pack"):**
+- Concept is reasonable but price should start at $99–$129, not $169
+- DOCX editable files mandatory (not PDF-only at premium price)
+- Must be demand-validated before building
+
+**Product architecture under consideration:**
+- Free → $49 Basic → $129 Complete Pack
+- Kill existing €99 Pro Kit (creates confusion, cannibalises flagship)
+- Optional $29 annual update pack (only if demand materialises)
+- Currency switch to USD for marketing (Gumroad handles settlement)
+
+**Revenue scenarios (organic SEO only):**
+- Conservative: ~$59/year (current trajectory)
+- Base: ~$463/year (3x traffic improvement)
+- Optimistic: ~$3,400/year (10x traffic improvement)
+- None reach €10k/year through organic search alone — multiple distribution channels required
+
+#### Pivot Analysis (SESSION-004 follow-up discussion)
+
+**Domain retention challenge:**
+- smbcyberhub.com has topic-specific trust in cybersecurity — doesn't transfer to other IT niches
+- Domain name ("cyberhub") actively confuses visitors if content shifts to storage, testing, etc.
+- 12 months of GSC history with ~35 clicks = negligible authority to preserve
+- A fresh domain ($12/year) puts you in the same authority position without brand confusion
+
+**Skills-to-market mismatch identified:**
+- SAN storage → enterprise buyers, not SMBs (SMBs use Dropbox/NAS, not SANs)
+- End-to-end testing → dev teams at mid-to-large companies, not SMB owners
+- General IT infrastructure → managed by MSPs, not bought as templates by SMB owners
+- Cybersecurity was actually a better SMB fit because regulations force non-technical owners to care
+
+**MSP (Managed Service Provider) pivot recommended as highest-probability alternative:**
+- MSPs serve hundreds of SMB clients and need documentation for all of them
+- Would leverage BOTH existing cybersecurity content AND infrastructure/storage skills
+- Product: "MSP Client Documentation Pack" — cybersecurity policies + infrastructure assessment templates + operational runbooks
+- Price: $199–$299 (MSPs expect professional pricing, one pack serves all clients)
+- Distribution: r/msp, MSP Facebook groups, IT channel forums, Pax8/ConnectWise marketplace
+- Less YMYL-sensitive (B2B professional audience)
+- Buyers who understand documentation value
+
+**Alternative distribution channels (regardless of pivot):**
+- Etsy (business templates category)
+- AppSumo (lifetime deal, high volume)
+- Creative Market / Envato
+- B2B licensing to MSPs/IT consultancies
+- Udemy/Skillshare course
+
+#### 30-Day Priority Actions (ranked by expected financial impact)
+
+1. Pull actual Gumroad sales data for last 12 months (30 min)
+2. Create DOCX versions of 5 core policies (2–3 days)
+3. Build single product landing page for Complete Pack at $129 (1 day)
+4. Fix 2026 Compliance Checklist title/meta — position 8.6 with 0 clicks (2 hours)
+5. Add intent-specific CTAs to AUP, Training Proof, Remote Work Policy pages (2 hours)
+6. Run $150 Google Ads test targeting policy/template queries (1 day setup + 2 weeks)
+7. List product on Etsy + one other template marketplace (1 day)
+8. Set up Gumroad → email nurture sequence (half day)
+
+#### Do NOT Do in Next 30 Days
+- Write more blog posts
+- Build web application or assessment tool
+- Create sector-specific add-ons or jurisdiction packs
+- Spend time on schema markup optimisation
+- Force-index the 32 "discovered not indexed" pages
+- Redesign the site
+- Create video content
+- Build annual update pack
+
+#### Kill Criteria Defined
+
+| Condition | Timeframe | Action |
+|-----------|-----------|--------|
+| Total revenue <€100 after 30-day plan | 90 days | Pivot to marketplace-only distribution |
+| <3 flagship sales in first 3 months post-launch | 3 months post-launch | Product-market fit absent — test $49 or switch to course |
+| Organic clicks <50/month after optimised pages | 6 months | SEO authority problem unsolvable at current investment |
+| Total annual revenue <€1,000 | 12 months | Shut down or maintenance mode |
+| Google AI Overviews generate complete policy templates inline | Any time | Product category dead — pivot immediately |
+
 ## Recent Changes (2026-08-07)
 
 ### Site-Wide Accuracy Remediation (SESSION-003)

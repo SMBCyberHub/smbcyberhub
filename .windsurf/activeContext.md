@@ -1,43 +1,53 @@
 # Active Context
 
 ## Resume Brief
-- **State:** DEPLOYED -- all SESSION-003 + 003b changes committed and pushed to master, Netlify auto-deploy triggered
-- **Last session:** SESSION-003b (2026-08-07)
+- **State:** STRATEGIC REVIEW COMPLETE — awaiting owner decisions. No code or content changes in SESSION-004.
+- **Last session:** SESSION-004 (2026-08-12)
 - **Last agent:** Devin
-- **Immediate next action:** None — remediation complete. Auditor's strategic recommendations (nav simplification, content consolidation, interactive readiness assessment, founder credentials near CTAs) are pending owner review.
-- **Active blockers:** None
+- **Immediate next action:** Owner must (1) pull Gumroad sales data for last 12 months, (2) decide whether to proceed with 30-day validation plan or pursue MSP pivot.
+- **Active blockers:** No Gumroad revenue data available — this is the single most important missing data point for all strategic decisions.
 - **Running processes:** None
+
+## Current Strategic Direction
+
+### Verdict: Run a Limited Validation Test
+Two independent LLM Red Team assessments concluded that the current data (~35 organic clicks over 6 months) is too thin to justify building a new flagship product. The asset exists and the hypothesis is reasonable, but demand must be validated before investing further.
+
+### Pending Owner Decisions
+1. **Pull Gumroad sales data** — lifetime revenue determines whether "continue improving" is rational or sunk-cost fallacy
+2. **Choose path:**
+   - (A) 30-day validation plan: DOCX product, $129 landing page, $150 Google Ads test, marketplace listing
+   - (B) MSP pivot: new domain, MSP Client Documentation Pack at $199–$299, distribution via r/msp and MSP channels
+   - (C) Alternative monetisation: Udemy course, B2B licensing, or abandon
+
+### Key Strategic Findings
+- Organic SEO alone cannot reach €10k/year at current domain authority levels
+- Multiple distribution channels required (Etsy, AppSumo, Google Ads, B2B licensing)
+- smbcyberhub.com should NOT be pivoted to non-cybersecurity topics (domain name/authority are topic-specific)
+- Owner's enterprise skills (SAN storage, testing) don't map to SMB buyers — MSPs are the right target for those skills
+- $169 flagship price is too high for an unknown brand — start at $99–$129 with DOCX files included
+- Kill criteria defined: <€100 revenue in 90 days → pivot; <€1,000 in 12 months → shut down
+
+### Pages to Prioritise (if proceeding with validation plan)
+1. Fix 2026 Compliance Checklist title/meta (position 8.6, 1,739 impressions, 0 clicks)
+2. Add intent-specific CTAs to AUP Template, Training Proof, Remote Work Policy pages
+3. Build single product landing page for Complete Pack at $129
 
 ## Recent Work
 
-### SESSION-003b (2026-08-07) -- Second-pass fixes from fresh live-site re-audit
-- **GDPR Article 39.1(b) framing:** Corrected across 7 pages + llms-full.txt. Article 39 is about DPO tasks, not a universal training mandate. All "requires/mandates" → "includes obligations around staff awareness".
-- **Recycled statistics:** Removed "60% close within 6 months", "43% target SMBs", "95% human error" from 6 files. No verifiable primary sources. Replaced with qualitative Verizon DBIR-aligned language.
-- **Industry pages:** Law firms "privilege-preservation requirement" → "supports ethical obligations"; "satisfy SRA/Law Society" → "support documentation expectations". Healthcare "zero patient data exposure" → "no patient data uploaded to external servers". Accountants categorical GDPR claims softened.
-- **Insurer absolutes:** "everything your insurer expects" → "documentation insurers commonly request" (2 pages).
-- **Blog meta:** Removed "audit-ready in under 60 minutes" from audit-checklist description.
-- **AGENTS.md:** Added 2 new rules (GDPR 39.1(b) framing, recycled statistics).
-- **Build:** 73 pages, 0 errors. 16 files changed.
+### SESSION-004 (2026-08-12) -- Red Team strategic review and pivot analysis
+- Strategy-only session. No code or content changes.
+- Full Red Team analysis of 6-month GSC data, product/pricing strategy, and pivot options.
+- 3 DECISION entries + 3 AHA entries logged to decisionLog.md.
+- Memory-bank files (progress.md, productContext.md) updated with strategic findings.
+- Key outputs: executive verdict, 10-point critique, revenue modelling, MSP pivot recommendation, 30-day action plan, kill criteria.
 
-### SESSION-003 (2026-08-07) -- Site-wide accuracy and compliance audit remediation
-- **P0 (PDF/editable contradiction):** Removed all "Customizable", "Word template", "fill in", "edit and customize" claims. Kits are PDF-only. Changed to "Print-Ready", "reference templates", "print, reference, and adapt". 11 files affected.
-- **P0 (Competitor pricing):** Removed all named competitor pricing (KnowBe4 $18/user, Wizer $3/user, Proofpoint $12/user). Replaced with structural SaaS-vs-one-time comparisons without dollar amounts. 5 files affected.
-- **P1 (ISO 27001):** Updated all ISO 27001 references to 2022 standard. Clause 7.2.2 → (7.2, 7.3, A.6.3), Clause 9.4.3 → (A.5.17), Clause A.16 → (A.5.24–5.28). 22+ files affected.
-- **P1 (Analytics/tracking):** Standardized across Privacy, Terms, Layout footer. Removed "no behavioral analytics" and "no trackers" claims; replaced with "cookie-free analytics" to align with Umami usage. Removed Buttondown reference from Privacy.
-- **P1 (NIST CSF 2.0):** Fixed "five core functions" → "six core functions" (Govern added in 2.0).
-- **P1 (GDPR bare compliance):** Changed 6 instances of "GDPR Article 39 compliance" → "alignment" across 4 files.
-- **P2 items:** Removed "Updated monthly" from blog page, softened insurer guarantee language, standardized CISSP singular, added fictional disclaimers to 3 blog case studies.
-- **Prevention rules:** Added 3 new rules to AGENTS.md (no editable claims, no competitor pricing, ISO 2022 standard).
-- **Build:** 72 pages, 0 errors
+### SESSION-003/003b (2026-08-07) -- Accuracy remediation
+- ~55 files modified across P0/P1/P2 + second-pass categories.
+- AGENTS.md updated with 5 new prevention rules.
 
 ### SESSION-002 (2026-07-20) -- GSC Indexing Fixes
-- Refreshed GDPR breach notification post. Removed 270 obsolete tag redirects. Build: 73 pages.
+- Refreshed GDPR breach notification post. Removed 270 obsolete tag redirects.
 
 ### SESSION-001 (2026-06-26) -- LLM Visibility & Engagement
-- Updated llms.txt/llms-full.txt. Added HowTo schemas. Homepage 4-card hero. Build: 73 pages.
-
-## What Changed (SESSION-003 + 003b combined)
-- ~55 files modified across P0/P1/P2 + second-pass categories
-- Key categories: PDF/editable contradiction, competitor pricing, ISO 27001:2022, analytics/tracking, NIST CSF 2.0, GDPR framing (bare compliance + Article 39.1(b) overstatement), recycled statistics, industry page absolutes, insurer guarantee language, case study disclaimers
-- AGENTS.md updated with 5 new prevention rules total
-- memory-bank files (progress.md, techContext.md, systemPatterns.md) updated
+- Updated llms.txt/llms-full.txt. Added HowTo schemas. Homepage 4-card hero.

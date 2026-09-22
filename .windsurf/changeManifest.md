@@ -1,5 +1,16 @@
 # Change Manifest
 
+### 2026-08-12 -- SESSION-004: Red Team strategic review and pivot analysis
+
+| Action | File | Reason |
+|--------|------|--------|
+| MODIFIED | `memory-bank/progress.md` | Added SESSION-004 strategic review findings: GSC data analysis, Red Team critique, revenue modelling, pivot analysis, MSP alternative, 30-day action plan, kill criteria |
+| MODIFIED | `memory-bank/productContext.md` | Added Strategic Review Findings section: revenue reality check, product evolution, currency decision, AI commoditisation risk, MSP pivot option, alternative distribution channels, kill criteria, domain retention assessment |
+| MODIFIED | `.windsurf/decisionLog.md` | Added 3 DECISION entries (validation test verdict, MSP pivot, domain retention) + 3 AHA entries (SEO can't reach €10k alone, skills-to-market mismatch, domain authority is topic-specific) |
+| MODIFIED | `.windsurf/sessionLog.md` | Added SESSION-004 entry |
+| MODIFIED | `.windsurf/changeManifest.md` | This file |
+| MODIFIED | `.windsurf/activeContext.md` | Updated to reflect strategic review state and pending owner decisions |
+
 ### 2026-08-07 -- SESSION-003b: Second-pass fixes from fresh live-site re-audit
 
 | Action | File | Reason |
